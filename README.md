@@ -4,7 +4,7 @@ Public materials for the IEEE Access Negative Result manuscript in `observation_
 
 ## Contents
 - `control_budget_study_20261015/`: observation-controller sources, the pre-specified repair protocol, and the registration, manifest, admission-audit, analysis, and per-case metric records of the forty-case screen.
-- `observation_study_20261016/`: the manuscript source, analysis and diagnosis scripts, numerical summaries (`results/`), and the two figures (`figures/`).
+- `observation_study_20261016/`: the manuscript source, Supplementary Notes S1–S6, analysis and diagnosis scripts, numerical summaries (`results/`), and the two figures (`figures/`).
 
 ## Reproducing the screen decisions
 ```

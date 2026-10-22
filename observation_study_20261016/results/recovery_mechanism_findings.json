@@ -1,0 +1,343 @@
+{
+  "source_commit": "626fe20d1ba0d01e5d59519f05b7a4657ad69512",
+  "exploratory": true,
+  "new_simulation_runs": 0,
+  "runtime_LLM_calls": 0,
+  "case_keys_verified": 40,
+  "matched_input_hashes_verified": 8,
+  "native_protocols_read": 19,
+  "target_cell": [
+    10,
+    "multi_failure",
+    2026101511
+  ],
+  "selection": "largest adverse cell in previously inspected screen",
+  "source0_phase": {
+    "source": 0,
+    "service_delta_pp": -32.20740740740741,
+    "phases": [
+      {
+        "begin_s": 0,
+        "end_s": 65,
+        "offered": 710,
+        "legacy_timely": 643,
+        "treatment_timely": 636,
+        "timely_delta": -7,
+        "contribution_to_full_run_source_delta_pp": -0.2074074074074074
+      },
+      {
+        "begin_s": 65,
+        "end_s": 145,
+        "offered": 772,
+        "legacy_timely": 704,
+        "treatment_timely": 706,
+        "timely_delta": 2,
+        "contribution_to_full_run_source_delta_pp": 0.05925925925925926
+      },
+      {
+        "begin_s": 145,
+        "end_s": 225,
+        "offered": 727,
+        "legacy_timely": 670,
+        "treatment_timely": 659,
+        "timely_delta": -11,
+        "contribution_to_full_run_source_delta_pp": -0.32592592592592595
+      },
+      {
+        "begin_s": 225,
+        "end_s": 330,
+        "offered": 1166,
+        "legacy_timely": 1071,
+        "treatment_timely": 0,
+        "timely_delta": -1071,
+        "contribution_to_full_run_source_delta_pp": -31.733333333333334
+      }
+    ]
+  },
+  "source1_phase": {
+    "source": 1,
+    "service_delta_pp": 1.5506061460389131,
+    "phases": [
+      {
+        "begin_s": 0,
+        "end_s": 65,
+        "offered": 791,
+        "legacy_timely": 712,
+        "treatment_timely": 715,
+        "timely_delta": 3,
+        "contribution_to_full_run_source_delta_pp": 0.08457851705666761
+      },
+      {
+        "begin_s": 65,
+        "end_s": 145,
+        "offered": 779,
+        "legacy_timely": 626,
+        "treatment_timely": 648,
+        "timely_delta": 22,
+        "contribution_to_full_run_source_delta_pp": 0.6202424584155625
+      },
+      {
+        "begin_s": 145,
+        "end_s": 225,
+        "offered": 741,
+        "legacy_timely": 591,
+        "treatment_timely": 667,
+        "timely_delta": 76,
+        "contribution_to_full_run_source_delta_pp": 2.1426557654355793
+      },
+      {
+        "begin_s": 225,
+        "end_s": 330,
+        "offered": 1236,
+        "legacy_timely": 1156,
+        "treatment_timely": 1110,
+        "timely_delta": -46,
+        "contribution_to_full_run_source_delta_pp": -1.2968705948689032
+      }
+    ]
+  },
+  "worst_source_delta_pp": -27.686019484384296,
+  "bottleneck_correction_pp": 4.521387923023113,
+  "full_v2": {
+    "checks": 15,
+    "service_reasons": {
+      "installation_unconfirmed": 5,
+      "missing_fresh_source": 10
+    },
+    "geometry_available": 5,
+    "gate_blocked": 15
+  },
+  "closing": {
+    "checks": 15,
+    "service_reasons": {
+      "installation_unconfirmed": 15
+    },
+    "geometry_available": 15,
+    "gate_blocked": 15,
+    "shadow_known": 11,
+    "shadow_deficit": 11,
+    "first_shadow": {
+      "time_s": 265,
+      "actual_service": {
+        "known": false,
+        "reason": "installation_unconfirmed"
+      },
+      "actual_rejection": "no_positive_recovery_evidence",
+      "shadow_known": true,
+      "shadow_scope": "historical received cohort only; not an executed decision or its outcome",
+      "buckets": [
+        50,
+        51
+      ],
+      "version_by_source": [
+        2,
+        3
+      ],
+      "known_route_by_source": [
+        [
+          0,
+          8,
+          6,
+          9
+        ],
+        [
+          1,
+          4,
+          5,
+          9
+        ]
+      ],
+      "earliest_bucket": 49,
+      "offered": [
+        36,
+        60
+      ],
+      "timely": [
+        0,
+        59
+      ],
+      "worst_timely": 0,
+      "cohort_end_age_s": 5,
+      "received_denominator_proof": [
+        {
+          "source": 0,
+          "version": 2,
+          "bucket": 50,
+          "count": 12,
+          "stamp_ns": 260882000000,
+          "received_ns": 260909879812,
+          "epoch_first_bucket": 17
+        },
+        {
+          "source": 0,
+          "version": 2,
+          "bucket": 51,
+          "count": 24,
+          "stamp_ns": 260882000000,
+          "received_ns": 260909879812,
+          "epoch_first_bucket": 17
+        },
+        {
+          "source": 1,
+          "version": 3,
+          "bucket": 50,
+          "count": 38,
+          "stamp_ns": 260113000000,
+          "received_ns": 260132680492,
+          "epoch_first_bucket": 49
+        },
+        {
+          "source": 1,
+          "version": 3,
+          "bucket": 51,
+          "count": 22,
+          "stamp_ns": 260113000000,
+          "received_ns": 260132680492,
+          "epoch_first_bucket": 49
+        }
+      ],
+      "independently_matched_native_version_bucket_counts": true
+    }
+  },
+  "native_installs": [
+    {
+      "kind": "fault_injected",
+      "node": 6,
+      "time_ns": 225000000000
+    },
+    {
+      "kind": "install_received",
+      "time_ns": 240036229775,
+      "source": 1,
+      "decision": 3,
+      "sequence": 163,
+      "previous_version": 2
+    },
+    {
+      "kind": "install_applied",
+      "time_ns": 240036229775,
+      "source": 1,
+      "decision": 3,
+      "version": 3,
+      "path": [
+        1,
+        4,
+        5,
+        9
+      ]
+    }
+  ],
+  "source0_install_requests": [
+    {
+      "kind": "install_packet",
+      "time_ns": 235000020000,
+      "decision": 3,
+      "source": 0,
+      "sequence": 158,
+      "retry": false
+    },
+    {
+      "kind": "install_packet",
+      "time_ns": 240000000000,
+      "decision": 3,
+      "source": 0,
+      "sequence": 162,
+      "retry": true
+    }
+  ],
+  "source0_install_jobs": [
+    {
+      "node": 9,
+      "flow": 65001,
+      "sequence": 158,
+      "generated_ns": 235000020000,
+      "request_ns": 235000020000,
+      "service_ns": 16320000,
+      "status": 225,
+      "attempts": 0,
+      "cca": 5,
+      "busy": 5
+    },
+    {
+      "node": 9,
+      "flow": 65001,
+      "sequence": 162,
+      "generated_ns": 240000000000,
+      "request_ns": 240000000000,
+      "service_ns": 17280000,
+      "status": 225,
+      "attempts": 0,
+      "cca": 5,
+      "busy": 5
+    }
+  ],
+  "source0_install_budget_checks": [
+    {
+      "kind": "unified_control_admission",
+      "time_ns": 235000020000,
+      "node": 9,
+      "flow": 65001,
+      "sequence": 158,
+      "before_q": 4572000000000,
+      "after_q": 4191000000000,
+      "reservation_bytes": 381,
+      "priority": true,
+      "admitted": true
+    },
+    {
+      "kind": "unified_control_admission",
+      "time_ns": 240000000000,
+      "node": 9,
+      "flow": 65001,
+      "sequence": 162,
+      "before_q": 4572000000000,
+      "after_q": 4191000000000,
+      "reservation_bytes": 381,
+      "priority": true,
+      "admitted": true
+    }
+  ],
+  "route_distribution": [
+    {
+      "source": 0,
+      "version": 2,
+      "path": [
+        0,
+        8,
+        6,
+        9
+      ],
+      "packets": 1166
+    },
+    {
+      "source": 1,
+      "version": 2,
+      "path": [
+        1,
+        4,
+        5,
+        9
+      ],
+      "packets": 313
+    },
+    {
+      "source": 1,
+      "version": 3,
+      "path": [
+        1,
+        4,
+        5,
+        9
+      ],
+      "packets": 923
+    }
+  ],
+  "channel_access_failure_enum": {
+    "value": 225,
+    "hex": "0xe1",
+    "source": "https://github.com/nsnam/ns-3-dev-git/blob/43dce6710b8df69685e3479c1d33a571dda714ea/src/lr-wpan/model/lr-wpan-mac-base.h",
+    "name": "CHANNEL_ACCESS_FAILURE"
+  },
+  "shadow_is_not_executed_policy": true,
+  "shadow_performance_claim": false
+}

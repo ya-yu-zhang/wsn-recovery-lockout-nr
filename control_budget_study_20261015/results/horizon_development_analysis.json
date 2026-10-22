@@ -1,0 +1,339 @@
+{
+  "cases": 40,
+  "independent_input_seeds": 2,
+  "development_layout_seed_count": 1,
+  "variants": {
+    "full_v2": {
+      "by_size": {
+        "10": {
+          "service_vs_legacy_pp": -10.779681011776788,
+          "control_reduction_vs_legacy_percent": 23.017583687648003,
+          "service_vs_v2_pp": 0.0
+        },
+        "20": {
+          "service_vs_legacy_pp": 1.508034257017793,
+          "control_reduction_vs_legacy_percent": 35.265786387043526,
+          "service_vs_v2_pp": 0.0
+        }
+      },
+      "overall_service_vs_v2_pp": 0.0,
+      "development_gate_passed": false,
+      "pairs": [
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -27.686019484384296,
+          "control_reduction_vs_legacy_percent": 31.19025875190259,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -3.8784370477568664,
+          "control_reduction_vs_legacy_percent": 32.52484132634134,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -6.262635087498303,
+          "control_reduction_vs_legacy_percent": 16.00788633985628,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -5.291632427467685,
+          "control_reduction_vs_legacy_percent": 12.347348332491803,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 0.25070325470664123,
+          "control_reduction_vs_legacy_percent": 35.276620370370374,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 1.157742402315487,
+          "control_reduction_vs_legacy_percent": 37.11529498964013,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 2.5493162068426,
+          "control_reduction_vs_legacy_percent": 33.70096996511529,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 2.0743751642064434,
+          "control_reduction_vs_legacy_percent": 34.97026022304832,
+          "service_vs_v2_pp": 0.0
+        }
+      ]
+    },
+    "horizon": {
+      "by_size": {
+        "10": {
+          "service_vs_legacy_pp": -10.310299151580368,
+          "control_reduction_vs_legacy_percent": 22.801617308360022,
+          "service_vs_v2_pp": 0.4693818601964189
+        },
+        "20": {
+          "service_vs_legacy_pp": 1.508034257017793,
+          "control_reduction_vs_legacy_percent": 35.265786387043526,
+          "service_vs_v2_pp": 0.0
+        }
+      },
+      "overall_service_vs_v2_pp": 0.23469093009820946,
+      "development_gate_passed": false,
+      "pairs": [
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -27.686019484384296,
+          "control_reduction_vs_legacy_percent": 31.19025875190259,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -3.8784370477568664,
+          "control_reduction_vs_legacy_percent": 32.52484132634134,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -4.385107646712627,
+          "control_reduction_vs_legacy_percent": 15.144020822704363,
+          "service_vs_v2_pp": 1.8775274407856757
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -5.291632427467685,
+          "control_reduction_vs_legacy_percent": 12.347348332491803,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 0.25070325470664123,
+          "control_reduction_vs_legacy_percent": 35.276620370370374,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 1.157742402315487,
+          "control_reduction_vs_legacy_percent": 37.11529498964013,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 2.5493162068426,
+          "control_reduction_vs_legacy_percent": 33.70096996511529,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 2.0743751642064434,
+          "control_reduction_vs_legacy_percent": 34.97026022304832,
+          "service_vs_v2_pp": 0.0
+        }
+      ]
+    },
+    "cohort": {
+      "by_size": {
+        "10": {
+          "service_vs_legacy_pp": -9.521587140002946,
+          "control_reduction_vs_legacy_percent": 22.612612665964825,
+          "service_vs_v2_pp": 1.258093871773841
+        },
+        "20": {
+          "service_vs_legacy_pp": 1.508034257017793,
+          "control_reduction_vs_legacy_percent": 35.265786387043526,
+          "service_vs_v2_pp": 0.0
+        }
+      },
+      "overall_service_vs_v2_pp": 0.6290469358869205,
+      "development_gate_passed": false,
+      "pairs": [
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -27.686019484384296,
+          "control_reduction_vs_legacy_percent": 31.19025875190259,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -0.723589001447178,
+          "control_reduction_vs_legacy_percent": 31.76882275676055,
+          "service_vs_v2_pp": 3.1548480463096884
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -4.385107646712627,
+          "control_reduction_vs_legacy_percent": 15.144020822704363,
+          "service_vs_v2_pp": 1.8775274407856757
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -5.291632427467685,
+          "control_reduction_vs_legacy_percent": 12.347348332491803,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 0.25070325470664123,
+          "control_reduction_vs_legacy_percent": 35.276620370370374,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 1.157742402315487,
+          "control_reduction_vs_legacy_percent": 37.11529498964013,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 2.5493162068426,
+          "control_reduction_vs_legacy_percent": 33.70096996511529,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 2.0743751642064434,
+          "control_reduction_vs_legacy_percent": 34.97026022304832,
+          "service_vs_v2_pp": 0.0
+        }
+      ]
+    },
+    "closing": {
+      "by_size": {
+        "10": {
+          "service_vs_legacy_pp": -8.828346238789775,
+          "control_reduction_vs_legacy_percent": 22.14457741955994,
+          "service_vs_v2_pp": 1.9513347729870123
+        },
+        "20": {
+          "service_vs_legacy_pp": 1.508034257017793,
+          "control_reduction_vs_legacy_percent": 35.265786387043526,
+          "service_vs_v2_pp": 0.0
+        }
+      },
+      "overall_service_vs_v2_pp": 0.9756673864935062,
+      "development_gate_passed": false,
+      "pairs": [
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -27.686019484384296,
+          "control_reduction_vs_legacy_percent": 31.19025875190259,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -0.723589001447178,
+          "control_reduction_vs_legacy_percent": 31.76882275676055,
+          "service_vs_v2_pp": 3.1548480463096884
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": -1.612144041859942,
+          "control_reduction_vs_legacy_percent": 13.271879837084821,
+          "service_vs_v2_pp": 4.650491045638361
+        },
+        {
+          "topology": "budget_10_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": -5.291632427467685,
+          "control_reduction_vs_legacy_percent": 12.347348332491803,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 0.25070325470664123,
+          "control_reduction_vs_legacy_percent": 35.276620370370374,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "multi_failure",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 1.157742402315487,
+          "control_reduction_vs_legacy_percent": 37.11529498964013,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101511,
+          "service_vs_legacy_pp": 2.5493162068426,
+          "control_reduction_vs_legacy_percent": 33.70096996511529,
+          "service_vs_v2_pp": 0.0
+        },
+        {
+          "topology": "budget_20_2026101501",
+          "scenario": "overload",
+          "seed": 2026101512,
+          "service_vs_legacy_pp": 2.0743751642064434,
+          "control_reduction_vs_legacy_percent": 34.97026022304832,
+          "service_vs_v2_pp": 0.0
+        }
+      ]
+    }
+  },
+  "selected": null,
+  "independent_confirmation_required": false,
+  "no_further_method_revision": true,
+  "runtime_LLM_calls": 0
+}

@@ -1,0 +1,517 @@
+{
+  "native_cases": 40,
+  "matched_size_scenario_seed_cells": 8,
+  "independent_input_seeds": 2,
+  "development_layout_seeds": 1,
+  "fixed_size_specific_layouts": 2,
+  "no_new_experiments": true,
+  "confirmatory_inference": false,
+  "all_original_gates_reproduced": true,
+  "stop_method_revision": true,
+  "offered_counts_equal_within_matched_cells": true,
+  "source_sha256": {
+    "horizon_development_manifest.json": "2779a60bc4d256b914da799a0cb9bb5e1ffd35792cc3ffab682b6c8d002757b8",
+    "horizon_development_registration.json": "9c154bd44617a4212a1e16e07cb0344d5e48a4405c66aac73805112f87f41a88",
+    "horizon_development_case_metrics.csv": "1780e5367fe7e1378aaf4ed60019f17c5e5a9178f83ec8224206bd6dd48603cd",
+    "horizon_development_admission_audit.json": "1a9f596d1f342e1e7509fa129dc0dc4c0b0e049e35bf175a242d610b01d4eb12",
+    "horizon_development_analysis.json": "a0a4d38f6bb240a86292c3b41bc476454801e0aeb6b2e2a6c9d3ab440b34cf8c"
+  },
+  "summary": {
+    "10_full_v2": {
+      "service_vs_legacy_pp": -10.779681011776788,
+      "control_reduction_vs_legacy_percent": 23.017583687648003,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.001359433212230754,
+      "service_pair_range_pp": [
+        -27.686019484384296,
+        -3.8784370477568664
+      ]
+    },
+    "10_horizon": {
+      "service_vs_legacy_pp": -10.310299151580368,
+      "control_reduction_vs_legacy_percent": 22.801617308360022,
+      "service_vs_v2_pp": 0.4693818601964189,
+      "radio_change_percent": 0.0015509578318861905,
+      "service_pair_range_pp": [
+        -27.686019484384296,
+        -3.8784370477568664
+      ]
+    },
+    "10_cohort": {
+      "service_vs_legacy_pp": -9.521587140002946,
+      "control_reduction_vs_legacy_percent": 22.612612665964825,
+      "service_vs_v2_pp": 1.258093871773841,
+      "radio_change_percent": 0.0015039030733354775,
+      "service_pair_range_pp": [
+        -27.686019484384296,
+        -0.723589001447178
+      ]
+    },
+    "10_closing": {
+      "service_vs_legacy_pp": -8.828346238789775,
+      "control_reduction_vs_legacy_percent": 22.14457741955994,
+      "service_vs_v2_pp": 1.9513347729870123,
+      "radio_change_percent": 0.00198871151287916,
+      "service_pair_range_pp": [
+        -27.686019484384296,
+        -0.723589001447178
+      ]
+    },
+    "20_full_v2": {
+      "service_vs_legacy_pp": 1.508034257017793,
+      "control_reduction_vs_legacy_percent": 35.265786387043526,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005275386913533575,
+      "service_pair_range_pp": [
+        0.25070325470664123,
+        2.5493162068426
+      ]
+    },
+    "20_horizon": {
+      "service_vs_legacy_pp": 1.508034257017793,
+      "control_reduction_vs_legacy_percent": 35.265786387043526,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005275386913533575,
+      "service_pair_range_pp": [
+        0.25070325470664123,
+        2.5493162068426
+      ]
+    },
+    "20_cohort": {
+      "service_vs_legacy_pp": 1.508034257017793,
+      "control_reduction_vs_legacy_percent": 35.265786387043526,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005275386913533575,
+      "service_pair_range_pp": [
+        0.25070325470664123,
+        2.5493162068426
+      ]
+    },
+    "20_closing": {
+      "service_vs_legacy_pp": 1.508034257017793,
+      "control_reduction_vs_legacy_percent": 35.265786387043526,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005275386913533575,
+      "service_pair_range_pp": [
+        0.25070325470664123,
+        2.5493162068426
+      ]
+    }
+  },
+  "observation_audit": {
+    "10_legacy": {
+      "cases": 4,
+      "known_service_snapshots": 172,
+      "postbootstrap_gated_decisions": 0,
+      "control_admission_checks": 0,
+      "rejected_control_requests": 0,
+      "admitted_control_requests": 0,
+      "byte_bound_audited": false
+    },
+    "10_full_v2": {
+      "cases": 4,
+      "known_service_snapshots": 75,
+      "postbootstrap_gated_decisions": 15,
+      "control_admission_checks": 2623,
+      "rejected_control_requests": 28,
+      "admitted_control_requests": 2595,
+      "byte_bound_audited": true
+    },
+    "10_horizon": {
+      "cases": 4,
+      "known_service_snapshots": 71,
+      "postbootstrap_gated_decisions": 16,
+      "control_admission_checks": 2626,
+      "rejected_control_requests": 28,
+      "admitted_control_requests": 2598,
+      "byte_bound_audited": true
+    },
+    "10_cohort": {
+      "cases": 4,
+      "known_service_snapshots": 173,
+      "postbootstrap_gated_decisions": 16,
+      "control_admission_checks": 2631,
+      "rejected_control_requests": 28,
+      "admitted_control_requests": 2603,
+      "byte_bound_audited": true
+    },
+    "10_closing": {
+      "cases": 4,
+      "known_service_snapshots": 175,
+      "postbootstrap_gated_decisions": 16,
+      "control_admission_checks": 2643,
+      "rejected_control_requests": 32,
+      "admitted_control_requests": 2611,
+      "byte_bound_audited": true
+    },
+    "20_legacy": {
+      "cases": 4,
+      "known_service_snapshots": 226,
+      "postbootstrap_gated_decisions": 0,
+      "control_admission_checks": 0,
+      "rejected_control_requests": 0,
+      "admitted_control_requests": 0,
+      "byte_bound_audited": false
+    },
+    "20_full_v2": {
+      "cases": 4,
+      "known_service_snapshots": 72,
+      "postbootstrap_gated_decisions": 0,
+      "control_admission_checks": 4350,
+      "rejected_control_requests": 644,
+      "admitted_control_requests": 3706,
+      "byte_bound_audited": true
+    },
+    "20_horizon": {
+      "cases": 4,
+      "known_service_snapshots": 72,
+      "postbootstrap_gated_decisions": 0,
+      "control_admission_checks": 4350,
+      "rejected_control_requests": 644,
+      "admitted_control_requests": 3706,
+      "byte_bound_audited": true
+    },
+    "20_cohort": {
+      "cases": 4,
+      "known_service_snapshots": 240,
+      "postbootstrap_gated_decisions": 0,
+      "control_admission_checks": 4350,
+      "rejected_control_requests": 644,
+      "admitted_control_requests": 3706,
+      "byte_bound_audited": true
+    },
+    "20_closing": {
+      "cases": 4,
+      "known_service_snapshots": 240,
+      "postbootstrap_gated_decisions": 0,
+      "control_admission_checks": 4350,
+      "rejected_control_requests": 644,
+      "admitted_control_requests": 3706,
+      "byte_bound_audited": true
+    }
+  },
+  "paired_results": [
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "service_vs_legacy_pp": -27.686019484384296,
+      "control_reduction_vs_legacy_percent": 31.19025875190259,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.001210284202213252
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "horizon",
+      "service_vs_legacy_pp": -27.686019484384296,
+      "control_reduction_vs_legacy_percent": 31.19025875190259,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.001210284202213252
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "cohort",
+      "service_vs_legacy_pp": -27.686019484384296,
+      "control_reduction_vs_legacy_percent": 31.19025875190259,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.001210284202213252
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "closing",
+      "service_vs_legacy_pp": -27.686019484384296,
+      "control_reduction_vs_legacy_percent": 31.19025875190259,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.001210284202213252
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "service_vs_legacy_pp": -3.8784370477568664,
+      "control_reduction_vs_legacy_percent": 32.52484132634134,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.0021350993680835373
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "horizon",
+      "service_vs_legacy_pp": -3.8784370477568664,
+      "control_reduction_vs_legacy_percent": 32.52484132634134,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.0021350993680835373
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "cohort",
+      "service_vs_legacy_pp": -0.723589001447178,
+      "control_reduction_vs_legacy_percent": 31.76882275676055,
+      "service_vs_v2_pp": 3.1548480463096884,
+      "radio_change_percent": 0.001946880333880685
+    },
+    {
+      "nodes": 10,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "closing",
+      "service_vs_legacy_pp": -0.723589001447178,
+      "control_reduction_vs_legacy_percent": 31.76882275676055,
+      "service_vs_v2_pp": 3.1548480463096884,
+      "radio_change_percent": 0.001946880333880685
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "service_vs_legacy_pp": -6.262635087498303,
+      "control_reduction_vs_legacy_percent": 16.00788633985628,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": -0.000999276713142816
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "horizon",
+      "service_vs_legacy_pp": -4.385107646712627,
+      "control_reduction_vs_legacy_percent": 15.144020822704363,
+      "service_vs_v2_pp": 1.8775274407856757,
+      "radio_change_percent": -0.00023317823452106978
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "cohort",
+      "service_vs_legacy_pp": -4.385107646712627,
+      "control_reduction_vs_legacy_percent": 15.144020822704363,
+      "service_vs_v2_pp": 1.8775274407856757,
+      "radio_change_percent": -0.00023317823452106978
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "closing",
+      "service_vs_legacy_pp": -1.612144041859942,
+      "control_reduction_vs_legacy_percent": 13.271879837084821,
+      "service_vs_v2_pp": 4.650491045638361,
+      "radio_change_percent": 0.00170605552365366
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "service_vs_legacy_pp": -5.291632427467685,
+      "control_reduction_vs_legacy_percent": 12.347348332491803,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.0030916259917690425
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "horizon",
+      "service_vs_legacy_pp": -5.291632427467685,
+      "control_reduction_vs_legacy_percent": 12.347348332491803,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.0030916259917690425
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "cohort",
+      "service_vs_legacy_pp": -5.291632427467685,
+      "control_reduction_vs_legacy_percent": 12.347348332491803,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.0030916259917690425
+    },
+    {
+      "nodes": 10,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "closing",
+      "service_vs_legacy_pp": -5.291632427467685,
+      "control_reduction_vs_legacy_percent": 12.347348332491803,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.0030916259917690425
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "service_vs_legacy_pp": 0.25070325470664123,
+      "control_reduction_vs_legacy_percent": 35.276620370370374,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.003037142649686686
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "horizon",
+      "service_vs_legacy_pp": 0.25070325470664123,
+      "control_reduction_vs_legacy_percent": 35.276620370370374,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.003037142649686686
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "cohort",
+      "service_vs_legacy_pp": 0.25070325470664123,
+      "control_reduction_vs_legacy_percent": 35.276620370370374,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.003037142649686686
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "closing",
+      "service_vs_legacy_pp": 0.25070325470664123,
+      "control_reduction_vs_legacy_percent": 35.276620370370374,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.003037142649686686
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "service_vs_legacy_pp": 1.157742402315487,
+      "control_reduction_vs_legacy_percent": 37.11529498964013,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005967215619628874
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "horizon",
+      "service_vs_legacy_pp": 1.157742402315487,
+      "control_reduction_vs_legacy_percent": 37.11529498964013,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005967215619628874
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "cohort",
+      "service_vs_legacy_pp": 1.157742402315487,
+      "control_reduction_vs_legacy_percent": 37.11529498964013,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005967215619628874
+    },
+    {
+      "nodes": 20,
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "closing",
+      "service_vs_legacy_pp": 1.157742402315487,
+      "control_reduction_vs_legacy_percent": 37.11529498964013,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005967215619628874
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "service_vs_legacy_pp": 2.5493162068426,
+      "control_reduction_vs_legacy_percent": 33.70096996511529,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005674064107985544
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "horizon",
+      "service_vs_legacy_pp": 2.5493162068426,
+      "control_reduction_vs_legacy_percent": 33.70096996511529,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005674064107985544
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "cohort",
+      "service_vs_legacy_pp": 2.5493162068426,
+      "control_reduction_vs_legacy_percent": 33.70096996511529,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005674064107985544
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "closing",
+      "service_vs_legacy_pp": 2.5493162068426,
+      "control_reduction_vs_legacy_percent": 33.70096996511529,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.005674064107985544
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "service_vs_legacy_pp": 2.0743751642064434,
+      "control_reduction_vs_legacy_percent": 34.97026022304832,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.006423125276833197
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "horizon",
+      "service_vs_legacy_pp": 2.0743751642064434,
+      "control_reduction_vs_legacy_percent": 34.97026022304832,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.006423125276833197
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "cohort",
+      "service_vs_legacy_pp": 2.0743751642064434,
+      "control_reduction_vs_legacy_percent": 34.97026022304832,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.006423125276833197
+    },
+    {
+      "nodes": 20,
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "closing",
+      "service_vs_legacy_pp": 2.0743751642064434,
+      "control_reduction_vs_legacy_percent": 34.97026022304832,
+      "service_vs_v2_pp": 0.0,
+      "radio_change_percent": 0.006423125276833197
+    }
+  ],
+  "note": "Snapshots and decisions are repeated observations, not independent samples. The historical audit field budget_admissions counts checks including rejections; admitted counts subtract rejections. Known cohorts are policy-qualified historical evidence, not unobserved current service.",
+  "runtime_LLM_calls": 0
+}

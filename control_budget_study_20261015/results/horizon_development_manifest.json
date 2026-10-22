@@ -1,0 +1,1682 @@
+[
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "773a7c561d83afaf5be6",
+    "evidence_directory": "results/horizon_development/773a7c561d83afaf5be6",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        3088,
+        3085
+      ],
+      "worst_source_service": 0.8697490837327319,
+      "control_DATA_bytes": 98550,
+      "report_DATA_bytes": 93444,
+      "install_DATA_bytes": 5106,
+      "application_DATA_bytes": 2381283,
+      "network_ACK_bytes": 98810,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.08552952896,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "e90a8ef5071cd60331f3",
+    "evidence_directory": "results/horizon_development/e90a8ef5071cd60331f3",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        2001,
+        3140
+      ],
+      "worst_source_service": 0.5928888888888889,
+      "control_DATA_bytes": 67812,
+      "report_DATA_bytes": 65592,
+      "install_DATA_bytes": 2220,
+      "application_DATA_bytes": 2433120,
+      "network_ACK_bytes": 87505,
+      "budget_admissions": 541,
+      "budget_rejections": 2,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.08750332736,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "b45661661e8d97abf7f5",
+    "evidence_directory": "results/horizon_development/b45661661e8d97abf7f5",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        2001,
+        3140
+      ],
+      "worst_source_service": 0.5928888888888889,
+      "control_DATA_bytes": 67812,
+      "report_DATA_bytes": 65592,
+      "install_DATA_bytes": 2220,
+      "application_DATA_bytes": 2433120,
+      "network_ACK_bytes": 87505,
+      "budget_admissions": 541,
+      "budget_rejections": 2,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.08750332736,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "22cc3c7eb07e8f9166f2",
+    "evidence_directory": "results/horizon_development/22cc3c7eb07e8f9166f2",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        2001,
+        3140
+      ],
+      "worst_source_service": 0.5928888888888889,
+      "control_DATA_bytes": 67812,
+      "report_DATA_bytes": 65592,
+      "install_DATA_bytes": 2220,
+      "application_DATA_bytes": 2433120,
+      "network_ACK_bytes": 87505,
+      "budget_admissions": 541,
+      "budget_rejections": 2,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.08750332736,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "39426c6933009c809b9e",
+    "evidence_directory": "results/horizon_development/39426c6933009c809b9e",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        2001,
+        3140
+      ],
+      "worst_source_service": 0.5928888888888889,
+      "control_DATA_bytes": 67812,
+      "report_DATA_bytes": 65592,
+      "install_DATA_bytes": 2220,
+      "application_DATA_bytes": 2433120,
+      "network_ACK_bytes": 87505,
+      "budget_admissions": 541,
+      "budget_rejections": 2,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.08750332736,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "23787260c8fb14265c3a",
+    "evidence_directory": "results/horizon_development/23787260c8fb14265c3a",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        2921,
+        2876
+      ],
+      "worst_source_service": 0.8454413892908827,
+      "control_DATA_bytes": 99733,
+      "report_DATA_bytes": 95071,
+      "install_DATA_bytes": 4662,
+      "application_DATA_bytes": 2351868,
+      "network_ACK_bytes": 94540,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.09168800576,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "c1681156bc4c5bb7a195",
+    "evidence_directory": "results/horizon_development/c1681156bc4c5bb7a195",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        2787,
+        3001
+      ],
+      "worst_source_service": 0.8066570188133141,
+      "control_DATA_bytes": 67295,
+      "report_DATA_bytes": 64964,
+      "install_DATA_bytes": 2331,
+      "application_DATA_bytes": 2363745,
+      "network_ACK_bytes": 93500,
+      "budget_admissions": 528,
+      "budget_rejections": 1,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.09517017536,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "bd2dfaefd3f7a9c9c47e",
+    "evidence_directory": "results/horizon_development/bd2dfaefd3f7a9c9c47e",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        2787,
+        3001
+      ],
+      "worst_source_service": 0.8066570188133141,
+      "control_DATA_bytes": 67295,
+      "report_DATA_bytes": 64964,
+      "install_DATA_bytes": 2331,
+      "application_DATA_bytes": 2363745,
+      "network_ACK_bytes": 93500,
+      "budget_admissions": 528,
+      "budget_rejections": 1,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.09517017536,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "e2da617573aca2a07d50",
+    "evidence_directory": "results/horizon_development/e2da617573aca2a07d50",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        2896,
+        3002
+      ],
+      "worst_source_service": 0.838205499276411,
+      "control_DATA_bytes": 68049,
+      "report_DATA_bytes": 65718,
+      "install_DATA_bytes": 2331,
+      "application_DATA_bytes": 2361747,
+      "network_ACK_bytes": 94580,
+      "budget_admissions": 533,
+      "budget_rejections": 1,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.09486320576,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "44ccc69df56ad9487643",
+    "evidence_directory": "results/horizon_development/44ccc69df56ad9487643",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        2896,
+        3002
+      ],
+      "worst_source_service": 0.838205499276411,
+      "control_DATA_bytes": 68049,
+      "report_DATA_bytes": 65718,
+      "install_DATA_bytes": 2331,
+      "application_DATA_bytes": 2361747,
+      "network_ACK_bytes": 94580,
+      "budget_admissions": 533,
+      "budget_rejections": 1,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 163.09486320576,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "9de06d49d4cc17466f17",
+    "evidence_directory": "results/horizon_development/9de06d49d4cc17466f17",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        4410,
+        4479
+      ],
+      "worst_source_service": 0.6462485345838218,
+      "control_DATA_bytes": 115643,
+      "report_DATA_bytes": 104765,
+      "install_DATA_bytes": 10878,
+      "application_DATA_bytes": 4340655,
+      "network_ACK_bytes": 162915,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66192298496,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "d0f8423cc5fb711c3410",
+    "evidence_directory": "results/horizon_development/d0f8423cc5fb711c3410",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        3991,
+        4041
+      ],
+      "worst_source_service": 0.5836221837088388,
+      "control_DATA_bytes": 97131,
+      "report_DATA_bytes": 91026,
+      "install_DATA_bytes": 6105,
+      "application_DATA_bytes": 4373844,
+      "network_ACK_bytes": 162380,
+      "budget_admissions": 772,
+      "budget_rejections": 11,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.65995778816,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "6d8aae9172be005d77f5",
+    "evidence_directory": "results/horizon_development/6d8aae9172be005d77f5",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        4112,
+        4171
+      ],
+      "worst_source_service": 0.6023974581166955,
+      "control_DATA_bytes": 98130,
+      "report_DATA_bytes": 91248,
+      "install_DATA_bytes": 6882,
+      "application_DATA_bytes": 4362744,
+      "network_ACK_bytes": 162375,
+      "budget_admissions": 775,
+      "budget_rejections": 11,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66146441216,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "9deae653c531f5458b3a",
+    "evidence_directory": "results/horizon_development/9deae653c531f5458b3a",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        4112,
+        4171
+      ],
+      "worst_source_service": 0.6023974581166955,
+      "control_DATA_bytes": 98130,
+      "report_DATA_bytes": 91248,
+      "install_DATA_bytes": 6882,
+      "application_DATA_bytes": 4362744,
+      "network_ACK_bytes": 162375,
+      "budget_admissions": 775,
+      "budget_rejections": 11,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66146441216,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "48aaa6a88a6664392699",
+    "evidence_directory": "results/horizon_development/48aaa6a88a6664392699",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        4323,
+        4363
+      ],
+      "worst_source_service": 0.6301270941652224,
+      "control_DATA_bytes": 100295,
+      "report_DATA_bytes": 91859,
+      "install_DATA_bytes": 8436,
+      "application_DATA_bytes": 4335882,
+      "network_ACK_bytes": 162080,
+      "budget_admissions": 787,
+      "budget_rejections": 15,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66527814656,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "368050ea00790d1a43ef",
+    "evidence_directory": "results/horizon_development/368050ea00790d1a43ef",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        4833,
+        4677
+      ],
+      "worst_source_service": 0.6850739709975099,
+      "control_DATA_bytes": 116851,
+      "report_DATA_bytes": 106750,
+      "install_DATA_bytes": 10101,
+      "application_DATA_bytes": 4351644,
+      "network_ACK_bytes": 163475,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.65985524096,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "5b22a8297aceacb94dda",
+    "evidence_directory": "results/horizon_development/5b22a8297aceacb94dda",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        4427,
+        4360
+      ],
+      "worst_source_service": 0.632157646722833,
+      "control_DATA_bytes": 102423,
+      "report_DATA_bytes": 95763,
+      "install_DATA_bytes": 6660,
+      "application_DATA_bytes": 4326891,
+      "network_ACK_bytes": 162890,
+      "budget_admissions": 782,
+      "budget_rejections": 14,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66593522816,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "a3d6f63688f86cf5c473",
+    "evidence_directory": "results/horizon_development/a3d6f63688f86cf5c473",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        4427,
+        4360
+      ],
+      "worst_source_service": 0.632157646722833,
+      "control_DATA_bytes": 102423,
+      "report_DATA_bytes": 95763,
+      "install_DATA_bytes": 6660,
+      "application_DATA_bytes": 4326891,
+      "network_ACK_bytes": 162890,
+      "budget_admissions": 782,
+      "budget_rejections": 14,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66593522816,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "30cc8255ca211be60dde",
+    "evidence_directory": "results/horizon_development/30cc8255ca211be60dde",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        4427,
+        4360
+      ],
+      "worst_source_service": 0.632157646722833,
+      "control_DATA_bytes": 102423,
+      "report_DATA_bytes": 95763,
+      "install_DATA_bytes": 6660,
+      "application_DATA_bytes": 4326891,
+      "network_ACK_bytes": 162890,
+      "budget_admissions": 782,
+      "budget_rejections": 14,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66593522816,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_10_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "77c8642fc2740d5274af",
+    "evidence_directory": "results/horizon_development/77c8642fc2740d5274af",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        4427,
+        4360
+      ],
+      "worst_source_service": 0.632157646722833,
+      "control_DATA_bytes": 102423,
+      "report_DATA_bytes": 95763,
+      "install_DATA_bytes": 6660,
+      "application_DATA_bytes": 4326891,
+      "network_ACK_bytes": 162890,
+      "budget_admissions": 782,
+      "budget_rejections": 14,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 196.66593522816,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "1611301ccd860da7fdc2",
+    "evidence_directory": "results/horizon_development/1611301ccd860da7fdc2",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        3279,
+        3450
+      ],
+      "worst_source_service": 0.9715555555555555,
+      "control_DATA_bytes": 172800,
+      "report_DATA_bytes": 172023,
+      "install_DATA_bytes": 777,
+      "application_DATA_bytes": 1630146,
+      "network_ACK_bytes": 74870,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.59724758592,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "9e7316568fd3f8b9c85e",
+    "evidence_directory": "results/horizon_development/9e7316568fd3f8b9c85e",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        3309,
+        3455
+      ],
+      "worst_source_service": 0.9740625881026219,
+      "control_DATA_bytes": 111842,
+      "report_DATA_bytes": 110621,
+      "install_DATA_bytes": 1221,
+      "application_DATA_bytes": 1623042,
+      "network_ACK_bytes": 72905,
+      "budget_admissions": 1049,
+      "budget_rejections": 157,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.60819943872,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "71f4573ac857838c63fa",
+    "evidence_directory": "results/horizon_development/71f4573ac857838c63fa",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        3309,
+        3455
+      ],
+      "worst_source_service": 0.9740625881026219,
+      "control_DATA_bytes": 111842,
+      "report_DATA_bytes": 110621,
+      "install_DATA_bytes": 1221,
+      "application_DATA_bytes": 1623042,
+      "network_ACK_bytes": 72905,
+      "budget_admissions": 1049,
+      "budget_rejections": 157,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.60819943872,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "93807c3d59082e29ee45",
+    "evidence_directory": "results/horizon_development/93807c3d59082e29ee45",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        3309,
+        3455
+      ],
+      "worst_source_service": 0.9740625881026219,
+      "control_DATA_bytes": 111842,
+      "report_DATA_bytes": 110621,
+      "install_DATA_bytes": 1221,
+      "application_DATA_bytes": 1623042,
+      "network_ACK_bytes": 72905,
+      "budget_admissions": 1049,
+      "budget_rejections": 157,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.60819943872,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101511,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "fd362dd4619f73e6016b",
+    "evidence_directory": "results/horizon_development/fd362dd4619f73e6016b",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3375,
+        3547
+      ],
+      "timely": [
+        3309,
+        3455
+      ],
+      "worst_source_service": 0.9740625881026219,
+      "control_DATA_bytes": 111842,
+      "report_DATA_bytes": 110621,
+      "install_DATA_bytes": 1221,
+      "application_DATA_bytes": 1623042,
+      "network_ACK_bytes": 72905,
+      "budget_admissions": 1049,
+      "budget_rejections": 157,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.60819943872,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "8e058143e250d1d2003f",
+    "evidence_directory": "results/horizon_development/8e058143e250d1d2003f",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        3346,
+        3271
+      ],
+      "worst_source_service": 0.968451519536903,
+      "control_DATA_bytes": 178091,
+      "report_DATA_bytes": 175982,
+      "install_DATA_bytes": 2109,
+      "application_DATA_bytes": 1655343,
+      "network_ACK_bytes": 76300,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.59205786432,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "df691122c3b708b52fd2",
+    "evidence_directory": "results/horizon_development/df691122c3b708b52fd2",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        3386,
+        3308
+      ],
+      "worst_source_service": 0.9800289435600579,
+      "control_DATA_bytes": 111992,
+      "report_DATA_bytes": 111326,
+      "install_DATA_bytes": 666,
+      "application_DATA_bytes": 1589520,
+      "network_ACK_bytes": 72015,
+      "budget_admissions": 1034,
+      "budget_rejections": 151,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.61357516992,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "9fd59a561c87e0f0d638",
+    "evidence_directory": "results/horizon_development/9fd59a561c87e0f0d638",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        3386,
+        3308
+      ],
+      "worst_source_service": 0.9800289435600579,
+      "control_DATA_bytes": 111992,
+      "report_DATA_bytes": 111326,
+      "install_DATA_bytes": 666,
+      "application_DATA_bytes": 1589520,
+      "network_ACK_bytes": 72015,
+      "budget_admissions": 1034,
+      "budget_rejections": 151,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.61357516992,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "bd55ca4aec82d33deade",
+    "evidence_directory": "results/horizon_development/bd55ca4aec82d33deade",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        3386,
+        3308
+      ],
+      "worst_source_service": 0.9800289435600579,
+      "control_DATA_bytes": 111992,
+      "report_DATA_bytes": 111326,
+      "install_DATA_bytes": 666,
+      "application_DATA_bytes": 1589520,
+      "network_ACK_bytes": 72015,
+      "budget_admissions": 1034,
+      "budget_rejections": 151,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.61357516992,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "multi_failure",
+      "seed": 2026101512,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "cdb7efa65b287b302d58",
+    "evidence_directory": "results/horizon_development/cdb7efa65b287b302d58",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        3455,
+        3372
+      ],
+      "timely": [
+        3386,
+        3308
+      ],
+      "worst_source_service": 0.9800289435600579,
+      "control_DATA_bytes": 111992,
+      "report_DATA_bytes": 111326,
+      "install_DATA_bytes": 666,
+      "application_DATA_bytes": 1589520,
+      "network_ACK_bytes": 72015,
+      "budget_admissions": 1034,
+      "budget_rejections": 151,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 360.61357516992,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "ea538b7b8422a43fc44e",
+    "evidence_directory": "results/horizon_development/ea538b7b8422a43fc44e",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        5970,
+        6106
+      ],
+      "worst_source_service": 0.8748534583821805,
+      "control_DATA_bytes": 188048,
+      "report_DATA_bytes": 184940,
+      "install_DATA_bytes": 3108,
+      "application_DATA_bytes": 3351978,
+      "network_ACK_bytes": 135095,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.21106942592,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "b45f9155f6ec879d9a33",
+    "evidence_directory": "results/horizon_development/b45f9155f6ec879d9a33",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        6159,
+        6234
+      ],
+      "worst_source_service": 0.9003466204506065,
+      "control_DATA_bytes": 124674,
+      "report_DATA_bytes": 123675,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3276276,
+      "network_ACK_bytes": 131300,
+      "budget_admissions": 1136,
+      "budget_rejections": 172,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.23343721472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "d56c31c1689198a0d5e3",
+    "evidence_directory": "results/horizon_development/d56c31c1689198a0d5e3",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        6159,
+        6234
+      ],
+      "worst_source_service": 0.9003466204506065,
+      "control_DATA_bytes": 124674,
+      "report_DATA_bytes": 123675,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3276276,
+      "network_ACK_bytes": 131300,
+      "budget_admissions": 1136,
+      "budget_rejections": 172,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.23343721472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "2df649486c7ae0f4e0b6",
+    "evidence_directory": "results/horizon_development/2df649486c7ae0f4e0b6",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        6159,
+        6234
+      ],
+      "worst_source_service": 0.9003466204506065,
+      "control_DATA_bytes": 124674,
+      "report_DATA_bytes": 123675,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3276276,
+      "network_ACK_bytes": 131300,
+      "budget_admissions": 1136,
+      "budget_rejections": 172,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.23343721472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101511,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "fa3af178b151c0046f6c",
+    "evidence_directory": "results/horizon_development/fa3af178b151c0046f6c",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        6824,
+        6924
+      ],
+      "timely": [
+        6159,
+        6234
+      ],
+      "worst_source_service": 0.9003466204506065,
+      "control_DATA_bytes": 124674,
+      "report_DATA_bytes": 123675,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3276276,
+      "network_ACK_bytes": 131300,
+      "budget_admissions": 1136,
+      "budget_rejections": 172,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.23343721472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "legacy",
+      "generation_stop": 330,
+      "evidence_gate": false,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "f624145e230d8c006703",
+    "evidence_directory": "results/horizon_development/f624145e230d8c006703",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        6183,
+        6002
+      ],
+      "worst_source_service": 0.8791562911967189,
+      "control_DATA_bytes": 188300,
+      "report_DATA_bytes": 183194,
+      "install_DATA_bytes": 5106,
+      "application_DATA_bytes": 3400041,
+      "network_ACK_bytes": 136965,
+      "budget_admissions": 0,
+      "budget_rejections": 0,
+      "control_budget_bound_verified": false,
+      "version_pacing_checks": 0,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.20301658112,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "full_v2",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "6f3492c19e53baf64ac3",
+    "evidence_directory": "results/horizon_development/6f3492c19e53baf64ac3",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        6302,
+        6159
+      ],
+      "worst_source_service": 0.8999000428387833,
+      "control_DATA_bytes": 122451,
+      "report_DATA_bytes": 121452,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3309354,
+      "network_ACK_bytes": 132395,
+      "budget_admissions": 1131,
+      "budget_rejections": 164,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.22833673472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "horizon",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "cb73aeae20ff5e0be9e2",
+    "evidence_directory": "results/horizon_development/cb73aeae20ff5e0be9e2",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        6302,
+        6159
+      ],
+      "worst_source_service": 0.8999000428387833,
+      "control_DATA_bytes": 122451,
+      "report_DATA_bytes": 121452,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3309354,
+      "network_ACK_bytes": 132395,
+      "budget_admissions": 1131,
+      "budget_rejections": 164,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.22833673472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "cohort",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "b361c9f6d7b74cba8ca0",
+    "evidence_directory": "results/horizon_development/b361c9f6d7b74cba8ca0",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        6302,
+        6159
+      ],
+      "worst_source_service": 0.8999000428387833,
+      "control_DATA_bytes": 122451,
+      "report_DATA_bytes": 121452,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3309354,
+      "network_ACK_bytes": 132395,
+      "budget_admissions": 1131,
+      "budget_rejections": 164,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.22833673472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "configuration": {
+      "topology": "budget_20_2026101501",
+      "scenario": "overload",
+      "seed": 2026101512,
+      "model": "closing",
+      "generation_stop": 330,
+      "evidence_gate": true,
+      "stage": "horizon_development"
+    },
+    "configuration_key": "b942a5135a091ee2f9c7",
+    "evidence_directory": "results/horizon_development/b942a5135a091ee2f9c7",
+    "audit": {
+      "status": "passed",
+      "offered": [
+        7003,
+        6827
+      ],
+      "timely": [
+        6302,
+        6159
+      ],
+      "worst_source_service": 0.8999000428387833,
+      "control_DATA_bytes": 122451,
+      "report_DATA_bytes": 121452,
+      "install_DATA_bytes": 999,
+      "application_DATA_bytes": 3309354,
+      "network_ACK_bytes": 132395,
+      "budget_admissions": 1131,
+      "budget_rejections": 164,
+      "control_budget_bound_verified": true,
+      "version_pacing_checks": 136,
+      "runtime_LLM_calls": 0
+    },
+    "estimated_radio_joules": 394.22833673472,
+    "bandit_updates": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

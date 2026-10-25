@@ -12,7 +12,7 @@ Technical detail removed from the main text for readability. Section labels matc
 
 ## S2. Radio energy accounting (§5)
 
-- Radio-state duration is integrated as modeled radio energy with a CC2420-like current model at 3 V (manuscript reference [9]).
+- Radio-state duration is integrated as modeled radio energy with a CC2420-like current model at 3 V (manuscript reference [21]).
 - Processor, sensor, and battery effects are excluded from that model.
 - Control-cost endpoint in the main text remains MAC DATA PSDU bytes of reports and installations; PHY preamble/header are excluded there.
 

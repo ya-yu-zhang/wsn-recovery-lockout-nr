@@ -30,7 +30,7 @@ Recovery lockout after partial route installation is traced at packet and transa
 
 The working hypothesis is that a bounded installation wait, together with broader received observations, is sufficient for positive-evidence recovery to remain usable after a partial update. The registered observation repairs do not support that hypothesis: they miss the frozen service and byte criteria. Three properties that are easy to treat as one event are separated by the recorded case. Waiting has stopped. Past service can be calculated. Another action is authorized. The conclusion applies to the confirmation contract that was implemented. Sparse reporting, or conservative admission, is not thereby shown to block recovery in general.
 
-**Contributions of This Work.**
+Contributions of This Work.
 
 In summary, this paper does not present an unexecuted performance optimizer; instead, it establishes an empirical and theoretical baseline for the limits of control-plane reduction in WSNs. The specific contributions of this work are threefold:
 
@@ -135,18 +135,18 @@ Under monotonically increasing installation versions and correct received epoch 
 
 ### 4.5 Formalization of Recovery Eligibility and Lockout
 
-A post-bootstrap decision time after installation waiting has ended is considered. Let $\mathcal{T}\in\{\mathrm{Confirmed},\mathrm{Unconfirmed}\}$ denote the state of the latest joint installation transaction, and let $\mathcal{F}_s\in\{\mathrm{Eligible},\mathrm{Ineligible}\}$ denote whether source $s$ presents an eligible local MAC-failure report under the age, version, and completion-count conditions. Let $\Psi(\mathcal{T},\{\mathcal{F}_s\})$ be the global service predicate implemented by the controller. Route consistency further requires that each reported source version maps to its desired current route; the historical-service calculation is known only when $\mathcal{T}=\mathrm{Confirmed}$, route consistency holds, and the received-count conditions are satisfied.
+A post-bootstrap decision time after installation waiting has ended is considered. Let T ∈ {Confirmed, Unconfirmed} denote the state of the latest joint installation transaction, and let F_s ∈ {Eligible, Ineligible} denote whether source s presents an eligible local MAC-failure report under the age, version, and completion-count conditions. Let Ψ(T, {F_s}) be the global service predicate implemented by the controller. Route consistency further requires that each reported source version maps to its desired current route; the historical-service calculation is known only when T = Confirmed, route consistency holds, and the received-count conditions are satisfied.
 
-**Proposition 1 (Confirmation-Contract Lockout Boundary).**
-If $\mathcal{T}=\mathrm{Unconfirmed}$ and $\mathcal{F}_s=\mathrm{Ineligible}$ for every source $s$, then
-Psi(T, {F_s}) = Unknown.
-Define the recovery authorization indicator $\Phi(\Psi,\{\mathcal{F}_s\})\in\{0,1\}$ by the implemented two-branch rule: $\Phi=1$ only if known service is poor, or if at least one source presents an eligible failure report. Under the premises of Proposition 1,
-Phi(Unknown, {Ineligible}_s) = 0.
+Proposition 1 (Confirmation-Contract Lockout Boundary).
+If T = Unconfirmed and F_s = Ineligible for every source s, then
+Ψ(T, {F_s}) = Unknown.
+Define the recovery authorization indicator Φ(Ψ, {F_s}) ∈ {0,1} by the implemented two-branch rule: Φ = 1 only if known service is poor, or if at least one source presents an eligible failure report. Under the premises of Proposition 1,
+Φ(Unknown, {Ineligible}_s) = 0.
 
-**Proof.**
-Recovery admission is the disjunction of two branches. Branch $B_1$ is true only when $\Psi=\mathrm{Poor}$. Branch $B_2$ is true only when there exists a source $s$ with $\mathcal{F}_s=\mathrm{Eligible}$. Under $\mathcal{T}=\mathrm{Unconfirmed}$, the implemented predicate returns $\Psi=\mathrm{Unknown}$, so $B_1$ is false. Under $\mathcal{F}_s=\mathrm{Ineligible}$ for all $s$, $B_2$ is false. Therefore $\Phi=B_1\lor B_2=0$. $\square$
+Proof.
+Recovery admission is the disjunction of two branches. Branch B1 is true only when Ψ = Poor. Branch B2 is true only when there exists a source s with F_s = Eligible. Under T = Unconfirmed, the implemented predicate returns Ψ = Unknown, so B1 is false. Under F_s = Ineligible for all s, B2 is false. Therefore Φ = B1 ∨ B2 = 0. ∎
 
-The implication is left unchanged by ending the installation wait, by extending a source-view lifetime, or by making additional closed buckets available, while those two premises hold: such observation repairs do not rewrite $\mathcal{T}$ or $\mathcal{F}_s$. Candidates and byte credit alone cannot authorize a recovery action. The block can be ended if later confirmations satisfy the joint contract, or if $B_2$ is activated by an eligible failure report. A controller bound by a different contract could leave this absorbing state; the outcome of that change would require a separate execution. If confirmation becomes available while reported paths still disagree with the desired route pair, route consistency remains a further condition. Deletion of the global confirmation test alone does not reconcile the observed and desired configurations. The premises are checked in Section 6.4 against the finite recorded trajectory. That no escape can ever occur is not inferred. The argument is conditional and is tied to this implementation; a general impossibility theorem is not obtained.
+The implication is left unchanged by ending the installation wait, by extending a source-view lifetime, or by making additional closed buckets available, while those two premises hold: such observation repairs do not rewrite T or F_s. Candidates and byte credit alone cannot authorize a recovery action. The block can be ended if later confirmations satisfy the joint contract, or if B2 is activated by an eligible failure report. A controller bound by a different contract could leave this absorbing state; the outcome of that change would require a separate execution. If confirmation becomes available while reported paths still disagree with the desired route pair, route consistency remains a further condition. Deletion of the global confirmation test alone does not reconcile the observed and desired configurations. The premises are checked in Section 6.4 against the finite recorded trajectory. That no escape can ever occur is not inferred. The argument is conditional and is tied to this implementation; a general impossibility theorem is not obtained.
 
 
 ## 5 Experimental questions and analysis

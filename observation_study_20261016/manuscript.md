@@ -287,7 +287,7 @@ The analysis scripts, observation-controller sources, registration and screen re
 
 [5] J. Ock, H. Kim, H.-S. Kim, J. Paek, and S. Bahk, “Low-Power Wireless With Denseness: The Case of an Electronic Shelf Labeling System—Design and Experience,” *IEEE Access*, vol. 7, pp. 163887–163897, 2019, doi: 10.1109/ACCESS.2019.2950886.
 
-[6] M. Trobinger, G. de Albuquerque Gleizer, T. Istomin, M. Mazo Jr., A. L. Murphy, and G. P. Picco, “The Wireless Control Bus: Enabling Efficient Multi-Hop Event-Triggered Control with Concurrent Transmissions,” *ACM Trans. Cyber-Phys. Syst.*, vol. 6, no. 1, Art. no. 4, 2022, doi: 10.1145/3485467.
+[6] M. Trobinger, G. de Albuquerque Gleizer, T. Istomin, M. Mazo Jr., A. L. Murphy, and G. P. Picco, “The Wireless Control Bus: Enabling Efficient Multi-Hop Event-Triggered Control with Concurrent Transmissions,” *ACM Trans. Cyber-Phys. Syst.*, vol. 6, no. 1, Art. no. 4, Nov. 2021, doi: 10.1145/3485467.
 
 [7] M. Reitblatt, N. Foster, J. Rexford, C. Schlesinger, and D. Walker, “Abstractions for network update,” in *Proc. ACM SIGCOMM*, 2012, pp. 323–334, doi: 10.1145/2342356.2342427.
 
@@ -317,9 +317,9 @@ The analysis scripts, observation-controller sources, registration and screen re
 
 [20] ns-3 Project, “ns-3.44 model library and source release,” 2025. Accessed: Oct. 16, 2026. [Online]. Available: https://www.nsnam.org/releases/ns-3-44/
 
-[21] Texas Instruments, “CC2420 2.4 GHz IEEE 802.15.4 / ZigBee-ready RF Transceiver,” SWRS041C, 2013. [Online]. Available: https://www.ti.com/lit/ds/symlink/cc2420.pdf
+[21] Texas Instruments, “CC2420 2.4 GHz IEEE 802.15.4 / ZigBee-ready RF Transceiver,” SWRS041C, Mar. 2013. Accessed: Oct. 16, 2026. [Online]. Available: https://www.ti.com/lit/ds/symlink/cc2420.pdf
 
-[22] OpenAI, “Codex.” Accessed: Oct. 20, 2026. [Online]. Available: https://openai.com/codex
+[22] OpenAI, “Codex.” Accessed: Oct. 20, 2026. [Online]. Available: https://openai.com/codex/
 
 ## Biographies
 

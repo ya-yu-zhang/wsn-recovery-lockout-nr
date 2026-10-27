@@ -14,19 +14,19 @@ Shu-Chuan Chu^1,2^, Ya-Yu Zhang^1^, Chih-Cheng Chen^3^, Zhenyu Meng^4^, and Jeng
 
 ^5^Department of Information Management, Chaoyang University of Technology, Taichung 413310, Taiwan
 
-^6^Faculty of Electrical Engineering and Computer Science, VŠB—Technical University of Ostrava, 708 00 Ostrava, Czech Republic
+^6^Faculty of Electrical Engineering and Computer Science, VSB-Technical University of Ostrava, 708 00 Ostrava, Czech Republic
 
 Corresponding author: Jeng-Shyang Pan (e-mail: 100112@nuist.edu.cn).
 
 ## Abstract
 
-On a shared low-power wireless medium, minimizing control-traffic overhead is typically expected to enhance performance. However, this paper demonstrates a counterintuitive phenomenon in wireless sensor networks (WSNs): reducing control-byte overhead does not guarantee that evidence-qualified routing recovery remains functional, and it can induce a severe recovery lockout. We examine a WSN gateway controller that couples sparse source reporting, per-hop control-byte reservation, and positive received evidence to gate routing recovery. In a prospectively registered evaluation of forty matched cases spanning two network sizes, two workloads, and two shared input seeds, we compare the coupled mechanism (Full v2) with the original controller (Legacy). Full v2 reduces control-frame bytes by a mean of 35.27% at twenty nodes, but at ten nodes it lowers mean worst-source timely service by 10.78 percentage points. Three pre-specified observation repairs—extending routing-view lifetimes, introducing historical service cohorts, and implementing qualified transaction closures—all fail the frozen joint criteria. Guided by this negative result, an exploratory packet-level diagnosis of the most adverse cell traces the failure chain. The analysis disentangles byte-budget admission from channel-access failures and shows how a global confirmation contract can hold the recovery gate in an “unknown” state after a bounded installation wait ends, despite available candidate routes and identifiable historical deficits. The primary contribution is the isolation and verifiable documentation of this confirmation-contract lockout, supported by a public repository of analysis scripts and records that marks an empirical boundary for sparse-feedback WSN controller designs.
+On a shared low-power wireless medium, minimizing control-traffic overhead is typically expected to enhance performance. However, this paper demonstrates a counterintuitive phenomenon in wireless sensor networks: reducing control-byte overhead does not guarantee that evidence-qualified routing recovery remains functional, and it can induce a severe recovery lockout. We examine a wireless sensor network gateway controller that couples sparse source reporting, per-hop control-byte reservation, and positive received evidence to gate routing recovery. In a prospectively registered evaluation of forty matched cases spanning two network sizes, two workloads, and two shared input seeds, we compare the coupled mechanism (Full v2) with the original controller (Legacy). Full v2 reduces control-frame bytes by a mean of 35.27% at twenty nodes, but at ten nodes it lowers mean worst-source timely service by 10.78 percentage points. Three pre-specified observation repairs--extending routing-view lifetimes, introducing historical service cohorts, and implementing qualified transaction closures--all fail the frozen joint criteria. Guided by this negative result, we conduct an exploratory packet-level diagnosis of the worst cell traces to trace the failure chain. The analysis disentangles byte-budget admission from channel-access failures and shows how a global confirmation contract can hold the recovery gate in an "unknown" state after a bounded installation wait ends, despite available candidate routes and identifiable historical deficits. The primary contribution is isolating and verifiably documenting this confirmation-contract lockout, supported by a public repository of analysis scripts and records that marks an empirical boundary for sparse-feedback wireless sensor network controller designs.
 
-Keywords: control traffic; partial observation; reproducible simulation; routing recovery; service cohorts; wireless sensor networks
+Keywords: wireless sensor networks, routing recovery, control traffic, negative results, reproducible simulation, confirmation contract
 
 ## 1 Introduction
 
-Application packets, and the measurements by which their routes are managed, are carried by a wireless sensor network over the same medium. Capacity can be released when reports are suppressed. The same suppression can delay installation confirmation and can remove the observations by which recovery is authorized. When the reporting policy is changed, the information supplied to the controller is changed with it. The coupling matters once application data and multihop control messages contend for one finite request queue.
+Application packets, and the measurements by which their routes are managed, are carried by a wireless sensor network (WSN) over the same medium. Capacity can be released when reports are suppressed. The same suppression can delay installation confirmation and can remove the observations by which recovery is authorized. When the reporting policy is changed, the information supplied to the controller is changed with it. The coupling matters once application data and multihop control messages contend for one finite request queue.
 
 Ways of reducing communication are already available in adaptive dissemination and in traffic metering. Transmission intervals are adjusted by Trickle from local consistency [1]. Rate and burst allowances are expressed by token-based metering [2]. Feedback and shared-medium load are also related by reliable sensor-network transport [3]. A narrower question is raised by these mechanisms. When routing recovery depends on received evidence, is the service of the application that supplies that evidence preserved by a verified reduction in control DATA, meaning the bytes carried in medium-access-control data frames? Judging recoverability from control-byte savings, or from qualified snapshots alone, can mislead.
 
@@ -60,19 +60,21 @@ Transmission-interval overlap and suppression bottlenecks in low-power dissemina
 
 Persistent failures in a dense electronic shelf-labeling deployment were used to guide gateway changes [5]; that single-hop scheduled setting differs from the present multihop simulation, but shares the narrower point that a concrete failure should be located along the communication and management path before it is attributed to an optimizer. Event-triggered concurrent-transmission control [6] and network-update abstractions that separate desired from installed configurations [7] likewise motivate examining sparse reports and partial source versions. Per-packet consistency for distributed updates is not claimed, and a successful replacement policy is left unresolved.
 
-Collection-tree and IPv6 routing for low-power networks provide complementary baselines for multihop delivery under lossy links [8], [9]. Those stacks emphasize distributed path selection and trickle-style consistency; they do not examine a centralized confirmation contract that gates recovery on jointly confirmed installations after sparse reports. IEEE 802.15.4 remains the shared medium model used here [10]. Contiki/uIP-class stacks and early low-power OS designs similarly treat control and data on one radio path [11], [12]. Classical surveys of WSN routing and deployment constraints likewise emphasize energy and topology limits without analyzing confirmation-gated recovery after partial installation [13], [14]. Time-slotted and industrial low-power variants further reduce contention by scheduling [15]; the standardization path toward these low-power routing and scheduling stacks is reviewed in [16]. Scheduled access is outside the unscheduled FIFO contention model studied here. Software-defined sensor-network control likewise motivates separating desired from installed state, but does not isolate the present confirmation-contract lockout [17].
+Collection-tree and IPv6 routing for low-power networks provide complementary baselines for multihop delivery under lossy links [8], [9]. Those stacks emphasize distributed path selection and trickle-style consistency; they do not examine a centralized confirmation contract that gates recovery on jointly confirmed installations after sparse reports. IEEE 802.15.4 remains the shared medium model used here [10]. Contiki/uIP-class stacks and early low-power OS designs similarly treat control and data on one radio path [11], [12]. Classical surveys of WSN routing and deployment constraints likewise emphasize energy and topology limits without analyzing confirmation-gated recovery after partial installation [13], [14]. Time-slotted and industrial low-power variants further reduce contention by scheduling [15]; the standardization path toward these low-power routing and scheduling stacks is reviewed in [16]. Scheduled access is outside the unscheduled first-in, first-out (FIFO) contention model studied here. Software-defined sensor-network control likewise motivates separating desired from installed state, but does not isolate the present confirmation-contract lockout [17].
 
 Prior work from the authors' group has applied evolutionary search to WSN localization and fault detection [18], [19]. Those studies target optimization, deployment accuracy, or anomaly classification. The present negative-result study is complementary: it does not propose a superior optimizer. It documents how a sparse-feedback confirmation contract can freeze recovery after a partial installation, even when candidate routes and historical deficits are identifiable offline.
+
+Recent advanced controllers in WSNs have explored adaptive mechanisms that balance control overhead against topology reconfiguration or routing efficiency [20], [21], yet they typically assume continuous or regularly synchronized feedback rather than evidence-qualified recovery after a partial installation under sparse source reporting.
 
 ## 3 Network and observed evidence
 
 ### 3.1 Native model and workloads
 
-ns-3.44 is used [20]. Sources are nodes 0 and 1; the gateway remains node 9 at both sizes. Additional nodes are forwarding and reporting relays, so twenty-node layouts add candidate relays and reporting load without adding application flows. One fixed evaluation layout per size, from layout seed 2026101501, is used. Geometry controls and the pinned simulator revision are available in the public repository (Supplementary Notes S1; see Data Availability).
+ns-3.44 is used [22]. Sources are nodes 0 and 1; the gateway remains node 9 at both sizes. Additional nodes are forwarding and reporting relays, so twenty-node layouts add candidate relays and reporting load without adding application flows. One fixed evaluation layout per size, from layout seed 2026101501, is used. Geometry controls and the pinned simulator revision are available in the public repository (Supplementary Notes S1; see Data Availability).
 
 IEEE 802.15.4 carrier assessment, contention, acknowledgments, and up to two retries after an initial MAC attempt are modeled. Application packets and control requests share a FIFO of capacity sixteen. Positions remain fixed until a scheduled relay removal. The main fixed settings are listed in Table 1; channel and scaffold details are available in the public repository (Supplementary Notes S1; see Data Availability).
 
-Table 1. Fixed network and observation settings.
+Table 1. Fixed Network and Observation Settings.
 
 | Setting | Value |
 |---|---|
@@ -128,7 +130,7 @@ In Full v2, routing-view validity follows the sampled report period: sixteen sec
 
 Horizon applies sixteen-second validity to every paced source report and retains the eight-second rules for transmission-failure evidence and installation confirmation. Cohort additionally uses the latest two consecutive closed generation buckets actually received for both sources when recent denominators are incomplete, under the epoch, count, maturation, and age bounds in Table 1; historical buckets are never relabeled as unobserved current service. Closing may interrupt a pending feedback transaction when a qualified cohort that begins after that transaction establishes poor service. A reward is not created. An update is not created. Table 2 orders the treatments. Identical native reporting, budgets, wire formats, and path scores are used; closed-loop traces may still diverge.
 
-Table 2. Matched communication and observation treatments.
+Table 2. Matched Communication and Observation Treatments.
 
 | Treatment | Byte budget and pacing | Positive-evidence admission | Source routing view | Additional received cohort | Qualified transaction closure |
 |---|---|---|---|---|---|
@@ -162,7 +164,7 @@ Two bounded questions are answered by the evaluation. Does the combined communic
 
 Forty native cases are contained in the matrix: two sizes, two workloads, two input seeds, and five treatments. Eight matched size/workload/input cells are represented by those forty configurations, with two input seeds and one layout-generation seed. Forty independent repetitions are not constituted. The evaluation matrix is small and limited-scale, so paired values and descriptive means are reported. Population confidence intervals and significance tests are not. The limited replication would not be repaired if packets or controller ticks were pooled as independent samples.
 
-For each source, full-run service is unique packets delivered within 200 ms, divided by all generated packets during 330 s. The primary endpoint is the smaller of the two source rates. Bootstrap, waiting, failed recovery, and missing-feedback periods are included. Actual report and installation MAC DATA PSDU bytes, at every hop and attempt, are summed as the control cost. The physical layer (PHY) preamble and header are excluded. Acknowledgments, application DATA, and modeled radio energy are accounted separately; the radio current model and related constants are available in the public repository (Supplementary Notes S2; see Data Availability) [21].
+For each source, full-run service is unique packets delivered within 200 ms, divided by all generated packets during 330 s. The primary endpoint is the smaller of the two source rates. Bootstrap, waiting, failed recovery, and missing-feedback periods are included. Actual report and installation MAC DATA PSDU bytes, at every hop and attempt, are summed as the control cost. The physical layer (PHY) preamble and header are excluded. Acknowledgments, application DATA, and modeled radio energy are accounted separately; the radio current model and related constants are available in the public repository (Supplementary Notes S2; see Data Availability) [23].
 
 Each candidate was required, by the prospective evaluation, to maintain mean service within minus 0.5 percentage points of Legacy and to reduce mean control DATA by at least twenty percent at both sizes. An overall mean service increase of at least 0.5 points over Full v2 was also required. The selection order was Horizon, then Cohort, then Closing. Failure of all three ends this method-revision family. These are algorithmic screening criteria. They are not statistical noninferiority tests. The criteria were not relaxed after the outcomes had been observed. No independent confirmation was started for an unselected candidate.
 
@@ -184,7 +186,7 @@ Admission checks, including rejected requests, are counted by the existing audit
 
 Both sizes and all four candidates are kept in Table 3 and Fig. 1. At ten nodes the mean service changes are minus 10.78, minus 10.31, minus 9.52, and minus 8.83 points, all left of the frozen minus-0.5 line, while mean control-DATA reductions are 23.02, 22.80, 22.61, and 22.14 percent, just right of 20 percent. At twenty nodes the four treatments share one pair of full-run endpoints: plus 1.51 service points and a 35.27 percent DATA reduction. None of the three repairs passes the complete evaluation criteria.
 
-Table 3. Descriptive means over four matched workload–input cells per size.
+Table 3. Descriptive Means Over Four Matched Workload-Input Cells per Size.
 
 | Nodes | Treatment | Service vs. Legacy (pp) | Control DATA reduction vs. Legacy (%) | Service vs. Full v2 (pp) |
 |---|---|---:|---:|---:|
@@ -197,13 +199,13 @@ Table 3. Descriptive means over four matched workload–input cells per size.
 | 20 | Cohort | +1.51 | 35.27 | 0.00 |
 | 20 | Closing | +1.51 | 35.27 | 0.00 |
 
-The strongest single adverse cell is the ten-node removal workload with input seed 2026101511. Legacy worst-source service is 86.97 percent; Full v2 and every repair reach 59.29 percent, a 27.69-point loss unchanged by the repair sequence. Localized gains elsewhere—Cohort by 3.15 points over Full v2 on the second removal input, and Closing by 4.65 points on one overload input—raise some repair averages without meeting the joint criterion. Matched-cell markers and the removal-versus-overload split behind the ten-node DATA means are noted in the Fig. 1 caption; full paired values are available in the public repository (Supplementary Notes S5; see Data Availability).
+The strongest single adverse cell is the ten-node removal workload with input seed 2026101511. Legacy worst-source service is 86.97 percent; Full v2 and every repair reach 59.29 percent, a 27.69-point loss unchanged by the repair sequence. Localized gains elsewhere--Cohort by 3.15 points over Full v2 on the second removal input, and Closing by 4.65 points on one overload input--raise some repair averages without meeting the joint criterion. Matched-cell markers and the removal-versus-overload split behind the ten-node DATA means are noted in the Fig. 1 caption; full paired values are available in the public repository (Supplementary Notes S5; see Data Availability).
 
 ### 6.3 Historical evidence and recovery decisions
 
 Controller snapshots with a qualified service calculation, and post-bootstrap decisions admitted by the positive-evidence predicate, are counted in Table 4. At ten nodes, 75 qualified snapshots are recorded for Full v2 across four cases, against 172 for Legacy. The count is raised by Cohort and Closing to 173 and 175. At twenty nodes the count is raised from 72 under Full v2 to 240 under either cohort-based variant. Availability of the specified historical calculation is shown by the larger counts. Accuracy about unobserved current service is not.
 
-Table 4. Qualified service snapshots and gated decisions (four cases per size).
+Table 4. Qualified Service Snapshots and Gated Decisions (Four Cases per Size).
 
 | Nodes | Treatment | Qualified service snapshots | Post-bootstrap gated decisions |
 |---|---|---:|---:|
@@ -224,15 +226,15 @@ Mean modeled total radio energy is slightly greater than Legacy for each budget-
 
 ### 6.4 Partial installation and recovery eligibility
 
-The largest loss is localized by the selected adverse cell. After relay 6 is removed at 225 s, source 0 under Full v2 generates 1166 version-2 packets on route 0–8–6–9, and none arrives on time. Legacy had already installed route 0–4–5–9 at approximately 215 s and delivers 1071 of the same 1166 packets on time; its advantage is therefore not faster detection and recovery after that removal.
+The largest loss is localized by the selected adverse cell. After relay 6 is removed at 225 s, source 0 under Full v2 generates 1166 version-2 packets on route 0-8-6-9, and none arrives on time. Legacy had already installed route 0-4-5-9 at approximately 215 s and delivers 1071 of the same 1166 packets on time; its advantage is therefore not faster detection and recovery after that removal.
 
-An updated route pair is issued at 235 s and retried at 240 s. Both source-0 requests pass byte-credit admission, yet their gateway MAC jobs end with CHANNEL_ACCESS_FAILURE (status 225) and zero DATA attempts [20]. Source 1 installs version 3 at approximately 240.036 s. At 245 s the transaction closes as abandoned and unconfirmed while source 0 still reports version 2. Insufficient byte credit does not explain those source-0 failures.
+An updated route pair is issued at 235 s and retried at 240 s. Both source-0 requests pass byte-credit admission, yet their gateway MAC jobs end with CHANNEL_ACCESS_FAILURE (status 225) and zero DATA attempts [22]. Source 1 installs version 3 at approximately 240.036 s. At 245 s the transaction closes as abandoned and unconfirmed while source 0 still reports version 2. Insufficient byte credit does not explain those source-0 failures.
 
 From 245 through 315 s, fifteen decision checks by each of Horizon, Cohort, and Closing find candidate routes available, but the service predicate returns installation_unconfirmed and no eligible source-local MAC-failure report is present, so recovery remains rejected after waiting has ended. Full v2 likewise rejects all fifteen checks, five with installation unconfirmed and ten with missing-source service, and finds candidate routes at only five of them. Fig. 2 summarizes this confirmation-contract lockout. Release could still follow a later eligible failure report, or a later confirmation.
 
 A received-only audit separates that eligibility block from an absence of useful counts. At 265 s, received versions 2 and 3 with buckets 50 and 51 yield offered counts [36, 60] and timely counts [0, 59] under valid epoch certificates. Eleven of the fifteen post-exit checks support such a historical deficit; every reconstructed count matches native generation and delivery records. These eleven checks are repeated historical observations, not independent replications. The audit executes no route change, so no repaired-policy service benefit is estimated. Interval-wise source contributions and the worst-source identity correction are available in the public repository (Supplementary Notes S4; see Data Availability).
 
-![Fig. 2 Confirmation-contract lockout in the selected ten-node adverse cell. (a) Schematic topology after relay 6 is removed at 225 s (not physical coordinates): source 0 remains on broken route 0–8–6–9 (v2), while source 1 holds intact route 1–4–5–9 (v3) toward gateway 9. (b) Timeline: admitted yet channel-failed installation attempts at 235–240 s, unconfirmed exit at 245 s, and a 245–315 s lockout with fifteen blocked checks—candidates available at 15/15 checks under Horizon/Cohort/Closing but only 5/15 under Full v2. The dashed 265 s window is an offline received-only audit (offered [36, 60], timely [0, 59]; deficit at 11/15) with no executed recovery.](figures/Fig2.png)
+![Fig. 2 Confirmation-contract lockout in the selected ten-node adverse cell. (a) Schematic topology after relay 6 is removed at 225 s (not physical coordinates): source 0 remains on broken route 0-8-6-9 (v2), while source 1 holds intact route 1-4-5-9 (v3) toward gateway 9. (b) Timeline: admitted yet channel-failed installation attempts at 235-240 s, unconfirmed exit at 245 s, and a 245-315 s lockout with fifteen blocked checks--candidates available at 15/15 checks under Horizon/Cohort/Closing but only 5/15 under Full v2. The dashed 265 s window is an offline received-only audit (offered [36, 60], timely [0, 59]; deficit at 11/15) with no executed recovery.](figures/Fig2.png)
 
 ## 7 Discussion
 
@@ -252,12 +254,12 @@ The design implication follows from the conditional argument in Section 4.5. An 
 
 ## 8 Conclusion
 
-Using a deterministic simulation matrix of forty evaluation cases, this paper has isolated and analyzed a recovery lockout in a wireless sensor network controller operated under reduced control overhead. The implemented control-DATA reservation bounds the audited control traffic and reduces mean control-DATA bytes by 22.14–23.02% at ten nodes and by 35.27% at twenty nodes across the four budget-enabled treatments, yet none of the three prospectively registered observation repairs satisfies the frozen joint screening criteria. In the most adverse cell, the exploratory diagnosis and the conditional analysis trace the failure to the Sparse-Feedback Paradox as it arises in this implementation: reduced reporting leaves the centralized controller without the positive evidence it needs to authorize an alternative route configuration.
+Using a deterministic simulation matrix of forty evaluation cases, this paper has isolated and analyzed a recovery lockout in a wireless sensor network controller operated under reduced control overhead. The implemented control-DATA reservation bounds the audited control traffic and reduces mean control-DATA bytes by 22.14-23.02% at ten nodes and by 35.27% at twenty nodes across the four budget-enabled treatments, yet none of the three prospectively registered observation repairs satisfies the frozen joint screening criteria. In the most adverse cell, the exploratory diagnosis and the conditional analysis trace the failure to the Sparse-Feedback Paradox as it arises in this implementation: reduced reporting leaves the centralized controller without the positive evidence it needs to authorize an alternative route configuration.
 
 Proposition 1 shows that, while the latest joint transaction is unconfirmed and no source presents an eligible failure report, the implemented global confirmation contract keeps the recovery gate closed after the bounded installation wait ends, so observation repairs that do not change those premises cannot reopen it. The recorded trajectory stays in that state for all fifteen post-exit checks; release through a later confirmation or an eligible failure report is not excluded. The offline received-only audit identifies a historical deficit at eleven of those fifteen checks using only received records, but the implemented policy cannot act on it. This negative result does not imply that sparse-reporting designs fail in general. It marks a verifiable boundary for this controller and indicates that sparse-feedback WSN controllers need an explicit post-exit interpretation of partially installed source states that reconciles observed and desired configurations.
 ## Acknowledgment
 
-OpenAI Codex [22] was used only for language polishing of the manuscript text. The authors reviewed all polished text and accept full responsibility for the content of the paper.
+OpenAI Codex [24] was used only for language polishing of the manuscript text. The authors reviewed all polished text and accept full responsibility for the content of the paper.
 
 ## Funding
 
@@ -281,49 +283,54 @@ The analysis scripts, observation-controller sources, registration and screen re
 
 [2] J. Heinanen and R. Guerin, “A Single Rate Three Color Marker,” RFC 2697, Sep. 1999, doi: 10.17487/RFC2697.
 
-[3] J. Paek and R. Govindan, “RCRT: Rate-controlled reliable transport for wireless sensor networks,” in *Proc. ACM SenSys*, 2007, pp. 305–319, doi: 10.1145/1322263.1322293.
+[3] J. Paek and R. Govindan, “RCRT: Rate-controlled reliable transport for wireless sensor networks,” in *Proc. ACM SenSys*, 2007, pp. 305-319, doi: 10.1145/1322263.1322293.
 
-[4] G. Jeong, M. Park, and J. Paek, “A²-Trickle: Adaptive & Aligned Trickle for Rapid and Reliable Dissemination in Low-Power Wireless Networks,” *IEEE Access*, vol. 8, pp. 214374–214382, 2020, doi: 10.1109/ACCESS.2020.3040160.
+[4] G. Jeong, M. Park, and J. Paek, “A²-Trickle: Adaptive & Aligned Trickle for Rapid and Reliable Dissemination in Low-Power Wireless Networks,” *IEEE Access*, vol. 8, pp. 214374-214382, 2020, doi: 10.1109/ACCESS.2020.3040160.
 
-[5] J. Ock, H. Kim, H.-S. Kim, J. Paek, and S. Bahk, “Low-Power Wireless With Denseness: The Case of an Electronic Shelf Labeling System—Design and Experience,” *IEEE Access*, vol. 7, pp. 163887–163897, 2019, doi: 10.1109/ACCESS.2019.2950886.
+[5] J. Ock, H. Kim, H.-S. Kim, J. Paek, and S. Bahk, “Low-Power Wireless With Denseness: The Case of an Electronic Shelf Labeling System--Design and Experience,” *IEEE Access*, vol. 7, pp. 163887-163897, 2019, doi: 10.1109/ACCESS.2019.2950886.
 
 [6] M. Trobinger, G. de Albuquerque Gleizer, T. Istomin, M. Mazo Jr., A. L. Murphy, and G. P. Picco, “The Wireless Control Bus: Enabling Efficient Multi-Hop Event-Triggered Control with Concurrent Transmissions,” *ACM Trans. Cyber-Phys. Syst.*, vol. 6, no. 1, Art. no. 4, Nov. 2021, doi: 10.1145/3485467.
 
-[7] M. Reitblatt, N. Foster, J. Rexford, C. Schlesinger, and D. Walker, “Abstractions for network update,” in *Proc. ACM SIGCOMM*, 2012, pp. 323–334, doi: 10.1145/2342356.2342427.
+[7] M. Reitblatt, N. Foster, J. Rexford, C. Schlesinger, and D. Walker, “Abstractions for network update,” in *Proc. ACM SIGCOMM*, 2012, pp. 323-334, doi: 10.1145/2342356.2342427.
 
 [8] T. Winter, Ed., P. Thubert, Ed., A. Brandt, J. Hui, R. Kelsey, P. Levis, K. Pister, R. Struik, J. P. Vasseur, and R. Alexander, “RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks,” RFC 6550, Mar. 2012, doi: 10.17487/RFC6550.
 
-[9] O. Gnawali, R. Fonseca, K. Jamieson, D. Moss, and P. Levis, “Collection Tree Protocol,” in *Proc. ACM SenSys*, 2009, pp. 1–14, doi: 10.1145/1644038.1644040.
+[9] O. Gnawali, R. Fonseca, K. Jamieson, D. Moss, and P. Levis, “Collection Tree Protocol,” in *Proc. ACM SenSys*, 2009, pp. 1-14, doi: 10.1145/1644038.1644040.
 
 [10] IEEE Standard for Low-Rate Wireless Networks, IEEE Std 802.15.4-2020, 2020, doi: 10.1109/IEEESTD.2020.9144691.
 
-[11] A. Dunkels, B. Grönvall, and T. Voigt, “Contiki—a lightweight and flexible operating system for tiny networked sensors,” in *Proc. IEEE LCN*, 2004, pp. 455–462, doi: 10.1109/LCN.2004.38.
+[11] A. Dunkels, B. Grönvall, and T. Voigt, “Contiki--a lightweight and flexible operating system for tiny networked sensors,” in *Proc. IEEE LCN*, 2004, pp. 455-462, doi: 10.1109/LCN.2004.38.
 
-[12] J. Hill, R. Szewczyk, A. Woo, S. Hollar, D. Culler, and K. Pister, “System architecture directions for networked sensors,” in *Proc. ASPLOS*, 2000, pp. 93–104, doi: 10.1145/378993.379006.
+[12] J. Hill, R. Szewczyk, A. Woo, S. Hollar, D. Culler, and K. Pister, “System architecture directions for networked sensors,” in *Proc. ASPLOS*, 2000, pp. 93-104, doi: 10.1145/378993.379006.
 
-[13] J. N. Al-Karaki and A. E. Kamal, “Routing techniques in wireless sensor networks: a survey,” *IEEE Wireless Commun.*, vol. 11, no. 6, pp. 6–28, Dec. 2004, doi: 10.1109/MWC.2004.1368893.
+[13] J. N. Al-Karaki and A. E. Kamal, “Routing techniques in wireless sensor networks: a survey,” *IEEE Wireless Commun.*, vol. 11, no. 6, pp. 6-28, Dec. 2004, doi: 10.1109/MWC.2004.1368893.
 
-[14] J. Yick, B. Mukherjee, and D. Ghosal, “Wireless sensor network survey,” *Comput. Netw.*, vol. 52, no. 12, pp. 2292–2330, 2008, doi: 10.1016/j.comnet.2008.04.002.
+[14] J. Yick, B. Mukherjee, and D. Ghosal, “Wireless sensor network survey,” *Comput. Netw.*, vol. 52, no. 12, pp. 2292-2330, 2008, doi: 10.1016/j.comnet.2008.04.002.
 
-[15] D. Dujovne, T. Watteyne, X. Vilajosana, and P. Thubert, “6TiSCH: deterministic IP-enabled industrial internet (of things),” *IEEE Commun. Mag.*, vol. 52, no. 12, pp. 36–41, Dec. 2014, doi: 10.1109/MCOM.2014.6979984.
+[15] D. Dujovne, T. Watteyne, X. Vilajosana, and P. Thubert, “6TiSCH: deterministic IP-enabled industrial internet (of things),” *IEEE Commun. Mag.*, vol. 52, no. 12, pp. 36-41, Dec. 2014, doi: 10.1109/MCOM.2014.6979984.
 
-[16] T. Watteyne, A. Molinaro, M. G. Richichi, and M. Dohler, “From MANET to IETF ROLL standardization: A paradigm shift in WSN routing protocols,” *IEEE Commun. Surveys Tuts.*, vol. 13, no. 4, pp. 688–707, 2011, doi: 10.1109/SURV.2011.082710.00092.
+[16] T. Watteyne, A. Molinaro, M. G. Richichi, and M. Dohler, “From MANET to IETF ROLL standardization: A paradigm shift in WSN routing protocols,” *IEEE Commun. Surveys Tuts.*, vol. 13, no. 4, pp. 688-707, 2011, doi: 10.1109/SURV.2011.082710.00092.
 
-[17] L. Galluccio, S. Milardo, G. Morabito, and S. Palazzo, “SDN-WISE: Design, prototyping and experimentation of a stateful SDN solution for WIreless SEnsor networks,” in *Proc. IEEE INFOCOM*, 2015, pp. 513–521, doi: 10.1109/INFOCOM.2015.7218418.
+[17] L. Galluccio, S. Milardo, G. Morabito, and S. Palazzo, “SDN-WISE: Design, prototyping and experimentation of a stateful SDN solution for WIreless SEnsor networks,” in *Proc. IEEE INFOCOM*, 2015, pp. 513-521, doi: 10.1109/INFOCOM.2015.7218418.
 
-[18] Z.-G. Du, J.-S. Pan, S.-C. Chu, H.-J. Luo, and P. Hu, “Quasi-Affine Transformation Evolutionary Algorithm With Communication Schemes for Application of RSSI in Wireless Sensor Networks,” *IEEE Access*, vol. 8, pp. 8583–8594, 2020, doi: 10.1109/ACCESS.2020.2964783.
+[18] Z.-G. Du, J.-S. Pan, S.-C. Chu, H.-J. Luo, and P. Hu, “Quasi-Affine Transformation Evolutionary Algorithm With Communication Schemes for Application of RSSI in Wireless Sensor Networks,” *IEEE Access*, vol. 8, pp. 8583-8594, 2020, doi: 10.1109/ACCESS.2020.2964783.
 
 [19] J.-S. Pan, R.-Y. Wang, S.-C. Chu, K.-K. Tseng, and F. Fan, “A Quasi-Affine Transformation Evolutionary Algorithm Enhanced by Hybrid Taguchi Strategy and Its Application in Fault Detection of Wireless Sensor Network,” *Symmetry*, vol. 15, no. 4, Art. no. 795, 2023, doi: 10.3390/sym15040795.
 
-[20] ns-3 Project, “ns-3.44 model library and source release,” 2025. Accessed: Oct. 16, 2026. [Online]. Available: https://www.nsnam.org/releases/ns-3-44/
+[20] T.-M. Hoang, T.-L. Tran, P. Nagaradjane, I. Ioannou, T.-T. Phan, H.-L. Tran, and A.-T. Pham, "Control Signaling Constrained Topology Reconfiguration for Clustered Wireless Sensor Networks," *IEEE Access*, vol. 14, pp. 117182-117192, 2026, doi: 10.1109/ACCESS.2026.3717923.
 
-[21] Texas Instruments, “CC2420 2.4 GHz IEEE 802.15.4 / ZigBee-ready RF Transceiver,” SWRS041C, Mar. 2013. Accessed: Oct. 16, 2026. [Online]. Available: https://www.ti.com/lit/ds/symlink/cc2420.pdf
+[21] J. Yang, W. Li, C. Li, L. Zhang, and L. Liu, "An Energy-Efficient and Transmission-Efficient Adaptive Routing Algorithm Using Deep Reinforcement Learning for Wireless Sensor Networks," *IEEE Internet Things J.*, vol. 12, no. 23, pp. 50414-50426, Dec. 2025, doi: 10.1109/JIOT.2025.3609624.
 
-[22] OpenAI, “Codex.” Accessed: Oct. 20, 2026. [Online]. Available: https://openai.com/codex/
+[22] ns-3 Project, “ns-3.44 model library and source release,” 2025. Accessed: Oct. 16, 2026. [Online]. Available: https://www.nsnam.org/releases/ns-3-44/
+
+[23] Texas Instruments, “CC2420 2.4 GHz IEEE 802.15.4 / ZigBee-ready RF Transceiver,” SWRS041C, Mar. 2013. Accessed: Oct. 16, 2026. [Online]. Available: https://www.ti.com/lit/ds/symlink/cc2420.pdf
+
+[24] OpenAI, “Codex.” Accessed: Oct. 20, 2026. [Online]. Available: https://openai.com/codex/
 
 ## Biographies
 
-**Shu-Chuan Chu** received the Ph.D. degree in 2004 from the School of Computer Science, Engineering, and Mathematics, Flinders University of South Australia. She joined Flinders University in December 2009 after nine years at Cheng Shiu University, Taiwan. She has been a Research Fellow and Associate Professor in the College of Science and Engineering, Flinders University, Australia, since December 2009. From September 1, 2019, to August 31, 2024, she was Professor and Doctoral Supervisor in the School of Computer Science and Engineering, Shandong University of Science and Technology. Since September 1, 2024, she has been Professor and Doctoral Supervisor in the School of Artificial Intelligence/School of Future Technology, Nanjing University of Information Science and Technology. Her research interests include swarm intelligence, intelligent computing, and wireless sensor networks.
+**Shu-Chuan Chu** received the B.S. degree from National Taiwan University of Science and Technology, Taipei, Taiwan, in 1988, and the Ph.D. degree from the School of Computer Science, Engineering, and Mathematics, Flinders University, Adelaide, South Australia, in 2004.
+She spent nine years at Cheng Shiu University, Kaohsiung, Taiwan, before joining Flinders University, Australia, in Dec. 2009, where she served as a Research Fellow and Associate Professor in the College of Science and Engineering. From Sept. 2019 to Aug. 2024, she was a Professor and Doctoral Supervisor with the School of Computer Science and Engineering, Shandong University of Science and Technology, Qingdao, China. Since Sept. 2024, she has been a Professor and Doctoral Supervisor with the School of Artificial Intelligence/School of Future Technology, Nanjing University of Information Science and Technology, Nanjing, China. Her research interests include swarm intelligence, evolutionary computation, and wireless sensor networks.
 
 **Ya-Yu Zhang** has been a master's student in the School of Computer Science, Nanjing University of Information Science and Technology, Nanjing, China, since September 2024. Biography to be completed by the author.
 
@@ -331,4 +338,4 @@ The analysis scripts, observation-controller sources, registration and screen re
 
 **Zhenyu Meng** is with the School of Computer Science and Software, Zhaoqing University, Zhaoqing 526061, China. Biography to be completed by the author.
 
-**Jeng-Shyang Pan** was affiliated with the Department of Electrical Engineering, University of Edinburgh, from October 1993 to June 1996. He is currently with Nanjing University of Information Science and Technology, Chaoyang University of Technology, and VŠB—Technical University of Ostrava. His research interests include computational intelligence, information hiding, image signal processing, and wireless sensor networks. Biography to be completed by the author.
+**Jeng-Shyang Pan** (Senior Member, IEEE) received the B.S. degree in electronic engineering from the National Taiwan University of Science and Technology, Taipei, Taiwan, in 1986, the M.S. degree in communication engineering from National Chiao Tung University, Hsinchu, Taiwan, in 1988, and the Ph.D. degree in electrical engineering from the University of Edinburgh, Edinburgh, U.K., in 1996. Prof. Pan is an IET Fellow. He has served as Vice Chair of the IEEE Tainan Section and Chair of the Tainan Chapter of the IEEE Signal Processing Society. He is currently a Professor at the Faculty of Electrical Engineering and Computer Science, VSB-Technical University of Ostrava, Czech Republic, and also serves as a Professor at the Department of Information Management, Chaoyang University, Taichung, Taiwan. His current research interests include artificial intelligence, wireless sensor networks, and computational intelligence.

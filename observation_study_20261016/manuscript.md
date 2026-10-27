@@ -72,7 +72,7 @@ Recent advanced controllers in WSNs have explored adaptive mechanisms that balan
 
 ns-3.44 is used [22]. Sources are nodes 0 and 1; the gateway remains node 9 at both sizes. Additional nodes are forwarding and reporting relays, so twenty-node layouts add candidate relays and reporting load without adding application flows. One fixed evaluation layout per size, from layout seed 2026101501, is used. Geometry controls and the pinned simulator revision are available in the public repository (Supplementary Notes S1; see Data Availability).
 
-IEEE 802.15.4 carrier assessment, contention, acknowledgments, and up to two retries after an initial MAC attempt are modeled. Application packets and control requests share a FIFO of capacity sixteen. Positions remain fixed until a scheduled relay removal. The main fixed settings are listed in Table 1; channel and scaffold details are available in the public repository (Supplementary Notes S1; see Data Availability).
+IEEE 802.15.4 carrier assessment, contention, acknowledgments, and up to two retries after an initial MAC attempt are modeled. Application packets and control requests share a FIFO of capacity sixteen. Positions remain fixed until a scheduled relay removal. The main fixed settings are listed in Table I; channel and scaffold details are available in the public repository (Supplementary Notes S1; see Data Availability).
 
 Table 1. Fixed Network and Observation Settings.
 
@@ -128,7 +128,7 @@ After bootstrap, a known service cohort with worst-source timely delivery below 
 
 In Full v2, routing-view validity follows the sampled report period: sixteen seconds after a fifteen-second advertisement, and eight after a five-second one. Because a source may lengthen its period at the next poll without transmitting a schedule change, the gateway can expire a view while an allowed schedule is still followed. An expanded routing view remains an old observation. It is not proof of current health.
 
-Horizon applies sixteen-second validity to every paced source report and retains the eight-second rules for transmission-failure evidence and installation confirmation. Cohort additionally uses the latest two consecutive closed generation buckets actually received for both sources when recent denominators are incomplete, under the epoch, count, maturation, and age bounds in Table 1; historical buckets are never relabeled as unobserved current service. Closing may interrupt a pending feedback transaction when a qualified cohort that begins after that transaction establishes poor service. A reward is not created. An update is not created. Table 2 orders the treatments. Identical native reporting, budgets, wire formats, and path scores are used; closed-loop traces may still diverge.
+Horizon applies sixteen-second validity to every paced source report and retains the eight-second rules for transmission-failure evidence and installation confirmation. Cohort additionally uses the latest two consecutive closed generation buckets actually received for both sources when recent denominators are incomplete, under the epoch, count, maturation, and age bounds in Table I; historical buckets are never relabeled as unobserved current service. Closing may interrupt a pending feedback transaction when a qualified cohort that begins after that transaction establishes poor service. A reward is not created. An update is not created. Table II orders the treatments. Identical native reporting, budgets, wire formats, and path scores are used; closed-loop traces may still diverge.
 
 Table 2. Matched Communication and Observation Treatments.
 
@@ -184,7 +184,7 @@ Admission checks, including rejected requests, are counted by the existing audit
 
 ### 6.2 Joint service and communication outcome
 
-Both sizes and all four candidates are kept in Table 3 and Fig. 1. At ten nodes the mean service changes are minus 10.78, minus 10.31, minus 9.52, and minus 8.83 points, all left of the frozen minus-0.5 line, while mean control-DATA reductions are 23.02, 22.80, 22.61, and 22.14 percent, just right of 20 percent. At twenty nodes the four treatments share one pair of full-run endpoints: plus 1.51 service points and a 35.27 percent DATA reduction. None of the three repairs passes the complete evaluation criteria.
+Both sizes and all four candidates are kept in Table III and Fig. 1. At ten nodes the mean service changes are minus 10.78, minus 10.31, minus 9.52, and minus 8.83 points, all left of the frozen minus-0.5 line, while mean control-DATA reductions are 23.02, 22.80, 22.61, and 22.14 percent, just right of 20 percent. At twenty nodes the four treatments share one pair of full-run endpoints: plus 1.51 service points and a 35.27 percent DATA reduction. None of the three repairs passes the complete evaluation criteria.
 
 Table 3. Descriptive Means Over Four Matched Workload-Input Cells per Size.
 
@@ -203,7 +203,7 @@ The strongest single adverse cell is the ten-node removal workload with input se
 
 ### 6.3 Historical evidence and recovery decisions
 
-Controller snapshots with a qualified service calculation, and post-bootstrap decisions admitted by the positive-evidence predicate, are counted in Table 4. At ten nodes, 75 qualified snapshots are recorded for Full v2 across four cases, against 172 for Legacy. The count is raised by Cohort and Closing to 173 and 175. At twenty nodes the count is raised from 72 under Full v2 to 240 under either cohort-based variant. Availability of the specified historical calculation is shown by the larger counts. Accuracy about unobserved current service is not.
+Controller snapshots with a qualified service calculation, and post-bootstrap decisions admitted by the positive-evidence predicate, are counted in Table IV. At ten nodes, 75 qualified snapshots are recorded for Full v2 across four cases, against 172 for Legacy. The count is raised by Cohort and Closing to 173 and 175. At twenty nodes the count is raised from 72 under Full v2 to 240 under either cohort-based variant. Availability of the specified historical calculation is shown by the larger counts. Accuracy about unobserved current service is not.
 
 Table 4. Qualified Service Snapshots and Gated Decisions (Four Cases per Size).
 

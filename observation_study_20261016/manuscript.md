@@ -48,7 +48,7 @@ This paper does not present a new performance optimizer. It documents an empiric
 
 2. **Confirmation-contract lockout.** We state the implemented recovery-admission rule as a conditional proposition (Proposition 1): while the latest joint installation transaction is unconfirmed and no source presents an eligible failure report, observation repairs that leave these two premises unchanged cannot authorize recovery.
 
-3. **Recheckable negative-result record.** We release the forty-case evaluation matrix, together with analysis scripts, registration records, numerical summaries, and figures, in a public repository. The native packet-level archive (about 676 MB) and the pinned simulation driver remain available from the corresponding author upon reasonable request (see Data Availability). The traced confirmation-contract failure chain gives later controller designs a concrete case against which repairs can be rechecked.
+3. **Recheckable negative-result record.** We release the forty-case evaluation matrix in a public repository, together with analysis scripts, registration records, numerical summaries, figures, and the simulation driver and controller sources. The native packet-level archive (about 676 MB) and the built, pinned ns-3.44 execution environment remain available from the corresponding author upon reasonable request (see Data Availability). The traced confirmation-contract failure chain gives later controller designs a concrete case against which repairs can be rechecked.
 
 ## 2 Related work
 
@@ -275,7 +275,7 @@ The authors declare that they have no conflicts of interest.
 
 ## Data availability
 
-The analysis scripts, observation-controller sources, registration and screen records for the forty cases, numerical summaries, and figures supporting the findings are publicly available at https://github.com/ya-yu-zhang/wsn-recovery-lockout-nr. Running the included analysis script on these records reproduces the reported screen decisions and Tables III and IV; the included figure script redraws Figs. 1 and 2 from the committed summaries. The two packet-level diagnosis scripts are included for inspection, but they require the native archive. The native packet-level archive (about 676 MB), from which the reported counts were taken, and the pinned simulation driver are available from the corresponding author upon reasonable request; the archive is identified by SHA256 fdf083436532c88613103363ea548f243cae0b5b525ab1cbc656ffa7d865674d.
+The analysis scripts, observation-controller sources, simulation driver and controller sources (including the ns-3 closed-loop driver), registration and screen records for the forty cases, numerical summaries, figures, and repair protocols supporting the findings are publicly available at https://github.com/ya-yu-zhang/wsn-recovery-lockout-nr. Running the included analysis script on these records reproduces the reported screen decisions and Tables III and IV; the included figure script redraws Figs. 1 and 2 from the committed summaries. The two packet-level diagnosis scripts are included for inspection, but they require the native archive. Re-running the forty simulations additionally requires the built, pinned ns-3.44 execution environment. The native packet-level archive (about 676 MB), from which the reported counts were taken, and that built execution environment are available from the corresponding author upon reasonable request; the archive is identified by SHA256 fdf083436532c88613103363ea548f243cae0b5b525ab1cbc656ffa7d865674d.
 
 ## References
 

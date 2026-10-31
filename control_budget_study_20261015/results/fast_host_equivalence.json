@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "case": "f95c3b621162a8181a35",
+      "nodes": 10,
+      "radio_intervals": 751157,
+      "bitwise_equal_per_node": true,
+      "old_seconds": 13.10692797899992,
+      "new_seconds": 2.3024786249998215,
+      "hex_values": [
+        "0x1.3aca07f54c416p+4",
+        "0x1.3acb02cfa61d3p+4",
+        "0x1.0150847321633p+2",
+        "0x1.0cff2b7516284p+3",
+        "0x1.3ab51cabbcab5p+4",
+        "0x1.3ab8d84ecacacp+4",
+        "0x1.9ad25d54c4f69p+3",
+        "0x1.3ba9987a505dep+4",
+        "0x1.3a942d9dd25cfp+4",
+        "0x1.3ba0143ead49cp+4"
+      ]
+    },
+    {
+      "case": "706eaaa0ac1d1f962130",
+      "nodes": 10,
+      "radio_intervals": 745044,
+      "bitwise_equal_per_node": true,
+      "old_seconds": 11.817708291000145,
+      "new_seconds": 2.3250979350000307,
+      "hex_values": [
+        "0x1.3ad2a4c94f5acp+4",
+        "0x1.3acc8d6947996p+4",
+        "0x1.00fffb283b5f2p+2",
+        "0x1.0d3cfaa3ed1f4p+3",
+        "0x1.3a71c593fdc7dp+4",
+        "0x1.3a7657491c782p+4",
+        "0x1.9aeb64caa0940p+3",
+        "0x1.3bb477d1636a3p+4",
+        "0x1.3b2823b46f826p+4",
+        "0x1.3b9da7e087bafp+4"
+      ]
+    },
+    {
+      "case": "fcf4c5bb2dc41a0d71f8",
+      "nodes": 20,
+      "radio_intervals": 1165479,
+      "bitwise_equal_per_node": true,
+      "old_seconds": 39.9745482379999,
+      "new_seconds": 3.4982964869996067,
+      "hex_values": [
+        "0x1.3ad986ad08110p+4",
+        "0x1.3ad288bdd7b7bp+4",
+        "0x1.01cc6a684b55dp+2",
+        "0x1.0e02852eb66b9p+3",
+        "0x1.3bb1630a5c232p+4",
+        "0x1.3baecc88f92cdp+4",
+        "0x1.9b2e9d0559e06p+3",
+        "0x1.3bd4c2d4d4d45p+4",
+        "0x1.3bd5568649975p+4",
+        "0x1.3b93786a74fa8p+4",
+        "0x1.39c9dcf100712p+4",
+        "0x1.3bd51f23bdce3p+4",
+        "0x1.3bd5568649975p+4",
+        "0x1.3bd5568649975p+4",
+        "0x1.3bd568fc782fbp+4",
+        "0x1.3bd5568649975p+4",
+        "0x1.3bd5a05f03f8cp+4",
+        "0x1.3bd53199ec669p+4",
+        "0x1.3bd5568649975p+4",
+        "0x1.3bd5568649975p+4"
+      ]
+    }
+  ],
+  "scope": "post-simulation host energy aggregation only; same contribution order within each node",
+  "prepared_module_sha256": "0a2083c8d6c7cc577147617ac350d61c8e94cd2303a1d31f93a6c59c58eaaa9d",
+  "runtime_LLM_calls": 0
+}

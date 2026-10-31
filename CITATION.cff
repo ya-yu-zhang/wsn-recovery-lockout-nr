@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below. Once the manuscript is published, please prefer citing the paper."
+type: software
+title: "Discovery and Analysis of Recovery Lockout in Sparse-Feedback Wireless Sensor Networks: A Negative Result Study on Observation Repairs (public materials)"
+authors:
+  - family-names: Chu
+    given-names: Shu-Chuan
+  - family-names: Zhang
+    given-names: Ya-Yu
+  - family-names: Chen
+    given-names: Chih-Cheng
+  - family-names: Meng
+    given-names: Zhenyu
+  - family-names: Pan
+    given-names: Jeng-Shyang
+    email: 100112@nuist.edu.cn
+version: v1.0-submission
+date-released: 2026-10-31
+year: 2026
+url: "https://github.com/ya-yu-zhang/wsn-recovery-lockout-nr"
+repository-code: "https://github.com/ya-yu-zhang/wsn-recovery-lockout-nr"
+license: MIT
+keywords:
+  - wireless sensor networks
+  - routing recovery
+  - negative result
+  - reproducibility
+  - ns-3

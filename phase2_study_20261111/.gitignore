@@ -1,6 +1,6 @@
+# Development leftovers only. Hash-locked scientific artefacts
+# (doe/design.json, the pinned trace-driver binary, and FlockLab
+# failed-attempt logs) are tracked in this public tree.
 __pycache__/
-vendor/
-flocklab/wsn-closed-loop-trace
-doe/design.json
-flocklab/results_full/runs_attempt*.json
 doe/__pycache__/
+vendor/

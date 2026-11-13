@@ -10,9 +10,7 @@ Canonical repository: https://github.com/ya-yu-zhang/wsn-recovery-lockout-nr
 
 Correspondence: jspan@ieee.org
 
-This package is intended to live in this dated subdirectory of the public
-repository. **It has not been pushed until the repository commit actually
-contains it.**
+This package lives in this dated subdirectory of the public repository.
 
 ## What this is (and is not)
 

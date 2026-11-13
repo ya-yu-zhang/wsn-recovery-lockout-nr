@@ -227,7 +227,7 @@ REQ=[('M1 post hoc 2b','designed after the Mode-F probe failure'),('M1 in-sample
      ('R2 26/48 scope (reverify)','Their ns-3 outcomes (which contribute to the frozen Joint count of 26/48) were known'),
      ('opt1 abstract prevalence qualifier','(controlled recipe, not a prevalence estimate)'),
      ('opt3 Repository Notes','Repository Notes R1--R6'),
-     ('opt5 declaration tool name from v0 original (t160u: Grok Bot, simpat_v0 l.490 / cb00e86)','and Grok Bot to assist with journal-scope research'),
+     ('opt5 declaration tool name','and Grok Bot to assist with journal-scope research'),
      ('M3 not reproduced','not reproduced by the two abstract models tested'),('M3 alternative','We cannot exclude'),
      ('M6 separately coded','separately coded'),('M6 Mode C reproduces','reproduces the authorization state, reason class, and exit times'),
      ('M6 provenance','coded by the same AI agent as the Mode-C mirror'),

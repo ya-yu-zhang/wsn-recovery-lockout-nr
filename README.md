@@ -10,7 +10,7 @@ Repository: https://github.com/ya-yu-zhang/wsn-recovery-lockout-nr
 
 Corresponding author: Jeng-Shyang Pan, jspan@ieee.org
 
-**Staging notice.** This tree is a *local snapshot* of the intended public repository. It has **not** been pushed, and no pull request, Zenodo/OSF record, or manuscript Data Availability change to “deposited” has been made. After an authorised push, replace this notice with the resulting commit hash.
+**Deposit.** This is the public data and code repository for the manuscript. The manuscript’s Data Availability statement cites a fixed commit of this repository; files are not altered after that commit except as recorded in the git history.
 
 ## One-command reviewer path (no ns-3, no extra Python packages)
 

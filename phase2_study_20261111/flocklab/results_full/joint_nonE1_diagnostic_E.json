@@ -1,0 +1,764 @@
+{
+ "note": "Exploratory (E), read-only: why Joint M1 runs have gate closed in 48/48 but IU-only E1 in 24/48.\nReads frozen per-run controller.json under raw_on_request/scratch_phase2/flocklab_full; no simulation.",
+ "summary": {
+  "n_joint_M1": 48,
+  "E1": 24,
+  "non_E1": 24,
+  "non_E1_with_missing_fresh_source": 24,
+  "non_E1_reason_sets": {
+   "installation_unconfirmed,missing_fresh_source": 24
+  },
+  "non_E1_any_allowed": 0,
+  "non_E1_fs_after_last_exit": 0,
+  "all_installs_after_exit_zero": true,
+  "E1_reason_sets": {
+   "installation_unconfirmed": 24
+  }
+ },
+ "rows": [
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111301,
+   "subgraph": "A0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 49,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 49
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "A0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 56,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 56
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111301,
+   "subgraph": "A1",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 48,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 45,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "A1",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 45,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 45
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111301,
+   "subgraph": "A2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 59,
+    "missing_fresh_source": 1
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "A2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 59,
+    "missing_fresh_source": 1
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111301,
+   "subgraph": "A3",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 58,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "A3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 60
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111302,
+   "subgraph": "A0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 54,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 54
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "A0",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 54,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 51,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111302,
+   "subgraph": "A1",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 47,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 47
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "A1",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 47,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 47
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111302,
+   "subgraph": "A2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "A2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 58,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111302,
+   "subgraph": "A3",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 59,
+    "missing_fresh_source": 1
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "A3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 60
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111303,
+   "subgraph": "A0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 47,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 47
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "A0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 57,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111303,
+   "subgraph": "A1",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 47,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 43,
+    "missing_fresh_source": 4
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "A1",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 48,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 46,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111303,
+   "subgraph": "A2",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 60
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "A2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 58,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111303,
+   "subgraph": "A3",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "A3",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111304,
+   "subgraph": "A0",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 52,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 49,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "A0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 55,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 55
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111304,
+   "subgraph": "A1",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 47,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 47
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "A1",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 50,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 46,
+    "missing_fresh_source": 4
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111304,
+   "subgraph": "A2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 59,
+    "missing_fresh_source": 1
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "A2",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 60
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R1",
+   "trace_mode": 1,
+   "seed": 2026111304,
+   "subgraph": "A3",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 59,
+    "missing_fresh_source": 1
+   }
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "A3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 60
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "B0",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 56,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 55,
+    "missing_fresh_source": 1
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "B1",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 57,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 54,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "B2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 46,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 43,
+    "missing_fresh_source": 3
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111301,
+   "subgraph": "B3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 57,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "B0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 57,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "B1",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 60,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 60
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "B2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 47,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 45,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111302,
+   "subgraph": "B3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 57,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 57
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "B0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 55,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 55
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "B1",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 54,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 54
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "B2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 46,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 42,
+    "missing_fresh_source": 4
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111303,
+   "subgraph": "B3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 53,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 53
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "B0",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 52,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 52
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "B1",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 53,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 51,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "B2",
+   "E1": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 48,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 46,
+    "missing_fresh_source": 2
+   }
+  },
+  {
+   "day": "B",
+   "mode": "R2",
+   "trace_mode": 2,
+   "seed": 2026111304,
+   "subgraph": "B3",
+   "E1": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "evaluated_after_last_exit": 54,
+   "allowed_after_last_exit": 0,
+   "reasons": {
+    "installation_unconfirmed": 54
+   }
+  }
+ ]
+}

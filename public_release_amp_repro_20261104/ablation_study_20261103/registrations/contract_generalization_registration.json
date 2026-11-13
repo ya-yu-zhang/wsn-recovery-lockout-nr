@@ -1,0 +1,685 @@
+{
+  "configs": [
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110301",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110302",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110303",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_10_2026110304",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110301",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110302",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110303",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "multi_failure",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "overload",
+      "seed": 2026110311,
+      "model": "horizon",
+      "contract": "post_exit"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "legacy",
+      "contract": "none"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "joint"
+    },
+    {
+      "topology": "budget_20_2026110304",
+      "scenario": "overload",
+      "seed": 2026110312,
+      "model": "horizon",
+      "contract": "post_exit"
+    }
+  ],
+  "source_sha256": {
+    "contract_ablation.py": "a94135148f461e1773923548753421ba6ab17d7baae14b9d704b2f60eb5c9acf",
+    "run_contract_generalization.py": "825227953cb6f81f2eee3c72892cd46c3eefd3f9aa5e5129f7c49d562bc64b07",
+    "horizon_controller.py": "61e8bc46d0ae62df6633c797a4efd1eb6d79d821f52bf68185462804eee0af06",
+    "budget_controller.py": "d6a9c19145e3e10c34424fd72b65e2b8b466c617fa92c8e14c03c6c4892ec624",
+    "fast_native_run.py": "0a2083c8d6c7cc577147617ac350d61c8e94cd2303a1d31f93a6c59c58eaaa9d"
+  },
+  "native_sha256": "c02726c6cf07c384804eb89c6040dc7a210adfb5429a92d5a06cd41ee27ecd86",
+  "runtime_LLM_calls": 0
+}

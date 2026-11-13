@@ -1,0 +1,6763 @@
+{
+  "id": "observable_e20a0013c5142ebedc1c2efe",
+  "topology": "budget_10_2026110302",
+  "points": {
+    "0": [
+      0,
+      0
+    ],
+    "1": [
+      0,
+      4
+    ],
+    "2": [
+      40.43816895044236,
+      -0.5934063351271202
+    ],
+    "3": [
+      78.73187697069572,
+      0.09518305206741351
+    ],
+    "4": [
+      35.814123763404545,
+      30.843555580261548
+    ],
+    "5": [
+      74.24988192218517,
+      36.82316332885282
+    ],
+    "6": [
+      55.01038179345249,
+      -29.005398423303077
+    ],
+    "7": [
+      105.97053034182962,
+      -35.651688570079685
+    ],
+    "8": [
+      16.349838211850344,
+      -33.182327775819076
+    ],
+    "9": [
+      120,
+      0
+    ]
+  },
+  "scenario": "multi_failure",
+  "policy": "force0_scalar4_failure_current_ops_epoch_aligned_safe_interrupt_installbudget_transaction_txguard_observable_installexit_reviewmechanism_scoreonly_ctx6_noop_cache20_retry_freshfixed_mask",
+  "report_profile": "local15_event",
+  "seed": 2026110312,
+  "extended_report": true,
+  "source_only_counters": true,
+  "generation_stop": 330,
+  "action_stop_ns": 320000000000,
+  "selection_seed": 2026110312,
+  "faults": [
+    [
+      65,
+      2
+    ],
+    [
+      145,
+      3
+    ],
+    [
+      225,
+      6
+    ]
+  ],
+  "broken_install": false,
+  "source_reports_missing": false,
+  "source1_first_rejection": false,
+  "safety_events": [],
+  "install_reservations": [
+    {
+      "decision": 1,
+      "time_ns": 10000000000,
+      "window": 0,
+      "used_before": 0,
+      "reservation_bytes": 5994,
+      "budget_enabled": true
+    },
+    {
+      "decision": 2,
+      "time_ns": 75000000000,
+      "window": 3,
+      "used_before": 0,
+      "reservation_bytes": 5994,
+      "budget_enabled": true
+    },
+    {
+      "decision": 3,
+      "time_ns": 155000000000,
+      "window": 7,
+      "used_before": 0,
+      "reservation_bytes": 5994,
+      "budget_enabled": true
+    }
+  ],
+  "cost_observations": [
+    {
+      "time_ns": 10000000000,
+      "observed_control_data_lower_bound": 1222,
+      "meter_by_node": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 373,
+        "5": 849,
+        "6": 0,
+        "8": 0,
+        "9": 0
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 15000000000,
+      "observed_control_data_lower_bound": 1698,
+      "meter_by_node": {
+        "0": 127,
+        "1": 127,
+        "2": 0,
+        "3": 0,
+        "4": 373,
+        "5": 849,
+        "6": 0,
+        "8": 0,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 20000000000,
+      "observed_control_data_lower_bound": 4610,
+      "meter_by_node": {
+        "0": 254,
+        "1": 254,
+        "2": 238,
+        "3": 0,
+        "4": 1706,
+        "5": 1936,
+        "6": 0,
+        "8": 0,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 25000000000,
+      "observed_control_data_lower_bound": 5229,
+      "meter_by_node": {
+        "0": 508,
+        "1": 381,
+        "2": 238,
+        "3": 119,
+        "4": 1706,
+        "5": 1936,
+        "6": 0,
+        "8": 119,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 30000000000,
+      "observed_control_data_lower_bound": 5229,
+      "meter_by_node": {
+        "0": 508,
+        "1": 381,
+        "2": 238,
+        "3": 119,
+        "4": 1706,
+        "5": 1936,
+        "6": 0,
+        "8": 119,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 35000000000,
+      "observed_control_data_lower_bound": 7046,
+      "meter_by_node": {
+        "0": 508,
+        "1": 381,
+        "2": 357,
+        "3": 119,
+        "4": 2555,
+        "5": 2785,
+        "6": 0,
+        "8": 119,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 40000000000,
+      "observed_control_data_lower_bound": 7538,
+      "meter_by_node": {
+        "0": 635,
+        "1": 508,
+        "2": 357,
+        "3": 238,
+        "4": 2555,
+        "5": 2785,
+        "6": 0,
+        "8": 238,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 45000000000,
+      "observed_control_data_lower_bound": 8641,
+      "meter_by_node": {
+        "0": 635,
+        "1": 635,
+        "2": 476,
+        "3": 238,
+        "4": 3412,
+        "5": 2785,
+        "6": 0,
+        "8": 238,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 50000000000,
+      "observed_control_data_lower_bound": 8879,
+      "meter_by_node": {
+        "0": 635,
+        "1": 635,
+        "2": 476,
+        "3": 476,
+        "4": 3412,
+        "5": 2785,
+        "6": 0,
+        "8": 238,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 55000000000,
+      "observed_control_data_lower_bound": 9958,
+      "meter_by_node": {
+        "0": 762,
+        "1": 635,
+        "2": 476,
+        "3": 476,
+        "4": 3412,
+        "5": 2785,
+        "6": 357,
+        "7": 357,
+        "8": 476,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 60000000000,
+      "observed_control_data_lower_bound": 13870,
+      "meter_by_node": {
+        "0": 889,
+        "1": 762,
+        "2": 595,
+        "3": 595,
+        "4": 4515,
+        "5": 5102,
+        "6": 357,
+        "7": 357,
+        "8": 476,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 65000000000,
+      "observed_control_data_lower_bound": 14124,
+      "meter_by_node": {
+        "0": 889,
+        "1": 1016,
+        "2": 595,
+        "3": 595,
+        "4": 4515,
+        "5": 5102,
+        "6": 357,
+        "7": 357,
+        "8": 476,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 70000000000,
+      "observed_control_data_lower_bound": 14965,
+      "meter_by_node": {
+        "0": 889,
+        "1": 1016,
+        "2": 595,
+        "3": 595,
+        "4": 4515,
+        "5": 5586,
+        "6": 476,
+        "7": 476,
+        "8": 595,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 75000000000,
+      "observed_control_data_lower_bound": 16314,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1016,
+        "2": 595,
+        "3": 714,
+        "4": 5364,
+        "5": 5586,
+        "6": 476,
+        "7": 476,
+        "8": 595,
+        "9": 222
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 80000000000,
+      "observed_control_data_lower_bound": 18353,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1143,
+        "2": 595,
+        "3": 714,
+        "4": 5364,
+        "5": 6911,
+        "6": 595,
+        "7": 595,
+        "8": 595,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 85000000000,
+      "observed_control_data_lower_bound": 19932,
+      "meter_by_node": {
+        "0": 1524,
+        "1": 1270,
+        "2": 595,
+        "3": 714,
+        "4": 6570,
+        "5": 6911,
+        "6": 595,
+        "7": 595,
+        "8": 714,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 90000000000,
+      "observed_control_data_lower_bound": 20424,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 1397,
+        "2": 595,
+        "3": 833,
+        "4": 6570,
+        "5": 6911,
+        "6": 714,
+        "7": 595,
+        "8": 714,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 95000000000,
+      "observed_control_data_lower_bound": 21765,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 1397,
+        "2": 595,
+        "3": 833,
+        "4": 6570,
+        "5": 8133,
+        "6": 714,
+        "7": 714,
+        "8": 714,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 100000000000,
+      "observed_control_data_lower_bound": 22868,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 1524,
+        "2": 595,
+        "3": 833,
+        "4": 7427,
+        "5": 8133,
+        "6": 714,
+        "7": 714,
+        "8": 833,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 105000000000,
+      "observed_control_data_lower_bound": 23360,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 1651,
+        "2": 595,
+        "3": 952,
+        "4": 7427,
+        "5": 8133,
+        "6": 833,
+        "7": 714,
+        "8": 833,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 110000000000,
+      "observed_control_data_lower_bound": 24574,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 1651,
+        "2": 595,
+        "3": 952,
+        "4": 7427,
+        "5": 9228,
+        "6": 833,
+        "7": 833,
+        "8": 833,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 115000000000,
+      "observed_control_data_lower_bound": 25423,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 1651,
+        "2": 595,
+        "3": 952,
+        "4": 8157,
+        "5": 9228,
+        "6": 833,
+        "7": 833,
+        "8": 952,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 120000000000,
+      "observed_control_data_lower_bound": 25915,
+      "meter_by_node": {
+        "0": 1905,
+        "1": 1778,
+        "2": 595,
+        "3": 1071,
+        "4": 8157,
+        "5": 9228,
+        "6": 952,
+        "7": 833,
+        "8": 952,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 125000000000,
+      "observed_control_data_lower_bound": 27002,
+      "meter_by_node": {
+        "0": 1905,
+        "1": 1778,
+        "2": 595,
+        "3": 1071,
+        "4": 8157,
+        "5": 10196,
+        "6": 952,
+        "7": 952,
+        "8": 952,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 130000000000,
+      "observed_control_data_lower_bound": 28605,
+      "meter_by_node": {
+        "0": 2032,
+        "1": 1905,
+        "2": 595,
+        "3": 1190,
+        "4": 9268,
+        "5": 10196,
+        "6": 952,
+        "7": 952,
+        "8": 1071,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 135000000000,
+      "observed_control_data_lower_bound": 29216,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 2032,
+        "2": 595,
+        "3": 1190,
+        "4": 9268,
+        "5": 10196,
+        "6": 1071,
+        "7": 1190,
+        "8": 1071,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 140000000000,
+      "observed_control_data_lower_bound": 32144,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 2032,
+        "2": 595,
+        "3": 1309,
+        "4": 10006,
+        "5": 12140,
+        "6": 1071,
+        "7": 1190,
+        "8": 1071,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 145000000000,
+      "observed_control_data_lower_bound": 32263,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 2032,
+        "2": 595,
+        "3": 1309,
+        "4": 10006,
+        "5": 12140,
+        "6": 1071,
+        "7": 1190,
+        "8": 1190,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 150000000000,
+      "observed_control_data_lower_bound": 33128,
+      "meter_by_node": {
+        "0": 2413,
+        "1": 2159,
+        "2": 595,
+        "3": 1309,
+        "4": 10498,
+        "5": 12140,
+        "6": 1190,
+        "7": 1190,
+        "8": 1190,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 155000000000,
+      "observed_control_data_lower_bound": 34604,
+      "meter_by_node": {
+        "0": 2540,
+        "1": 2286,
+        "2": 595,
+        "3": 1309,
+        "4": 10498,
+        "5": 13362,
+        "6": 1190,
+        "7": 1190,
+        "8": 1190,
+        "9": 444
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 160000000000,
+      "observed_control_data_lower_bound": 35556,
+      "meter_by_node": {
+        "0": 2667,
+        "1": 2413,
+        "2": 595,
+        "3": 1309,
+        "4": 10498,
+        "5": 13362,
+        "6": 1190,
+        "7": 1547,
+        "8": 1309,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 165000000000,
+      "observed_control_data_lower_bound": 38833,
+      "meter_by_node": {
+        "0": 2794,
+        "1": 2540,
+        "2": 595,
+        "3": 1309,
+        "4": 12077,
+        "5": 14687,
+        "6": 1309,
+        "7": 1547,
+        "8": 1309,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 170000000000,
+      "observed_control_data_lower_bound": 39206,
+      "meter_by_node": {
+        "0": 2921,
+        "1": 2667,
+        "2": 595,
+        "3": 1309,
+        "4": 12077,
+        "5": 14687,
+        "6": 1309,
+        "7": 1666,
+        "8": 1309,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 175000000000,
+      "observed_control_data_lower_bound": 41666,
+      "meter_by_node": {
+        "0": 3048,
+        "1": 2794,
+        "2": 595,
+        "3": 1309,
+        "4": 13180,
+        "5": 15671,
+        "6": 1309,
+        "7": 1666,
+        "8": 1428,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 180000000000,
+      "observed_control_data_lower_bound": 41785,
+      "meter_by_node": {
+        "0": 3048,
+        "1": 2794,
+        "2": 595,
+        "3": 1309,
+        "4": 13180,
+        "5": 15671,
+        "6": 1428,
+        "7": 1666,
+        "8": 1428,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 185000000000,
+      "observed_control_data_lower_bound": 41904,
+      "meter_by_node": {
+        "0": 3048,
+        "1": 2794,
+        "2": 595,
+        "3": 1309,
+        "4": 13180,
+        "5": 15671,
+        "6": 1428,
+        "7": 1785,
+        "8": 1428,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 190000000000,
+      "observed_control_data_lower_bound": 43983,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 2921,
+        "2": 595,
+        "3": 1309,
+        "4": 13910,
+        "5": 16647,
+        "6": 1428,
+        "7": 1785,
+        "8": 1547,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 195000000000,
+      "observed_control_data_lower_bound": 44102,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 2921,
+        "2": 595,
+        "3": 1309,
+        "4": 13910,
+        "5": 16647,
+        "6": 1547,
+        "7": 1785,
+        "8": 1547,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 200000000000,
+      "observed_control_data_lower_bound": 44221,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 2921,
+        "2": 595,
+        "3": 1309,
+        "4": 13910,
+        "5": 16647,
+        "6": 1547,
+        "7": 1904,
+        "8": 1547,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 205000000000,
+      "observed_control_data_lower_bound": 46173,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 3048,
+        "2": 595,
+        "3": 1309,
+        "4": 14640,
+        "5": 17496,
+        "6": 1547,
+        "7": 1904,
+        "8": 1666,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 210000000000,
+      "observed_control_data_lower_bound": 46292,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 3048,
+        "2": 595,
+        "3": 1309,
+        "4": 14640,
+        "5": 17496,
+        "6": 1666,
+        "7": 1904,
+        "8": 1666,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 215000000000,
+      "observed_control_data_lower_bound": 46649,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 3048,
+        "2": 595,
+        "3": 1309,
+        "4": 14878,
+        "5": 17496,
+        "6": 1666,
+        "7": 2023,
+        "8": 1666,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 220000000000,
+      "observed_control_data_lower_bound": 48109,
+      "meter_by_node": {
+        "0": 3429,
+        "1": 3175,
+        "2": 595,
+        "3": 1309,
+        "4": 14878,
+        "5": 18583,
+        "6": 1666,
+        "7": 2023,
+        "8": 1785,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 225000000000,
+      "observed_control_data_lower_bound": 49093,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 3175,
+        "2": 595,
+        "3": 1309,
+        "4": 15616,
+        "5": 18583,
+        "6": 1785,
+        "7": 2023,
+        "8": 1785,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 230000000000,
+      "observed_control_data_lower_bound": 50077,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 3175,
+        "2": 595,
+        "3": 1309,
+        "4": 15616,
+        "5": 19448,
+        "6": 1785,
+        "7": 2142,
+        "8": 1785,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 235000000000,
+      "observed_control_data_lower_bound": 50450,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 3302,
+        "2": 595,
+        "3": 1309,
+        "4": 15616,
+        "5": 19448,
+        "6": 1785,
+        "7": 2142,
+        "8": 1904,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 240000000000,
+      "observed_control_data_lower_bound": 51910,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 3302,
+        "2": 595,
+        "3": 1309,
+        "4": 16346,
+        "5": 20178,
+        "6": 1785,
+        "7": 2142,
+        "8": 1904,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 245000000000,
+      "observed_control_data_lower_bound": 52156,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 3302,
+        "2": 595,
+        "3": 1309,
+        "4": 16346,
+        "5": 20178,
+        "6": 1785,
+        "7": 2261,
+        "8": 1904,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 250000000000,
+      "observed_control_data_lower_bound": 53267,
+      "meter_by_node": {
+        "0": 3937,
+        "1": 3429,
+        "2": 595,
+        "3": 1309,
+        "4": 17084,
+        "5": 20178,
+        "6": 1785,
+        "7": 2261,
+        "8": 2023,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 255000000000,
+      "observed_control_data_lower_bound": 54124,
+      "meter_by_node": {
+        "0": 3937,
+        "1": 3429,
+        "2": 595,
+        "3": 1309,
+        "4": 17084,
+        "5": 21035,
+        "6": 1785,
+        "7": 2261,
+        "8": 2023,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 260000000000,
+      "observed_control_data_lower_bound": 54243,
+      "meter_by_node": {
+        "0": 3937,
+        "1": 3429,
+        "2": 595,
+        "3": 1309,
+        "4": 17084,
+        "5": 21035,
+        "6": 1785,
+        "7": 2380,
+        "8": 2023,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 265000000000,
+      "observed_control_data_lower_bound": 55227,
+      "meter_by_node": {
+        "0": 4064,
+        "1": 3556,
+        "2": 595,
+        "3": 1309,
+        "4": 17695,
+        "5": 21035,
+        "6": 1785,
+        "7": 2380,
+        "8": 2142,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 270000000000,
+      "observed_control_data_lower_bound": 55957,
+      "meter_by_node": {
+        "0": 4064,
+        "1": 3556,
+        "2": 595,
+        "3": 1309,
+        "4": 17695,
+        "5": 21765,
+        "6": 1785,
+        "7": 2380,
+        "8": 2142,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 275000000000,
+      "observed_control_data_lower_bound": 56076,
+      "meter_by_node": {
+        "0": 4064,
+        "1": 3556,
+        "2": 595,
+        "3": 1309,
+        "4": 17695,
+        "5": 21765,
+        "6": 1785,
+        "7": 2499,
+        "8": 2142,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 280000000000,
+      "observed_control_data_lower_bound": 57060,
+      "meter_by_node": {
+        "0": 4191,
+        "1": 3683,
+        "2": 595,
+        "3": 1309,
+        "4": 18306,
+        "5": 21765,
+        "6": 1785,
+        "7": 2499,
+        "8": 2261,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 285000000000,
+      "observed_control_data_lower_bound": 57790,
+      "meter_by_node": {
+        "0": 4191,
+        "1": 3683,
+        "2": 595,
+        "3": 1309,
+        "4": 18306,
+        "5": 22495,
+        "6": 1785,
+        "7": 2499,
+        "8": 2261,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 290000000000,
+      "observed_control_data_lower_bound": 57909,
+      "meter_by_node": {
+        "0": 4191,
+        "1": 3683,
+        "2": 595,
+        "3": 1309,
+        "4": 18306,
+        "5": 22495,
+        "6": 1785,
+        "7": 2618,
+        "8": 2261,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 295000000000,
+      "observed_control_data_lower_bound": 58893,
+      "meter_by_node": {
+        "0": 4318,
+        "1": 3810,
+        "2": 595,
+        "3": 1309,
+        "4": 18917,
+        "5": 22495,
+        "6": 1785,
+        "7": 2618,
+        "8": 2380,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 300000000000,
+      "observed_control_data_lower_bound": 59623,
+      "meter_by_node": {
+        "0": 4318,
+        "1": 3810,
+        "2": 595,
+        "3": 1309,
+        "4": 18917,
+        "5": 23225,
+        "6": 1785,
+        "7": 2618,
+        "8": 2380,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 305000000000,
+      "observed_control_data_lower_bound": 59996,
+      "meter_by_node": {
+        "0": 4318,
+        "1": 4064,
+        "2": 595,
+        "3": 1309,
+        "4": 18917,
+        "5": 23225,
+        "6": 1785,
+        "7": 2737,
+        "8": 2380,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 310000000000,
+      "observed_control_data_lower_bound": 62456,
+      "meter_by_node": {
+        "0": 4572,
+        "1": 4191,
+        "2": 595,
+        "3": 1309,
+        "4": 19774,
+        "5": 24328,
+        "6": 1785,
+        "7": 2737,
+        "8": 2499,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 315000000000,
+      "observed_control_data_lower_bound": 62710,
+      "meter_by_node": {
+        "0": 4699,
+        "1": 4318,
+        "2": 595,
+        "3": 1309,
+        "4": 19774,
+        "5": 24328,
+        "6": 1785,
+        "7": 2737,
+        "8": 2499,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 320000000000,
+      "observed_control_data_lower_bound": 64710,
+      "meter_by_node": {
+        "0": 4826,
+        "1": 4445,
+        "2": 595,
+        "3": 1309,
+        "4": 20528,
+        "5": 25201,
+        "6": 1785,
+        "7": 2856,
+        "8": 2499,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 325000000000,
+      "observed_control_data_lower_bound": 64710,
+      "meter_by_node": {
+        "0": 4826,
+        "1": 4445,
+        "2": 595,
+        "3": 1309,
+        "4": 20528,
+        "5": 25201,
+        "6": 1785,
+        "7": 2856,
+        "8": 2499,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 330000000000,
+      "observed_control_data_lower_bound": 65686,
+      "meter_by_node": {
+        "0": 4953,
+        "1": 4445,
+        "2": 595,
+        "3": 1309,
+        "4": 20893,
+        "5": 25685,
+        "6": 1785,
+        "7": 2856,
+        "8": 2499,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 335000000000,
+      "observed_control_data_lower_bound": 65932,
+      "meter_by_node": {
+        "0": 4953,
+        "1": 4572,
+        "2": 595,
+        "3": 1309,
+        "4": 20893,
+        "5": 25685,
+        "6": 1785,
+        "7": 2975,
+        "8": 2499,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 340000000000,
+      "observed_control_data_lower_bound": 67138,
+      "meter_by_node": {
+        "0": 4953,
+        "1": 4572,
+        "2": 595,
+        "3": 1309,
+        "4": 21377,
+        "5": 26288,
+        "6": 1785,
+        "7": 2975,
+        "8": 2618,
+        "9": 666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    }
+  ],
+  "report_budget": true,
+  "reward_waits": [
+    {
+      "decision": 1,
+      "time_ns": 15000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "bucket": 3,
+      "deadline_ns": 40000000000
+    },
+    {
+      "decision": 1,
+      "time_ns": 20000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "bucket": 3,
+      "deadline_ns": 40000000000
+    },
+    {
+      "decision": 2,
+      "time_ns": 80000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        2,
+        2
+      ],
+      "bucket": 16,
+      "deadline_ns": 105000000000
+    },
+    {
+      "decision": 2,
+      "time_ns": 85000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        2,
+        2
+      ],
+      "bucket": 16,
+      "deadline_ns": 105000000000
+    },
+    {
+      "decision": 3,
+      "time_ns": 160000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        3,
+        3
+      ],
+      "bucket": 32,
+      "deadline_ns": 185000000000
+    },
+    {
+      "decision": 3,
+      "time_ns": 165000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        3,
+        3
+      ],
+      "bucket": 32,
+      "deadline_ns": 185000000000
+    }
+  ],
+  "report_retry": true,
+  "report_retry_mode": "always",
+  "queue_discipline": "fifo",
+  "epoch_certificate": true,
+  "command": [
+    "raw_on_request/control_budget_study_20261015/engine/ns3/wsn-closed-loop",
+    "--nodes=10",
+    "--run=2026110312",
+    "--arrivals=raw_on_request/control_budget_study_20261015/results/contract_generalization/81a5c728c455fb5f69e0/observable_e20a0013c5142ebedc1c2efe_arrivals.csv",
+    "--positions=raw_on_request/control_budget_study_20261015/results/contract_generalization/81a5c728c455fb5f69e0/observable_e20a0013c5142ebedc1c2efe_positions.csv",
+    "--output=raw_on_request/control_budget_study_20261015/results/contract_generalization/81a5c728c455fb5f69e0/observable_e20a0013c5142ebedc1c2efe",
+    "--stop=350",
+    "--generationStop=330",
+    "--compact=1",
+    "--monitor=1",
+    "--failAt=-1",
+    "--brokenInstall=0",
+    "--suppressReports=0",
+    "--reportProfile=local15_event",
+    "--rejectFirstSource1=0",
+    "--extendedReport=1",
+    "--sourceOnlyCounters=1",
+    "--queueDiscipline=fifo",
+    "--epochCertificate=1",
+    "--reportRetry=1",
+    "--reportBudget=1",
+    "--reportRetryMode=always",
+    "--unifiedBudget=1",
+    "--protectEvidence=1",
+    "--versionPacing=1",
+    "--controlRate=305",
+    "--controlBurst=4572",
+    "--controlReserve=1524",
+    "--reportPhaseSeed=2026110312",
+    "--faultSchedule=65:2;145:3;225:6"
+  ],
+  "native": {
+    "ns3_version": "3.44",
+    "closed_loop_prototype": true,
+    "nodes_including_sink": 10,
+    "max_psdu_bytes": 127,
+    "total_attempts": 3,
+    "mac_max_retries": 2,
+    "phy_transmissions": 41869,
+    "data_transmissions": 22196,
+    "ack_transmissions": 19673,
+    "finalized_jobs": 20394,
+    "unattributed_cca": 0,
+    "rx_sensitivity_dbm": -106.58,
+    "queue_drops": 0,
+    "offered": [
+      3420,
+      3584
+    ],
+    "delivered": [
+      3064,
+      3148
+    ],
+    "timely": [
+      3064,
+      3148
+    ],
+    "mac_status_counts": {
+      "0": 19563,
+      "225": 586,
+      "233": 245
+    },
+    "control_psdu_bytes": 68606,
+    "application_psdu_bytes": 2401374,
+    "ack_psdu_bytes": 98365,
+    "stop_ns": 350000000000,
+    "max_queue_depth": [
+      4,
+      6,
+      3,
+      3,
+      7,
+      4,
+      3,
+      3,
+      1,
+      2
+    ]
+  },
+  "offered": 7004,
+  "timely_by_party": [
+    0.895906432748538,
+    0.8783482142857143
+  ],
+  "mean_timely": 0.8871273235171262,
+  "worst_party_timely": 0.8783482142857143,
+  "estimated_radio_joules_by_node": [
+    19.674926779776,
+    19.673712072576,
+    4.014943109376,
+    8.412081472176,
+    19.633755086976,
+    19.656615720576,
+    12.833182008576,
+    19.724013691776,
+    19.739584469376002,
+    19.725164693376
+  ],
+  "estimated_radio_joules": 163.08797910456,
+  "energy_scope": "CC2420-like radio model only; no battery depletion/CPU/sensor/transient energy",
+  "decisions": [
+    {
+      "decision": 1,
+      "time_ns": 10000000000,
+      "action": 0,
+      "context": [
+        1.0,
+        0.0,
+        0.10599078341013825,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paths": [
+        [
+          0,
+          2,
+          3,
+          9
+        ],
+        [
+          1,
+          4,
+          5,
+          9
+        ]
+      ],
+      "fe": 64,
+      "evaluated": [
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.0351296633988534,
+            0.43701185982174134
+          ],
+          "score": 0.3769376666962846,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.4129590115671682
+          ],
+          "score": 0.35530923356323074,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.41428687626458927
+          ],
+          "score": 0.3564379185560386,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.469207271862357
+          ],
+          "score": 0.4031202548141412,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.413844658852366
+          ],
+          "score": 0.3560620337556489,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.4497918105977929
+          ],
+          "score": 0.385433600622595,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.421119675295214
+          ],
+          "score": 0.361062285615403,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.4760400708929817
+          ],
+          "score": 0.4077446218735056,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.41373957226051195
+          ],
+          "score": 0.3559727101525729,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.41968672400593876
+          ],
+          "score": 0.35984427701951904,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.4510145887033598
+          ],
+          "score": 0.38647296201232695,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.5059349843011276
+          ],
+          "score": 0.43315529827042953,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.4681268598985685
+          ],
+          "score": 0.402201904644921,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.4740740116439953
+          ],
+          "score": 0.4060734715118671,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.5054018763414165
+          ],
+          "score": 0.43270215650467514,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.5903222719391841
+          ],
+          "score": 0.5048844927627776,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.02978237968168168,
+            0.4164960515459728
+          ],
+          "score": 0.3590981833830934,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.014002218126126125,
+            0.384100816670922
+          ],
+          "score": 0.3303787216226336,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.019349501843297843,
+            0.3937710679888207
+          ],
+          "score": 0.33859843524284755,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.0351296633988534,
+            0.4999750521751288
+          ],
+          "score": 0.4304563801966639,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.0351296633988534,
+            0.3849864639561198
+          ],
+          "score": 0.33113152181505173,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.014002218126126125,
+            0.42093361570154675
+          ],
+          "score": 0.360503088681998,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.019349501843297843,
+            0.3922614803989678
+          ],
+          "score": 0.3361317736748059,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.47680785120575353
+          ],
+          "score": 0.4095807472560283,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.02978237968168168,
+            0.39322376398474335
+          ],
+          "score": 0.33813322683938174,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.014002218126126125,
+            0.39082852910969257
+          ],
+          "score": 0.33491376507892195,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.5114911631004148
+          ],
+          "score": 0.4390615623664903,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.4767027646138994
+          ],
+          "score": 0.4094914236529522,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.0351296633988534,
+            0.4988946402113402
+          ],
+          "score": 0.4295380300274436,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.4748417919567671
+          ],
+          "score": 0.4079095968943898,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.4761696566541882
+          ],
+          "score": 0.4090382818871977,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.5610900522519557
+          ],
+          "score": 0.48122061814530015,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.0351296633988534,
+            0.4164960515459728
+          ],
+          "score": 0.3590981833830934,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.019349501843297843,
+            0.3924432032913996
+          ],
+          "score": 0.33746975025003956,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.5042789108890671
+          ],
+          "score": 0.4329311479868448,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.019349501843297843,
+            0.44869146358658846
+          ],
+          "score": 0.3852807715009501,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.02978237968168168,
+            0.3933288505765975
+          ],
+          "score": 0.3382225504424578,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.019349501843297843,
+            0.42093361570154675
+          ],
+          "score": 0.360503088681998,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.47665791887459386
+          ],
+          "score": 0.40945330477454256,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.019349501843297843,
+            0.44718187599673553
+          ],
+          "score": 0.38281410993290843,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.5037316068849896
+          ],
+          "score": 0.4324659395833789,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.4752249675853186
+          ],
+          "score": 0.4082352961786586,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.5114911631004148
+          ],
+          "score": 0.4390615623664903,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.02978237968168168,
+            0.4561869563381308
+          ],
+          "score": 0.3916519403397611,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.02978237968168168,
+            0.4476110516227999
+          ],
+          "score": 0.3843624213317298,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.014002218126126125,
+            0.4452158167477491
+          ],
+          "score": 0.38114295957127,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.019349501843297843,
+            0.45565384837841966
+          ],
+          "score": 0.39119879857400663,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.0351296633988534,
+            0.5610900522519557
+          ],
+          "score": 0.48122061814530015,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.02978237968168168,
+            0.4559802432702042
+          ],
+          "score": 0.39225870006990227,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03255753085470086,
+            0.014002218126126125,
+            0.42358500839515345
+          ],
+          "score": 0.36353923830944246,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.0351296633988534,
+            0.5047634506616443
+          ],
+          "score": 0.4345265189102021,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.02978237968168168,
+            0.47945924389936023
+          ],
+          "score": 0.41261689688347275,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.02978237968168168,
+            0.42447065568035125
+          ],
+          "score": 0.3642920385018606,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.014002218126126125,
+            0.45207542080530044
+          ],
+          "score": 0.3865725767414007,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.47852440665413964
+          ],
+          "score": 0.4098563072704898,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0167773692991453,
+            0.0351296633988534,
+            0.4479496563095073
+          ],
+          "score": 0.38465023531543113,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.0351296633988534,
+            0.5042161466575668
+          ],
+          "score": 0.4340613105067362,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.4770914553648644
+          ],
+          "score": 0.4086382986746058,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022124653016317015,
+            0.019349501843297843,
+            0.5184698954231549
+          ],
+          "score": 0.44380997272415273,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.5664115586981824
+          ],
+          "score": 0.4857438986245928,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.02978237968168168,
+            0.47837883193557174
+          ],
+          "score": 0.4116985467142525,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.014002218126126125,
+            0.44598359706052093
+          ],
+          "score": 0.38297908495379274,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.019349501843297843,
+            0.5658784507384713
+          ],
+          "score": 0.4852907568588384,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03790481457187258,
+            0.0351296633988534,
+            0.5918578325647276
+          ],
+          "score": 0.5085567435278229,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        }
+      ],
+      "search": {
+        "mode": "observable_operator",
+        "operator": "resource",
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "archive": [
+          {
+            "paths": [
+              [
+                0,
+                4,
+                5,
+                9
+              ],
+              [
+                1,
+                4,
+                5,
+                9
+              ]
+            ],
+            "objectives": [
+              0.0167773692991453,
+              0.014002218126126125,
+              0.45207542080530044
+            ],
+            "score": 0.3865725767414007,
+            "shared_relay_fraction": 0.4,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                5,
+                9
+              ],
+              [
+                1,
+                6,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.0167773692991453,
+              0.019349501843297843,
+              0.3922614803989678
+            ],
+            "score": 0.3361317736748059,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                5,
+                9
+              ],
+              [
+                1,
+                2,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.0167773692991453,
+              0.0351296633988534,
+              0.3849864639561198
+            ],
+            "score": 0.33113152181505173,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 0.5
+          },
+          {
+            "paths": [
+              [
+                0,
+                6,
+                3,
+                9
+              ],
+              [
+                1,
+                4,
+                5,
+                9
+              ]
+            ],
+            "objectives": [
+              0.022124653016317015,
+              0.014002218126126125,
+              0.39082852910969257
+            ],
+            "score": 0.33491376507892195,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                2,
+                3,
+                9
+              ],
+              [
+                1,
+                4,
+                5,
+                9
+              ]
+            ],
+            "objectives": [
+              0.03790481457187258,
+              0.014002218126126125,
+              0.384100816670922
+            ],
+            "score": 0.3303787216226336,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 0.5
+          }
+        ],
+        "proxy_hypervolume": 0.8421428009897209,
+        "selected_objectives": [
+          0.03790481457187258,
+          0.014002218126126125,
+          0.384100816670922
+        ],
+        "poor_settled_service": false,
+        "scope": "received report proxy only; no counterfactual reward or physical liveness"
+      },
+      "exploration_cap": 0,
+      "event": {
+        "missing": 0.0,
+        "busy": 0.10599078341013825,
+        "source_queue": 0,
+        "observation_states": {
+          "0": "fresh",
+          "1": "fresh",
+          "2": "fresh",
+          "3": "fresh",
+          "4": "fresh",
+          "5": "fresh",
+          "6": "fresh",
+          "7": "unknown",
+          "8": "fresh"
+        },
+        "missing_means": "unobserved or expired, not confirmed physical failure",
+        "source_failure_reports": {
+          "0": {
+            "fresh": true,
+            "n": 30,
+            "failed": 0,
+            "fraction": 0.0,
+            "stamp_ns": 5334000000,
+            "sampled_version": 0,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          },
+          "1": {
+            "fresh": true,
+            "n": 30,
+            "failed": 0,
+            "fraction": 0.0,
+            "stamp_ns": 5291000000,
+            "sampled_version": 0,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          }
+        },
+        "transmission_failure": false,
+        "trigger_failure": false,
+        "settled_service": {
+          "known": true,
+          "buckets": [
+            0
+          ],
+          "offered": [
+            29,
+            26
+          ],
+          "timely": [
+            29,
+            26
+          ],
+          "probabilities": [
+            1.0,
+            1.0
+          ],
+          "worst_timely": 1.0,
+          "earliest_current_version_ns": 0,
+          "version_by_source": {
+            "0": 0,
+            "1": 0
+          },
+          "bucket_evidence": [
+            {
+              "source": 0,
+              "bucket": 0,
+              "count": 29,
+              "stamp_ns": 5334000000,
+              "received_ns": 5350800484,
+              "visible_ns": 10000000000
+            },
+            {
+              "source": 1,
+              "bucket": 0,
+              "count": 26,
+              "stamp_ns": 5291000000,
+              "received_ns": 5309400475,
+              "visible_ns": 10000000000
+            }
+          ],
+          "scope": "received closed generation counts and sink-local timely deliveries; conditional on observed versions"
+        },
+        "poor_settled_service": false,
+        "context_schema": "stable6-v1"
+      },
+      "bucket": 2,
+      "compute_wall_ns": 3512466,
+      "declared_search_delay_ns": 1280000,
+      "install_budget_bytes": 1998,
+      "ucb_scores": null,
+      "selection_phase": "event_policy",
+      "warmup_ordinal": null,
+      "report_profile": "local15_event",
+      "constraints": {
+        "time_ns": 10000000000,
+        "available": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "witnesses": {
+          "0": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "2": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "3": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ]
+        },
+        "candidate_pair_freshness_checks": 32044,
+        "unselected_objective_evaluations": 0,
+        "constraint_wall_ns": 2647907,
+        "domain_rule": "geometry relay-group round robin; cached by visible active mask",
+        "pool_size": 64,
+        "install_budget_exhausted": false,
+        "install_reservation_window": 0
+      },
+      "selection_rule": "deterministic_policy",
+      "updates_before_selection": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "admission": {
+        "suppressed": false,
+        "reason": "route_changed",
+        "proposed_paths": [
+          [
+            0,
+            2,
+            3,
+            9
+          ],
+          [
+            1,
+            4,
+            5,
+            9
+          ]
+        ]
+      },
+      "reward_expected_versions": [
+        1,
+        1
+      ],
+      "install_reservation": {
+        "decision": 1,
+        "time_ns": 10000000000,
+        "window": 0,
+        "used_before": 0,
+        "reservation_bytes": 5994,
+        "budget_enabled": true
+      },
+      "observable_admission": {
+        "explicit_exposure_cap": 0,
+        "selector": "feasible UCB score",
+        "unconfirmed_install_deadline_ns": 10000000000,
+        "no_censored_reward_imputation": true
+      },
+      "score_decomposition": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bonus": [
+          0.6033608013622048,
+          0.6033608013622048,
+          0.6033608013622048,
+          0.6033608013622048
+        ],
+        "model_context": [
+          1.0,
+          0.0,
+          0.10599078341013825,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "A_condition_numbers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scores": [
+          0.6033608013622048,
+          0.6033608013622048,
+          0.6033608013622048,
+          0.6033608013622048
+        ]
+      },
+      "learning_admission": null,
+      "learning_freeze": {
+        "enabled": false,
+        "updates": 0,
+        "training_enabled": true,
+        "freeze_time_ns": null
+      },
+      "mechanism_treatment": {
+        "installation_deadline_ns": 10000000000,
+        "installation_retry_limit": 1,
+        "learning_enabled": false,
+        "explicit_exposure": false,
+        "search": "fixed_operator"
+      },
+      "reward_bucket": 3,
+      "reward_confirmation": [
+        {
+          "source": 0,
+          "version": 1,
+          "stamp_ns": 10334000000,
+          "received_ns": 10351760484,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "stamp_ns": 10291000000,
+          "received_ns": 10309080475,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        }
+      ]
+    },
+    {
+      "decision": 2,
+      "time_ns": 75000000000,
+      "action": 0,
+      "context": [
+        1.0,
+        0.16666666666666666,
+        0.43672727272727274,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "paths": [
+        [
+          0,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          3,
+          9
+        ]
+      ],
+      "fe": 64,
+      "evaluated": [
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.08469247643969303,
+            0.4497918105977929
+          ],
+          "score": 0.39456790534701264,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.05824761321322993,
+            0.421119675295214
+          ],
+          "score": 0.3682132255978359,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.05824761321322993,
+            0.4760400708929817
+          ],
+          "score": 0.4148955618559385,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.08469247643969303,
+            0.41968672400593876
+          ],
+          "score": 0.366995217001952,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.4510145887033598
+          ],
+          "score": 0.39164053725277514,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5059349843011276
+          ],
+          "score": 0.43832287351087773,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.08469247643969303,
+            0.4740740116439953
+          ],
+          "score": 0.41322441149430006,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5054018763414165
+          ],
+          "score": 0.43786973174512334,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5903222719391841
+          ],
+          "score": 0.5100520680032258,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.0941248009555276,
+            0.42093361570154675
+          ],
+          "score": 0.37074586402389104,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.05824761321322993,
+            0.3922614803989678
+          ],
+          "score": 0.34439118427471427,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.05824761321322993,
+            0.44718187599673553
+          ],
+          "score": 0.3910735205328168,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.0941248009555276,
+            0.39082852910969257
+          ],
+          "score": 0.3431731756788303,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.4245056970876111
+          ],
+          "score": 0.36771131283045255,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.47942609268537884
+          ],
+          "score": 0.41439364908855514,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.0941248009555276,
+            0.4452158167477491
+          ],
+          "score": 0.38940237017117835,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.47889298472566777
+          ],
+          "score": 0.41394050732280074,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.5638133803234353
+          ],
+          "score": 0.48612284358090313,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.08469247643969303,
+            0.42093361570154675
+          ],
+          "score": 0.37074586402389104,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.03962539256074766,
+            0.3946107836794652
+          ],
+          "score": 0.3442840011755132,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.03962539256074766,
+            0.449531179277233
+          ],
+          "score": 0.39096633743361586,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.08469247643969303,
+            0.39317783239019
+          ],
+          "score": 0.3430659925796293,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.05824761321322993,
+            0.4245056970876111
+          ],
+          "score": 0.36771131283045255,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.05824761321322993,
+            0.47942609268537884
+          ],
+          "score": 0.41439364908855514,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.08469247643969303,
+            0.4475651200282466
+          ],
+          "score": 0.3892951870719774,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.05824761321322993,
+            0.47889298472566777
+          ],
+          "score": 0.41394050732280074,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.05824761321322993,
+            0.5638133803234353
+          ],
+          "score": 0.48612284358090313,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.0941248009555276,
+            0.45207542080530044
+          ],
+          "score": 0.3979238227007693,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.03962539256074766,
+            0.39575258878321906
+          ],
+          "score": 0.34596195985239164,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.03962539256074766,
+            0.4506729843809868
+          ],
+          "score": 0.39264429611049423,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.0941248009555276,
+            0.39431963749394383
+          ],
+          "score": 0.3447439512565077,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.03962539256074766,
+            0.4579968054718624
+          ],
+          "score": 0.39478208840812995,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.03962539256074766,
+            0.5129172010696301
+          ],
+          "score": 0.4414644246662325,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.0941248009555276,
+            0.4487069251320004
+          ],
+          "score": 0.3909731457488558,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.03962539256074766,
+            0.5123840931099191
+          ],
+          "score": 0.4410112829004781,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.03962539256074766,
+            0.5973044887076866
+          ],
+          "score": 0.5131936191585805,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.11274702160800987,
+            0.5071965419567186
+          ],
+          "score": 0.44546601788972334,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10662695324714033,
+            0.05824761321322993,
+            0.47852440665413964
+          ],
+          "score": 0.41911133814054646,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10662695324714033,
+            0.05824761321322993,
+            0.5334448022519073
+          ],
+          "score": 0.46579367439864894,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.11274702160800987,
+            0.4770914553648644
+          ],
+          "score": 0.4178933295446625,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.514471813502676
+          ],
+          "score": 0.4455791783321939,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5693922091004437
+          ],
+          "score": 0.4922615145902965,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.11274702160800987,
+            0.5314787430029209
+          ],
+          "score": 0.4641225240370105,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5688591011407327
+          ],
+          "score": 0.49180837282454204,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.6537794967385002
+          ],
+          "score": 0.5639907090826445,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10662695324714033,
+            0.08469247643969303,
+            0.5071965419567186
+          ],
+          "score": 0.44546601788972334,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10662695324714033,
+            0.03962539256074766,
+            0.4520155150383909
+          ],
+          "score": 0.39518211371822387,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10662695324714033,
+            0.03962539256074766,
+            0.5069359106361585
+          ],
+          "score": 0.44186444997632635,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.11274702160800987,
+            0.45058256374911565
+          ],
+          "score": 0.3939641051223399,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.514471813502676
+          ],
+          "score": 0.4455791783321939,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5693922091004437
+          ],
+          "score": 0.4922615145902965,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03350532419987812,
+            0.11274702160800987,
+            0.5049698513871721
+          ],
+          "score": 0.4401932996146879,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.5688591011407327
+          ],
+          "score": 0.49180837282454204,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.05824761321322993,
+            0.6537794967385002
+          ],
+          "score": 0.5639907090826445,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10662695324714033,
+            0.0941248009555276,
+            0.5083383470604723
+          ],
+          "score": 0.4471439765666016,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.05824761321322993,
+            0.48457690009453025
+          ],
+          "score": 0.42215186667725474,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.07857240807882349,
+            0.05824761321322993,
+            0.5394972956922979
+          ],
+          "score": 0.4688342029353572,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.08469247643969303,
+            0.483143948805255
+          ],
+          "score": 0.4209338580813708,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.5179629218869273
+          ],
+          "score": 0.4471499539098713,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.572883317484695
+          ],
+          "score": 0.49383229016797386,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.08469247643969303,
+            0.5375312364433115
+          ],
+          "score": 0.46716305257371876,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.5723502095249839
+          ],
+          "score": 0.49337914840221947,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              3,
+              7,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              7,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05212754485236038,
+            0.03962539256074766,
+            0.6572706051227515
+          ],
+          "score": 0.5655614846603219,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08800473259465806,
+            0.11274702160800987,
+            0.5083383470604723
+          ],
+          "score": 0.4471439765666016,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        }
+      ],
+      "search": {
+        "mode": "observable_operator",
+        "operator": "resource",
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "archive": [
+          {
+            "paths": [
+              [
+                0,
+                6,
+                7,
+                9
+              ],
+              [
+                1,
+                6,
+                7,
+                9
+              ]
+            ],
+            "objectives": [
+              0.03350532419987812,
+              0.03962539256074766,
+              0.4579968054718624
+            ],
+            "score": 0.39478208840812995,
+            "shared_relay_fraction": 0.4,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                6,
+                7,
+                9
+              ],
+              [
+                1,
+                6,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.03350532419987812,
+              0.05824761321322993,
+              0.4245056970876111
+            ],
+            "score": 0.36771131283045255,
+            "shared_relay_fraction": 0.2,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                6,
+                7,
+                9
+              ],
+              [
+                1,
+                4,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.03350532419987812,
+              0.08469247643969303,
+              0.39317783239019
+            ],
+            "score": 0.3430659925796293,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                6,
+                3,
+                9
+              ],
+              [
+                1,
+                6,
+                7,
+                9
+              ]
+            ],
+            "objectives": [
+              0.05212754485236038,
+              0.03962539256074766,
+              0.4245056970876111
+            ],
+            "score": 0.36771131283045255,
+            "shared_relay_fraction": 0.2,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                6,
+                3,
+                9
+              ],
+              [
+                1,
+                4,
+                5,
+                9
+              ]
+            ],
+            "objectives": [
+              0.05212754485236038,
+              0.0941248009555276,
+              0.39082852910969257
+            ],
+            "score": 0.3431731756788303,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 0.5
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                3,
+                9
+              ],
+              [
+                1,
+                6,
+                7,
+                9
+              ]
+            ],
+            "objectives": [
+              0.07857240807882349,
+              0.03962539256074766,
+              0.3946107836794652
+            ],
+            "score": 0.3442840011755132,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                5,
+                9
+              ],
+              [
+                1,
+                6,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.08800473259465806,
+              0.05824761321322993,
+              0.3922614803989678
+            ],
+            "score": 0.34439118427471427,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          }
+        ],
+        "proxy_hypervolume": 0.8017404381881519,
+        "selected_objectives": [
+          0.03350532419987812,
+          0.08469247643969303,
+          0.39317783239019
+        ],
+        "poor_settled_service": false,
+        "scope": "received report proxy only; no counterfactual reward or physical liveness"
+      },
+      "exploration_cap": 0,
+      "event": {
+        "missing": 0.16666666666666666,
+        "busy": 0.43672727272727274,
+        "source_queue": 0,
+        "observation_states": {
+          "0": "fresh",
+          "1": "fresh",
+          "2": "expired",
+          "3": "fresh",
+          "4": "fresh",
+          "5": "fresh",
+          "6": "fresh",
+          "7": "fresh",
+          "8": "fresh"
+        },
+        "missing_means": "unobserved or expired, not confirmed physical failure",
+        "source_failure_reports": {
+          "0": {
+            "fresh": true,
+            "n": 232,
+            "failed": 48,
+            "fraction": 0.20689655172413793,
+            "stamp_ns": 70334000000,
+            "sampled_version": 1,
+            "reason": "failure_event",
+            "eligible": true,
+            "mode": "current"
+          },
+          "1": {
+            "fresh": true,
+            "n": null,
+            "failed": null,
+            "fraction": null,
+            "stamp_ns": 60291000000,
+            "sampled_version": 1,
+            "reason": "stale",
+            "eligible": false,
+            "mode": "current"
+          }
+        },
+        "transmission_failure": true,
+        "trigger_failure": true,
+        "settled_service": {
+          "known": false,
+          "reason": "incomplete_or_sparse_generation_evidence",
+          "buckets": [
+            12,
+            13
+          ],
+          "counts": [
+            57
+          ],
+          "missing": [
+            [],
+            [
+              12,
+              13
+            ]
+          ]
+        },
+        "poor_settled_service": false,
+        "context_schema": "stable6-v1"
+      },
+      "bucket": 15,
+      "compute_wall_ns": 2219777,
+      "declared_search_delay_ns": 1280000,
+      "install_budget_bytes": 1998,
+      "ucb_scores": null,
+      "selection_phase": "event_policy",
+      "warmup_ordinal": null,
+      "report_profile": "local15_event",
+      "constraints": {
+        "time_ns": 75000000000,
+        "available": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "witnesses": {
+          "0": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "1": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "2": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ],
+          "3": [
+            [
+              0,
+              4,
+              3,
+              9
+            ],
+            [
+              1,
+              4,
+              3,
+              9
+            ]
+          ]
+        },
+        "candidate_pair_freshness_checks": 32045,
+        "unselected_objective_evaluations": 0,
+        "constraint_wall_ns": 1340713,
+        "domain_rule": "geometry relay-group round robin; cached by visible active mask",
+        "pool_size": 64,
+        "install_budget_exhausted": false,
+        "install_reservation_window": 3,
+        "evidence_qualified_admission": {
+          "allowed": true,
+          "geometry_available": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "unknown_is_not_failure": true
+        }
+      },
+      "selection_rule": "deterministic_policy",
+      "updates_before_selection": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "admission": {
+        "suppressed": false,
+        "reason": "route_changed",
+        "proposed_paths": [
+          [
+            0,
+            6,
+            7,
+            9
+          ],
+          [
+            1,
+            4,
+            3,
+            9
+          ]
+        ]
+      },
+      "reward_expected_versions": [
+        2,
+        2
+      ],
+      "install_reservation": {
+        "decision": 2,
+        "time_ns": 75000000000,
+        "window": 3,
+        "used_before": 0,
+        "reservation_bytes": 5994,
+        "budget_enabled": true
+      },
+      "observable_admission": {
+        "explicit_exposure_cap": 0,
+        "selector": "feasible UCB score",
+        "unconfirmed_install_deadline_ns": 10000000000,
+        "no_censored_reward_imputation": true
+      },
+      "score_decomposition": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bonus": [
+          0.8936795039989273,
+          0.8936795039989273,
+          0.8936795039989273,
+          0.8936795039989273
+        ],
+        "model_context": [
+          1.0,
+          0.16666666666666666,
+          0.43672727272727274,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "A_condition_numbers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scores": [
+          0.8936795039989273,
+          0.8936795039989273,
+          0.8936795039989273,
+          0.8936795039989273
+        ]
+      },
+      "learning_admission": null,
+      "learning_freeze": {
+        "enabled": false,
+        "updates": 0,
+        "training_enabled": true,
+        "freeze_time_ns": null
+      },
+      "mechanism_treatment": {
+        "installation_deadline_ns": 10000000000,
+        "installation_retry_limit": 1,
+        "learning_enabled": false,
+        "explicit_exposure": false,
+        "search": "fixed_operator"
+      },
+      "reward_bucket": 16,
+      "reward_confirmation": [
+        {
+          "source": 0,
+          "version": 2,
+          "stamp_ns": 75334000000,
+          "received_ns": 75357968484,
+          "visible_ns": 80000000000,
+          "epoch_first_bucket": 16
+        },
+        {
+          "source": 1,
+          "version": 2,
+          "stamp_ns": 75291000000,
+          "received_ns": 75311640475,
+          "visible_ns": 80000000000,
+          "epoch_first_bucket": 16
+        }
+      ]
+    },
+    {
+      "decision": 3,
+      "time_ns": 155000000000,
+      "action": 0,
+      "context": [
+        1.0,
+        0.3333333333333333,
+        0.4887459807073955,
+        0.0,
+        0.5893719806763285,
+        0.0
+      ],
+      "paths": [
+        [
+          0,
+          4,
+          5,
+          9
+        ],
+        [
+          1,
+          4,
+          5,
+          9
+        ]
+      ],
+      "fe": 9,
+      "evaluated": [
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0741361597653142,
+            0.07420868341010274,
+            0.45207542080530044
+          ],
+          "score": 0.39538997092266165,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0741361597653142,
+            0.1046653334897047,
+            0.5284365980550929
+          ],
+          "score": 0.46258122034095533,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0741361597653142,
+            0.1046653334897047,
+            0.5833569936528604
+          ],
+          "score": 0.5092635565990578,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10459280984491619,
+            0.07420868341010274,
+            0.5270036467658177
+          ],
+          "score": 0.4613632117450714,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10459280984491619,
+            0.1046653334897047,
+            0.6333648240156099
+          ],
+          "score": 0.554054461163365,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              6,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10459280984491619,
+            0.1046653334897047,
+            0.6882852196133776
+          ],
+          "score": 0.6007367974214676,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10459280984491619,
+            0.07420868341010274,
+            0.5813909344038741
+          ],
+          "score": 0.5075924062374194,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              6,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10459280984491619,
+            0.1046653334897047,
+            0.6877521116536665
+          ],
+          "score": 0.6002836556557131,
+          "shared_relay_fraction": 0.6,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              6,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              8,
+              6,
+              4,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.10459280984491619,
+            0.1046653334897047,
+            0.7726725072514342
+          ],
+          "score": 0.6724659919138156,
+          "shared_relay_fraction": 0.8,
+          "changed_source_fraction": 1.0
+        }
+      ],
+      "search": {
+        "mode": "observable_operator",
+        "operator": "resource",
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "archive": [
+          {
+            "paths": [
+              [
+                0,
+                4,
+                5,
+                9
+              ],
+              [
+                1,
+                4,
+                5,
+                9
+              ]
+            ],
+            "objectives": [
+              0.0741361597653142,
+              0.07420868341010274,
+              0.45207542080530044
+            ],
+            "score": 0.39538997092266165,
+            "shared_relay_fraction": 0.4,
+            "changed_source_fraction": 1.0
+          }
+        ],
+        "proxy_hypervolume": 0.6818254311277504,
+        "selected_objectives": [
+          0.0741361597653142,
+          0.07420868341010274,
+          0.45207542080530044
+        ],
+        "poor_settled_service": true,
+        "scope": "received report proxy only; no counterfactual reward or physical liveness"
+      },
+      "exploration_cap": 0,
+      "event": {
+        "missing": 0.3333333333333333,
+        "busy": 0.4887459807073955,
+        "source_queue": 0,
+        "observation_states": {
+          "0": "fresh",
+          "1": "fresh",
+          "2": "expired",
+          "3": "expired",
+          "4": "fresh",
+          "5": "fresh",
+          "6": "fresh",
+          "7": "expired",
+          "8": "fresh"
+        },
+        "missing_means": "unobserved or expired, not confirmed physical failure",
+        "source_failure_reports": {
+          "0": {
+            "fresh": true,
+            "n": 401,
+            "failed": 32,
+            "fraction": 0.0798004987531172,
+            "stamp_ns": 150334000000,
+            "sampled_version": 2,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          },
+          "1": {
+            "fresh": true,
+            "n": 413,
+            "failed": 35,
+            "fraction": 0.0847457627118644,
+            "stamp_ns": 150291000000,
+            "sampled_version": 2,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          }
+        },
+        "transmission_failure": false,
+        "trigger_failure": true,
+        "settled_service": {
+          "known": true,
+          "buckets": [
+            28,
+            29
+          ],
+          "offered": [
+            207,
+            207
+          ],
+          "timely": [
+            177,
+            85
+          ],
+          "probabilities": [
+            0.855072463768116,
+            0.4106280193236715
+          ],
+          "worst_timely": 0.4106280193236715,
+          "earliest_current_version_ns": 80000000000,
+          "version_by_source": {
+            "0": 2,
+            "1": 2
+          },
+          "bucket_evidence": [
+            {
+              "source": 0,
+              "bucket": 28,
+              "count": 99,
+              "stamp_ns": 145334000000,
+              "received_ns": 145467900164,
+              "visible_ns": 150000000000
+            },
+            {
+              "source": 0,
+              "bucket": 29,
+              "count": 108,
+              "stamp_ns": 150334000000,
+              "received_ns": 150354320484,
+              "visible_ns": 155000000000
+            },
+            {
+              "source": 1,
+              "bucket": 28,
+              "count": 101,
+              "stamp_ns": 145291000000,
+              "received_ns": 145476988556,
+              "visible_ns": 150000000000
+            },
+            {
+              "source": 1,
+              "bucket": 29,
+              "count": 106,
+              "stamp_ns": 150291000000,
+              "received_ns": 150308760475,
+              "visible_ns": 155000000000
+            }
+          ],
+          "scope": "received closed generation counts and sink-local timely deliveries; conditional on observed versions"
+        },
+        "poor_settled_service": true,
+        "context_schema": "stable6-v1"
+      },
+      "bucket": 31,
+      "compute_wall_ns": 1420010,
+      "declared_search_delay_ns": 180000,
+      "install_budget_bytes": 1998,
+      "ucb_scores": null,
+      "selection_phase": "event_policy",
+      "warmup_ordinal": null,
+      "report_profile": "local15_event",
+      "constraints": {
+        "time_ns": 155000000000,
+        "available": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "witnesses": {
+          "0": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "1": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "2": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ],
+          "3": [
+            [
+              0,
+              4,
+              5,
+              9
+            ],
+            [
+              1,
+              4,
+              5,
+              9
+            ]
+          ]
+        },
+        "candidate_pair_freshness_checks": 32046,
+        "unselected_objective_evaluations": 0,
+        "constraint_wall_ns": 1185240,
+        "domain_rule": "geometry relay-group round robin; cached by visible active mask",
+        "pool_size": 9,
+        "install_budget_exhausted": false,
+        "install_reservation_window": 7,
+        "evidence_qualified_admission": {
+          "allowed": true,
+          "geometry_available": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "unknown_is_not_failure": true
+        }
+      },
+      "selection_rule": "deterministic_policy",
+      "updates_before_selection": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "admission": {
+        "suppressed": false,
+        "reason": "route_changed",
+        "proposed_paths": [
+          [
+            0,
+            4,
+            5,
+            9
+          ],
+          [
+            1,
+            4,
+            5,
+            9
+          ]
+        ]
+      },
+      "reward_expected_versions": [
+        3,
+        3
+      ],
+      "install_reservation": {
+        "decision": 3,
+        "time_ns": 155000000000,
+        "window": 7,
+        "used_before": 0,
+        "reservation_bytes": 5994,
+        "budget_enabled": true
+      },
+      "observable_admission": {
+        "explicit_exposure_cap": 0,
+        "selector": "feasible UCB score",
+        "unconfirmed_install_deadline_ns": 10000000000,
+        "no_censored_reward_imputation": true
+      },
+      "score_decomposition": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bonus": [
+          0.7816927193565449,
+          0.7816927193565449,
+          0.7816927193565449,
+          0.7816927193565449
+        ],
+        "model_context": [
+          1.0,
+          0.3333333333333333,
+          0.4887459807073955,
+          0.0,
+          0.5893719806763285,
+          0.0
+        ],
+        "A_condition_numbers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scores": [
+          0.7816927193565449,
+          0.7816927193565449,
+          0.7816927193565449,
+          0.7816927193565449
+        ]
+      },
+      "learning_admission": null,
+      "learning_freeze": {
+        "enabled": false,
+        "updates": 0,
+        "training_enabled": true,
+        "freeze_time_ns": null
+      },
+      "mechanism_treatment": {
+        "installation_deadline_ns": 10000000000,
+        "installation_retry_limit": 1,
+        "learning_enabled": false,
+        "explicit_exposure": false,
+        "search": "fixed_operator"
+      },
+      "reward_bucket": 32,
+      "reward_confirmation": [
+        {
+          "source": 0,
+          "version": 3,
+          "stamp_ns": 155334000000,
+          "received_ns": 155351440484,
+          "visible_ns": 160000000000,
+          "epoch_first_bucket": 32
+        },
+        {
+          "source": 1,
+          "version": 3,
+          "stamp_ns": 155291000000,
+          "received_ns": 155310680475,
+          "visible_ns": 160000000000,
+          "epoch_first_bucket": 32
+        }
+      ]
+    }
+  ],
+  "retries": [],
+  "installations": [
+    {
+      "decision": 1,
+      "retry_limit": 1,
+      "history": [
+        {
+          "decision": 1,
+          "time_ns": 15000000000,
+          "missing_sources": [],
+          "retry_sources": [],
+          "retry_counts": [
+            0,
+            0
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 15000000000,
+              "stamp_ns": 10334000000,
+              "received_ns": 10351760484,
+              "version": 1
+            },
+            "1": {
+              "assessed_ns": 15000000000,
+              "stamp_ns": 10291000000,
+              "received_ns": 10309080475,
+              "version": 1
+            }
+          },
+          "closed": true,
+          "outcome": "confirmed",
+          "installation_deadline_ns": 20000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        }
+      ],
+      "closed": true,
+      "outcome": "confirmed"
+    },
+    {
+      "decision": 2,
+      "retry_limit": 1,
+      "history": [
+        {
+          "decision": 2,
+          "time_ns": 80000000000,
+          "missing_sources": [],
+          "retry_sources": [],
+          "retry_counts": [
+            0,
+            0
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 80000000000,
+              "stamp_ns": 75334000000,
+              "received_ns": 75357968484,
+              "version": 2
+            },
+            "1": {
+              "assessed_ns": 80000000000,
+              "stamp_ns": 75291000000,
+              "received_ns": 75311640475,
+              "version": 2
+            }
+          },
+          "closed": true,
+          "outcome": "confirmed",
+          "installation_deadline_ns": 85000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        }
+      ],
+      "closed": true,
+      "outcome": "confirmed"
+    },
+    {
+      "decision": 3,
+      "retry_limit": 1,
+      "history": [
+        {
+          "decision": 3,
+          "time_ns": 160000000000,
+          "missing_sources": [],
+          "retry_sources": [],
+          "retry_counts": [
+            0,
+            0
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 160000000000,
+              "stamp_ns": 155334000000,
+              "received_ns": 155351440484,
+              "version": 3
+            },
+            "1": {
+              "assessed_ns": 160000000000,
+              "stamp_ns": 155291000000,
+              "received_ns": 155310680475,
+              "version": 3
+            }
+          },
+          "closed": true,
+          "outcome": "confirmed",
+          "installation_deadline_ns": 165000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        }
+      ],
+      "closed": true,
+      "outcome": "confirmed"
+    }
+  ],
+  "feedbacks": [
+    {
+      "decision": 1,
+      "action": 0,
+      "time_ns": 25000000000,
+      "cohort_start_ns": 15000000000,
+      "cohort_end_ns": 20000000000,
+      "planned_reward_bucket": 3,
+      "offered": [
+        22,
+        22
+      ],
+      "timely": [
+        22,
+        22
+      ],
+      "probabilities": [
+        1.0,
+        1.0
+      ],
+      "reward": 0.9333333333333332,
+      "missing_reason": null,
+      "updated_action": null,
+      "inputs": [
+        {
+          "node": 0,
+          "stamp_ns": 20334000000,
+          "received_ns": 20353040484,
+          "depth": 0,
+          "n": 92,
+          "mean_J_ns": 7287922,
+          "cca": 123,
+          "busy": 27,
+          "failed": 0,
+          "version": 1,
+          "ctrl_bytes": 508,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              3
+            ],
+            [
+              3,
+              22
+            ],
+            [
+              2,
+              20
+            ],
+            [
+              1,
+              22
+            ]
+          ],
+          "epoch_first_bucket": 3,
+          "current_n": 43,
+          "current_failed": 0
+        },
+        {
+          "node": 1,
+          "stamp_ns": 20291000000,
+          "received_ns": 20309720475,
+          "depth": 0,
+          "n": 108,
+          "mean_J_ns": 7627540,
+          "cca": 153,
+          "busy": 38,
+          "failed": 1,
+          "version": 1,
+          "ctrl_bytes": 381,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              3
+            ],
+            [
+              3,
+              22
+            ],
+            [
+              2,
+              24
+            ],
+            [
+              1,
+              36
+            ]
+          ],
+          "epoch_first_bucket": 3,
+          "current_n": 47,
+          "current_failed": 0
+        }
+      ],
+      "charged_install_budget_bytes": 1998,
+      "feedback_protocol": "version_aligned_one_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "version_bucket_evidence": [
+        {
+          "source": 0,
+          "version": 1,
+          "epoch_first_bucket": 3,
+          "bucket": 3,
+          "count": 22,
+          "stamp_ns": 20334000000,
+          "received_ns": 20353040484,
+          "visible_ns": 25000000000
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "epoch_first_bucket": 3,
+          "bucket": 3,
+          "count": 22,
+          "stamp_ns": 20291000000,
+          "received_ns": 20309720475,
+          "visible_ns": 25000000000
+        }
+      ],
+      "missing_sources": [],
+      "source_version_confirmation": [
+        {
+          "source": 0,
+          "version": 1,
+          "stamp_ns": 10334000000,
+          "received_ns": 10351760484,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "stamp_ns": 10291000000,
+          "received_ns": 10309080475,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        }
+      ],
+      "deadline_ns": 40000000000,
+      "minimum_offered_per_source": 20,
+      "window_buckets": 1,
+      "censored": false
+    },
+    {
+      "decision": 2,
+      "action": 0,
+      "time_ns": 90000000000,
+      "cohort_start_ns": 80000000000,
+      "cohort_end_ns": 85000000000,
+      "planned_reward_bucket": 16,
+      "offered": [
+        31,
+        35
+      ],
+      "timely": [
+        31,
+        34
+      ],
+      "probabilities": [
+        1.0,
+        0.9714285714285714
+      ],
+      "reward": 0.9154761904761904,
+      "missing_reason": null,
+      "updated_action": null,
+      "inputs": [
+        {
+          "node": 0,
+          "stamp_ns": 85334000000,
+          "received_ns": 85351760484,
+          "depth": 0,
+          "n": 107,
+          "mean_J_ns": 13541300,
+          "cca": 257,
+          "busy": 52,
+          "failed": 51,
+          "version": 2,
+          "ctrl_bytes": 1651,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              16
+            ],
+            [
+              16,
+              31
+            ],
+            [
+              15,
+              26
+            ],
+            [
+              14,
+              25
+            ]
+          ],
+          "epoch_first_bucket": 16,
+          "current_n": 57,
+          "current_failed": 1
+        },
+        {
+          "node": 1,
+          "stamp_ns": 85291000000,
+          "received_ns": 85309080475,
+          "depth": 0,
+          "n": 116,
+          "mean_J_ns": 7096022,
+          "cca": 153,
+          "busy": 33,
+          "failed": 0,
+          "version": 2,
+          "ctrl_bytes": 1397,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              16
+            ],
+            [
+              16,
+              35
+            ],
+            [
+              15,
+              26
+            ],
+            [
+              14,
+              25
+            ]
+          ],
+          "epoch_first_bucket": 16,
+          "current_n": 62,
+          "current_failed": 0
+        }
+      ],
+      "charged_install_budget_bytes": 1998,
+      "feedback_protocol": "version_aligned_one_bucket",
+      "expected_versions": [
+        2,
+        2
+      ],
+      "version_bucket_evidence": [
+        {
+          "source": 0,
+          "version": 2,
+          "epoch_first_bucket": 16,
+          "bucket": 16,
+          "count": 31,
+          "stamp_ns": 85334000000,
+          "received_ns": 85351760484,
+          "visible_ns": 90000000000
+        },
+        {
+          "source": 1,
+          "version": 2,
+          "epoch_first_bucket": 16,
+          "bucket": 16,
+          "count": 35,
+          "stamp_ns": 85291000000,
+          "received_ns": 85309080475,
+          "visible_ns": 90000000000
+        }
+      ],
+      "missing_sources": [],
+      "source_version_confirmation": [
+        {
+          "source": 0,
+          "version": 2,
+          "stamp_ns": 75334000000,
+          "received_ns": 75357968484,
+          "visible_ns": 80000000000,
+          "epoch_first_bucket": 16
+        },
+        {
+          "source": 1,
+          "version": 2,
+          "stamp_ns": 75291000000,
+          "received_ns": 75311640475,
+          "visible_ns": 80000000000,
+          "epoch_first_bucket": 16
+        }
+      ],
+      "deadline_ns": 105000000000,
+      "minimum_offered_per_source": 20,
+      "window_buckets": 1,
+      "censored": false
+    },
+    {
+      "decision": 3,
+      "action": 0,
+      "time_ns": 170000000000,
+      "cohort_start_ns": 160000000000,
+      "cohort_end_ns": 165000000000,
+      "planned_reward_bucket": 32,
+      "offered": [
+        27,
+        30
+      ],
+      "timely": [
+        27,
+        30
+      ],
+      "probabilities": [
+        1.0,
+        1.0
+      ],
+      "reward": 0.9763020833333332,
+      "missing_reason": null,
+      "updated_action": null,
+      "inputs": [
+        {
+          "node": 0,
+          "stamp_ns": 165334000000,
+          "received_ns": 165358096484,
+          "depth": 0,
+          "n": 180,
+          "mean_J_ns": 10538322,
+          "cca": 384,
+          "busy": 187,
+          "failed": 9,
+          "version": 3,
+          "ctrl_bytes": 2921,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              32
+            ],
+            [
+              32,
+              27
+            ],
+            [
+              31,
+              20
+            ],
+            [
+              30,
+              29
+            ]
+          ],
+          "epoch_first_bucket": 32,
+          "current_n": 49,
+          "current_failed": 0
+        },
+        {
+          "node": 1,
+          "stamp_ns": 165291000000,
+          "received_ns": 165310040475,
+          "depth": 0,
+          "n": 195,
+          "mean_J_ns": 9455878,
+          "cca": 390,
+          "busy": 176,
+          "failed": 8,
+          "version": 3,
+          "ctrl_bytes": 2667,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              32
+            ],
+            [
+              32,
+              30
+            ],
+            [
+              31,
+              31
+            ],
+            [
+              30,
+              31
+            ]
+          ],
+          "epoch_first_bucket": 32,
+          "current_n": 62,
+          "current_failed": 0
+        }
+      ],
+      "charged_install_budget_bytes": 1998,
+      "feedback_protocol": "version_aligned_one_bucket",
+      "expected_versions": [
+        3,
+        3
+      ],
+      "version_bucket_evidence": [
+        {
+          "source": 0,
+          "version": 3,
+          "epoch_first_bucket": 32,
+          "bucket": 32,
+          "count": 27,
+          "stamp_ns": 165334000000,
+          "received_ns": 165358096484,
+          "visible_ns": 170000000000
+        },
+        {
+          "source": 1,
+          "version": 3,
+          "epoch_first_bucket": 32,
+          "bucket": 32,
+          "count": 30,
+          "stamp_ns": 165291000000,
+          "received_ns": 165310040475,
+          "visible_ns": 170000000000
+        }
+      ],
+      "missing_sources": [],
+      "source_version_confirmation": [
+        {
+          "source": 0,
+          "version": 3,
+          "stamp_ns": 155334000000,
+          "received_ns": 155351440484,
+          "visible_ns": 160000000000,
+          "epoch_first_bucket": 32
+        },
+        {
+          "source": 1,
+          "version": 3,
+          "stamp_ns": 155291000000,
+          "received_ns": 155310680475,
+          "visible_ns": 160000000000,
+          "epoch_first_bucket": 32
+        }
+      ],
+      "deadline_ns": 185000000000,
+      "minimum_offered_per_source": 20,
+      "window_buckets": 1,
+      "censored": false
+    }
+  ],
+  "feedback_waits": [],
+  "bandit_updates": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "constraint_pair_checks": 320532,
+  "constraint_wall_ns": 17318455,
+  "total_fe": 137,
+  "wall_seconds": 2.0875656604766846,
+  "hashes": {
+    ".csv": "02009d84cf72f0b8d121d50ce4e47e324cd6d6c02a2ea4032531f77cf8ffa58d",
+    ".jobs.csv": "9de2f61f20de89f663d13c055d3bc809c2341ae24d2bc577752bcad4aa323c6d",
+    ".protocol.jsonl": "36c76ad4f8628b5d4d94f14fa356b660dd1fdafc06f94c2046e27302646efa87",
+    ".radio.csv": "4723c8996f0f00e8109660441b1e7d10de633445735f4ee705062689ea5c8228",
+    "positions": "01806d842324e1a0539c438b0590ae8c100e3a4febc6f970ca8ecccc9bb84a1d",
+    "arrivals": "420c23083aa425479f50f1084316d448089d99ae07816e813471d26e762a30f0",
+    "controller": "0ffafe756f6b24f00a15bc95899b5eb9b249118d84ca237bb1a6acf8ad57a8aa"
+  },
+  "unified_control": {
+    "enabled": true,
+    "protected": true,
+    "version_pacing": true,
+    "rate": 305,
+    "burst": 4572,
+    "reserve": 1524,
+    "report_phase_seed": 2026110312
+  },
+  "controller_kwargs": {
+    "pacing": true,
+    "evidence_gate": true,
+    "contract": "post_exit"
+  },
+  "state_candidates": [],
+  "fork_info": null,
+  "configuration": {
+    "topology": "budget_10_2026110302",
+    "scenario": "multi_failure",
+    "seed": 2026110312,
+    "model": "horizon",
+    "contract": "post_exit"
+  },
+  "configuration_key": "81a5c728c455fb5f69e0",
+  "evidence_directory": "results/contract_generalization/81a5c728c455fb5f69e0",
+  "audit": {
+    "status": "passed",
+    "offered": [
+      3420,
+      3584
+    ],
+    "timely": [
+      3064,
+      3148
+    ],
+    "worst_source_service": 0.8783482142857143,
+    "control_DATA_bytes": 68606,
+    "report_DATA_bytes": 66608,
+    "install_DATA_bytes": 1998,
+    "application_DATA_bytes": 2401374,
+    "network_ACK_bytes": 98365,
+    "budget_admissions": 546,
+    "budget_rejections": 3,
+    "control_budget_bound_verified": true,
+    "version_pacing_checks": 136,
+    "runtime_LLM_calls": 0
+  }
+}

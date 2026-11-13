@@ -1,0 +1,23 @@
+{
+ "registration": "PHASE2B_20261111",
+ "written_pt": "2026-11-11 18:06 PST",
+ "parent_registration_sha256": "caf07cc98efd5e2d6b4fa60d5d5c3bf6cdb622d8f9ea9d70caac3ea6ca84ab4f",
+ "owner_authority": "[REDACTED: internal author authorization to continue the registered studies]",
+ "files_sha256": {
+  "PREREG_PHASE2B_20261111.md": "ec219caafa6b39954a3cebb599cd3fb9a0c7cf4e4d46a292a277aa91aebd2c54",
+  "mirror2b/ccmirror_cq.py": "463bd3c758ab0cda8dd4ed963ffaf53936ad4b46de2e266c48535456648b5709",
+  "mirror2b/dock2b.py": "28f405d1a46b5b1c61289362760752e344a88c69ca11a05447993cd538b5a9bf",
+  "mirror2b/smoke_cq.py": "109b8cb380a15aad8664ca8632eb9d25ed434ad75e8348b08267ca46f792fd55",
+  "mirror/ccmirror.py": "08cd1341acd7941b779b8f8229413ec989292d8a126b4f5c5bc5ecbdb11ca8d1",
+  "mirror/dock.py": "eadeadaa3524337e4cc6f8e34429d7a6c636a413b49ce81b14bed66f455c2744",
+  "mirror/calibration.json": "20b1180450fd0708bb111ac1383fdb933c632a3e84136ed541c7d6a7bf592e84",
+  "ADDENDUM_PHASE2_20261111b.md": "fc637ae54afaae645fa21c2ac7439476db9f0fea46c601ed75d3dcf2f3a96dec"
+ },
+ "R": 100,
+ "sets": {
+  "P": 44,
+  "H": 108
+ },
+ "runtime_LLM_calls": 0,
+ "push": false
+}

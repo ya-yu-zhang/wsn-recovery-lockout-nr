@@ -1,0 +1,11 @@
+{
+ "n": 48,
+ "ns3_joint_e1": 26,
+ "mirror_interval_95": [
+  3,
+  13
+ ],
+ "mirror_expected": 7.560000000000001,
+ "inside": false,
+ "brier": 0.4010916666666666
+}

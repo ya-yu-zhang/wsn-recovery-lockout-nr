@@ -1,0 +1,5595 @@
+{
+  "id": "observable_28d1c8a1b5094d0afe0d25a1",
+  "topology": "budget_20_2026110303",
+  "points": {
+    "0": [
+      0,
+      0
+    ],
+    "1": [
+      0,
+      4
+    ],
+    "2": [
+      38.917951747074646,
+      5.079466065888488
+    ],
+    "3": [
+      84.28375269046242,
+      -0.8095397044004988
+    ],
+    "4": [
+      35.730385298359295,
+      35.860151010977916
+    ],
+    "5": [
+      75.87278482389743,
+      40.95236030753891
+    ],
+    "6": [
+      61.072958634874205,
+      -30.739670144853783
+    ],
+    "7": [
+      99.83961985029474,
+      -34.178788785456874
+    ],
+    "8": [
+      21.189403106226045,
+      -35.023924162023775
+    ],
+    "9": [
+      120,
+      0
+    ],
+    "10": [
+      32.469596591300046,
+      -29.26342746293078
+    ],
+    "11": [
+      33.91069504877697,
+      15.619118344495995
+    ],
+    "12": [
+      23.065244579159213,
+      -34.2698132774214
+    ],
+    "13": [
+      70.95536517450478,
+      17.728334814195094
+    ],
+    "14": [
+      41.83332933321985,
+      -31.115192399268963
+    ],
+    "15": [
+      83.42557101723868,
+      10.128832102711371
+    ],
+    "16": [
+      73.32407424497077,
+      -24.90159939070168
+    ],
+    "17": [
+      31.25399063810189,
+      -9.875558643050017
+    ],
+    "18": [
+      61.75601504249093,
+      29.034126066240958
+    ],
+    "19": [
+      57.47485254530221,
+      10.159473437646788
+    ]
+  },
+  "scenario": "multi_failure",
+  "policy": "force0_scalar4_failure_current_ops_epoch_aligned_safe_interrupt_installbudget_transaction_txguard_observable_installexit_reviewmechanism_scoreonly_ctx6_noop_cache20_retry_freshfixed_mask",
+  "report_profile": "local15_event",
+  "seed": 2026110312,
+  "extended_report": true,
+  "source_only_counters": true,
+  "generation_stop": 330,
+  "action_stop_ns": 320000000000,
+  "selection_seed": 2026110312,
+  "faults": [
+    [
+      65,
+      2
+    ],
+    [
+      145,
+      3
+    ],
+    [
+      225,
+      6
+    ]
+  ],
+  "broken_install": false,
+  "source_reports_missing": false,
+  "source1_first_rejection": false,
+  "safety_events": [],
+  "install_reservations": [
+    {
+      "decision": 1,
+      "time_ns": 10000000000,
+      "window": 0,
+      "used_before": 0,
+      "reservation_bytes": 5994,
+      "budget_enabled": true
+    },
+    {
+      "decision": 2,
+      "time_ns": 80000000000,
+      "window": 4,
+      "used_before": 0,
+      "reservation_bytes": 5994,
+      "budget_enabled": true
+    }
+  ],
+  "cost_observations": [
+    {
+      "time_ns": 10000000000,
+      "observed_control_data_lower_bound": 0,
+      "meter_by_node": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 15000000000,
+      "observed_control_data_lower_bound": 587,
+      "meter_by_node": {
+        "0": 127,
+        "1": 127,
+        "2": 0,
+        "3": 0,
+        "8": 0,
+        "9": 333,
+        "10": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 20000000000,
+      "observed_control_data_lower_bound": 1436,
+      "meter_by_node": {
+        "0": 254,
+        "1": 254,
+        "2": 238,
+        "3": 0,
+        "8": 0,
+        "9": 333,
+        "10": 0,
+        "13": 0,
+        "14": 119,
+        "15": 119,
+        "16": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 25000000000,
+      "observed_control_data_lower_bound": 1809,
+      "meter_by_node": {
+        "0": 381,
+        "1": 381,
+        "2": 238,
+        "3": 119,
+        "8": 0,
+        "9": 333,
+        "10": 0,
+        "13": 0,
+        "14": 119,
+        "15": 119,
+        "16": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 30000000000,
+      "observed_control_data_lower_bound": 1809,
+      "meter_by_node": {
+        "0": 381,
+        "1": 381,
+        "2": 238,
+        "3": 119,
+        "8": 0,
+        "9": 333,
+        "10": 0,
+        "13": 0,
+        "14": 119,
+        "15": 119,
+        "16": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 35000000000,
+      "observed_control_data_lower_bound": 2166,
+      "meter_by_node": {
+        "0": 381,
+        "1": 381,
+        "2": 357,
+        "3": 119,
+        "8": 0,
+        "9": 333,
+        "10": 0,
+        "13": 0,
+        "14": 238,
+        "15": 119,
+        "16": 238
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 40000000000,
+      "observed_control_data_lower_bound": 3491,
+      "meter_by_node": {
+        "0": 508,
+        "1": 508,
+        "2": 357,
+        "3": 119,
+        "8": 238,
+        "9": 333,
+        "10": 238,
+        "13": 476,
+        "14": 238,
+        "15": 119,
+        "16": 238,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 45000000000,
+      "observed_control_data_lower_bound": 3967,
+      "meter_by_node": {
+        "0": 508,
+        "1": 508,
+        "2": 476,
+        "3": 119,
+        "8": 238,
+        "9": 333,
+        "10": 238,
+        "13": 476,
+        "14": 238,
+        "15": 357,
+        "16": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 50000000000,
+      "observed_control_data_lower_bound": 4086,
+      "meter_by_node": {
+        "0": 508,
+        "1": 508,
+        "2": 476,
+        "3": 119,
+        "8": 238,
+        "9": 333,
+        "10": 238,
+        "13": 476,
+        "14": 357,
+        "15": 357,
+        "16": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 55000000000,
+      "observed_control_data_lower_bound": 10378,
+      "meter_by_node": {
+        "0": 635,
+        "1": 635,
+        "2": 595,
+        "3": 119,
+        "4": 5205,
+        "8": 357,
+        "9": 333,
+        "10": 357,
+        "13": 476,
+        "14": 357,
+        "15": 476,
+        "16": 357,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 60000000000,
+      "observed_control_data_lower_bound": 10624,
+      "meter_by_node": {
+        "0": 762,
+        "1": 635,
+        "2": 595,
+        "3": 119,
+        "4": 5205,
+        "8": 357,
+        "9": 333,
+        "10": 357,
+        "13": 476,
+        "14": 357,
+        "15": 476,
+        "16": 476,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 65000000000,
+      "observed_control_data_lower_bound": 11227,
+      "meter_by_node": {
+        "0": 762,
+        "1": 762,
+        "2": 714,
+        "3": 119,
+        "4": 5205,
+        "8": 357,
+        "9": 333,
+        "10": 357,
+        "13": 476,
+        "14": 595,
+        "15": 595,
+        "16": 476,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 70000000000,
+      "observed_control_data_lower_bound": 13647,
+      "meter_by_node": {
+        "0": 762,
+        "1": 889,
+        "2": 714,
+        "3": 119,
+        "4": 7022,
+        "8": 476,
+        "9": 333,
+        "10": 476,
+        "13": 714,
+        "14": 595,
+        "15": 595,
+        "16": 476,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 75000000000,
+      "observed_control_data_lower_bound": 13893,
+      "meter_by_node": {
+        "0": 889,
+        "1": 889,
+        "2": 714,
+        "3": 119,
+        "4": 7022,
+        "8": 476,
+        "9": 333,
+        "10": 476,
+        "13": 714,
+        "14": 595,
+        "15": 595,
+        "16": 595,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 80000000000,
+      "observed_control_data_lower_bound": 14258,
+      "meter_by_node": {
+        "0": 889,
+        "1": 1016,
+        "2": 714,
+        "3": 119,
+        "4": 7022,
+        "8": 476,
+        "9": 333,
+        "10": 476,
+        "13": 714,
+        "14": 714,
+        "15": 714,
+        "16": 595,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 85000000000,
+      "observed_control_data_lower_bound": 16892,
+      "meter_by_node": {
+        "0": 1016,
+        "1": 1143,
+        "2": 714,
+        "3": 119,
+        "4": 8712,
+        "8": 476,
+        "9": 666,
+        "10": 595,
+        "13": 833,
+        "14": 714,
+        "15": 714,
+        "16": 714,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 90000000000,
+      "observed_control_data_lower_bound": 17146,
+      "meter_by_node": {
+        "0": 1143,
+        "1": 1270,
+        "2": 714,
+        "3": 119,
+        "4": 8712,
+        "8": 476,
+        "9": 666,
+        "10": 595,
+        "13": 833,
+        "14": 714,
+        "15": 714,
+        "16": 714,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 95000000000,
+      "observed_control_data_lower_bound": 17638,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1397,
+        "2": 714,
+        "3": 119,
+        "4": 8712,
+        "8": 476,
+        "9": 666,
+        "10": 595,
+        "13": 833,
+        "14": 833,
+        "15": 833,
+        "16": 714,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 100000000000,
+      "observed_control_data_lower_bound": 19828,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1524,
+        "2": 714,
+        "3": 119,
+        "4": 10537,
+        "8": 476,
+        "9": 666,
+        "10": 595,
+        "13": 952,
+        "14": 833,
+        "15": 833,
+        "16": 833,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 105000000000,
+      "observed_control_data_lower_bound": 20082,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1778,
+        "2": 714,
+        "3": 119,
+        "4": 10537,
+        "8": 476,
+        "9": 666,
+        "10": 595,
+        "13": 952,
+        "14": 833,
+        "15": 833,
+        "16": 833,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 110000000000,
+      "observed_control_data_lower_bound": 20804,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1778,
+        "2": 714,
+        "3": 119,
+        "4": 10537,
+        "8": 476,
+        "9": 666,
+        "10": 595,
+        "13": 1309,
+        "14": 952,
+        "15": 952,
+        "16": 833,
+        "17": 357,
+        "18": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 115000000000,
+      "observed_control_data_lower_bound": 24628,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1778,
+        "2": 714,
+        "3": 952,
+        "4": 11743,
+        "8": 833,
+        "9": 666,
+        "10": 833,
+        "13": 1309,
+        "14": 952,
+        "15": 952,
+        "16": 952,
+        "17": 833,
+        "18": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 120000000000,
+      "observed_control_data_lower_bound": 24874,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1905,
+        "2": 714,
+        "3": 952,
+        "4": 11743,
+        "8": 833,
+        "9": 666,
+        "10": 833,
+        "13": 1428,
+        "14": 952,
+        "15": 952,
+        "16": 952,
+        "17": 833,
+        "18": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 125000000000,
+      "observed_control_data_lower_bound": 25120,
+      "meter_by_node": {
+        "0": 1524,
+        "1": 1905,
+        "2": 714,
+        "3": 952,
+        "4": 11743,
+        "8": 833,
+        "9": 666,
+        "10": 833,
+        "13": 1428,
+        "14": 952,
+        "15": 1071,
+        "16": 952,
+        "17": 833,
+        "18": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 130000000000,
+      "observed_control_data_lower_bound": 27429,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 2032,
+        "2": 714,
+        "3": 1071,
+        "4": 13203,
+        "8": 952,
+        "9": 666,
+        "10": 952,
+        "13": 1428,
+        "14": 952,
+        "15": 1071,
+        "16": 1071,
+        "17": 952,
+        "18": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 135000000000,
+      "observed_control_data_lower_bound": 27556,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 2159,
+        "2": 714,
+        "3": 1071,
+        "4": 13203,
+        "8": 952,
+        "9": 666,
+        "10": 952,
+        "13": 1428,
+        "14": 952,
+        "15": 1071,
+        "16": 1071,
+        "17": 952,
+        "18": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 140000000000,
+      "observed_control_data_lower_bound": 29111,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 2159,
+        "2": 714,
+        "3": 1071,
+        "4": 14163,
+        "8": 952,
+        "9": 666,
+        "10": 1190,
+        "13": 1428,
+        "14": 1071,
+        "15": 1190,
+        "16": 1190,
+        "17": 952,
+        "18": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 145000000000,
+      "observed_control_data_lower_bound": 30793,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 2286,
+        "2": 714,
+        "3": 1071,
+        "4": 14163,
+        "8": 1071,
+        "9": 666,
+        "10": 1190,
+        "13": 1428,
+        "14": 1071,
+        "15": 1190,
+        "16": 1190,
+        "17": 1071,
+        "18": 952,
+        "19": 952
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 150000000000,
+      "observed_control_data_lower_bound": 31761,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 2286,
+        "2": 714,
+        "3": 1071,
+        "4": 15131,
+        "8": 1071,
+        "9": 666,
+        "10": 1190,
+        "13": 1428,
+        "14": 1071,
+        "15": 1190,
+        "16": 1190,
+        "17": 1071,
+        "18": 952,
+        "19": 952
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 155000000000,
+      "observed_control_data_lower_bound": 32483,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 2413,
+        "2": 714,
+        "3": 1071,
+        "4": 15131,
+        "8": 1071,
+        "9": 666,
+        "10": 1309,
+        "13": 1428,
+        "14": 1309,
+        "15": 1309,
+        "16": 1309,
+        "17": 1071,
+        "18": 952,
+        "19": 952
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 160000000000,
+      "observed_control_data_lower_bound": 33578,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 2413,
+        "2": 714,
+        "3": 1071,
+        "4": 15131,
+        "8": 1190,
+        "9": 666,
+        "10": 1309,
+        "13": 1666,
+        "14": 1309,
+        "15": 1309,
+        "16": 1309,
+        "17": 1190,
+        "18": 1071,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 165000000000,
+      "observed_control_data_lower_bound": 35498,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 2413,
+        "2": 714,
+        "3": 1071,
+        "4": 16813,
+        "8": 1190,
+        "9": 666,
+        "10": 1428,
+        "13": 1666,
+        "14": 1309,
+        "15": 1309,
+        "16": 1428,
+        "17": 1190,
+        "18": 1071,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 170000000000,
+      "observed_control_data_lower_bound": 35982,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 2540,
+        "2": 714,
+        "3": 1071,
+        "4": 16813,
+        "8": 1190,
+        "9": 666,
+        "10": 1428,
+        "13": 1785,
+        "14": 1428,
+        "15": 1428,
+        "16": 1428,
+        "17": 1190,
+        "18": 1071,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 175000000000,
+      "observed_control_data_lower_bound": 37926,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 2667,
+        "2": 714,
+        "3": 1071,
+        "4": 18027,
+        "8": 1309,
+        "9": 666,
+        "10": 1428,
+        "13": 1785,
+        "14": 1428,
+        "15": 1428,
+        "16": 1666,
+        "17": 1190,
+        "18": 1190,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 180000000000,
+      "observed_control_data_lower_bound": 38045,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 2667,
+        "2": 714,
+        "3": 1071,
+        "4": 18027,
+        "8": 1309,
+        "9": 666,
+        "10": 1547,
+        "13": 1785,
+        "14": 1428,
+        "15": 1428,
+        "16": 1666,
+        "17": 1190,
+        "18": 1190,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 185000000000,
+      "observed_control_data_lower_bound": 38402,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 2667,
+        "2": 714,
+        "3": 1071,
+        "4": 18027,
+        "8": 1309,
+        "9": 666,
+        "10": 1547,
+        "13": 1904,
+        "14": 1547,
+        "15": 1547,
+        "16": 1666,
+        "17": 1190,
+        "18": 1190,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 190000000000,
+      "observed_control_data_lower_bound": 59071,
+      "meter_by_node": {
+        "0": 2413,
+        "1": 2794,
+        "2": 714,
+        "3": 1071,
+        "4": 19233,
+        "5": 18852,
+        "8": 1428,
+        "9": 666,
+        "10": 1547,
+        "13": 1904,
+        "14": 1547,
+        "15": 1547,
+        "16": 1785,
+        "17": 1190,
+        "18": 1309,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 195000000000,
+      "observed_control_data_lower_bound": 59190,
+      "meter_by_node": {
+        "0": 2413,
+        "1": 2794,
+        "2": 714,
+        "3": 1071,
+        "4": 19233,
+        "5": 18852,
+        "8": 1428,
+        "9": 666,
+        "10": 1666,
+        "13": 1904,
+        "14": 1547,
+        "15": 1547,
+        "16": 1785,
+        "17": 1190,
+        "18": 1309,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 200000000000,
+      "observed_control_data_lower_bound": 59547,
+      "meter_by_node": {
+        "0": 2413,
+        "1": 2794,
+        "2": 714,
+        "3": 1071,
+        "4": 19233,
+        "5": 18852,
+        "8": 1428,
+        "9": 666,
+        "10": 1666,
+        "13": 2023,
+        "14": 1666,
+        "15": 1666,
+        "16": 1785,
+        "17": 1190,
+        "18": 1309,
+        "19": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 205000000000,
+      "observed_control_data_lower_bound": 62435,
+      "meter_by_node": {
+        "0": 2540,
+        "1": 2921,
+        "2": 714,
+        "3": 1071,
+        "4": 20439,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1666,
+        "13": 2023,
+        "14": 1666,
+        "15": 1666,
+        "16": 1904,
+        "17": 1547,
+        "18": 1428,
+        "19": 1547
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 210000000000,
+      "observed_control_data_lower_bound": 62554,
+      "meter_by_node": {
+        "0": 2540,
+        "1": 2921,
+        "2": 714,
+        "3": 1071,
+        "4": 20439,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1785,
+        "13": 2023,
+        "14": 1666,
+        "15": 1666,
+        "16": 1904,
+        "17": 1547,
+        "18": 1428,
+        "19": 1547
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 215000000000,
+      "observed_control_data_lower_bound": 62911,
+      "meter_by_node": {
+        "0": 2540,
+        "1": 2921,
+        "2": 714,
+        "3": 1071,
+        "4": 20439,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1785,
+        "13": 2142,
+        "14": 1785,
+        "15": 1785,
+        "16": 1904,
+        "17": 1547,
+        "18": 1428,
+        "19": 1547
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 220000000000,
+      "observed_control_data_lower_bound": 65204,
+      "meter_by_node": {
+        "0": 2667,
+        "1": 3048,
+        "2": 714,
+        "3": 1071,
+        "4": 21883,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1904,
+        "13": 2142,
+        "14": 1785,
+        "15": 1785,
+        "16": 2023,
+        "17": 1666,
+        "18": 1547,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 225000000000,
+      "observed_control_data_lower_bound": 65323,
+      "meter_by_node": {
+        "0": 2667,
+        "1": 3048,
+        "2": 714,
+        "3": 1071,
+        "4": 21883,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1904,
+        "13": 2261,
+        "14": 1785,
+        "15": 1785,
+        "16": 2023,
+        "17": 1666,
+        "18": 1547,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 230000000000,
+      "observed_control_data_lower_bound": 66767,
+      "meter_by_node": {
+        "0": 2794,
+        "1": 3048,
+        "2": 714,
+        "3": 1071,
+        "4": 22962,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1904,
+        "13": 2261,
+        "14": 1904,
+        "15": 1904,
+        "16": 2023,
+        "17": 1666,
+        "18": 1547,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 235000000000,
+      "observed_control_data_lower_bound": 69290,
+      "meter_by_node": {
+        "0": 3048,
+        "1": 3175,
+        "2": 714,
+        "3": 1071,
+        "4": 22962,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1904,
+        "11": 2023,
+        "13": 2261,
+        "14": 1904,
+        "15": 1904,
+        "16": 2023,
+        "17": 1785,
+        "18": 1547,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 240000000000,
+      "observed_control_data_lower_bound": 69290,
+      "meter_by_node": {
+        "0": 3048,
+        "1": 3175,
+        "2": 714,
+        "3": 1071,
+        "4": 22962,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 1904,
+        "11": 2023,
+        "13": 2261,
+        "14": 1904,
+        "15": 1904,
+        "16": 2023,
+        "17": 1785,
+        "18": 1547,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 245000000000,
+      "observed_control_data_lower_bound": 70131,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 3175,
+        "2": 714,
+        "3": 1071,
+        "4": 22962,
+        "5": 18852,
+        "8": 1785,
+        "9": 666,
+        "10": 2023,
+        "11": 2023,
+        "13": 2261,
+        "14": 2142,
+        "15": 2023,
+        "16": 2261,
+        "17": 1785,
+        "18": 1547,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 250000000000,
+      "observed_control_data_lower_bound": 73638,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 3302,
+        "2": 714,
+        "3": 1071,
+        "4": 25501,
+        "5": 18852,
+        "8": 2023,
+        "9": 666,
+        "10": 2023,
+        "11": 2023,
+        "13": 2380,
+        "14": 2142,
+        "15": 2023,
+        "16": 2261,
+        "17": 1785,
+        "18": 1904,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 255000000000,
+      "observed_control_data_lower_bound": 73757,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 3302,
+        "2": 714,
+        "3": 1071,
+        "4": 25501,
+        "5": 18852,
+        "8": 2023,
+        "9": 666,
+        "10": 2142,
+        "11": 2023,
+        "13": 2380,
+        "14": 2142,
+        "15": 2023,
+        "16": 2261,
+        "17": 1785,
+        "18": 1904,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 260000000000,
+      "observed_control_data_lower_bound": 74471,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 3302,
+        "2": 714,
+        "3": 1071,
+        "4": 25501,
+        "5": 18852,
+        "8": 2023,
+        "9": 666,
+        "10": 2142,
+        "11": 2023,
+        "13": 2737,
+        "14": 2261,
+        "15": 2142,
+        "16": 2380,
+        "17": 1785,
+        "18": 1904,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 265000000000,
+      "observed_control_data_lower_bound": 76772,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 3429,
+        "2": 714,
+        "3": 1071,
+        "4": 26826,
+        "5": 18852,
+        "8": 2142,
+        "9": 666,
+        "10": 2261,
+        "11": 2023,
+        "13": 2737,
+        "14": 2261,
+        "15": 2142,
+        "16": 2380,
+        "17": 2023,
+        "18": 2023,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 270000000000,
+      "observed_control_data_lower_bound": 76772,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 3429,
+        "2": 714,
+        "3": 1071,
+        "4": 26826,
+        "5": 18852,
+        "8": 2142,
+        "9": 666,
+        "10": 2261,
+        "11": 2023,
+        "13": 2737,
+        "14": 2261,
+        "15": 2142,
+        "16": 2380,
+        "17": 2023,
+        "18": 2023,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 275000000000,
+      "observed_control_data_lower_bound": 77367,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 3429,
+        "2": 714,
+        "3": 1071,
+        "4": 26826,
+        "5": 18852,
+        "8": 2142,
+        "9": 666,
+        "10": 2380,
+        "11": 2023,
+        "13": 2856,
+        "14": 2380,
+        "15": 2261,
+        "16": 2499,
+        "17": 2023,
+        "18": 2023,
+        "19": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 280000000000,
+      "observed_control_data_lower_bound": 79779,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 3556,
+        "2": 714,
+        "3": 1071,
+        "4": 28270,
+        "5": 18852,
+        "8": 2261,
+        "9": 666,
+        "10": 2380,
+        "11": 2023,
+        "13": 2856,
+        "14": 2380,
+        "15": 2261,
+        "16": 2499,
+        "17": 2142,
+        "18": 2142,
+        "19": 2023
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 285000000000,
+      "observed_control_data_lower_bound": 79779,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 3556,
+        "2": 714,
+        "3": 1071,
+        "4": 28270,
+        "5": 18852,
+        "8": 2261,
+        "9": 666,
+        "10": 2380,
+        "11": 2023,
+        "13": 2856,
+        "14": 2380,
+        "15": 2261,
+        "16": 2499,
+        "17": 2142,
+        "18": 2142,
+        "19": 2023
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 290000000000,
+      "observed_control_data_lower_bound": 80255,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 3556,
+        "2": 714,
+        "3": 1071,
+        "4": 28270,
+        "5": 18852,
+        "8": 2261,
+        "9": 666,
+        "10": 2499,
+        "11": 2023,
+        "13": 2975,
+        "14": 2499,
+        "15": 2380,
+        "16": 2499,
+        "17": 2142,
+        "18": 2142,
+        "19": 2023
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 295000000000,
+      "observed_control_data_lower_bound": 92680,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 3683,
+        "2": 714,
+        "3": 1071,
+        "4": 29595,
+        "5": 29103,
+        "8": 2380,
+        "9": 666,
+        "10": 2499,
+        "11": 2023,
+        "13": 2975,
+        "14": 2499,
+        "15": 2380,
+        "16": 2499,
+        "17": 2261,
+        "18": 2380,
+        "19": 2142
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 300000000000,
+      "observed_control_data_lower_bound": 92680,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 3683,
+        "2": 714,
+        "3": 1071,
+        "4": 29595,
+        "5": 29103,
+        "8": 2380,
+        "9": 666,
+        "10": 2499,
+        "11": 2023,
+        "13": 2975,
+        "14": 2499,
+        "15": 2380,
+        "16": 2499,
+        "17": 2261,
+        "18": 2380,
+        "19": 2142
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 305000000000,
+      "observed_control_data_lower_bound": 93275,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 3683,
+        "2": 714,
+        "3": 1071,
+        "4": 29595,
+        "5": 29103,
+        "8": 2380,
+        "9": 666,
+        "10": 2618,
+        "11": 2023,
+        "13": 2975,
+        "14": 2618,
+        "15": 2499,
+        "16": 2737,
+        "17": 2261,
+        "18": 2380,
+        "19": 2142
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 310000000000,
+      "observed_control_data_lower_bound": 95703,
+      "meter_by_node": {
+        "0": 4191,
+        "1": 3810,
+        "2": 714,
+        "3": 1071,
+        "4": 31039,
+        "5": 29103,
+        "8": 2499,
+        "9": 666,
+        "10": 2618,
+        "11": 2023,
+        "13": 2975,
+        "14": 2618,
+        "15": 2499,
+        "16": 2737,
+        "17": 2380,
+        "18": 2499,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 315000000000,
+      "observed_control_data_lower_bound": 96076,
+      "meter_by_node": {
+        "0": 4318,
+        "1": 3937,
+        "2": 714,
+        "3": 1071,
+        "4": 31039,
+        "5": 29103,
+        "8": 2499,
+        "9": 666,
+        "10": 2737,
+        "11": 2023,
+        "13": 2975,
+        "14": 2618,
+        "15": 2499,
+        "16": 2737,
+        "17": 2380,
+        "18": 2499,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 320000000000,
+      "observed_control_data_lower_bound": 97790,
+      "meter_by_node": {
+        "0": 4318,
+        "1": 4191,
+        "2": 714,
+        "3": 1071,
+        "4": 32380,
+        "5": 29103,
+        "8": 2499,
+        "9": 666,
+        "10": 2737,
+        "11": 2023,
+        "13": 2975,
+        "14": 2618,
+        "15": 2618,
+        "16": 2737,
+        "17": 2380,
+        "18": 2499,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 325000000000,
+      "observed_control_data_lower_bound": 98869,
+      "meter_by_node": {
+        "0": 4445,
+        "1": 4191,
+        "2": 714,
+        "3": 1071,
+        "4": 32380,
+        "5": 29103,
+        "8": 2618,
+        "9": 666,
+        "10": 2737,
+        "11": 2023,
+        "13": 3570,
+        "14": 2618,
+        "15": 2618,
+        "16": 2737,
+        "17": 2380,
+        "18": 2737,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 330000000000,
+      "observed_control_data_lower_bound": 100805,
+      "meter_by_node": {
+        "0": 4572,
+        "1": 4191,
+        "2": 714,
+        "3": 1071,
+        "4": 33713,
+        "5": 29103,
+        "8": 2618,
+        "9": 666,
+        "10": 3094,
+        "11": 2023,
+        "13": 3570,
+        "14": 2618,
+        "15": 2618,
+        "16": 2856,
+        "17": 2380,
+        "18": 2737,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 335000000000,
+      "observed_control_data_lower_bound": 101765,
+      "meter_by_node": {
+        "0": 4572,
+        "1": 4318,
+        "2": 714,
+        "3": 1071,
+        "4": 33713,
+        "5": 29103,
+        "8": 2618,
+        "9": 666,
+        "10": 3094,
+        "11": 2023,
+        "13": 3808,
+        "14": 3094,
+        "15": 2737,
+        "16": 2856,
+        "17": 2380,
+        "18": 2737,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 340000000000,
+      "observed_control_data_lower_bound": 103201,
+      "meter_by_node": {
+        "0": 4572,
+        "1": 4318,
+        "2": 714,
+        "3": 1071,
+        "4": 34554,
+        "5": 29103,
+        "8": 2856,
+        "9": 666,
+        "10": 3094,
+        "11": 2023,
+        "13": 3808,
+        "14": 3094,
+        "15": 2737,
+        "16": 2856,
+        "17": 2618,
+        "18": 2856,
+        "19": 2261
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    }
+  ],
+  "report_budget": true,
+  "reward_waits": [
+    {
+      "decision": 1,
+      "time_ns": 15000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "bucket": 3,
+      "deadline_ns": 40000000000
+    },
+    {
+      "decision": 1,
+      "time_ns": 20000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "bucket": 3,
+      "deadline_ns": 40000000000
+    },
+    {
+      "decision": 2,
+      "time_ns": 85000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        2,
+        2
+      ],
+      "bucket": 17,
+      "deadline_ns": 110000000000
+    },
+    {
+      "decision": 2,
+      "time_ns": 90000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        2,
+        2
+      ],
+      "bucket": 17,
+      "deadline_ns": 110000000000
+    }
+  ],
+  "report_retry": true,
+  "report_retry_mode": "always",
+  "queue_discipline": "fifo",
+  "epoch_certificate": true,
+  "command": [
+    "raw_on_request/control_budget_study_20261015/engine/ns3/wsn-closed-loop",
+    "--nodes=20",
+    "--run=2026110312",
+    "--arrivals=raw_on_request/control_budget_study_20261015/results/contract_generalization/6196b9e674ec77add520/observable_28d1c8a1b5094d0afe0d25a1_arrivals.csv",
+    "--positions=raw_on_request/control_budget_study_20261015/results/contract_generalization/6196b9e674ec77add520/observable_28d1c8a1b5094d0afe0d25a1_positions.csv",
+    "--output=raw_on_request/control_budget_study_20261015/results/contract_generalization/6196b9e674ec77add520/observable_28d1c8a1b5094d0afe0d25a1",
+    "--stop=350",
+    "--generationStop=330",
+    "--compact=1",
+    "--monitor=1",
+    "--failAt=-1",
+    "--brokenInstall=0",
+    "--suppressReports=0",
+    "--reportProfile=local15_event",
+    "--rejectFirstSource1=0",
+    "--extendedReport=1",
+    "--sourceOnlyCounters=1",
+    "--queueDiscipline=fifo",
+    "--epochCertificate=1",
+    "--reportRetry=1",
+    "--reportBudget=1",
+    "--reportRetryMode=always",
+    "--unifiedBudget=1",
+    "--protectEvidence=1",
+    "--versionPacing=1",
+    "--controlRate=305",
+    "--controlBurst=4572",
+    "--controlReserve=1524",
+    "--reportPhaseSeed=2026110312",
+    "--faultSchedule=65:2;145:3;225:6"
+  ],
+  "native": {
+    "ns3_version": "3.44",
+    "closed_loop_prototype": true,
+    "nodes_including_sink": 20,
+    "max_psdu_bytes": 127,
+    "total_attempts": 3,
+    "mac_max_retries": 2,
+    "phy_transmissions": 42691,
+    "data_transmissions": 22426,
+    "ack_transmissions": 20265,
+    "finalized_jobs": 20968,
+    "unattributed_cca": 0,
+    "rx_sensitivity_dbm": -106.58,
+    "queue_drops": 0,
+    "offered": [
+      3420,
+      3584
+    ],
+    "delivered": [
+      3110,
+      3159
+    ],
+    "timely": [
+      3110,
+      3159
+    ],
+    "mac_status_counts": {
+      "0": 20157,
+      "225": 664,
+      "233": 147
+    },
+    "control_psdu_bytes": 119370,
+    "application_psdu_bytes": 2379396,
+    "ack_psdu_bytes": 101325,
+    "stop_ns": 350000000000,
+    "max_queue_depth": [
+      5,
+      4,
+      3,
+      2,
+      4,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      1,
+      1,
+      3,
+      5,
+      3,
+      4,
+      1,
+      1,
+      1
+    ]
+  },
+  "offered": 7004,
+  "timely_by_party": [
+    0.9093567251461988,
+    0.8814174107142857
+  ],
+  "mean_timely": 0.8953870679302423,
+  "worst_party_timely": 0.8814174107142857,
+  "estimated_radio_joules_by_node": [
+    19.677597038976,
+    19.672181256576,
+    4.013393477376,
+    8.437680638976,
+    19.683648264576,
+    19.734353218176,
+    12.849492926976,
+    19.739584469376002,
+    19.739549256576,
+    19.724908795776,
+    19.690939598976,
+    19.739514043776,
+    19.739566862976,
+    19.690873205376,
+    19.725058382976002,
+    19.726049045376,
+    19.678345378176,
+    19.739584469376002,
+    19.739549256576,
+    19.739584469376002
+  ],
+  "estimated_radio_joules": 360.48145405632,
+  "energy_scope": "CC2420-like radio model only; no battery depletion/CPU/sensor/transient energy",
+  "decisions": [
+    {
+      "decision": 1,
+      "time_ns": 10000000000,
+      "action": 0,
+      "context": [
+        1.0,
+        0.0,
+        0.12612612612612611,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paths": [
+        [
+          0,
+          14,
+          16,
+          9
+        ],
+        [
+          1,
+          2,
+          15,
+          9
+        ]
+      ],
+      "fe": 64,
+      "evaluated": [
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.039301650862968225,
+            0.4372835451963676
+          ],
+          "score": 0.37779439758433414,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.014002210126126124,
+            0.38371578409525814
+          ],
+          "score": 0.3303643425931279,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.014002210126126124,
+            0.38344187072752056
+          ],
+          "score": 0.330131516230551,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.039301650862968225,
+            0.38568940955439196
+          ],
+          "score": 0.3320419242333917,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.4221216484532825
+          ],
+          "score": 0.3611118692421854,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.42184773508554496
+          ],
+          "score": 0.36087904287960854,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.039301650862968225,
+            0.3827260098870907
+          ],
+          "score": 0.32952303451618564,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.44915824878598126
+          ],
+          "score": 0.3840929795249794,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.41888433541824377
+          ],
+          "score": 0.35836015316240255,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.039301650862968225,
+            0.3825454863036269
+          ],
+          "score": 0.32936958947024136,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.4189777252025174
+          ],
+          "score": 0.35843953447903515,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.44870381183477986
+          ],
+          "score": 0.3837067081164582,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.030551441529634894,
+            0.40769134035975196
+          ],
+          "score": 0.35198475777321087,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.022752419459459456,
+            0.4139877646442014
+          ],
+          "score": 0.3567517917597297,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.014002210126126124,
+            0.38384966589090497
+          ],
+          "score": 0.32982187641942773,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.3860972047177763
+          ],
+          "score": 0.3317322844222684,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.39239362900222574
+          ],
+          "score": 0.3364993184087873,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.3927716472736408
+          ],
+          "score": 0.33682063393949,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.039301650862968225,
+            0.4129979904360339
+          ],
+          "score": 0.3559104836827873,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.014002210126126124,
+            0.41943022933492446
+          ],
+          "score": 0.35948042869158114,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.014002210126126124,
+            0.3891563159671869
+          ],
+          "score": 0.33374760232900424,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.38295328146701124
+          ],
+          "score": 0.3290599496591181,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.3892497057514607
+          ],
+          "score": 0.33382698364563695,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.014002210126126124,
+            0.41962772402287574
+          ],
+          "score": 0.3596482991763397,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              15,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.039301650862968225,
+            0.40769134035975196
+          ],
+          "score": 0.35198475777321087,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.014002210126126124,
+            0.3841235792586425
+          ],
+          "score": 0.33005470278200466,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.022752419459459456,
+            0.41436578291561643
+          ],
+          "score": 0.35707310729043246,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.3873312715757048
+          ],
+          "score": 0.3327812412515076,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.39480380979883206
+          ],
+          "score": 0.33789170638590255,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.38313380505047506
+          ],
+          "score": 0.32921339470506233,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.41943022933492446
+          ],
+          "score": 0.35948042869158114,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.38980824760633953
+          ],
+          "score": 0.334301744222284,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.039301650862968225,
+            0.4134693984917227
+          ],
+          "score": 0.35631118053012284,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.014002210126126124,
+            0.38990163739061323
+          ],
+          "score": 0.33438112553891663,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.41962772402287574
+          ],
+          "score": 0.3596482991763397,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              15,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.030551441529634894,
+            0.43809913552313634
+          ],
+          "score": 0.3771751179620876,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.022752419459459456,
+            0.3843955598075857
+          ],
+          "score": 0.3309421519486064,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.022752419459459456,
+            0.38477357807900076
+          ],
+          "score": 0.3312634674793092,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.42115966495162316
+          ],
+          "score": 0.3615353756210382,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.030551441529634894,
+            0.3834057855994183
+          ],
+          "score": 0.33010084387166405,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.022752419459459456,
+            0.44970220988386767
+          ],
+          "score": 0.3858678778581829,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.022752419459459456,
+            0.4200802281552828
+          ],
+          "score": 0.3606891933888857,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.030551441529634894,
+            0.3838771936551071
+          ],
+          "score": 0.33050154071899956,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.022752419459459456,
+            0.42017361793955643
+          ],
+          "score": 0.3607685747055183,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.022752419459459456,
+            0.4505516362109715
+          ],
+          "score": 0.38658989023622115,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.04207680470265407,
+            0.030551441529634894,
+            0.40892540721768045
+          ],
+          "score": 0.35303371460245003,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              13,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.014002210126126124,
+            0.385357646116571
+          ],
+          "score": 0.3311036596112439,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              13,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.014002210126126124,
+            0.38508373274883345
+          ],
+          "score": 0.33087083324866695,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.38436787190840355
+          ],
+          "score": 0.33026235153430156,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.42184041013153084
+          ],
+          "score": 0.3608728166686965,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.3915664967637933
+          ],
+          "score": 0.33513999030611963,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              2,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.030551441529634894,
+            0.3841873483249397
+          ],
+          "score": 0.3301089064883573,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.391659886548067
+          ],
+          "score": 0.3352193716227523,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.42239762669244707
+          ],
+          "score": 0.36134645074547533,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              13,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.039301650862968225,
+            0.40892540721768045
+          ],
+          "score": 0.35303371460245003,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              13,
+              9
+            ],
+            [
+              1,
+              10,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.022752419459459456,
+            0.3856296266655142
+          ],
+          "score": 0.3319911087778456,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              13,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.022752419459459456,
+            0.38600764493692924
+          ],
+          "score": 0.33231242430854835,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.030551441529634894,
+            0.3846398524573468
+          ],
+          "score": 0.3311498007009033,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.014002210126126124,
+            0.42184041013153084
+          ],
+          "score": 0.3608728166686965,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.3924904089518891
+          ],
+          "score": 0.3365815813660011,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.030551441529634894,
+            0.38511126051303557
+          ],
+          "score": 0.33155049754823873,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              3,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.0255275732991453,
+            0.014002210126126124,
+            0.39258379873616284
+          ],
+          "score": 0.3366609626826338,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.016777363965811965,
+            0.022752419459459456,
+            0.4233215388805429
+          ],
+          "score": 0.36278804180535684,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              2,
+              13,
+              9
+            ],
+            [
+              1,
+              2,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.033326595369320734,
+            0.030551441529634894,
+            0.40933320238106485
+          ],
+          "score": 0.35272407479132684,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        }
+      ],
+      "search": {
+        "mode": "observable_operator",
+        "operator": "resource",
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "archive": [
+          {
+            "paths": [
+              [
+                0,
+                10,
+                15,
+                9
+              ],
+              [
+                1,
+                14,
+                16,
+                9
+              ]
+            ],
+            "objectives": [
+              0.016777363965811965,
+              0.014002210126126124,
+              0.3915664967637933
+            ],
+            "score": 0.33513999030611963,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                14,
+                16,
+                9
+              ],
+              [
+                1,
+                10,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.016777363965811965,
+              0.022752419459459456,
+              0.3892497057514607
+            ],
+            "score": 0.33382698364563695,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                14,
+                16,
+                9
+              ],
+              [
+                1,
+                2,
+                15,
+                9
+              ]
+            ],
+            "objectives": [
+              0.016777363965811965,
+              0.030551441529634894,
+              0.38295328146701124
+            ],
+            "score": 0.3290599496591181,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                14,
+                16,
+                9
+              ],
+              [
+                1,
+                2,
+                3,
+                9
+              ]
+            ],
+            "objectives": [
+              0.016777363965811965,
+              0.039301650862968225,
+              0.3825454863036269
+            ],
+            "score": 0.32936958947024136,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 0.5
+          },
+          {
+            "paths": [
+              [
+                0,
+                10,
+                3,
+                9
+              ],
+              [
+                1,
+                14,
+                16,
+                9
+              ]
+            ],
+            "objectives": [
+              0.0255275732991453,
+              0.014002210126126124,
+              0.3891563159671869
+            ],
+            "score": 0.33374760232900424,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                2,
+                15,
+                9
+              ],
+              [
+                1,
+                14,
+                16,
+                9
+              ]
+            ],
+            "objectives": [
+              0.033326595369320734,
+              0.014002210126126124,
+              0.38384966589090497
+            ],
+            "score": 0.32982187641942773,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                2,
+                3,
+                9
+              ],
+              [
+                1,
+                14,
+                16,
+                9
+              ]
+            ],
+            "objectives": [
+              0.04207680470265407,
+              0.014002210126126124,
+              0.38344187072752056
+            ],
+            "score": 0.330131516230551,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 0.5
+          }
+        ],
+        "proxy_hypervolume": 0.8439755180023621,
+        "selected_objectives": [
+          0.016777363965811965,
+          0.030551441529634894,
+          0.38295328146701124
+        ],
+        "poor_settled_service": false,
+        "scope": "received report proxy only; no counterfactual reward or physical liveness"
+      },
+      "exploration_cap": 0,
+      "event": {
+        "missing": 0.0,
+        "busy": 0.12612612612612611,
+        "source_queue": 0,
+        "observation_states": {
+          "0": "fresh",
+          "1": "fresh",
+          "2": "fresh",
+          "3": "fresh",
+          "4": "unknown",
+          "5": "unknown",
+          "6": "unknown",
+          "7": "unknown",
+          "8": "fresh",
+          "10": "fresh",
+          "11": "unknown",
+          "12": "unknown",
+          "13": "fresh",
+          "14": "fresh",
+          "15": "fresh",
+          "16": "fresh",
+          "17": "unknown",
+          "18": "unknown",
+          "19": "unknown"
+        },
+        "missing_means": "unobserved or expired, not confirmed physical failure",
+        "source_failure_reports": {
+          "0": {
+            "fresh": true,
+            "n": 30,
+            "failed": 0,
+            "fraction": 0.0,
+            "stamp_ns": 5334000000,
+            "sampled_version": 0,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          },
+          "1": {
+            "fresh": true,
+            "n": 30,
+            "failed": 0,
+            "fraction": 0.0,
+            "stamp_ns": 5291000000,
+            "sampled_version": 0,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          }
+        },
+        "transmission_failure": false,
+        "trigger_failure": false,
+        "settled_service": {
+          "known": true,
+          "buckets": [
+            0
+          ],
+          "offered": [
+            29,
+            26
+          ],
+          "timely": [
+            29,
+            26
+          ],
+          "probabilities": [
+            1.0,
+            1.0
+          ],
+          "worst_timely": 1.0,
+          "earliest_current_version_ns": 0,
+          "version_by_source": {
+            "0": 0,
+            "1": 0
+          },
+          "bucket_evidence": [
+            {
+              "source": 0,
+              "bucket": 0,
+              "count": 29,
+              "stamp_ns": 5334000000,
+              "received_ns": 5351760505,
+              "visible_ns": 10000000000
+            },
+            {
+              "source": 1,
+              "bucket": 0,
+              "count": 26,
+              "stamp_ns": 5291000000,
+              "received_ns": 5311640496,
+              "visible_ns": 10000000000
+            }
+          ],
+          "scope": "received closed generation counts and sink-local timely deliveries; conditional on observed versions"
+        },
+        "poor_settled_service": false,
+        "context_schema": "stable6-v1"
+      },
+      "bucket": 2,
+      "compute_wall_ns": 1151103,
+      "declared_search_delay_ns": 1280000,
+      "install_budget_bytes": 1998,
+      "ucb_scores": null,
+      "selection_phase": "event_policy",
+      "warmup_ordinal": null,
+      "report_profile": "local15_event",
+      "constraints": {
+        "time_ns": 10000000000,
+        "available": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "witnesses": {
+          "0": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "1": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "2": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ],
+          "3": [
+            [
+              0,
+              2,
+              3,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              9
+            ]
+          ]
+        },
+        "candidate_pair_freshness_checks": 1027,
+        "unselected_objective_evaluations": 0,
+        "constraint_wall_ns": 82421,
+        "domain_rule": "geometry relay-group round robin; cached by visible active mask",
+        "pool_size": 64,
+        "install_budget_exhausted": false,
+        "install_reservation_window": 0
+      },
+      "selection_rule": "deterministic_policy",
+      "updates_before_selection": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "admission": {
+        "suppressed": false,
+        "reason": "route_changed",
+        "proposed_paths": [
+          [
+            0,
+            14,
+            16,
+            9
+          ],
+          [
+            1,
+            2,
+            15,
+            9
+          ]
+        ]
+      },
+      "reward_expected_versions": [
+        1,
+        1
+      ],
+      "install_reservation": {
+        "decision": 1,
+        "time_ns": 10000000000,
+        "window": 0,
+        "used_before": 0,
+        "reservation_bytes": 5994,
+        "budget_enabled": true
+      },
+      "observable_admission": {
+        "explicit_exposure_cap": 0,
+        "selector": "feasible UCB score",
+        "unconfirmed_install_deadline_ns": 10000000000,
+        "no_censored_reward_imputation": true
+      },
+      "score_decomposition": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bonus": [
+          0.6047535100261676,
+          0.6047535100261676,
+          0.6047535100261676,
+          0.6047535100261676
+        ],
+        "model_context": [
+          1.0,
+          0.0,
+          0.12612612612612611,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "A_condition_numbers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scores": [
+          0.6047535100261676,
+          0.6047535100261676,
+          0.6047535100261676,
+          0.6047535100261676
+        ]
+      },
+      "learning_admission": null,
+      "learning_freeze": {
+        "enabled": false,
+        "updates": 0,
+        "training_enabled": true,
+        "freeze_time_ns": null
+      },
+      "mechanism_treatment": {
+        "installation_deadline_ns": 10000000000,
+        "installation_retry_limit": 1,
+        "learning_enabled": false,
+        "explicit_exposure": false,
+        "search": "fixed_operator"
+      },
+      "reward_bucket": 3,
+      "reward_confirmation": [
+        {
+          "source": 0,
+          "version": 1,
+          "stamp_ns": 10334000000,
+          "received_ns": 10354000505,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "stamp_ns": 10291000000,
+          "received_ns": 10308760496,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        }
+      ]
+    },
+    {
+      "decision": 2,
+      "time_ns": 80000000000,
+      "action": 0,
+      "context": [
+        1.0,
+        0.16666666666666666,
+        0.3758036236119229,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "paths": [
+        [
+          0,
+          10,
+          16,
+          9
+        ],
+        [
+          1,
+          4,
+          13,
+          9
+        ]
+      ],
+      "fe": 35,
+      "evaluated": [
+        {
+          "paths": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.036438354437375746,
+            0.026079334538876054,
+            0.4503944094224613
+          ],
+          "score": 0.387524074682311,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.036438354437375746,
+            0.05551054433240186,
+            0.3906614585024857
+          ],
+          "score": 0.3389584071348461,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.036438354437375746,
+            0.07642108479217198,
+            0.39038754513474816
+          ],
+          "score": 0.340293871306752,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.026079334538876054,
+            0.39185459937325806
+          ],
+          "score": 0.33997257687500265,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.05551054433240186,
+            0.4221216484532825
+          ],
+          "score": 0.36790690932753783,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.07642108479217198,
+            0.42184773508554496
+          ],
+          "score": 0.3692423734994437,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.026079334538876054,
+            0.3888911997059568
+          ],
+          "score": 0.33745368715779656,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.05551054433240186,
+            0.44915824878598126
+          ],
+          "score": 0.3908880196103318,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.07642108479217198,
+            0.41888433541824377
+          ],
+          "score": 0.36672348378223774,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08678010469067166,
+            0.026079334538876054,
+            0.388710676122493
+          ],
+          "score": 0.3388685326463351,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08678010469067166,
+            0.05551054433240186,
+            0.4189777252025174
+          ],
+          "score": 0.36680286509887033,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08678010469067166,
+            0.07642108479217198,
+            0.44870381183477986
+          ],
+          "score": 0.39363832927077613,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.036438354437375746,
+            0.048790239822826674,
+            0.4205150372409858
+          ],
+          "score": 0.3638299262243531,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.05551054433240186,
+            0.3907820863210103
+          ],
+          "score": 0.34076425867688837,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.07642108479217198,
+            0.3905081729532727
+          ],
+          "score": 0.34209972284879414,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.048790239822826674,
+            0.3919752271917826
+          ],
+          "score": 0.3417784284170448,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.048790239822826674,
+            0.39480380979883206
+          ],
+          "score": 0.3441827236330368,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.048790239822826674,
+            0.3890118275244814
+          ],
+          "score": 0.33925953869983877,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.05551054433240186,
+            0.42184041013153084
+          ],
+          "score": 0.3671638339158308,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.07642108479217198,
+            0.3915664967637933
+          ],
+          "score": 0.34299929808773666,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08678010469067166,
+            0.048790239822826674,
+            0.3888313039410176
+          ],
+          "score": 0.3406743841883773,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08678010469067166,
+            0.048790239822826674,
+            0.391659886548067
+          ],
+          "score": 0.3430786794043693,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 0.5
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              14,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08005980018109647,
+            0.07642108479217198,
+            0.42239762669244707
+          ],
+          "score": 0.37077404906157513,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              15,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.026079334538876054,
+            0.4205150372409858
+          ],
+          "score": 0.3638299262243531,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.036438354437375746,
+            0.048790239822826674,
+            0.3933436198480353
+          ],
+          "score": 0.3407342214403452,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.026079334538876054,
+            0.3915733610515064
+          ],
+          "score": 0.33922950146329567,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              16,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.06586956423090155,
+            0.048790239822826674,
+            0.42184041013153084
+          ],
+          "score": 0.3671638339158308,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08005980018109647,
+            0.026079334538876054,
+            0.3924044909801602
+          ],
+          "score": 0.34150425243713417,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              16,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08005980018109647,
+            0.05551054433240186,
+            0.3926715400601847
+          ],
+          "score": 0.34393858488966933,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              15,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.048790239822826674,
+            0.4506356650595104
+          ],
+          "score": 0.39113577776639535,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              4,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.048790239822826674,
+            0.4234642476665599
+          ],
+          "score": 0.3680400729823874,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.048790239822826674,
+            0.42169398887003096
+          ],
+          "score": 0.3665353530053378,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              10,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.05914925972132636,
+            0.048790239822826674,
+            0.45452257147708036
+          ],
+          "score": 0.3944396482213298,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              4,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08005980018109647,
+            0.048790239822826674,
+            0.4225251187986848
+          ],
+          "score": 0.36881010397917635,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              14,
+              15,
+              9
+            ],
+            [
+              1,
+              10,
+              15,
+              9
+            ]
+          ],
+          "objectives": [
+            0.08005980018109647,
+            0.048790239822826674,
+            0.42535370140573425
+          ],
+          "score": 0.37121439919516835,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        }
+      ],
+      "search": {
+        "mode": "observable_operator",
+        "operator": "resource",
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "archive": [
+          {
+            "paths": [
+              [
+                0,
+                4,
+                13,
+                9
+              ],
+              [
+                1,
+                4,
+                13,
+                9
+              ]
+            ],
+            "objectives": [
+              0.036438354437375746,
+              0.026079334538876054,
+              0.4503944094224613
+            ],
+            "score": 0.387524074682311,
+            "shared_relay_fraction": 0.4,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                13,
+                9
+              ],
+              [
+                1,
+                10,
+                15,
+                9
+              ]
+            ],
+            "objectives": [
+              0.036438354437375746,
+              0.048790239822826674,
+              0.3933436198480353
+            ],
+            "score": 0.3407342214403452,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                13,
+                9
+              ],
+              [
+                1,
+                10,
+                16,
+                9
+              ]
+            ],
+            "objectives": [
+              0.036438354437375746,
+              0.05551054433240186,
+              0.3906614585024857
+            ],
+            "score": 0.3389584071348461,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                4,
+                13,
+                9
+              ],
+              [
+                1,
+                14,
+                16,
+                9
+              ]
+            ],
+            "objectives": [
+              0.036438354437375746,
+              0.07642108479217198,
+              0.39038754513474816
+            ],
+            "score": 0.340293871306752,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                10,
+                15,
+                9
+              ],
+              [
+                1,
+                4,
+                13,
+                9
+              ]
+            ],
+            "objectives": [
+              0.05914925972132636,
+              0.026079334538876054,
+              0.3915733610515064
+            ],
+            "score": 0.33922950146329567,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                10,
+                16,
+                9
+              ],
+              [
+                1,
+                4,
+                13,
+                9
+              ]
+            ],
+            "objectives": [
+              0.06586956423090155,
+              0.026079334538876054,
+              0.3888911997059568
+            ],
+            "score": 0.33745368715779656,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 1.0
+          },
+          {
+            "paths": [
+              [
+                0,
+                14,
+                16,
+                9
+              ],
+              [
+                1,
+                4,
+                13,
+                9
+              ]
+            ],
+            "objectives": [
+              0.08678010469067166,
+              0.026079334538876054,
+              0.388710676122493
+            ],
+            "score": 0.3388685326463351,
+            "shared_relay_fraction": 0.0,
+            "changed_source_fraction": 0.5
+          }
+        ],
+        "proxy_hypervolume": 0.8123321711760813,
+        "selected_objectives": [
+          0.06586956423090155,
+          0.026079334538876054,
+          0.3888911997059568
+        ],
+        "poor_settled_service": false,
+        "scope": "received report proxy only; no counterfactual reward or physical liveness"
+      },
+      "exploration_cap": 0,
+      "event": {
+        "missing": 0.16666666666666666,
+        "busy": 0.3758036236119229,
+        "source_queue": 0,
+        "observation_states": {
+          "0": "fresh",
+          "1": "fresh",
+          "2": "expired",
+          "3": "expired",
+          "4": "fresh",
+          "5": "unknown",
+          "6": "unknown",
+          "7": "unknown",
+          "8": "fresh",
+          "10": "fresh",
+          "11": "unknown",
+          "12": "unknown",
+          "13": "fresh",
+          "14": "fresh",
+          "15": "fresh",
+          "16": "fresh",
+          "17": "expired",
+          "18": "expired",
+          "19": "unknown"
+        },
+        "missing_means": "unobserved or expired, not confirmed physical failure",
+        "source_failure_reports": {
+          "0": {
+            "fresh": true,
+            "n": null,
+            "failed": null,
+            "fraction": null,
+            "stamp_ns": 70334000000,
+            "sampled_version": 1,
+            "reason": "stale",
+            "eligible": false,
+            "mode": "current"
+          },
+          "1": {
+            "fresh": true,
+            "n": 174,
+            "failed": 60,
+            "fraction": 0.3448275862068966,
+            "stamp_ns": 75291000000,
+            "sampled_version": 1,
+            "reason": "failure_event",
+            "eligible": true,
+            "mode": "current"
+          }
+        },
+        "transmission_failure": true,
+        "trigger_failure": true,
+        "settled_service": {
+          "known": false,
+          "reason": "incomplete_or_sparse_generation_evidence",
+          "buckets": [
+            13,
+            14
+          ],
+          "counts": [],
+          "missing": [
+            [
+              14
+            ],
+            []
+          ]
+        },
+        "poor_settled_service": false,
+        "context_schema": "stable6-v1"
+      },
+      "bucket": 16,
+      "compute_wall_ns": 601191,
+      "declared_search_delay_ns": 700000,
+      "install_budget_bytes": 1998,
+      "ucb_scores": null,
+      "selection_phase": "event_policy",
+      "warmup_ordinal": null,
+      "report_profile": "local15_event",
+      "constraints": {
+        "time_ns": 80000000000,
+        "available": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "witnesses": {
+          "0": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "1": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "2": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ],
+          "3": [
+            [
+              0,
+              4,
+              13,
+              9
+            ],
+            [
+              1,
+              4,
+              13,
+              9
+            ]
+          ]
+        },
+        "candidate_pair_freshness_checks": 1028,
+        "unselected_objective_evaluations": 0,
+        "constraint_wall_ns": 64821,
+        "domain_rule": "geometry relay-group round robin; cached by visible active mask",
+        "pool_size": 35,
+        "install_budget_exhausted": false,
+        "install_reservation_window": 4,
+        "evidence_qualified_admission": {
+          "allowed": true,
+          "geometry_available": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "unknown_is_not_failure": true
+        }
+      },
+      "selection_rule": "deterministic_policy",
+      "updates_before_selection": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "admission": {
+        "suppressed": false,
+        "reason": "route_changed",
+        "proposed_paths": [
+          [
+            0,
+            10,
+            16,
+            9
+          ],
+          [
+            1,
+            4,
+            13,
+            9
+          ]
+        ]
+      },
+      "reward_expected_versions": [
+        2,
+        2
+      ],
+      "install_reservation": {
+        "decision": 2,
+        "time_ns": 80000000000,
+        "window": 4,
+        "used_before": 0,
+        "reservation_bytes": 5994,
+        "budget_enabled": true
+      },
+      "observable_admission": {
+        "explicit_exposure_cap": 0,
+        "selector": "feasible UCB score",
+        "unconfirmed_install_deadline_ns": 10000000000,
+        "no_censored_reward_imputation": true
+      },
+      "score_decomposition": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bonus": [
+          0.8836527660043546,
+          0.8836527660043546,
+          0.8836527660043546,
+          0.8836527660043546
+        ],
+        "model_context": [
+          1.0,
+          0.16666666666666666,
+          0.3758036236119229,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "A_condition_numbers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scores": [
+          0.8836527660043546,
+          0.8836527660043546,
+          0.8836527660043546,
+          0.8836527660043546
+        ]
+      },
+      "learning_admission": null,
+      "learning_freeze": {
+        "enabled": false,
+        "updates": 0,
+        "training_enabled": true,
+        "freeze_time_ns": null
+      },
+      "mechanism_treatment": {
+        "installation_deadline_ns": 10000000000,
+        "installation_retry_limit": 1,
+        "learning_enabled": false,
+        "explicit_exposure": false,
+        "search": "fixed_operator"
+      },
+      "reward_bucket": 17,
+      "reward_confirmation": [
+        {
+          "source": 0,
+          "version": 2,
+          "stamp_ns": 80334000000,
+          "received_ns": 80352400505,
+          "visible_ns": 85000000000,
+          "epoch_first_bucket": 17
+        },
+        {
+          "source": 1,
+          "version": 2,
+          "stamp_ns": 80291000000,
+          "received_ns": 80325040542,
+          "visible_ns": 85000000000,
+          "epoch_first_bucket": 17
+        }
+      ]
+    }
+  ],
+  "retries": [],
+  "installations": [
+    {
+      "decision": 1,
+      "retry_limit": 1,
+      "history": [
+        {
+          "decision": 1,
+          "time_ns": 15000000000,
+          "missing_sources": [],
+          "retry_sources": [],
+          "retry_counts": [
+            0,
+            0
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 15000000000,
+              "stamp_ns": 10334000000,
+              "received_ns": 10354000505,
+              "version": 1
+            },
+            "1": {
+              "assessed_ns": 15000000000,
+              "stamp_ns": 10291000000,
+              "received_ns": 10308760496,
+              "version": 1
+            }
+          },
+          "closed": true,
+          "outcome": "confirmed",
+          "installation_deadline_ns": 20000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        }
+      ],
+      "closed": true,
+      "outcome": "confirmed"
+    },
+    {
+      "decision": 2,
+      "retry_limit": 1,
+      "history": [
+        {
+          "decision": 2,
+          "time_ns": 85000000000,
+          "missing_sources": [],
+          "retry_sources": [],
+          "retry_counts": [
+            0,
+            0
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 85000000000,
+              "stamp_ns": 80334000000,
+              "received_ns": 80352400505,
+              "version": 2
+            },
+            "1": {
+              "assessed_ns": 85000000000,
+              "stamp_ns": 80291000000,
+              "received_ns": 80325040542,
+              "version": 2
+            }
+          },
+          "closed": true,
+          "outcome": "confirmed",
+          "installation_deadline_ns": 90000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        }
+      ],
+      "closed": true,
+      "outcome": "confirmed"
+    }
+  ],
+  "feedbacks": [
+    {
+      "decision": 1,
+      "action": 0,
+      "time_ns": 25000000000,
+      "cohort_start_ns": 15000000000,
+      "cohort_end_ns": 20000000000,
+      "planned_reward_bucket": 3,
+      "offered": [
+        22,
+        22
+      ],
+      "timely": [
+        21,
+        21
+      ],
+      "probabilities": [
+        0.9545454545454546,
+        0.9545454545454546
+      ],
+      "reward": 0.8878787878787878,
+      "missing_reason": null,
+      "updated_action": null,
+      "inputs": [
+        {
+          "node": 0,
+          "stamp_ns": 20334000000,
+          "received_ns": 20353360505,
+          "depth": 0,
+          "n": 92,
+          "mean_J_ns": 6876124,
+          "cca": 117,
+          "busy": 24,
+          "failed": 1,
+          "version": 1,
+          "ctrl_bytes": 381,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              3
+            ],
+            [
+              3,
+              22
+            ],
+            [
+              2,
+              20
+            ],
+            [
+              1,
+              22
+            ]
+          ],
+          "epoch_first_bucket": 3,
+          "current_n": 43,
+          "current_failed": 1
+        },
+        {
+          "node": 1,
+          "stamp_ns": 20291000000,
+          "received_ns": 20310680496,
+          "depth": 0,
+          "n": 108,
+          "mean_J_ns": 7174178,
+          "cca": 143,
+          "busy": 37,
+          "failed": 3,
+          "version": 1,
+          "ctrl_bytes": 381,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              3
+            ],
+            [
+              3,
+              22
+            ],
+            [
+              2,
+              24
+            ],
+            [
+              1,
+              36
+            ]
+          ],
+          "epoch_first_bucket": 3,
+          "current_n": 47,
+          "current_failed": 1
+        }
+      ],
+      "charged_install_budget_bytes": 1998,
+      "feedback_protocol": "version_aligned_one_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "version_bucket_evidence": [
+        {
+          "source": 0,
+          "version": 1,
+          "epoch_first_bucket": 3,
+          "bucket": 3,
+          "count": 22,
+          "stamp_ns": 20334000000,
+          "received_ns": 20353360505,
+          "visible_ns": 25000000000
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "epoch_first_bucket": 3,
+          "bucket": 3,
+          "count": 22,
+          "stamp_ns": 20291000000,
+          "received_ns": 20310680496,
+          "visible_ns": 25000000000
+        }
+      ],
+      "missing_sources": [],
+      "source_version_confirmation": [
+        {
+          "source": 0,
+          "version": 1,
+          "stamp_ns": 10334000000,
+          "received_ns": 10354000505,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "stamp_ns": 10291000000,
+          "received_ns": 10308760496,
+          "visible_ns": 15000000000,
+          "epoch_first_bucket": 3
+        }
+      ],
+      "deadline_ns": 40000000000,
+      "minimum_offered_per_source": 20,
+      "window_buckets": 1,
+      "censored": false
+    },
+    {
+      "decision": 2,
+      "action": 0,
+      "time_ns": 95000000000,
+      "cohort_start_ns": 85000000000,
+      "cohort_end_ns": 90000000000,
+      "planned_reward_bucket": 17,
+      "offered": [
+        23,
+        33
+      ],
+      "timely": [
+        23,
+        31
+      ],
+      "probabilities": [
+        1.0,
+        0.9393939393939394
+      ],
+      "reward": 0.9181107954545454,
+      "missing_reason": null,
+      "updated_action": null,
+      "inputs": [
+        {
+          "node": 0,
+          "stamp_ns": 90334000000,
+          "received_ns": 90351440505,
+          "depth": 0,
+          "n": 104,
+          "mean_J_ns": 7063087,
+          "cca": 136,
+          "busy": 28,
+          "failed": 0,
+          "version": 2,
+          "ctrl_bytes": 1270,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              17
+            ],
+            [
+              17,
+              23
+            ],
+            [
+              16,
+              31
+            ],
+            [
+              15,
+              26
+            ]
+          ],
+          "epoch_first_bucket": 17,
+          "current_n": 55,
+          "current_failed": 0
+        },
+        {
+          "node": 1,
+          "stamp_ns": 90291000000,
+          "received_ns": 90310040496,
+          "depth": 0,
+          "n": 117,
+          "mean_J_ns": 12385550,
+          "cca": 261,
+          "busy": 43,
+          "failed": 50,
+          "version": 2,
+          "ctrl_bytes": 1397,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              17
+            ],
+            [
+              17,
+              33
+            ],
+            [
+              16,
+              35
+            ],
+            [
+              15,
+              26
+            ]
+          ],
+          "epoch_first_bucket": 17,
+          "current_n": 68,
+          "current_failed": 1
+        }
+      ],
+      "charged_install_budget_bytes": 1998,
+      "feedback_protocol": "version_aligned_one_bucket",
+      "expected_versions": [
+        2,
+        2
+      ],
+      "version_bucket_evidence": [
+        {
+          "source": 0,
+          "version": 2,
+          "epoch_first_bucket": 17,
+          "bucket": 17,
+          "count": 23,
+          "stamp_ns": 90334000000,
+          "received_ns": 90351440505,
+          "visible_ns": 95000000000
+        },
+        {
+          "source": 1,
+          "version": 2,
+          "epoch_first_bucket": 17,
+          "bucket": 17,
+          "count": 33,
+          "stamp_ns": 90291000000,
+          "received_ns": 90310040496,
+          "visible_ns": 95000000000
+        }
+      ],
+      "missing_sources": [],
+      "source_version_confirmation": [
+        {
+          "source": 0,
+          "version": 2,
+          "stamp_ns": 80334000000,
+          "received_ns": 80352400505,
+          "visible_ns": 85000000000,
+          "epoch_first_bucket": 17
+        },
+        {
+          "source": 1,
+          "version": 2,
+          "stamp_ns": 80291000000,
+          "received_ns": 80325040542,
+          "visible_ns": 85000000000,
+          "epoch_first_bucket": 17
+        }
+      ],
+      "deadline_ns": 110000000000,
+      "minimum_offered_per_source": 20,
+      "window_buckets": 1,
+      "censored": false
+    }
+  ],
+  "feedback_waits": [],
+  "bandit_updates": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "constraint_pair_checks": 20643,
+  "constraint_wall_ns": 1958691,
+  "total_fe": 99,
+  "wall_seconds": 3.5800914764404297,
+  "hashes": {
+    ".csv": "a3c864514590a7b4f9b1be3f0534c853d34c8587fc386db7ba78b8f47d30fd46",
+    ".jobs.csv": "2db6c1db5806b593b7359dccd790b5326d7f63ace29626cf42baa4412d85f13a",
+    ".protocol.jsonl": "29bd24df214df7fef3d727bfb3a621537a5fddc9ab444ce855de1a05c811d80a",
+    ".radio.csv": "28aba5f1419b80e0fb393538fb5d062cfb4e9d6758517b3c382f483cb3b6e98e",
+    "positions": "3155f5adc4e5b9d9f5b21881f7b6d1a85d41f899f23bf169a7ede47a4853031e",
+    "arrivals": "420c23083aa425479f50f1084316d448089d99ae07816e813471d26e762a30f0",
+    "controller": "a61b0d93ffccb424514284d3fec36f37bc52a6d6de9e6f16f2a0c8fdcf8691d6"
+  },
+  "unified_control": {
+    "enabled": true,
+    "protected": true,
+    "version_pacing": true,
+    "rate": 305,
+    "burst": 4572,
+    "reserve": 1524,
+    "report_phase_seed": 2026110312
+  },
+  "controller_kwargs": {
+    "pacing": true,
+    "evidence_gate": true,
+    "contract": "joint"
+  },
+  "state_candidates": [],
+  "fork_info": null,
+  "configuration": {
+    "topology": "budget_20_2026110303",
+    "scenario": "multi_failure",
+    "seed": 2026110312,
+    "model": "horizon",
+    "contract": "joint"
+  },
+  "configuration_key": "6196b9e674ec77add520",
+  "evidence_directory": "results/contract_generalization/6196b9e674ec77add520",
+  "audit": {
+    "status": "passed",
+    "offered": [
+      3420,
+      3584
+    ],
+    "timely": [
+      3110,
+      3159
+    ],
+    "worst_source_service": 0.8814174107142857,
+    "control_DATA_bytes": 119370,
+    "report_DATA_bytes": 117705,
+    "install_DATA_bytes": 1665,
+    "application_DATA_bytes": 2379396,
+    "network_ACK_bytes": 101325,
+    "budget_admissions": 1073,
+    "budget_rejections": 135,
+    "control_budget_bound_verified": true,
+    "version_pacing_checks": 136,
+    "runtime_LLM_calls": 0
+  }
+}

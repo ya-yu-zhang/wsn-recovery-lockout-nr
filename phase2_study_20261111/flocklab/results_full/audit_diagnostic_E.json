@@ -1,0 +1,7 @@
+{
+ "R1_tested": 3413,
+ "R1_fail": 4,
+ "R1_expected_exceedances_exact_binomial": 2.694208838943405,
+ "R2_exact": 11199,
+ "R2_links": 11199
+}

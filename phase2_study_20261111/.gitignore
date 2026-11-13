@@ -1,0 +1,6 @@
+__pycache__/
+vendor/
+flocklab/wsn-closed-loop-trace
+doe/design.json
+flocklab/results_full/runs_attempt*.json
+doe/__pycache__/

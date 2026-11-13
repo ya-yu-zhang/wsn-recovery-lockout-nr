@@ -1,0 +1,8 @@
+{
+  "ns3": "3.44",
+  "git_commit": "43dce6710b8df69685e3479c1d33a571dda714ea",
+  "empty_objects_rebuilt": 0,
+  "binary_sha256": "c02726c6cf07c384804eb89c6040dc7a210adfb5429a92d5a06cd41ee27ecd86",
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "runtime_LLM_calls": 0
+}

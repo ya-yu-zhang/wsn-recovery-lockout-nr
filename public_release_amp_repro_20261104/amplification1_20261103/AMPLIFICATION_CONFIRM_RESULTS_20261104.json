@@ -1,0 +1,175 @@
+{
+ "generated": "2026-11-04 (America/Los_Angeles)",
+ "prereg": "AMPLIFICATION_PREREG_20261103.md",
+ "registration": "results/amplification_confirm_registration.json",
+ "frozen_sources_sha_verified": true,
+ "runs_completed": 768,
+ "runs_failed": 0,
+ "cells": 96,
+ "all_audits_passed": true,
+ "analysis_script_modified": false,
+ "verdict": {
+  "A_tier": false,
+  "S1": false,
+  "S2": false,
+  "S3": false,
+  "S3_note": "S3 前件（S2 成功格）为空，按冻结代码判 False；sham 与 Joint 96/96 逐位相同这一子条件为真"
+ },
+ "sham_identical_to_joint_all_cells": true,
+ "lockout_cells": [],
+ "incidence": {
+  "overall": [
+   0,
+   96
+  ],
+  "overall_wilson95": [
+   0,
+   0.03847694748481595
+  ],
+  "weak_control_hop": [
+   0,
+   72
+  ],
+  "contrast": [
+   0,
+   24
+  ],
+  "fisher_one_sided_p": 1.0
+ },
+ "unconfirmed_exit_cells": 81,
+ "joint_cells_with_any_installation_unconfirmed_block": 35,
+ "exploratory_opened_counts_all_cells": {
+  "fs_relax_scoped": 2,
+  "thresh_relax_scoped": 0,
+  "thresh_relax_global": 17,
+  "post_exit": 10,
+  "sham_release": 0,
+  "fs_relax_global": 27,
+  "wait_extend": 12
+ },
+ "exploratory_post_exit_opened_nonlockout_cells": [
+  {
+   "cell": "budget_10_2026110309/2026110502",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 0,
+   "d_pp": 4.53,
+   "d_ctrl_pct": -0.19
+  },
+  {
+   "cell": "budget_10_2026110309/2026110506",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 0,
+   "d_pp": 5.25,
+   "d_ctrl_pct": 12.99
+  },
+  {
+   "cell": "budget_10_2026110310/2026110504",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 31,
+   "d_pp": 15.36,
+   "d_ctrl_pct": 9.91
+  },
+  {
+   "cell": "budget_10_2026110318/2026110504",
+   "stratum": "contrast",
+   "joint_blocked": 0,
+   "d_pp": 3.21,
+   "d_ctrl_pct": 0.21
+  },
+  {
+   "cell": "budget_10_2026110319/2026110501",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 0,
+   "d_pp": 13.42,
+   "d_ctrl_pct": 5.52
+  },
+  {
+   "cell": "budget_10_2026110320/2026110503",
+   "stratum": "contrast",
+   "joint_blocked": 1,
+   "d_pp": 1.13,
+   "d_ctrl_pct": 1.21
+  },
+  {
+   "cell": "budget_10_2026110320/2026110504",
+   "stratum": "contrast",
+   "joint_blocked": 14,
+   "d_pp": 7.98,
+   "d_ctrl_pct": -1.91
+  },
+  {
+   "cell": "budget_10_2026110324/2026110503",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 0,
+   "d_pp": 1.64,
+   "d_ctrl_pct": -0.13
+  },
+  {
+   "cell": "budget_10_2026110324/2026110506",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 1,
+   "d_pp": 1.09,
+   "d_ctrl_pct": -1.17
+  },
+  {
+   "cell": "budget_10_2026110328/2026110501",
+   "stratum": "weak_control_hop",
+   "joint_blocked": 0,
+   "d_pp": 1.95,
+   "d_ctrl_pct": -1.97
+  }
+ ],
+ "nonlockout_side_effects": {
+  "fs_relax_scoped": {
+   "changed": 7,
+   "up": 2,
+   "down": 5,
+   "mean_delta_service_pp": -0.04984250954547078,
+   "mean_delta_control_pct": 0.21135976806584547
+  },
+  "thresh_relax_scoped": {
+   "changed": 0,
+   "up": 0,
+   "down": 0,
+   "mean_delta_service_pp": 0.0,
+   "mean_delta_control_pct": 0.0
+  },
+  "thresh_relax_global": {
+   "changed": 35,
+   "up": 23,
+   "down": 12,
+   "mean_delta_service_pp": 0.6337041269455355,
+   "mean_delta_control_pct": 0.8290473836793776
+  },
+  "post_exit": {
+   "changed": 21,
+   "up": 12,
+   "down": 9,
+   "mean_delta_service_pp": 0.40683204499528086,
+   "mean_delta_control_pct": 0.17543689516667435
+  },
+  "sham_release": {
+   "changed": 0,
+   "up": 0,
+   "down": 0,
+   "mean_delta_service_pp": 0.0,
+   "mean_delta_control_pct": 0.0
+  },
+  "fs_relax_global": {
+   "changed": 69,
+   "up": 39,
+   "down": 30,
+   "mean_delta_service_pp": 0.6334060105543831,
+   "mean_delta_control_pct": 0.5171579004086099
+  },
+  "wait_extend": {
+   "changed": 59,
+   "up": 27,
+   "down": 32,
+   "mean_delta_service_pp": 0.13734411569054197,
+   "mean_delta_control_pct": -0.44335363065643807
+  }
+ },
+ "pilot_vs_confirm_note": "开发布局 S1_overload_R0：pilot2 3/48、pilot3 1/48 锁死；确认阶段新布局 0/96",
+ "full_summary_path": "repo/control_budget_study_20261015/results/amplification_confirm_summary.json"
+}

@@ -1,0 +1,210 @@
+{
+ "stage": "probe",
+ "n_cases": 8,
+ "n_done": 8,
+ "n_failed": 0,
+ "all_complete": true,
+ "audit_all_passed": true,
+ "ingestion_audit_passed": true,
+ "pass": true,
+ "outcomes": [
+  {
+   "day": "A",
+   "mode": "R2",
+   "scenario": "M1",
+   "arm": "joint",
+   "n": 2,
+   "with_unconfirmed_exit": 2,
+   "E1": 2,
+   "gate_closed": 2,
+   "installs_after_exit_cases": 0,
+   "median_worst_service": 0.39782172542275723
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "scenario": "M1",
+   "arm": "post_exit",
+   "n": 2,
+   "with_unconfirmed_exit": 2,
+   "E1": 0,
+   "gate_closed": 0,
+   "installs_after_exit_cases": 2,
+   "median_worst_service": 0.711092003439381
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "scenario": "N",
+   "arm": "joint",
+   "n": 2,
+   "with_unconfirmed_exit": 0,
+   "E1": 0,
+   "gate_closed": 0,
+   "installs_after_exit_cases": 0,
+   "median_worst_service": 0.940097449125824
+  },
+  {
+   "day": "A",
+   "mode": "R2",
+   "scenario": "N",
+   "arm": "post_exit",
+   "n": 2,
+   "with_unconfirmed_exit": 0,
+   "E1": 0,
+   "gate_closed": 0,
+   "installs_after_exit_cases": 0,
+   "median_worst_service": 0.940097449125824
+  }
+ ],
+ "per_run": [
+  {
+   "key": "8042538a6bbe8adc62b4",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A0",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "M1",
+    "arm": "joint"
+   },
+   "exits": [
+    20.0
+   ],
+   "E1": true,
+   "gate_closed": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "worst": 0.39782172542275723
+  },
+  {
+   "key": "1076f3310fcc9882b269",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A1",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "M1",
+    "arm": "joint"
+   },
+   "exits": [
+    20.0
+   ],
+   "E1": true,
+   "gate_closed": true,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": false,
+   "worst": 0.3975351103468042
+  },
+  {
+   "key": "3c9a9608ca17c94d7960",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A0",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "N",
+    "arm": "joint"
+   },
+   "exits": [],
+   "E1": false,
+   "gate_closed": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": null,
+   "worst": 0.940097449125824
+  },
+  {
+   "key": "8789cf84fc2590008c31",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A1",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "N",
+    "arm": "joint"
+   },
+   "exits": [],
+   "E1": false,
+   "gate_closed": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": null,
+   "worst": 0.18850574712643678
+  },
+  {
+   "key": "443febb4463af5255c69",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A0",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "M1",
+    "arm": "post_exit"
+   },
+   "exits": [
+    20.0,
+    185.0,
+    200.0
+   ],
+   "E1": false,
+   "gate_closed": false,
+   "installs_after_exit": 6,
+   "fs_after_last_exit": true,
+   "worst": 0.711092003439381
+  },
+  {
+   "key": "9a720714e44164704383",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A1",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "M1",
+    "arm": "post_exit"
+   },
+   "exits": [
+    20.0,
+    185.0,
+    200.0
+   ],
+   "E1": false,
+   "gate_closed": false,
+   "installs_after_exit": 8,
+   "fs_after_last_exit": true,
+   "worst": 0.42701149425287355
+  },
+  {
+   "key": "a580bcb3c99374f2a239",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A0",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "N",
+    "arm": "post_exit"
+   },
+   "exits": [],
+   "E1": false,
+   "gate_closed": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": null,
+   "worst": 0.940097449125824
+  },
+  {
+   "key": "33088e071f0cfd2e0f93",
+   "cfg": {
+    "day": "A",
+    "subgraph": "A1",
+    "trace_mode": 2,
+    "seed": 2026111301,
+    "scenario_tag": "N",
+    "arm": "post_exit"
+   },
+   "exits": [],
+   "E1": false,
+   "gate_closed": false,
+   "installs_after_exit": 0,
+   "fs_after_last_exit": null,
+   "worst": 0.18850574712643678
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "set": "holdout",
+ "n": 108,
+ "R": 100,
+ "per_arm": {
+  "joint": {
+   "n": 36,
+   "F1": 0.9166666666666666,
+   "F2": 1.0,
+   "mean_p_gate_open": 0.305
+  },
+  "post_exit": {
+   "n": 36,
+   "F1": 1.0,
+   "F2": 1.0,
+   "mean_p_gate_open": 1.0
+  },
+  "sham_release": {
+   "n": 36,
+   "F1": 0.9166666666666666,
+   "F2": 1.0,
+   "mean_p_gate_open": 0.305
+  }
+ },
+ "pass_F1_F2": false,
+ "joint_e1": {
+  "ns3": 19,
+  "n": 36,
+  "mirror_interval_95": [
+   2,
+   10
+  ],
+  "mirror_expected": 5.79
+ },
+ "adverse": []
+}

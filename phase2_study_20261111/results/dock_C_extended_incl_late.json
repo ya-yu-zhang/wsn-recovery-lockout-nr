@@ -1,0 +1,245 @@
+{
+ "summary": {
+  "amplification2_confirm": {
+   "n": 240,
+   "errors": 0,
+   "C1": 240,
+   "C2": 240,
+   "phi_agree": 10370,
+   "phi_eval": 10370,
+   "reason_agree": 16080,
+   "ticks": 16080,
+   "per_arm": {
+    "joint": {
+     "n": 48,
+     "C1": 48,
+     "C2": 48
+    },
+    "post_exit": {
+     "n": 48,
+     "C1": 48,
+     "C2": 48
+    },
+    "sham_release": {
+     "n": 48,
+     "C1": 48,
+     "C2": 48
+    },
+    "thresh_relax_scoped": {
+     "n": 48,
+     "C1": 48,
+     "C2": 48
+    },
+    "wait_extend": {
+     "n": 48,
+     "C1": 48,
+     "C2": 48
+    }
+   }
+  },
+  "amplification2_manip_check": {
+   "n": 16,
+   "errors": 0,
+   "C1": 16,
+   "C2": 16,
+   "phi_agree": 633,
+   "phi_eval": 633,
+   "reason_agree": 1072,
+   "ticks": 1072,
+   "per_arm": {
+    "joint": {
+     "n": 8,
+     "C1": 8,
+     "C2": 8
+    },
+    "post_exit": {
+     "n": 8,
+     "C1": 8,
+     "C2": 8
+    }
+   }
+  },
+  "amplification_check": {
+   "n": 5,
+   "errors": 0,
+   "C1": 5,
+   "C2": 5,
+   "phi_agree": 169,
+   "phi_eval": 169,
+   "reason_agree": 335,
+   "ticks": 335,
+   "per_arm": {
+    "joint": {
+     "n": 1,
+     "C1": 1,
+     "C2": 1
+    },
+    "post_exit": {
+     "n": 1,
+     "C1": 1,
+     "C2": 1
+    },
+    "sham_release": {
+     "n": 1,
+     "C1": 1,
+     "C2": 1
+    },
+    "thresh_relax_scoped": {
+     "n": 1,
+     "C1": 1,
+     "C2": 1
+    },
+    "wait_extend": {
+     "n": 1,
+     "C1": 1,
+     "C2": 1
+    }
+   }
+  },
+  "amplification_confirm": {
+   "n": 480,
+   "errors": 0,
+   "C1": 480,
+   "C2": 480,
+   "phi_agree": 9855,
+   "phi_eval": 9855,
+   "reason_agree": 32160,
+   "ticks": 32160,
+   "per_arm": {
+    "joint": {
+     "n": 96,
+     "C1": 96,
+     "C2": 96
+    },
+    "post_exit": {
+     "n": 96,
+     "C1": 96,
+     "C2": 96
+    },
+    "sham_release": {
+     "n": 96,
+     "C1": 96,
+     "C2": 96
+    },
+    "thresh_relax_scoped": {
+     "n": 96,
+     "C1": 96,
+     "C2": 96
+    },
+    "wait_extend": {
+     "n": 96,
+     "C1": 96,
+     "C2": 96
+    }
+   }
+  },
+  "amplification_pilot": {
+   "n": 140,
+   "errors": 0,
+   "C1": 140,
+   "C2": 140,
+   "phi_agree": 3353,
+   "phi_eval": 3353,
+   "reason_agree": 9380,
+   "ticks": 9380,
+   "per_arm": {
+    "joint": {
+     "n": 140,
+     "C1": 140,
+     "C2": 140
+    }
+   }
+  },
+  "amplification_pilot2": {
+   "n": 480,
+   "errors": 0,
+   "C1": 480,
+   "C2": 480,
+   "phi_agree": 15269,
+   "phi_eval": 15269,
+   "reason_agree": 32160,
+   "ticks": 32160,
+   "per_arm": {
+    "joint": {
+     "n": 480,
+     "C1": 480,
+     "C2": 480
+    }
+   }
+  },
+  "amplification_pilot3": {
+   "n": 192,
+   "errors": 0,
+   "C1": 192,
+   "C2": 192,
+   "phi_agree": 4310,
+   "phi_eval": 4310,
+   "reason_agree": 12864,
+   "ticks": 12864,
+   "per_arm": {
+    "joint": {
+     "n": 192,
+     "C1": 192,
+     "C2": 192
+    }
+   }
+  },
+  "contract_ablation": {
+   "n": 36,
+   "errors": 0,
+   "C1": 36,
+   "C2": 36,
+   "phi_agree": 1082,
+   "phi_eval": 1082,
+   "reason_agree": 2412,
+   "ticks": 2412,
+   "per_arm": {
+    "joint": {
+     "n": 18,
+     "C1": 18,
+     "C2": 18
+    },
+    "post_exit": {
+     "n": 18,
+     "C1": 18,
+     "C2": 18
+    }
+   }
+  },
+  "contract_generalization": {
+   "n": 64,
+   "errors": 0,
+   "C1": 64,
+   "C2": 64,
+   "phi_agree": 1557,
+   "phi_eval": 1557,
+   "reason_agree": 4288,
+   "ticks": 4288,
+   "per_arm": {
+    "joint": {
+     "n": 32,
+     "C1": 32,
+     "C2": 32
+    },
+    "post_exit": {
+     "n": 32,
+     "C1": 32,
+     "C2": 32
+    }
+   }
+  }
+ },
+ "skipped": {
+  "amplification2_confirm:thresh_relax_global": 48,
+  "amplification2_confirm:fs_relax_global": 48,
+  "amplification2_confirm:fs_relax_scoped": 48,
+  "amplification_check:thresh_relax_global": 1,
+  "amplification_check:fs_relax_scoped": 1,
+  "amplification_check:fs_relax_global": 1,
+  "amplification_confirm:thresh_relax_global": 96,
+  "amplification_confirm:fs_relax_global": 96,
+  "amplification_confirm:fs_relax_scoped": 96,
+  "contract_generalization:none/legacy": 32
+ },
+ "mismatches": []
+}

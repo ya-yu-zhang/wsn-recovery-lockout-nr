@@ -1,0 +1,3825 @@
+{
+  "id": "observable_bbab178acc80fd1daaf9d658",
+  "topology": "budget_20_2026101501",
+  "points": {
+    "0": [
+      0,
+      0
+    ],
+    "1": [
+      0,
+      4
+    ],
+    "2": [
+      39.034000835960654,
+      -2.432850756135071
+    ],
+    "3": [
+      85.88388496415581,
+      -5.866072402047905
+    ],
+    "4": [
+      40.40815147559891,
+      37.23929156187471
+    ],
+    "5": [
+      80.97319736491497,
+      38.14454874589454
+    ],
+    "6": [
+      64.4414840894153,
+      -31.380127636230515
+    ],
+    "7": [
+      100.70214262497879,
+      -33.897051193719705
+    ],
+    "8": [
+      18.95271093681223,
+      -31.048219670943812
+    ],
+    "9": [
+      120,
+      0
+    ],
+    "10": [
+      92.50482427900864,
+      -26.293895349446963
+    ],
+    "11": [
+      44.284320346945705,
+      -21.579712394343343
+    ],
+    "12": [
+      59.16128848210785,
+      20.72265065856095
+    ],
+    "13": [
+      76.95017797020608,
+      -20.530998530105887
+    ],
+    "14": [
+      97.55685614212355,
+      9.272771835975902
+    ],
+    "15": [
+      31.172356242879168,
+      -20.878874910636803
+    ],
+    "16": [
+      43.73008204435791,
+      -3.096340329650239
+    ],
+    "17": [
+      68.74042564527565,
+      -22.9169917033658
+    ],
+    "18": [
+      59.38298486071078,
+      -33.00676881668964
+    ],
+    "19": [
+      90.50218305703987,
+      -36.782772438370664
+    ]
+  },
+  "scenario": "multi_failure",
+  "policy": "force0_scalar4_failure_current_ops_epoch_aligned_safe_interrupt_installbudget_transaction_txguard_observable_installexit_reviewmechanism_scoreonly_ctx6_noop_cache20_retry_freshfixed_mask",
+  "report_profile": "local15_event",
+  "seed": 2026101511,
+  "extended_report": true,
+  "source_only_counters": true,
+  "generation_stop": 330,
+  "action_stop_ns": 320000000000,
+  "selection_seed": 2026101511,
+  "faults": [
+    [
+      65,
+      2
+    ],
+    [
+      145,
+      3
+    ],
+    [
+      225,
+      6
+    ]
+  ],
+  "broken_install": false,
+  "source_reports_missing": false,
+  "source1_first_rejection": false,
+  "safety_events": [],
+  "install_reservations": [
+    {
+      "decision": 1,
+      "time_ns": 10000000000,
+      "window": 0,
+      "used_before": 0,
+      "reservation_bytes": 5994,
+      "budget_enabled": true
+    }
+  ],
+  "cost_observations": [
+    {
+      "time_ns": 10000000000,
+      "observed_control_data_lower_bound": 246,
+      "meter_by_node": {
+        "0": 0,
+        "1": 0,
+        "3": 0,
+        "5": 246,
+        "8": 0,
+        "9": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 15000000000,
+      "observed_control_data_lower_bound": 944,
+      "meter_by_node": {
+        "0": 127,
+        "1": 127,
+        "3": 0,
+        "5": 246,
+        "8": 0,
+        "9": 444,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 20000000000,
+      "observed_control_data_lower_bound": 1428,
+      "meter_by_node": {
+        "0": 254,
+        "1": 254,
+        "3": 0,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 0,
+        "12": 119,
+        "13": 0,
+        "14": 0,
+        "15": 0
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 25000000000,
+      "observed_control_data_lower_bound": 2158,
+      "meter_by_node": {
+        "0": 381,
+        "1": 381,
+        "2": 119,
+        "3": 119,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 119,
+        "12": 119,
+        "13": 0,
+        "14": 0,
+        "15": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 30000000000,
+      "observed_control_data_lower_bound": 2412,
+      "meter_by_node": {
+        "0": 508,
+        "1": 508,
+        "2": 119,
+        "3": 119,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 119,
+        "12": 119,
+        "13": 0,
+        "14": 0,
+        "15": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 35000000000,
+      "observed_control_data_lower_bound": 2658,
+      "meter_by_node": {
+        "0": 635,
+        "1": 508,
+        "2": 119,
+        "3": 119,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 119,
+        "12": 238,
+        "13": 0,
+        "14": 0,
+        "15": 119
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 40000000000,
+      "observed_control_data_lower_bound": 3134,
+      "meter_by_node": {
+        "0": 635,
+        "1": 508,
+        "2": 119,
+        "3": 119,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 238,
+        "12": 238,
+        "13": 0,
+        "14": 238,
+        "15": 238
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 45000000000,
+      "observed_control_data_lower_bound": 3388,
+      "meter_by_node": {
+        "0": 762,
+        "1": 635,
+        "2": 119,
+        "3": 119,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 238,
+        "12": 238,
+        "13": 0,
+        "14": 238,
+        "15": 238
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 50000000000,
+      "observed_control_data_lower_bound": 3634,
+      "meter_by_node": {
+        "0": 762,
+        "1": 762,
+        "2": 119,
+        "3": 119,
+        "5": 246,
+        "8": 0,
+        "9": 555,
+        "11": 238,
+        "12": 357,
+        "13": 0,
+        "14": 238,
+        "15": 238
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 55000000000,
+      "observed_control_data_lower_bound": 10037,
+      "meter_by_node": {
+        "0": 762,
+        "1": 889,
+        "2": 119,
+        "3": 119,
+        "5": 5094,
+        "8": 595,
+        "9": 555,
+        "11": 357,
+        "12": 357,
+        "13": 0,
+        "14": 476,
+        "15": 357,
+        "16": 357
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 60000000000,
+      "observed_control_data_lower_bound": 10410,
+      "meter_by_node": {
+        "0": 889,
+        "1": 1016,
+        "2": 119,
+        "3": 119,
+        "5": 5094,
+        "8": 595,
+        "9": 555,
+        "11": 357,
+        "12": 476,
+        "13": 0,
+        "14": 476,
+        "15": 357,
+        "16": 357
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 65000000000,
+      "observed_control_data_lower_bound": 10410,
+      "meter_by_node": {
+        "0": 889,
+        "1": 1016,
+        "2": 119,
+        "3": 119,
+        "5": 5094,
+        "8": 595,
+        "9": 555,
+        "11": 357,
+        "12": 476,
+        "13": 0,
+        "14": 476,
+        "15": 357,
+        "16": 357
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 70000000000,
+      "observed_control_data_lower_bound": 12806,
+      "meter_by_node": {
+        "0": 889,
+        "1": 1016,
+        "2": 119,
+        "3": 119,
+        "5": 6181,
+        "8": 714,
+        "9": 555,
+        "11": 476,
+        "12": 595,
+        "13": 357,
+        "14": 833,
+        "15": 476,
+        "16": 476
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 75000000000,
+      "observed_control_data_lower_bound": 13060,
+      "meter_by_node": {
+        "0": 1016,
+        "1": 1143,
+        "2": 119,
+        "3": 119,
+        "5": 6181,
+        "8": 714,
+        "9": 555,
+        "11": 476,
+        "12": 595,
+        "13": 357,
+        "14": 833,
+        "15": 476,
+        "16": 476
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 80000000000,
+      "observed_control_data_lower_bound": 13187,
+      "meter_by_node": {
+        "0": 1143,
+        "1": 1143,
+        "2": 119,
+        "3": 119,
+        "5": 6181,
+        "8": 714,
+        "9": 555,
+        "11": 476,
+        "12": 595,
+        "13": 357,
+        "14": 833,
+        "15": 476,
+        "16": 476
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 85000000000,
+      "observed_control_data_lower_bound": 23383,
+      "meter_by_node": {
+        "0": 1143,
+        "1": 1270,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 7522,
+        "8": 833,
+        "9": 555,
+        "11": 476,
+        "12": 714,
+        "13": 476,
+        "14": 833,
+        "15": 595,
+        "16": 595
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 90000000000,
+      "observed_control_data_lower_bound": 23383,
+      "meter_by_node": {
+        "0": 1143,
+        "1": 1270,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 7522,
+        "8": 833,
+        "9": 555,
+        "11": 476,
+        "12": 714,
+        "13": 476,
+        "14": 833,
+        "15": 595,
+        "16": 595
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 95000000000,
+      "observed_control_data_lower_bound": 23510,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1270,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 7522,
+        "8": 833,
+        "9": 555,
+        "11": 476,
+        "12": 714,
+        "13": 476,
+        "14": 833,
+        "15": 595,
+        "16": 595
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 100000000000,
+      "observed_control_data_lower_bound": 25922,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1524,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 8847,
+        "8": 952,
+        "9": 555,
+        "11": 714,
+        "12": 833,
+        "13": 595,
+        "14": 833,
+        "15": 714,
+        "16": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 105000000000,
+      "observed_control_data_lower_bound": 25922,
+      "meter_by_node": {
+        "0": 1270,
+        "1": 1524,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 8847,
+        "8": 952,
+        "9": 555,
+        "11": 714,
+        "12": 833,
+        "13": 595,
+        "14": 833,
+        "15": 714,
+        "16": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 110000000000,
+      "observed_control_data_lower_bound": 26049,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1524,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 8847,
+        "8": 952,
+        "9": 555,
+        "11": 714,
+        "12": 833,
+        "13": 595,
+        "14": 833,
+        "15": 714,
+        "16": 714
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 115000000000,
+      "observed_control_data_lower_bound": 27858,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1651,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 9934,
+        "8": 1071,
+        "9": 555,
+        "11": 833,
+        "12": 833,
+        "13": 595,
+        "14": 952,
+        "15": 833,
+        "16": 833
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 120000000000,
+      "observed_control_data_lower_bound": 28112,
+      "meter_by_node": {
+        "0": 1397,
+        "1": 1905,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 9934,
+        "8": 1071,
+        "9": 555,
+        "11": 833,
+        "12": 833,
+        "13": 595,
+        "14": 952,
+        "15": 833,
+        "16": 833
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 125000000000,
+      "observed_control_data_lower_bound": 28239,
+      "meter_by_node": {
+        "0": 1524,
+        "1": 1905,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 9934,
+        "8": 1071,
+        "9": 555,
+        "11": 833,
+        "12": 833,
+        "13": 595,
+        "14": 952,
+        "15": 833,
+        "16": 833
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 130000000000,
+      "observed_control_data_lower_bound": 30651,
+      "meter_by_node": {
+        "0": 1524,
+        "1": 2032,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 10910,
+        "8": 1428,
+        "9": 555,
+        "11": 1071,
+        "12": 1071,
+        "13": 595,
+        "14": 1309,
+        "15": 952,
+        "16": 833
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 135000000000,
+      "observed_control_data_lower_bound": 30778,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 2032,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 10910,
+        "8": 1428,
+        "9": 555,
+        "11": 1071,
+        "12": 1071,
+        "13": 595,
+        "14": 1309,
+        "15": 952,
+        "16": 833
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 140000000000,
+      "observed_control_data_lower_bound": 31151,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 2286,
+        "2": 119,
+        "3": 119,
+        "4": 8133,
+        "5": 10910,
+        "8": 1428,
+        "9": 555,
+        "11": 1071,
+        "12": 1190,
+        "13": 595,
+        "14": 1309,
+        "15": 952,
+        "16": 833
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 145000000000,
+      "observed_control_data_lower_bound": 38506,
+      "meter_by_node": {
+        "0": 1651,
+        "1": 2286,
+        "2": 119,
+        "3": 119,
+        "4": 13449,
+        "5": 11997,
+        "8": 1666,
+        "9": 555,
+        "11": 1190,
+        "12": 1190,
+        "13": 714,
+        "14": 1428,
+        "15": 1071,
+        "16": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 150000000000,
+      "observed_control_data_lower_bound": 38760,
+      "meter_by_node": {
+        "0": 1778,
+        "1": 2413,
+        "2": 119,
+        "3": 119,
+        "4": 13449,
+        "5": 11997,
+        "8": 1666,
+        "9": 555,
+        "11": 1190,
+        "12": 1190,
+        "13": 714,
+        "14": 1428,
+        "15": 1071,
+        "16": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 155000000000,
+      "observed_control_data_lower_bound": 39006,
+      "meter_by_node": {
+        "0": 1905,
+        "1": 2413,
+        "2": 119,
+        "3": 119,
+        "4": 13449,
+        "5": 11997,
+        "8": 1666,
+        "9": 555,
+        "11": 1190,
+        "12": 1309,
+        "13": 714,
+        "14": 1428,
+        "15": 1071,
+        "16": 1071
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 160000000000,
+      "observed_control_data_lower_bound": 42862,
+      "meter_by_node": {
+        "0": 1905,
+        "1": 2413,
+        "2": 119,
+        "3": 119,
+        "4": 14901,
+        "5": 13687,
+        "8": 1785,
+        "9": 555,
+        "11": 1309,
+        "12": 1309,
+        "13": 833,
+        "14": 1547,
+        "15": 1190,
+        "16": 1190
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 165000000000,
+      "observed_control_data_lower_bound": 43108,
+      "meter_by_node": {
+        "0": 1905,
+        "1": 2540,
+        "2": 119,
+        "3": 119,
+        "4": 14901,
+        "5": 13687,
+        "8": 1785,
+        "9": 555,
+        "11": 1309,
+        "12": 1428,
+        "13": 833,
+        "14": 1547,
+        "15": 1190,
+        "16": 1190
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 170000000000,
+      "observed_control_data_lower_bound": 43362,
+      "meter_by_node": {
+        "0": 2032,
+        "1": 2667,
+        "2": 119,
+        "3": 119,
+        "4": 14901,
+        "5": 13687,
+        "8": 1785,
+        "9": 555,
+        "11": 1309,
+        "12": 1428,
+        "13": 833,
+        "14": 1547,
+        "15": 1190,
+        "16": 1190
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 175000000000,
+      "observed_control_data_lower_bound": 47004,
+      "meter_by_node": {
+        "0": 2032,
+        "1": 2794,
+        "2": 119,
+        "3": 119,
+        "4": 16361,
+        "5": 15147,
+        "8": 1785,
+        "9": 555,
+        "11": 1428,
+        "12": 1428,
+        "13": 952,
+        "14": 1666,
+        "15": 1309,
+        "16": 1309
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 180000000000,
+      "observed_control_data_lower_bound": 47250,
+      "meter_by_node": {
+        "0": 2032,
+        "1": 2921,
+        "2": 119,
+        "3": 119,
+        "4": 16361,
+        "5": 15147,
+        "8": 1785,
+        "9": 555,
+        "11": 1428,
+        "12": 1547,
+        "13": 952,
+        "14": 1666,
+        "15": 1309,
+        "16": 1309
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 185000000000,
+      "observed_control_data_lower_bound": 47377,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 2921,
+        "2": 119,
+        "3": 119,
+        "4": 16361,
+        "5": 15147,
+        "8": 1785,
+        "9": 555,
+        "11": 1428,
+        "12": 1547,
+        "13": 952,
+        "14": 1666,
+        "15": 1309,
+        "16": 1309
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 190000000000,
+      "observed_control_data_lower_bound": 50741,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 2921,
+        "2": 119,
+        "3": 119,
+        "4": 17686,
+        "5": 16472,
+        "8": 1904,
+        "9": 555,
+        "11": 1547,
+        "12": 1547,
+        "13": 1071,
+        "14": 1785,
+        "15": 1428,
+        "16": 1428
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 195000000000,
+      "observed_control_data_lower_bound": 50987,
+      "meter_by_node": {
+        "0": 2159,
+        "1": 3048,
+        "2": 119,
+        "3": 119,
+        "4": 17686,
+        "5": 16472,
+        "8": 1904,
+        "9": 555,
+        "11": 1547,
+        "12": 1666,
+        "13": 1071,
+        "14": 1785,
+        "15": 1428,
+        "16": 1428
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 200000000000,
+      "observed_control_data_lower_bound": 51114,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 3048,
+        "2": 119,
+        "3": 119,
+        "4": 17686,
+        "5": 16472,
+        "8": 1904,
+        "9": 555,
+        "11": 1547,
+        "12": 1666,
+        "13": 1071,
+        "14": 1785,
+        "15": 1428,
+        "16": 1428
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 205000000000,
+      "observed_control_data_lower_bound": 54478,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 3048,
+        "2": 119,
+        "3": 119,
+        "4": 19011,
+        "5": 17797,
+        "8": 2023,
+        "9": 555,
+        "11": 1666,
+        "12": 1666,
+        "13": 1190,
+        "14": 1904,
+        "15": 1547,
+        "16": 1547
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 210000000000,
+      "observed_control_data_lower_bound": 54724,
+      "meter_by_node": {
+        "0": 2286,
+        "1": 3175,
+        "2": 119,
+        "3": 119,
+        "4": 19011,
+        "5": 17797,
+        "8": 2023,
+        "9": 555,
+        "11": 1666,
+        "12": 1785,
+        "13": 1190,
+        "14": 1904,
+        "15": 1547,
+        "16": 1547
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 215000000000,
+      "observed_control_data_lower_bound": 54851,
+      "meter_by_node": {
+        "0": 2413,
+        "1": 3175,
+        "2": 119,
+        "3": 119,
+        "4": 19011,
+        "5": 17797,
+        "8": 2023,
+        "9": 555,
+        "11": 1666,
+        "12": 1785,
+        "13": 1190,
+        "14": 1904,
+        "15": 1547,
+        "16": 1547
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 220000000000,
+      "observed_control_data_lower_bound": 58334,
+      "meter_by_node": {
+        "0": 2413,
+        "1": 3302,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 17797,
+        "8": 2142,
+        "9": 555,
+        "11": 1785,
+        "12": 1785,
+        "13": 1309,
+        "14": 1904,
+        "15": 1547,
+        "16": 1547,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 225000000000,
+      "observed_control_data_lower_bound": 58834,
+      "meter_by_node": {
+        "0": 2667,
+        "1": 3429,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 17797,
+        "8": 2142,
+        "9": 555,
+        "11": 1785,
+        "12": 1904,
+        "13": 1309,
+        "14": 1904,
+        "15": 1547,
+        "16": 1547,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 230000000000,
+      "observed_control_data_lower_bound": 58834,
+      "meter_by_node": {
+        "0": 2667,
+        "1": 3429,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 17797,
+        "8": 2142,
+        "9": 555,
+        "11": 1785,
+        "12": 1904,
+        "13": 1309,
+        "14": 1904,
+        "15": 1547,
+        "16": 1547,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 235000000000,
+      "observed_control_data_lower_bound": 62095,
+      "meter_by_node": {
+        "0": 2794,
+        "1": 3429,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 20217,
+        "8": 2261,
+        "9": 555,
+        "11": 1904,
+        "12": 2023,
+        "13": 1309,
+        "14": 1904,
+        "15": 1785,
+        "16": 1666,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 240000000000,
+      "observed_control_data_lower_bound": 62349,
+      "meter_by_node": {
+        "0": 2921,
+        "1": 3556,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 20217,
+        "8": 2261,
+        "9": 555,
+        "11": 1904,
+        "12": 2023,
+        "13": 1309,
+        "14": 1904,
+        "15": 1785,
+        "16": 1666,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 245000000000,
+      "observed_control_data_lower_bound": 62476,
+      "meter_by_node": {
+        "0": 2921,
+        "1": 3683,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 20217,
+        "8": 2261,
+        "9": 555,
+        "11": 1904,
+        "12": 2023,
+        "13": 1309,
+        "14": 1904,
+        "15": 1785,
+        "16": 1666,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 250000000000,
+      "observed_control_data_lower_bound": 65023,
+      "meter_by_node": {
+        "0": 2921,
+        "1": 3810,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 21566,
+        "8": 2380,
+        "9": 555,
+        "11": 2023,
+        "12": 2142,
+        "13": 1547,
+        "14": 2261,
+        "15": 1904,
+        "16": 1666,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 255000000000,
+      "observed_control_data_lower_bound": 65277,
+      "meter_by_node": {
+        "0": 3048,
+        "1": 3937,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 21566,
+        "8": 2380,
+        "9": 555,
+        "11": 2023,
+        "12": 2142,
+        "13": 1547,
+        "14": 2261,
+        "15": 1904,
+        "16": 1666,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 260000000000,
+      "observed_control_data_lower_bound": 65531,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 4064,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 21566,
+        "8": 2380,
+        "9": 555,
+        "11": 2023,
+        "12": 2142,
+        "13": 1547,
+        "14": 2261,
+        "15": 1904,
+        "16": 1666,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 265000000000,
+      "observed_control_data_lower_bound": 68062,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 4064,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 23026,
+        "8": 2499,
+        "9": 555,
+        "11": 2142,
+        "12": 2261,
+        "13": 1666,
+        "14": 2499,
+        "15": 2023,
+        "16": 1904,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 270000000000,
+      "observed_control_data_lower_bound": 68189,
+      "meter_by_node": {
+        "0": 3175,
+        "1": 4191,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 23026,
+        "8": 2499,
+        "9": 555,
+        "11": 2142,
+        "12": 2261,
+        "13": 1666,
+        "14": 2499,
+        "15": 2023,
+        "16": 1904,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 275000000000,
+      "observed_control_data_lower_bound": 68443,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 4318,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 23026,
+        "8": 2499,
+        "9": 555,
+        "11": 2142,
+        "12": 2261,
+        "13": 1666,
+        "14": 2499,
+        "15": 2023,
+        "16": 1904,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 280000000000,
+      "observed_control_data_lower_bound": 70609,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 4318,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 24359,
+        "8": 2618,
+        "9": 555,
+        "11": 2261,
+        "12": 2380,
+        "13": 1785,
+        "14": 2618,
+        "15": 2142,
+        "16": 2023,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 285000000000,
+      "observed_control_data_lower_bound": 70609,
+      "meter_by_node": {
+        "0": 3302,
+        "1": 4318,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 24359,
+        "8": 2618,
+        "9": 555,
+        "11": 2261,
+        "12": 2380,
+        "13": 1785,
+        "14": 2618,
+        "15": 2142,
+        "16": 2023,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 290000000000,
+      "observed_control_data_lower_bound": 70982,
+      "meter_by_node": {
+        "0": 3429,
+        "1": 4445,
+        "2": 119,
+        "3": 119,
+        "4": 20344,
+        "5": 24359,
+        "8": 2618,
+        "9": 555,
+        "11": 2261,
+        "12": 2499,
+        "13": 1785,
+        "14": 2618,
+        "15": 2142,
+        "16": 2023,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 295000000000,
+      "observed_control_data_lower_bound": 80059,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 4445,
+        "2": 119,
+        "3": 119,
+        "4": 27255,
+        "5": 25684,
+        "8": 2737,
+        "9": 555,
+        "11": 2380,
+        "12": 2499,
+        "13": 1904,
+        "14": 2737,
+        "15": 2261,
+        "16": 2142,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 300000000000,
+      "observed_control_data_lower_bound": 80059,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 4445,
+        "2": 119,
+        "3": 119,
+        "4": 27255,
+        "5": 25684,
+        "8": 2737,
+        "9": 555,
+        "11": 2380,
+        "12": 2499,
+        "13": 1904,
+        "14": 2737,
+        "15": 2261,
+        "16": 2142,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 305000000000,
+      "observed_control_data_lower_bound": 80305,
+      "meter_by_node": {
+        "0": 3556,
+        "1": 4572,
+        "2": 119,
+        "3": 119,
+        "4": 27255,
+        "5": 25684,
+        "8": 2737,
+        "9": 555,
+        "11": 2380,
+        "12": 2618,
+        "13": 1904,
+        "14": 2737,
+        "15": 2261,
+        "16": 2142,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 310000000000,
+      "observed_control_data_lower_bound": 83820,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 4699,
+        "2": 119,
+        "3": 119,
+        "4": 28588,
+        "5": 27017,
+        "8": 2856,
+        "9": 555,
+        "11": 2499,
+        "12": 2618,
+        "13": 1904,
+        "14": 2856,
+        "15": 2380,
+        "16": 2261,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 315000000000,
+      "observed_control_data_lower_bound": 84066,
+      "meter_by_node": {
+        "0": 3683,
+        "1": 4826,
+        "2": 119,
+        "3": 119,
+        "4": 28588,
+        "5": 27017,
+        "8": 2856,
+        "9": 555,
+        "11": 2499,
+        "12": 2737,
+        "13": 1904,
+        "14": 2856,
+        "15": 2380,
+        "16": 2261,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 320000000000,
+      "observed_control_data_lower_bound": 84320,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 4953,
+        "2": 119,
+        "3": 119,
+        "4": 28588,
+        "5": 27017,
+        "8": 2856,
+        "9": 555,
+        "11": 2499,
+        "12": 2737,
+        "13": 1904,
+        "14": 2856,
+        "15": 2380,
+        "16": 2261,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 325000000000,
+      "observed_control_data_lower_bound": 86494,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 4953,
+        "2": 119,
+        "3": 119,
+        "4": 28588,
+        "5": 28477,
+        "8": 2856,
+        "9": 555,
+        "11": 2618,
+        "12": 2737,
+        "13": 1904,
+        "14": 2975,
+        "15": 2737,
+        "16": 2380,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 330000000000,
+      "observed_control_data_lower_bound": 86613,
+      "meter_by_node": {
+        "0": 3810,
+        "1": 4953,
+        "2": 119,
+        "3": 119,
+        "4": 28588,
+        "5": 28477,
+        "8": 2856,
+        "9": 555,
+        "11": 2618,
+        "12": 2856,
+        "13": 1904,
+        "14": 2975,
+        "15": 2737,
+        "16": 2380,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 335000000000,
+      "observed_control_data_lower_bound": 86867,
+      "meter_by_node": {
+        "0": 3937,
+        "1": 5080,
+        "2": 119,
+        "3": 119,
+        "4": 28588,
+        "5": 28477,
+        "8": 2856,
+        "9": 555,
+        "11": 2618,
+        "12": 2856,
+        "13": 1904,
+        "14": 2975,
+        "15": 2737,
+        "16": 2380,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    },
+    {
+      "time_ns": 340000000000,
+      "observed_control_data_lower_bound": 92405,
+      "meter_by_node": {
+        "0": 3937,
+        "1": 5080,
+        "2": 119,
+        "3": 119,
+        "4": 31373,
+        "5": 29683,
+        "8": 3332,
+        "9": 555,
+        "11": 2737,
+        "12": 2856,
+        "13": 2499,
+        "14": 3094,
+        "15": 2856,
+        "16": 2499,
+        "17": 1666
+      },
+      "scope": "received cumulative control DATA plus sink-local control DATA; stale nodes remain lower bounds; excludes ACK and energy"
+    }
+  ],
+  "report_budget": true,
+  "reward_waits": [
+    {
+      "decision": 1,
+      "time_ns": 20000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "bucket": 4,
+      "deadline_ns": 40000000000
+    },
+    {
+      "decision": 1,
+      "time_ns": 25000000000,
+      "reason": "await_closed_reward_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "bucket": 4,
+      "deadline_ns": 40000000000
+    }
+  ],
+  "report_retry": true,
+  "report_retry_mode": "always",
+  "queue_discipline": "fifo",
+  "epoch_certificate": true,
+  "command": [
+    "raw_on_request/control_budget_study_20261015/engine/ns3/wsn-closed-loop",
+    "--nodes=20",
+    "--run=2026101511",
+    "--arrivals=raw_on_request/control_budget_study_20261015/results/contract_ablation/a9303f02c6b122f0b4bb/observable_bbab178acc80fd1daaf9d658_arrivals.csv",
+    "--positions=raw_on_request/control_budget_study_20261015/results/contract_ablation/a9303f02c6b122f0b4bb/observable_bbab178acc80fd1daaf9d658_positions.csv",
+    "--output=raw_on_request/control_budget_study_20261015/results/contract_ablation/a9303f02c6b122f0b4bb/observable_bbab178acc80fd1daaf9d658",
+    "--stop=350",
+    "--generationStop=330",
+    "--compact=1",
+    "--monitor=1",
+    "--failAt=-1",
+    "--brokenInstall=0",
+    "--suppressReports=0",
+    "--reportProfile=local15_event",
+    "--rejectFirstSource1=0",
+    "--extendedReport=1",
+    "--sourceOnlyCounters=1",
+    "--queueDiscipline=fifo",
+    "--epochCertificate=1",
+    "--reportRetry=1",
+    "--reportBudget=1",
+    "--reportRetryMode=always",
+    "--unifiedBudget=1",
+    "--protectEvidence=1",
+    "--versionPacing=1",
+    "--controlRate=305",
+    "--controlBurst=4572",
+    "--controlReserve=1524",
+    "--reportPhaseSeed=2026101511",
+    "--faultSchedule=65:2;145:3;225:6"
+  ],
+  "native": {
+    "ns3_version": "3.44",
+    "closed_loop_prototype": true,
+    "nodes_including_sink": 20,
+    "max_psdu_bytes": 127,
+    "total_attempts": 3,
+    "mac_max_retries": 2,
+    "phy_transmissions": 30129,
+    "data_transmissions": 15548,
+    "ack_transmissions": 14581,
+    "finalized_jobs": 14701,
+    "unattributed_cca": 0,
+    "rx_sensitivity_dbm": -106.58,
+    "queue_drops": 0,
+    "offered": [
+      3375,
+      3547
+    ],
+    "delivered": [
+      3309,
+      3455
+    ],
+    "timely": [
+      3309,
+      3455
+    ],
+    "mac_status_counts": {
+      "0": 14492,
+      "225": 158,
+      "233": 51
+    },
+    "control_psdu_bytes": 111842,
+    "application_psdu_bytes": 1623042,
+    "ack_psdu_bytes": 72905,
+    "stop_ns": 350000000000,
+    "max_queue_depth": [
+      5,
+      6,
+      2,
+      3,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      8,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "offered": 6922,
+  "timely_by_party": [
+    0.9804444444444445,
+    0.9740625881026219
+  ],
+  "mean_timely": 0.9772535162735332,
+  "worst_party_timely": 0.9740625881026219,
+  "estimated_radio_joules_by_node": [
+    19.678651541376002,
+    19.675658722176,
+    4.028013240576,
+    8.437739237376,
+    19.734449717376002,
+    19.734866626176,
+    12.849387288576,
+    19.739602075776002,
+    19.739478830976,
+    19.723849186176,
+    19.739584469376002,
+    19.739566862976,
+    19.610454024576,
+    19.739602075776002,
+    19.739514043776,
+    19.739549256576,
+    19.739602075776002,
+    19.739566862976,
+    19.739496437376,
+    19.739566862976
+  ],
+  "estimated_radio_joules": 360.60819943872,
+  "energy_scope": "CC2420-like radio model only; no battery depletion/CPU/sensor/transient energy",
+  "decisions": [
+    {
+      "decision": 1,
+      "time_ns": 10000000000,
+      "action": 0,
+      "context": [
+        1.0,
+        0.25,
+        0.20408163265306123,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "paths": [
+        [
+          0,
+          12,
+          9
+        ],
+        [
+          1,
+          12,
+          9
+        ]
+      ],
+      "fe": 64,
+      "evaluated": [
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38757707959236687
+          ],
+          "score": 0.33346743170351184,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.33614247141128334
+          ],
+          "score": 0.28870680107181307,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38790000082321807
+          ],
+          "score": 0.33374191474973536,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.4428762874474727
+          ],
+          "score": 0.38151297205812956,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.33144167926638923
+          ],
+          "score": 0.28575234142643086,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.41319920867832394
+          ],
+          "score": 0.3562874551043531,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.3324304941610218
+          ],
+          "score": 0.2865928340868685,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3109958859799383
+          ],
+          "score": 0.2673322034551698,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.33275341539187303
+          ],
+          "score": 0.28686731713309205,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.41304347412927467
+          ],
+          "score": 0.3561550807376612,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.3316088659481911
+          ],
+          "score": 0.2858944501059624,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.44336639536012584
+          ],
+          "score": 0.3819295637838847,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.4179913245649196
+          ],
+          "score": 0.3582783262524039,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3861676708048015
+          ],
+          "score": 0.3312282205563035,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.4185805904935326
+          ],
+          "score": 0.35877920229172494,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.41329053242002556
+          ],
+          "score": 0.3553238666070217,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.331855924238942
+          ],
+          "score": 0.2850632359753229,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38361345365087673
+          ],
+          "score": 0.3300983496532452,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3328447391335746
+          ],
+          "score": 0.28590372863576063,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.36102108537345645
+          ],
+          "score": 0.30985362293966023,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.33343400506218746
+          ],
+          "score": 0.28640460467508155,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.3834577191018274
+          ],
+          "score": 0.3299659752865533,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.33228945561850554
+          ],
+          "score": 0.28543173764795193,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.41404698503044024
+          ],
+          "score": 0.3559668513258742,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3897436733375306
+          ],
+          "score": 0.33426782270912325,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38872021287950526
+          ],
+          "score": 0.33443909499757946,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.41329053242002556
+          ],
+          "score": 0.3553238666070217,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              14,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.333608273011553
+          ],
+          "score": 0.28655273243204227,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.3838797983486384
+          ],
+          "score": 0.3303247426463426,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3345970879061856
+          ],
+          "score": 0.28739322509248,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              14,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.36102108537345645
+          ],
+          "score": 0.30985362293966023,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              14,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.3827786147853912
+          ],
+          "score": 0.3293887366175825,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38372406379958907
+          ],
+          "score": 0.3301923682796507,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.3816340653417093
+          ],
+          "score": 0.3284158695904529,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.41404698503044024
+          ],
+          "score": 0.3559668513258742,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.021917300296296294,
+            0.3919810776057541
+          ],
+          "score": 0.33652117883711324,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.4437047773925783
+          ],
+          "score": 0.38013476115591377,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.38146687865990736
+          ],
+          "score": 0.32827376091092125,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.41429404332119124
+          ],
+          "score": 0.3551356371952348,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              14,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38245569355453995
+          ],
+          "score": 0.32911425357135893,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.36357362744816024
+          ],
+          "score": 0.31306449738093617,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              14,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.38345920445570564
+          ],
+          "score": 0.328926024159572,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.41413830877214186
+          ],
+          "score": 0.35500326282854283,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3823146550120237
+          ],
+          "score": 0.3279531571324424,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.44472757470075475
+          ],
+          "score": 0.3810041388678638,
+          "shared_relay_fraction": 0.4,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.41504288119263644
+          ],
+          "score": 0.35681336306374095,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3818811236324602
+          ],
+          "score": 0.32758465545981336,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              14,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.3853658024234877
+          ],
+          "score": 0.33158784610996456,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              14,
+              9
+            ],
+            [
+              1,
+              11,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3828699385270927
+          ],
+          "score": 0.32842514812025103,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              12,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.36357362744816024
+          ],
+          "score": 0.31306449738093617,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              3,
+              9
+            ],
+            [
+              1,
+              15,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.4153311568600949
+          ],
+          "score": 0.35809961105885846,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.3852100678744384
+          ],
+          "score": 0.3314554717432726,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.414186607416413
+          ],
+          "score": 0.3571267440317288,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              14,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.41504288119263644
+          ],
+          "score": 0.35681336306374095,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              14,
+              9
+            ],
+            [
+              1,
+              12,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.4136334724050712
+          ],
+          "score": 0.35457415191653274,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              14,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3860463920938022
+          ],
+          "score": 0.3311251336519541,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              14,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.41462228729970374
+          ],
+          "score": 0.3554146445769704,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              9
+            ],
+            [
+              1,
+              12,
+              5,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.021917300296296294,
+            0.366834492174409
+          ],
+          "score": 0.3151465812204699,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              3,
+              9
+            ],
+            [
+              1,
+              15,
+              13,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.017229800296296293,
+            0.38601174653040937
+          ],
+          "score": 0.33213689860084794,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.3858906575447528
+          ],
+          "score": 0.3309927592852621,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              15,
+              13,
+              9
+            ],
+            [
+              1,
+              12,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.031112649333333336,
+            0.38486719708672745
+          ],
+          "score": 0.3311640315737183,
+          "shared_relay_fraction": 0.0,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              14,
+              9
+            ]
+          ],
+          "objectives": [
+            0.022579538,
+            0.017229800296296293,
+            0.41545712616518926
+          ],
+          "score": 0.3561242576126331,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              11,
+              3,
+              9
+            ],
+            [
+              1,
+              12,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.4140194207346112
+          ],
+          "score": 0.35698463535219727,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        },
+        {
+          "paths": [
+            [
+              0,
+              12,
+              3,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "objectives": [
+            0.03646238703703704,
+            0.031112649333333336,
+            0.4150082356292437
+          ],
+          "score": 0.3578251280126349,
+          "shared_relay_fraction": 0.2,
+          "changed_source_fraction": 1.0
+        }
+      ],
+      "search": {
+        "mode": "observable_operator",
+        "operator": "resource",
+        "reference": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "archive": [
+          {
+            "paths": [
+              [
+                0,
+                12,
+                9
+              ],
+              [
+                1,
+                12,
+                9
+              ]
+            ],
+            "objectives": [
+              0.022579538,
+              0.017229800296296293,
+              0.3109958859799383
+            ],
+            "score": 0.2673322034551698,
+            "shared_relay_fraction": 0.2,
+            "changed_source_fraction": 1.0
+          }
+        ],
+        "proxy_hypervolume": 0.9204512279975658,
+        "selected_objectives": [
+          0.022579538,
+          0.017229800296296293,
+          0.3109958859799383
+        ],
+        "poor_settled_service": false,
+        "scope": "received report proxy only; no counterfactual reward or physical liveness"
+      },
+      "exploration_cap": 0,
+      "event": {
+        "missing": 0.25,
+        "busy": 0.20408163265306123,
+        "source_queue": 0,
+        "observation_states": {
+          "0": "fresh",
+          "1": "fresh",
+          "2": "unknown",
+          "3": "fresh",
+          "4": "unknown",
+          "5": "fresh",
+          "6": "unknown",
+          "7": "unknown",
+          "8": "fresh",
+          "10": "unknown",
+          "11": "fresh",
+          "12": "fresh",
+          "13": "fresh",
+          "14": "fresh",
+          "15": "fresh",
+          "16": "unknown",
+          "17": "unknown",
+          "18": "unknown",
+          "19": "unknown"
+        },
+        "missing_means": "unobserved or expired, not confirmed physical failure",
+        "source_failure_reports": {
+          "0": {
+            "fresh": true,
+            "n": 21,
+            "failed": 0,
+            "fraction": 0.0,
+            "stamp_ns": 5882000000,
+            "sampled_version": 0,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          },
+          "1": {
+            "fresh": true,
+            "n": 36,
+            "failed": 1,
+            "fraction": 0.027777777777777776,
+            "stamp_ns": 5113000000,
+            "sampled_version": 0,
+            "reason": "below_threshold",
+            "eligible": false,
+            "mode": "current"
+          }
+        },
+        "transmission_failure": false,
+        "trigger_failure": false,
+        "settled_service": {
+          "known": false,
+          "reason": "incomplete_or_sparse_generation_evidence",
+          "buckets": [
+            0
+          ],
+          "counts": [
+            19,
+            35
+          ],
+          "missing": [
+            [],
+            []
+          ]
+        },
+        "poor_settled_service": false,
+        "context_schema": "stable6-v1"
+      },
+      "bucket": 2,
+      "compute_wall_ns": 669906,
+      "declared_search_delay_ns": 1280000,
+      "install_budget_bytes": 2997,
+      "ucb_scores": null,
+      "selection_phase": "event_policy",
+      "warmup_ordinal": null,
+      "report_profile": "local15_event",
+      "constraints": {
+        "time_ns": 10000000000,
+        "available": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "witnesses": {
+          "0": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "1": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "2": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ],
+          "3": [
+            [
+              0,
+              8,
+              13,
+              9
+            ],
+            [
+              1,
+              11,
+              3,
+              9
+            ]
+          ]
+        },
+        "candidate_pair_freshness_checks": 1027,
+        "unselected_objective_evaluations": 0,
+        "constraint_wall_ns": 93272,
+        "domain_rule": "geometry relay-group round robin; cached by visible active mask",
+        "pool_size": 64,
+        "install_budget_exhausted": false,
+        "install_reservation_window": 0
+      },
+      "selection_rule": "deterministic_policy",
+      "updates_before_selection": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "admission": {
+        "suppressed": false,
+        "reason": "route_changed",
+        "proposed_paths": [
+          [
+            0,
+            12,
+            9
+          ],
+          [
+            1,
+            12,
+            9
+          ]
+        ]
+      },
+      "reward_expected_versions": [
+        1,
+        1
+      ],
+      "install_reservation": {
+        "decision": 1,
+        "time_ns": 10000000000,
+        "window": 0,
+        "used_before": 0,
+        "reservation_bytes": 5994,
+        "budget_enabled": true
+      },
+      "observable_admission": {
+        "explicit_exposure_cap": 0,
+        "selector": "feasible UCB score",
+        "unconfirmed_install_deadline_ns": 10000000000,
+        "no_censored_reward_imputation": true
+      },
+      "score_decomposition": {
+        "mean": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bonus": [
+          0.8703411702333068,
+          0.8703411702333068,
+          0.8703411702333068,
+          0.8703411702333068
+        ],
+        "model_context": [
+          1.0,
+          0.25,
+          0.20408163265306123,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "A_condition_numbers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scores": [
+          0.8703411702333068,
+          0.8703411702333068,
+          0.8703411702333068,
+          0.8703411702333068
+        ]
+      },
+      "learning_admission": null,
+      "learning_freeze": {
+        "enabled": false,
+        "updates": 0,
+        "training_enabled": true,
+        "freeze_time_ns": null
+      },
+      "mechanism_treatment": {
+        "installation_deadline_ns": 10000000000,
+        "installation_retry_limit": 1,
+        "learning_enabled": false,
+        "explicit_exposure": false,
+        "search": "fixed_operator"
+      },
+      "reward_bucket": 4,
+      "reward_confirmation": [
+        {
+          "source": 0,
+          "version": 1,
+          "stamp_ns": 15882000000,
+          "received_ns": 15898800500,
+          "visible_ns": 20000000000,
+          "epoch_first_bucket": 3
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "stamp_ns": 15113000000,
+          "received_ns": 15130440492,
+          "visible_ns": 20000000000,
+          "epoch_first_bucket": 4
+        }
+      ]
+    }
+  ],
+  "retries": [
+    {
+      "decision": 1,
+      "time_ns": 15000000000,
+      "sources": [
+        1
+      ],
+      "fe": 0,
+      "declared_install_budget_bytes": 999,
+      "ordinal_by_source": [
+        1
+      ]
+    }
+  ],
+  "installations": [
+    {
+      "decision": 1,
+      "retry_limit": 1,
+      "history": [
+        {
+          "decision": 1,
+          "time_ns": 15000000000,
+          "missing_sources": [
+            1
+          ],
+          "retry_sources": [
+            1
+          ],
+          "retry_counts": [
+            0,
+            1
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 15000000000,
+              "stamp_ns": 10882000000,
+              "received_ns": 10904604255,
+              "version": 1
+            }
+          },
+          "closed": false,
+          "outcome": null,
+          "installation_deadline_ns": 20000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        },
+        {
+          "decision": 1,
+          "time_ns": 20000000000,
+          "missing_sources": [],
+          "retry_sources": [],
+          "retry_counts": [
+            0,
+            1
+          ],
+          "confirmations": {
+            "0": {
+              "assessed_ns": 15000000000,
+              "stamp_ns": 10882000000,
+              "received_ns": 10904604255,
+              "version": 1
+            },
+            "1": {
+              "assessed_ns": 20000000000,
+              "stamp_ns": 15113000000,
+              "received_ns": 15130440492,
+              "version": 1
+            }
+          },
+          "closed": true,
+          "outcome": "confirmed",
+          "installation_deadline_ns": 20000000000,
+          "exit_scope": "unconfirmed installation budget; no assertion of physical failure",
+          "late_confirmation": false
+        }
+      ],
+      "closed": true,
+      "outcome": "confirmed"
+    }
+  ],
+  "feedbacks": [
+    {
+      "decision": 1,
+      "action": 0,
+      "time_ns": 30000000000,
+      "cohort_start_ns": 20000000000,
+      "cohort_end_ns": 25000000000,
+      "planned_reward_bucket": 4,
+      "offered": [
+        26,
+        32
+      ],
+      "timely": [
+        26,
+        32
+      ],
+      "probabilities": [
+        1.0,
+        1.0
+      ],
+      "reward": 0.9249999999999999,
+      "missing_reason": null,
+      "updated_action": null,
+      "inputs": [
+        {
+          "node": 0,
+          "stamp_ns": 25882000000,
+          "received_ns": 25920554089,
+          "depth": 1,
+          "n": 93,
+          "mean_J_ns": 6817007,
+          "cca": 118,
+          "busy": 21,
+          "failed": 0,
+          "version": 1,
+          "ctrl_bytes": 508,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              3
+            ],
+            [
+              4,
+              26
+            ],
+            [
+              3,
+              25
+            ],
+            [
+              2,
+              23
+            ]
+          ],
+          "epoch_first_bucket": 3,
+          "current_n": 78,
+          "current_failed": 0
+        },
+        {
+          "node": 1,
+          "stamp_ns": 25113000000,
+          "received_ns": 25192480492,
+          "depth": 0,
+          "n": 99,
+          "mean_J_ns": 6755905,
+          "cca": 125,
+          "busy": 23,
+          "failed": 1,
+          "version": 1,
+          "ctrl_bytes": 508,
+          "period_s": 5,
+          "buckets": [
+            [
+              4294967295,
+              4
+            ],
+            [
+              4,
+              32
+            ],
+            [
+              3,
+              28
+            ],
+            [
+              2,
+              22
+            ]
+          ],
+          "epoch_first_bucket": 4,
+          "current_n": 60,
+          "current_failed": 0
+        }
+      ],
+      "charged_install_budget_bytes": 2997,
+      "feedback_protocol": "version_aligned_one_bucket",
+      "expected_versions": [
+        1,
+        1
+      ],
+      "version_bucket_evidence": [
+        {
+          "source": 0,
+          "version": 1,
+          "epoch_first_bucket": 3,
+          "bucket": 4,
+          "count": 26,
+          "stamp_ns": 25882000000,
+          "received_ns": 25920554089,
+          "visible_ns": 30000000000
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "epoch_first_bucket": 4,
+          "bucket": 4,
+          "count": 32,
+          "stamp_ns": 25113000000,
+          "received_ns": 25192480492,
+          "visible_ns": 30000000000
+        }
+      ],
+      "missing_sources": [],
+      "source_version_confirmation": [
+        {
+          "source": 0,
+          "version": 1,
+          "stamp_ns": 15882000000,
+          "received_ns": 15898800500,
+          "visible_ns": 20000000000,
+          "epoch_first_bucket": 3
+        },
+        {
+          "source": 1,
+          "version": 1,
+          "stamp_ns": 15113000000,
+          "received_ns": 15130440492,
+          "visible_ns": 20000000000,
+          "epoch_first_bucket": 4
+        }
+      ],
+      "deadline_ns": 40000000000,
+      "minimum_offered_per_source": 20,
+      "window_buckets": 1,
+      "censored": false
+    }
+  ],
+  "feedback_waits": [],
+  "bandit_updates": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "constraint_pair_checks": 26792,
+  "constraint_wall_ns": 1564575,
+  "total_fe": 64,
+  "wall_seconds": 2.589296579360962,
+  "hashes": {
+    ".csv": "cc3d58edef155de4ea3684639621e359b44d05189ed6d1cc22ecf754afd1335d",
+    ".jobs.csv": "2b9041a6ff2f864263db9bd98b3429e90e3bcd004a2709af9fd4b2d3d4da9e1e",
+    ".protocol.jsonl": "6e322ff5a3324d065622a8d9aeac44f2e3916d4cc80e8f44f9171a91b2635a85",
+    ".radio.csv": "57ed704ca3d57e97bd4174bef883c56e8eb89658eff8f317570e5f54cf6a01d8",
+    "positions": "862c90b404d833a249151be4b80a28487191cae37a469736d83cce7d68abb662",
+    "arrivals": "9ab01e6cb4535f92e88ebf0a0ba1ad0a4b5ae3c0b985a719cea858576c5c6031",
+    "controller": "1b4ded7c1045bb0c23d02d7d3ceef331f1c37bf4204d73df351d53e7aa3d6676"
+  },
+  "unified_control": {
+    "enabled": true,
+    "protected": true,
+    "version_pacing": true,
+    "rate": 305,
+    "burst": 4572,
+    "reserve": 1524,
+    "report_phase_seed": 2026101511
+  },
+  "controller_kwargs": {
+    "pacing": true,
+    "evidence_gate": true,
+    "contract": "post_exit"
+  },
+  "state_candidates": [],
+  "fork_info": null,
+  "configuration": {
+    "topology": "budget_20_2026101501",
+    "scenario": "multi_failure",
+    "seed": 2026101511,
+    "model": "full_v2",
+    "contract": "post_exit"
+  },
+  "configuration_key": "a9303f02c6b122f0b4bb",
+  "evidence_directory": "results/contract_ablation/a9303f02c6b122f0b4bb",
+  "audit": {
+    "status": "passed",
+    "offered": [
+      3375,
+      3547
+    ],
+    "timely": [
+      3309,
+      3455
+    ],
+    "worst_source_service": 0.9740625881026219,
+    "control_DATA_bytes": 111842,
+    "report_DATA_bytes": 110621,
+    "install_DATA_bytes": 1221,
+    "application_DATA_bytes": 1623042,
+    "network_ACK_bytes": 72905,
+    "budget_admissions": 1049,
+    "budget_rejections": 157,
+    "control_budget_bound_verified": true,
+    "version_pacing_checks": 136,
+    "runtime_LLM_calls": 0
+  }
+}

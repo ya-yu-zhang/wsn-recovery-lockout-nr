@@ -1,0 +1,5670 @@
+{
+ "stage": "confirm",
+ "attempt": 2,
+ "prior_joint_lockout_attempt1": "0/96",
+ "cells": 48,
+ "runs": 384,
+ "all_audits_passed": true,
+ "sham_identical_to_joint_all_cells": true,
+ "lockout_cells": [
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 44
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 44
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 44
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 48
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 44
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 45
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 45
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 44
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 48
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 46
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 45
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 45
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "first_exit_s": 20.0,
+   "blocked": 47
+  }
+ ],
+ "thresholds": {
+  "S1": {
+   "met": true,
+   "lockout_cells": 26,
+   "layouts": [
+    "budget_10_2026110410",
+    "budget_10_2026110411",
+    "budget_10_2026110412",
+    "budget_10_2026110413",
+    "budget_10_2026110414",
+    "budget_10_2026110415",
+    "budget_10_2026110416",
+    "budget_10_2026110417"
+   ]
+  },
+  "S2": {
+   "met": true,
+   "post_exit_opened": [
+    "budget_10_2026110410/2026110612",
+    "budget_10_2026110410/2026110613",
+    "budget_10_2026110410/2026110614",
+    "budget_10_2026110410/2026110616",
+    "budget_10_2026110411/2026110612",
+    "budget_10_2026110411/2026110613",
+    "budget_10_2026110411/2026110614",
+    "budget_10_2026110412/2026110611",
+    "budget_10_2026110412/2026110614",
+    "budget_10_2026110412/2026110616",
+    "budget_10_2026110413/2026110613",
+    "budget_10_2026110413/2026110614",
+    "budget_10_2026110414/2026110612",
+    "budget_10_2026110414/2026110614",
+    "budget_10_2026110415/2026110613",
+    "budget_10_2026110415/2026110614",
+    "budget_10_2026110415/2026110615",
+    "budget_10_2026110415/2026110616",
+    "budget_10_2026110416/2026110611",
+    "budget_10_2026110416/2026110612",
+    "budget_10_2026110416/2026110613",
+    "budget_10_2026110416/2026110616",
+    "budget_10_2026110417/2026110611",
+    "budget_10_2026110417/2026110612",
+    "budget_10_2026110417/2026110614",
+    "budget_10_2026110417/2026110616"
+   ]
+  },
+  "S3": {
+   "met": true,
+   "replicating_cells_by_arm": {
+    "wait_extend": [],
+    "thresh_relax_scoped": [],
+    "sham_release": [],
+    "fs_relax_scoped": [
+     "budget_10_2026110410/2026110612",
+     "budget_10_2026110410/2026110616",
+     "budget_10_2026110411/2026110612",
+     "budget_10_2026110411/2026110613",
+     "budget_10_2026110411/2026110614",
+     "budget_10_2026110412/2026110611",
+     "budget_10_2026110412/2026110614",
+     "budget_10_2026110413/2026110614",
+     "budget_10_2026110414/2026110612",
+     "budget_10_2026110414/2026110614",
+     "budget_10_2026110415/2026110613",
+     "budget_10_2026110415/2026110614",
+     "budget_10_2026110416/2026110611",
+     "budget_10_2026110416/2026110612",
+     "budget_10_2026110416/2026110613",
+     "budget_10_2026110417/2026110611",
+     "budget_10_2026110417/2026110612",
+     "budget_10_2026110417/2026110614",
+     "budget_10_2026110417/2026110616"
+    ],
+    "fs_relax_global": [
+     "budget_10_2026110410/2026110612",
+     "budget_10_2026110410/2026110616",
+     "budget_10_2026110411/2026110612",
+     "budget_10_2026110411/2026110613",
+     "budget_10_2026110411/2026110614",
+     "budget_10_2026110412/2026110611",
+     "budget_10_2026110412/2026110614",
+     "budget_10_2026110413/2026110614",
+     "budget_10_2026110414/2026110612",
+     "budget_10_2026110414/2026110614",
+     "budget_10_2026110415/2026110613",
+     "budget_10_2026110415/2026110614",
+     "budget_10_2026110416/2026110611",
+     "budget_10_2026110416/2026110612",
+     "budget_10_2026110416/2026110613",
+     "budget_10_2026110417/2026110611",
+     "budget_10_2026110417/2026110612",
+     "budget_10_2026110417/2026110614",
+     "budget_10_2026110417/2026110616"
+    ],
+    "thresh_relax_global": []
+   }
+  },
+  "A_tier": true
+ },
+ "table": [
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.4107812049582012,
+   "joint_control": 67201,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.4107812049582012,
+     "control": 67201,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4107812049582012,
+     "control": 67201,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.6702219659844335,
+     "control": 69327,
+     "delta_service_pp": 25.94407610262323,
+     "delta_control_pct": 3.163643398163707,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 65.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6702219659844335,
+     "control": 69327,
+     "delta_service_pp": 25.94407610262323,
+     "delta_control_pct": 3.163643398163707,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 65.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4107812049582012,
+     "control": 67201,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4107812049582012,
+     "control": 67201,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.6702219659844335,
+     "control": 69327,
+     "delta_service_pp": 25.94407610262323,
+     "delta_control_pct": 3.163643398163707,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4107812049582012,
+     "control": 67201,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.41745562130177516,
+   "joint_control": 67447,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.6470414201183432,
+     "control": 68288,
+     "delta_service_pp": 22.958579881656803,
+     "delta_control_pct": 1.246904977241381,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 245.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.41745562130177516,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_scoped": {
+     "service": 0.6470414201183432,
+     "control": 68288,
+     "delta_service_pp": 22.958579881656803,
+     "delta_control_pct": 1.246904977241381,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 245.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.41745562130177516,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7553254437869823,
+     "control": 69723,
+     "delta_service_pp": 33.786982248520715,
+     "delta_control_pct": 3.374501460405943,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 160.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41745562130177516,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41745562130177516,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.41745562130177516,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4171294942999123,
+   "joint_control": 69630,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.4244604316546763,
+     "control": 71209,
+     "delta_service_pp": 0.7330937354763978,
+     "delta_control_pct": 2.267700703719666,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 310.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4171294942999123,
+     "control": 69630,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8060431654676259,
+     "control": 72264,
+     "delta_service_pp": 38.891367116771356,
+     "delta_control_pct": 3.78285221887118,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.4171294942999123,
+     "control": 69630,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4171294942999123,
+     "control": 69630,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "sham_release": {
+     "service": 0.4171294942999123,
+     "control": 69630,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4244604316546763,
+     "control": 71209,
+     "delta_service_pp": 0.7330937354763978,
+     "delta_control_pct": 2.267700703719666,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 310.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4171294942999123,
+     "control": 69630,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.4199022145527754,
+   "joint_control": 66184,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_scoped": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8188885689605528,
+     "control": 69223,
+     "delta_service_pp": 39.898635440777745,
+     "delta_control_pct": 4.591744228212247,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.4199022145527754,
+     "control": 66184,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.41351193942923703,
+   "joint_control": 73042,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "post_exit": {
+     "service": 0.8150844496214328,
+     "control": 75906,
+     "delta_service_pp": 40.15725101921957,
+     "delta_control_pct": 3.9210317351660695,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.41351193942923703,
+     "control": 73042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6557708996239514,
+     "control": 74613,
+     "delta_service_pp": 24.22589601947144,
+     "delta_control_pct": 2.1508173379699347,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 45.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41351193942923703,
+     "control": 73042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6557708996239514,
+     "control": 74613,
+     "delta_service_pp": 24.22589601947144,
+     "delta_control_pct": 2.1508173379699347,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 45.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41351193942923703,
+     "control": 73042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.41351193942923703,
+     "control": 73042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41351193942923703,
+     "control": 73042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.40851688693098387,
+   "joint_control": 69732,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_scoped": {
+     "service": 0.40851688693098387,
+     "control": 69732,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6625514403292181,
+     "control": 71303,
+     "delta_service_pp": 25.403455339823424,
+     "delta_control_pct": 2.252911145528591,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.40851688693098387,
+     "control": 69732,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6625514403292181,
+     "control": 71303,
+     "delta_service_pp": 25.403455339823424,
+     "delta_control_pct": 2.252911145528591,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.40851688693098387,
+     "control": 69732,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.40851688693098387,
+     "control": 69732,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.8186360964138741,
+     "control": 71065,
+     "delta_service_pp": 41.011920948289024,
+     "delta_control_pct": 1.9116044283829625,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.40851688693098387,
+     "control": 69732,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.413458712900382,
+   "joint_control": 69066,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 42,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_scoped": {
+     "service": 0.48659556068031135,
+     "control": 72073,
+     "delta_service_pp": 7.313684777992934,
+     "delta_control_pct": 4.353806503923785,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.413458712900382,
+     "control": 69066,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.413458712900382,
+     "control": 69066,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8119306494269762,
+     "control": 73795,
+     "delta_service_pp": 39.84719365265942,
+     "delta_control_pct": 6.847073813453797,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.413458712900382,
+     "control": 69066,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.413458712900382,
+     "control": 69066,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.48659556068031135,
+     "control": 72073,
+     "delta_service_pp": 7.313684777992934,
+     "delta_control_pct": 4.353806503923785,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.413458712900382,
+     "control": 69066,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.42159763313609466,
+   "joint_control": 67447,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 48,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.7094674556213018,
+     "control": 69922,
+     "delta_service_pp": 28.786982248520708,
+     "delta_control_pct": 3.6695479413465293,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 225.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.42159763313609466,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.7576858580212409,
+     "control": 70700,
+     "delta_service_pp": 33.60882248851462,
+     "delta_control_pct": 4.823046243717299,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.42159763313609466,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.42159763313609466,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.42159763313609466,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.7094674556213018,
+     "control": 69922,
+     "delta_service_pp": 28.786982248520708,
+     "delta_control_pct": 3.6695479413465293,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 225.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.42159763313609466,
+     "control": 67447,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4194679918152587,
+   "joint_control": 69519,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "post_exit": {
+     "service": 0.8120863309352518,
+     "control": 74335,
+     "delta_service_pp": 39.26183391199932,
+     "delta_control_pct": 6.927602525928167,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6549640287769785,
+     "control": 73637,
+     "delta_service_pp": 23.549603696171978,
+     "delta_control_pct": 5.923560465484257,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4194679918152587,
+     "control": 69519,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4194679918152587,
+     "control": 69519,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4194679918152587,
+     "control": 69519,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.6549640287769785,
+     "control": 73637,
+     "delta_service_pp": 23.549603696171978,
+     "delta_control_pct": 5.923560465484257,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.4194679918152587,
+     "control": 69519,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4194679918152587,
+     "control": 69519,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.42009789807083214,
+   "joint_control": 65922,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.42009789807083214,
+     "control": 65922,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.42009789807083214,
+     "control": 65922,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.42009789807083214,
+     "control": 65922,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8229196659948171,
+     "control": 68175,
+     "delta_service_pp": 40.2821767923985,
+     "delta_control_pct": 3.417675434604539,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.42009789807083214,
+     "control": 65922,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.42009789807083214,
+     "control": 65922,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_scoped": {
+     "service": 0.6683922922059247,
+     "control": 68207,
+     "delta_service_pp": 24.829439413509252,
+     "delta_control_pct": 3.4662176511635057,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6683922922059247,
+     "control": 68207,
+     "delta_service_pp": 24.829439413509252,
+     "delta_control_pct": 3.4662176511635057,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.41567833381544694,
+   "joint_control": 70597,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.41567833381544694,
+     "control": 70597,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.41567833381544694,
+     "control": 70597,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8053225339890078,
+     "control": 74628,
+     "delta_service_pp": 38.96442001735608,
+     "delta_control_pct": 5.709874357267308,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41567833381544694,
+     "control": 70597,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41567833381544694,
+     "control": 70597,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41567833381544694,
+     "control": 70597,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_scoped": {
+     "service": 0.656638704078681,
+     "control": 74667,
+     "delta_service_pp": 24.0960370263234,
+     "delta_control_pct": 5.765117497910666,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.656638704078681,
+     "control": 74667,
+     "delta_service_pp": 24.0960370263234,
+     "delta_control_pct": 5.765117497910666,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.41585903083700443,
+   "joint_control": 68914,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_scoped": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8148148148148148,
+     "control": 69866,
+     "delta_service_pp": 39.89557839778104,
+     "delta_control_pct": 1.3814319296514554,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.41585903083700443,
+     "control": 68914,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.41140170437848955,
+   "joint_control": 69486,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_scoped": {
+     "service": 0.6541287099617984,
+     "control": 72088,
+     "delta_service_pp": 24.272700558330882,
+     "delta_control_pct": 3.744639207898004,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.41140170437848955,
+     "control": 69486,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6541287099617984,
+     "control": 72088,
+     "delta_service_pp": 24.272700558330882,
+     "delta_control_pct": 3.744639207898004,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41140170437848955,
+     "control": 69486,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41140170437848955,
+     "control": 69486,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41140170437848955,
+     "control": 69486,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.6209227152512489,
+     "control": 73453,
+     "delta_service_pp": 20.95210108727593,
+     "delta_control_pct": 5.709063696284145,
+     "authorized_after_exit": 5,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.41140170437848955,
+     "control": 69486,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.4171597633136095,
+   "joint_control": 68629,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.4171597633136095,
+     "control": 68629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6529585798816568,
+     "control": 71247,
+     "delta_service_pp": 23.579881656804737,
+     "delta_control_pct": 3.8147138964577554,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 140.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6529585798816568,
+     "control": 71247,
+     "delta_service_pp": 23.579881656804737,
+     "delta_control_pct": 3.8147138964577554,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 140.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.4171597633136095,
+     "control": 68629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.728698224852071,
+     "control": 69311,
+     "delta_service_pp": 31.153846153846153,
+     "delta_control_pct": 0.9937489982368986,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4171597633136095,
+     "control": 68629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4171597633136095,
+     "control": 68629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4171597633136095,
+     "control": 68629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4185910552470038,
+   "joint_control": 73089,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8054676258992806,
+     "control": 75072,
+     "delta_service_pp": 38.687657065227675,
+     "delta_control_pct": 2.7131305668431693,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_global": {
+     "service": 0.4185910552470038,
+     "control": 73089,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.4158757549611734,
+   "joint_control": 67375,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.4158757549611734,
+     "control": 67375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6320184278721567,
+     "control": 69723,
+     "delta_service_pp": 21.614267291098326,
+     "delta_control_pct": 3.4849721706864623,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 255.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4158757549611734,
+     "control": 67375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "wait_extend": {
+     "service": 0.4158757549611734,
+     "control": 67375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7443198159332758,
+     "control": 68953,
+     "delta_service_pp": 32.84440609721024,
+     "delta_control_pct": 2.3421150278293057,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 220.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4158757549611734,
+     "control": 67375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6320184278721567,
+     "control": 69723,
+     "delta_service_pp": 21.614267291098326,
+     "delta_control_pct": 3.4849721706864623,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 255.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4158757549611734,
+     "control": 67375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.4199184624344787,
+   "joint_control": 70137,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 43,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "joint": {
+     "service": 0.4199184624344787,
+     "control": 70137,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_scoped": {
+     "service": 0.7101533121203355,
+     "control": 70215,
+     "delta_service_pp": 29.023484968585677,
+     "delta_control_pct": 0.11121091577912523,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 225.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.4199184624344787,
+     "control": 70137,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4199184624344787,
+     "control": 70137,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.7101533121203355,
+     "control": 70215,
+     "delta_service_pp": 29.023484968585677,
+     "delta_control_pct": 0.11121091577912523,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 225.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4199184624344787,
+     "control": 70137,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4199184624344787,
+     "control": 70137,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8189181371131038,
+     "control": 70985,
+     "delta_service_pp": 39.89996746786251,
+     "delta_control_pct": 1.2090622638550208,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.4161527165932452,
+   "joint_control": 69835,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8148148148148148,
+     "control": 71382,
+     "delta_service_pp": 39.866209822156954,
+     "delta_control_pct": 2.215221593756711,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4161527165932452,
+     "control": 69835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.40905083749632676,
+   "joint_control": 66566,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_scoped": {
+     "service": 0.40905083749632676,
+     "control": 66566,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6964443138407288,
+     "control": 69478,
+     "delta_service_pp": 28.739347634440204,
+     "delta_control_pct": 4.374605654538355,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 70.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.40905083749632676,
+     "control": 66566,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6964443138407288,
+     "control": 69478,
+     "delta_service_pp": 28.739347634440204,
+     "delta_control_pct": 4.374605654538355,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 70.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.40905083749632676,
+     "control": 66566,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.40905083749632676,
+     "control": 66566,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.40905083749632676,
+     "control": 66566,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.6964443138407288,
+     "control": 69478,
+     "delta_service_pp": 28.739347634440204,
+     "delta_control_pct": 4.374605654538355,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.41923076923076924,
+   "joint_control": 66280,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.41923076923076924,
+     "control": 66280,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.6777529346003354,
+     "control": 69033,
+     "delta_service_pp": 25.85221653695661,
+     "delta_control_pct": 4.153590826795406,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 160.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.41923076923076924,
+     "control": 66280,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41923076923076924,
+     "control": 66280,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6777529346003354,
+     "control": 69033,
+     "delta_service_pp": 25.85221653695661,
+     "delta_control_pct": 4.153590826795406,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6777529346003354,
+     "control": 69033,
+     "delta_service_pp": 25.85221653695661,
+     "delta_control_pct": 4.153590826795406,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.41923076923076924,
+     "control": 66280,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.41923076923076924,
+     "control": 66280,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4171294942999123,
+   "joint_control": 71232,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "post_exit": {
+     "service": 0.8103597122302159,
+     "control": 76461,
+     "delta_service_pp": 39.32302179303036,
+     "delta_control_pct": 7.340801886792447,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4171294942999123,
+     "control": 71232,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.4178889847569744,
+   "joint_control": 65835,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_scoped": {
+     "service": 0.6536135905557156,
+     "control": 68810,
+     "delta_service_pp": 23.572460579874114,
+     "delta_control_pct": 4.518872939925567,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 240.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4178889847569744,
+     "control": 65835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "wait_extend": {
+     "service": 0.4178889847569744,
+     "control": 65835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4178889847569744,
+     "control": 65835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4178889847569744,
+     "control": 65835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4178889847569744,
+     "control": 65835,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6536135905557156,
+     "control": 68810,
+     "delta_service_pp": 23.572460579874114,
+     "delta_control_pct": 4.518872939925567,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 240.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "post_exit": {
+     "service": 0.811978116901814,
+     "control": 70540,
+     "delta_service_pp": 39.40891321448396,
+     "delta_control_pct": 7.146654515075568,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.4199184624344787,
+   "joint_control": 69955,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "post_exit": {
+     "service": 0.8140005785363031,
+     "control": 72922,
+     "delta_service_pp": 39.40821161018244,
+     "delta_control_pct": 4.241297977271108,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4199184624344787,
+     "control": 69955,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_global": {
+     "service": 0.4199184624344787,
+     "control": 69955,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6607454863133372,
+     "control": 74009,
+     "delta_service_pp": 24.082702387885845,
+     "delta_control_pct": 5.795154027589167,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4199184624344787,
+     "control": 69955,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6607454863133372,
+     "control": 74009,
+     "delta_service_pp": 24.082702387885845,
+     "delta_control_pct": 5.795154027589167,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 55.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.4199184624344787,
+     "control": 69955,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4199184624344787,
+     "control": 69955,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110413",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.4129221732745962,
+   "joint_control": 70129,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "sham_release": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_global": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.808641975308642,
+     "control": 73898,
+     "delta_service_pp": 39.571980203404586,
+     "delta_control_pct": 5.374381496955616,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4129221732745962,
+     "control": 70129,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.4151052176419717,
+   "joint_control": 70605,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.6541287099617984,
+     "control": 71549,
+     "delta_service_pp": 23.90234923198267,
+     "delta_control_pct": 1.3370157920827186,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 230.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4151052176419717,
+     "control": 70605,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4151052176419717,
+     "control": 70605,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7074084750648602,
+     "control": 78658,
+     "delta_service_pp": 29.230325742288844,
+     "delta_control_pct": 11.40570781106154,
+     "authorized_after_exit": 6,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 6,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6541287099617984,
+     "control": 71549,
+     "delta_service_pp": 23.90234923198267,
+     "delta_control_pct": 1.3370157920827186,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 230.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4151052176419717,
+     "control": 70605,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4151052176419717,
+     "control": 70605,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_global": {
+     "service": 0.4151052176419717,
+     "control": 70605,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.4195266272189349,
+   "joint_control": 70970,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.4195266272189349,
+     "control": 70970,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4195266272189349,
+     "control": 70970,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.4326439351593069,
+     "control": 72287,
+     "delta_service_pp": 1.311730794037197,
+     "delta_control_pct": 1.8557136818373898,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4195266272189349,
+     "control": 70970,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4326439351593069,
+     "control": 72287,
+     "delta_service_pp": 1.311730794037197,
+     "delta_control_pct": 1.8557136818373898,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "post_exit": {
+     "service": 0.6218934911242604,
+     "control": 72786,
+     "delta_service_pp": 20.236686390532547,
+     "delta_control_pct": 2.558827673664932,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4195266272189349,
+     "control": 70970,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4195266272189349,
+     "control": 70970,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4180064308681672,
+   "joint_control": 72375,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "post_exit": {
+     "service": 0.813525179856115,
+     "control": 76731,
+     "delta_service_pp": 39.551874898794786,
+     "delta_control_pct": 6.018652849740924,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "wait_extend": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.4180064308681672,
+     "control": 72375,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.42124964008062193,
+   "joint_control": 67049,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.42124964008062193,
+     "control": 67049,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.42124964008062193,
+     "control": 67049,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.42124964008062193,
+     "control": 67049,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.42124964008062193,
+     "control": 67049,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.42124964008062193,
+     "control": 67049,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.6547653325655053,
+     "control": 69088,
+     "delta_service_pp": 23.351569248488335,
+     "delta_control_pct": 3.0410595236319615,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 240.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6547653325655053,
+     "control": 69088,
+     "delta_service_pp": 23.351569248488335,
+     "delta_control_pct": 3.0410595236319615,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 240.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "post_exit": {
+     "service": 0.7014108839619925,
+     "control": 70548,
+     "delta_service_pp": 28.016124388137055,
+     "delta_control_pct": 5.218571492490565,
+     "authorized_after_exit": 5,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 5,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.418462434478742,
+   "joint_control": 76247,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "joint": {
+     "service": 0.418462434478742,
+     "control": 76247,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_global": {
+     "service": 0.418462434478742,
+     "control": 76247,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6514318773503037,
+     "control": 77991,
+     "delta_service_pp": 23.296944287156172,
+     "delta_control_pct": 2.287303107007488,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 75.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6514318773503037,
+     "control": 77991,
+     "delta_service_pp": 23.296944287156172,
+     "delta_control_pct": 2.287303107007488,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 75.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.418462434478742,
+     "control": 76247,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7095747758171825,
+     "control": 80206,
+     "delta_service_pp": 29.111234133844054,
+     "delta_control_pct": 5.192335436148299,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.418462434478742,
+     "control": 76247,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.418462434478742,
+     "control": 76247,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110414",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.41204111600587373,
+   "joint_control": 69287,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.41204111600587373,
+     "control": 69287,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6575624082232012,
+     "control": 70945,
+     "delta_service_pp": 24.55212922173275,
+     "delta_control_pct": 2.3929452855514066,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41204111600587373,
+     "control": 69287,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6575624082232012,
+     "control": 70945,
+     "delta_service_pp": 24.55212922173275,
+     "delta_control_pct": 2.3929452855514066,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41204111600587373,
+     "control": 69287,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41204111600587373,
+     "control": 69287,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "sham_release": {
+     "service": 0.41204111600587373,
+     "control": 69287,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7741556534508076,
+     "control": 75690,
+     "delta_service_pp": 36.21145374449339,
+     "delta_control_pct": 9.241271811450913,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.413458712900382,
+   "joint_control": 66042,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 43,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.6364946670510233,
+     "control": 70017,
+     "delta_service_pp": 22.30359541506413,
+     "delta_control_pct": 6.018897065503781,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.413458712900382,
+     "control": 66042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_scoped": {
+     "service": 0.6364946670510233,
+     "control": 70017,
+     "delta_service_pp": 22.30359541506413,
+     "delta_control_pct": 6.018897065503781,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.413458712900382,
+     "control": 66042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.413458712900382,
+     "control": 66042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.413458712900382,
+     "control": 66042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.413458712900382,
+     "control": 66042,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.6215104319717896,
+     "control": 68493,
+     "delta_service_pp": 20.805171907140757,
+     "delta_control_pct": 3.7112746434087462,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.420414201183432,
+   "joint_control": 68145,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "joint": {
+     "service": 0.420414201183432,
+     "control": 68145,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_scoped": {
+     "service": 0.420414201183432,
+     "control": 68145,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.420414201183432,
+     "control": 68145,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.658284023668639,
+     "control": 72223,
+     "delta_service_pp": 23.786982248520705,
+     "delta_control_pct": 5.98429818768802,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 150.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.420414201183432,
+     "control": 68145,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.420414201183432,
+     "control": 68145,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.658284023668639,
+     "control": 72223,
+     "delta_service_pp": 23.786982248520705,
+     "delta_control_pct": 5.98429818768802,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 150.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "post_exit": {
+     "service": 0.7339295695919508,
+     "control": 73366,
+     "delta_service_pp": 31.351536840851878,
+     "delta_control_pct": 7.661603932790384,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 220.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4191756796258404,
+   "joint_control": 70058,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.4191756796258404,
+     "control": 70058,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8089208633093525,
+     "control": 74200,
+     "delta_service_pp": 38.97451836835121,
+     "delta_control_pct": 5.912244140569234,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.4191756796258404,
+     "control": 70058,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6843165467625899,
+     "control": 74176,
+     "delta_service_pp": 26.51408671367495,
+     "delta_control_pct": 5.877986810928082,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4191756796258404,
+     "control": 70058,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4191756796258404,
+     "control": 70058,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4191756796258404,
+     "control": 70058,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.6843165467625899,
+     "control": 74176,
+     "delta_service_pp": 26.51408671367495,
+     "delta_control_pct": 5.877986810928082,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.41932700603968937,
+   "joint_control": 64843,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 44,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_scoped": {
+     "service": 0.6441117189749496,
+     "control": 66033,
+     "delta_service_pp": 22.47847129352602,
+     "delta_control_pct": 1.8352019493237615,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.41932700603968937,
+     "control": 64843,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.41932700603968937,
+     "control": 64843,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8203282464727901,
+     "control": 67937,
+     "delta_service_pp": 40.100124043310075,
+     "delta_control_pct": 4.771525068241744,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41932700603968937,
+     "control": 64843,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.41932700603968937,
+     "control": 64843,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6441117189749496,
+     "control": 66033,
+     "delta_service_pp": 22.47847129352602,
+     "delta_control_pct": 1.8352019493237615,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.41932700603968937,
+     "control": 64843,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.4140943506115317,
+   "joint_control": 71629,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 48,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_scoped": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 245.0,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 245.0,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.8180503326583743,
+     "control": 73430,
+     "delta_service_pp": 40.39559820468426,
+     "delta_control_pct": 2.514344748635322,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "wait_extend": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4140943506115317,
+     "control": 71629,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.414756025867137,
+   "joint_control": 67399,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 140.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 140.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.414756025867137,
+     "control": 67399,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.8136390358612581,
+     "control": 71009,
+     "delta_service_pp": 39.88830099941211,
+     "delta_control_pct": 5.356162554340571,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.4099324125771378,
+   "joint_control": 69391,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "joint": {
+     "service": 0.4099324125771378,
+     "control": 69391,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4099324125771378,
+     "control": 69391,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6183338137791871,
+     "control": 74469,
+     "delta_service_pp": 20.840140120204925,
+     "delta_control_pct": 7.317951895778996,
+     "authorized_after_exit": 6,
+     "first_authorized_s": 135.0,
+     "installs_after_exit": 5,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.4099324125771378,
+     "control": 69391,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4099324125771378,
+     "control": 69391,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4099324125771378,
+     "control": 69391,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.6183338137791871,
+     "control": 74469,
+     "delta_service_pp": 20.840140120204925,
+     "delta_control_pct": 7.317951895778996,
+     "authorized_after_exit": 5,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 5,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6183338137791871,
+     "control": 74469,
+     "delta_service_pp": 20.840140120204925,
+     "delta_control_pct": 7.317951895778996,
+     "authorized_after_exit": 6,
+     "first_authorized_s": 135.0,
+     "installs_after_exit": 5,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.41863905325443784,
+   "joint_control": 67740,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "joint": {
+     "service": 0.41863905325443784,
+     "control": 67740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41863905325443784,
+     "control": 67740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7582448295136948,
+     "control": 70691,
+     "delta_service_pp": 33.960577625925694,
+     "delta_control_pct": 4.356362562739879,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41863905325443784,
+     "control": 67740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.7115707098937955,
+     "control": 73008,
+     "delta_service_pp": 29.29316566393576,
+     "delta_control_pct": 7.776793622674938,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.41863905325443784,
+     "control": 67740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41863905325443784,
+     "control": 67740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.7115707098937955,
+     "control": 73008,
+     "delta_service_pp": 29.29316566393576,
+     "delta_control_pct": 7.776793622674938,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.4177141186787489,
+   "joint_control": 71709,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 46,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.4177141186787489,
+     "control": 71709,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.639136690647482,
+     "control": 76375,
+     "delta_service_pp": 22.14225719687331,
+     "delta_control_pct": 6.506854090839376,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 245.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4177141186787489,
+     "control": 71709,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.771996492253727,
+     "control": 75922,
+     "delta_service_pp": 35.428237357497814,
+     "delta_control_pct": 5.875134223040335,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.639136690647482,
+     "control": 76375,
+     "delta_service_pp": 22.14225719687331,
+     "delta_control_pct": 6.506854090839376,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 245.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4177141186787489,
+     "control": 71709,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4177141186787489,
+     "control": 71709,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4177141186787489,
+     "control": 71709,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.41750647854880507,
+   "joint_control": 64788,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 43,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.6337460408868414,
+     "control": 68755,
+     "delta_service_pp": 21.623956233803632,
+     "delta_control_pct": 6.123047477928001,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41750647854880507,
+     "control": 64788,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41750647854880507,
+     "control": 64788,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.7345234667434495,
+     "control": 72381,
+     "delta_service_pp": 31.70169881946444,
+     "delta_control_pct": 11.719762919059097,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6337460408868414,
+     "control": 68755,
+     "delta_service_pp": 21.623956233803632,
+     "delta_control_pct": 6.123047477928001,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 250.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.41750647854880507,
+     "control": 64788,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.41750647854880507,
+     "control": 64788,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41750647854880507,
+     "control": 64788,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.41496796738497377,
+   "joint_control": 68423,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.6647382123228233,
+     "control": 74207,
+     "delta_service_pp": 24.97702449378495,
+     "delta_control_pct": 8.45329786767608,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 225.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6647382123228233,
+     "control": 74207,
+     "delta_service_pp": 24.97702449378495,
+     "delta_control_pct": 8.45329786767608,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 225.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41496796738497377,
+     "control": 68423,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41496796738497377,
+     "control": 68423,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "sham_release": {
+     "service": 0.41496796738497377,
+     "control": 68423,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.41496796738497377,
+     "control": 68423,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41496796738497377,
+     "control": 68423,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7439976858547874,
+     "control": 75842,
+     "delta_service_pp": 32.902971846981366,
+     "delta_control_pct": 10.842845242096955,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.4144620811287478,
+   "joint_control": 65463,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "sham_release": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.6857562408223201,
+     "control": 69787,
+     "delta_service_pp": 27.129415969357236,
+     "delta_control_pct": 6.605257931961561,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 215.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 150.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 150.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.4144620811287478,
+     "control": 65463,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "stratum": "confirm",
+   "joint_service": 0.4139521475929663,
+   "joint_control": 69288,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_global": {
+     "service": 0.4139521475929663,
+     "control": 69288,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.4139521475929663,
+     "control": 69288,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4139521475929663,
+     "control": 69288,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4139521475929663,
+     "control": 69288,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.6497549726145864,
+     "control": 72517,
+     "delta_service_pp": 23.58028250216201,
+     "delta_control_pct": 4.6602586306431215,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "post_exit": {
+     "service": 0.81262611703661,
+     "control": 71343,
+     "delta_service_pp": 39.86739694436437,
+     "delta_control_pct": 2.9658815379286496,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6497549726145864,
+     "control": 72517,
+     "delta_service_pp": 23.58028250216201,
+     "delta_control_pct": 4.6602586306431215,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.4139521475929663,
+     "control": 69288,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "stratum": "confirm",
+   "joint_service": 0.41834319526627217,
+   "joint_control": 69550,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "thresh_relax_scoped": {
+     "service": 0.41834319526627217,
+     "control": 69550,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41834319526627217,
+     "control": 69550,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_global": {
+     "service": 0.6763313609467455,
+     "control": 72437,
+     "delta_service_pp": 25.798816568047332,
+     "delta_control_pct": 4.150970524802311,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 230.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "post_exit": {
+     "service": 0.7602012297372834,
+     "control": 76063,
+     "delta_service_pp": 34.18580344710113,
+     "delta_control_pct": 9.364485981308412,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 160.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6763313609467455,
+     "control": 72437,
+     "delta_service_pp": 25.798816568047332,
+     "delta_control_pct": 4.150970524802311,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 230.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.41834319526627217,
+     "control": 69550,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "thresh_relax_global": {
+     "service": 0.41834319526627217,
+     "control": 69550,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.41834319526627217,
+     "control": 69550,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110613,
+   "stratum": "confirm",
+   "joint_service": 0.41420637240572933,
+   "joint_control": 68114,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 42,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "fs_relax_global": {
+     "service": 0.6517985611510791,
+     "control": 69042,
+     "delta_service_pp": 23.75921887453498,
+     "delta_control_pct": 1.3624218222391793,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 240.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41420637240572933,
+     "control": 68114,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6517985611510791,
+     "control": 69042,
+     "delta_service_pp": 23.75921887453498,
+     "delta_control_pct": 1.3624218222391793,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 240.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41420637240572933,
+     "control": 68114,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "wait_extend": {
+     "service": 0.41420637240572933,
+     "control": 68114,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41420637240572933,
+     "control": 68114,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "post_exit": {
+     "service": 0.8102893890675241,
+     "control": 71399,
+     "delta_service_pp": 39.60830166617948,
+     "delta_control_pct": 4.822797075491092,
+     "authorized_after_exit": 3,
+     "first_authorized_s": 165.0,
+     "installs_after_exit": 3,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.41420637240572933,
+     "control": 68114,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "stratum": "confirm",
+   "joint_service": 0.4177944140512525,
+   "joint_control": 64740,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 45,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "post_exit": {
+     "service": 0.719550820616182,
+     "control": 71833,
+     "delta_service_pp": 30.175640656492952,
+     "delta_control_pct": 10.956132221192473,
+     "authorized_after_exit": 5,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 5,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6603393730227207,
+     "control": 67469,
+     "delta_service_pp": 24.25449589714682,
+     "delta_control_pct": 4.215322829780654,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "wait_extend": {
+     "service": 0.4177944140512525,
+     "control": 64740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4177944140512525,
+     "control": 64740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4177944140512525,
+     "control": 64740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.4177944140512525,
+     "control": 64740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "sham_release": {
+     "service": 0.4177944140512525,
+     "control": 64740,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6603393730227207,
+     "control": 67469,
+     "delta_service_pp": 24.25449589714682,
+     "delta_control_pct": 4.215322829780654,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110615,
+   "stratum": "confirm",
+   "joint_service": 0.41567833381544694,
+   "joint_control": 70081,
+   "joint_lockout_to_stop": false,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 43,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.41567833381544694,
+     "control": 70081,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7622215794041076,
+     "control": 75667,
+     "delta_service_pp": 34.654324558866065,
+     "delta_control_pct": 7.9707766727072915,
+     "authorized_after_exit": 4,
+     "first_authorized_s": 175.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_scoped": {
+     "service": 0.41567833381544694,
+     "control": 70081,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "joint": {
+     "service": 0.41567833381544694,
+     "control": 70081,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": null
+    },
+    "fs_relax_global": {
+     "service": 0.6485391958345386,
+     "control": 73636,
+     "delta_service_pp": 23.28608620190916,
+     "delta_control_pct": 5.072701588162265,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_scoped": {
+     "service": 0.6485391958345386,
+     "control": 73636,
+     "delta_service_pp": 23.28608620190916,
+     "delta_control_pct": 5.072701588162265,
+     "authorized_after_exit": 2,
+     "first_authorized_s": 145.0,
+     "installs_after_exit": 2,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "thresh_relax_global": {
+     "service": 0.41567833381544694,
+     "control": 70081,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "sham_release": {
+     "service": 0.41567833381544694,
+     "control": 70081,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": false
+    }
+   }
+  },
+  {
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "stratum": "confirm",
+   "joint_service": 0.4159318048206937,
+   "joint_control": 68645,
+   "joint_lockout_to_stop": true,
+   "joint_unconfirmed_exit": true,
+   "joint_first_exit_s": 20.0,
+   "joint_blocked_checks": 47,
+   "audits": [
+    "passed"
+   ],
+   "arms": {
+    "wait_extend": {
+     "service": 0.4159318048206937,
+     "control": 68645,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 30.0,
+     "opened": false
+    },
+    "thresh_relax_global": {
+     "service": 0.4159318048206937,
+     "control": 68645,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "thresh_relax_scoped": {
+     "service": 0.4159318048206937,
+     "control": 68645,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "fs_relax_scoped": {
+     "service": 0.6549088771310994,
+     "control": 72469,
+     "delta_service_pp": 23.897707231040567,
+     "delta_control_pct": 5.570689780756055,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "fs_relax_global": {
+     "service": 0.6549088771310994,
+     "control": 72469,
+     "delta_service_pp": 23.897707231040567,
+     "delta_control_pct": 5.570689780756055,
+     "authorized_after_exit": 1,
+     "first_authorized_s": 235.0,
+     "installs_after_exit": 1,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "sham_release": {
+     "service": 0.4159318048206937,
+     "control": 68645,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": false
+    },
+    "post_exit": {
+     "service": 0.7682819383259912,
+     "control": 75143,
+     "delta_service_pp": 35.235013350529755,
+     "delta_control_pct": 9.466093670332864,
+     "authorized_after_exit": 5,
+     "first_authorized_s": 155.0,
+     "installs_after_exit": 4,
+     "lockout_to_stop": false,
+     "first_exit_s": 20.0,
+     "opened": true
+    },
+    "joint": {
+     "service": 0.4159318048206937,
+     "control": 68645,
+     "delta_service_pp": 0.0,
+     "delta_control_pct": 0.0,
+     "authorized_after_exit": 0,
+     "first_authorized_s": null,
+     "installs_after_exit": 0,
+     "lockout_to_stop": true,
+     "first_exit_s": 20.0,
+     "opened": null
+    }
+   }
+  }
+ ]
+}

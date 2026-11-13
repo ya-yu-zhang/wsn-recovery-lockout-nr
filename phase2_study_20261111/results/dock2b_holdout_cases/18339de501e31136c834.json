@@ -1,0 +1,1 @@
+{"folder": "18339de501e31136c834", "group": "amp2", "arm": "joint", "model": "horizon", "topology": "budget_10_2026110416", "seed": 2026110613, "ns3": {"exits_s": [20.0], "e1": true, "installs_after_exit": 0, "first_authorized_s": null}, "mirror": {"p_exit": 1.0, "p_gate_open": 0.13, "p_e1": 0.16, "median_first_exit_s": 20.0}, "F1": true, "F2": true}

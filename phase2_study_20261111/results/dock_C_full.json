@@ -1,0 +1,8134 @@
+{
+ "summary": {
+  "n": 248,
+  "C1": 1.0,
+  "C2": 1.0,
+  "C3": 1.0,
+  "C4": 1.0,
+  "pass": true
+ },
+ "rows": [
+  {
+   "folder": "00c7efe1e92b8c7aab9b",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "018cea7c1031e254cbfb",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "027cc5c0bd28050634b0",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "03b437c970cffa09dc44",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "03cf28bafea2cdccc33d",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "04049be5a3becbe7ca3f",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "058dd8a802edb653f2b4",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "06a7e2ea8f45a417e608",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "06ecfabed758f95bbf58",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "07771cd827fe69a128ce",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "091a0e43c2852d7f3eac",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "0a19e0cfaaf6065749a1",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "0a1c79aab450565829da",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "0a99e50445b73552558f",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "0b8c94a673f8cd65c1a1",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "10fd8b9922a73f8a51ba",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1169f3a479ed820162ea",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1192395cc2a93c8d9864",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "129237a1ebcbc89b0693",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "13dbac68393481a77e7c",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1405618989b15897449f",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1498e00899da4dbb5e22",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "17f59851101a745b406b",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "18339de501e31136c834",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "18888c67757fe3715ec5",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 49,
+   "phi_agree": 49,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1898e266b56cfb3903cd",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1c6529f71ed99f82922f",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1c96f0177daa90d76563",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1cbebabc606626a71a4d",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     175.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 165.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     175.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 34,
+   "phi_agree": 34,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1cc94bdcf9cf50994630",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1d92633e2ce47b809f7d",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "1e9a7fddf1ea5c6711c5",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "218ef23662efd3b1e4ba",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "22104cfc19712f5ea1fd",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "225b8ba925f25ba15d53",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     170.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 160.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     170.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 37,
+   "phi_agree": 37,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2322c0ca28cd6f6ad835",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2468e02a8e2706978c80",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "251173174f880a512cbc",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "254656a8109d3c1d4dbf",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "25f1ea899b6da5f93102",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "262d000a10eca2fc658b",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2640140a53737920dfc2",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "26648253e7d607c96109",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "27b4b43121563a550f61",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2813218ef3cde8c5b279",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "28eb9af48ea653190855",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2a2c547fa0fc8d705614",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2ac2763eebe129401606",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 31,
+   "phi_agree": 31,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2af798051f1ff40924c5",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2d64a0da2426f840a5f1",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2d828fbae125c6047327",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2dafad36ce9286a682b1",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2e1165aeb387a6c51c2a",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 5,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 5
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 27,
+   "phi_agree": 27,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "2e4c226282e9a853d82f",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "306a9b3bbc2193bda055",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 35,
+   "phi_agree": 35,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "30a4715a80bb5bb3fd09",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "30c57349ebacc584a6d3",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3136dc1d3044e847458a",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "315909ff018ab7749cb1",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3344d2275e9eb0b43a6b",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "34d0e9e056fb0e08a4f8",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "36d48c27d507e9510082",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3800ccc694391dffe55e",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "382ea5d2cd062818eb1f",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 29,
+   "phi_agree": 29,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "38f4c2b18dc858908789",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3a89b1c4c9754953cada",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3aa6e6a621532c6e8171",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3b8ecda78629e0fdf5da",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3c6bbd4ba0b9f0c4e5af",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 27,
+   "phi_agree": 27,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3df1ef3eb2b28f60384d",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "3e815dbedb186c407e57",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     170.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 160.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     170.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "431a4344b856ef0c510e",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "43d4bb27fd53330644e3",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "45d5c02e2cdb28d0537e",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "464e5ca991d5b613cd23",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     175.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 165.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     175.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 26,
+   "phi_agree": 26,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "4668681ca381cac5ce36",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "4868e1e67db00a3b7263",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "4a5e42797bc290aa6c0a",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "4c742d0f7f84410dd97f",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "4f15a71ccb66b75e8f51",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "50dee637a556d996016a",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     175.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 165.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     175.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "532831e2ae1a9c2b98f3",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5374c7e66effe9464432",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 215.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "55328a26944023afa612",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5612da67261064b8cac3",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 49,
+   "phi_agree": 49,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "573d0701a948a4cd7754",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 6,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 6
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 27,
+   "phi_agree": 27,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "580a0b4589cdf92ff4f1",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5978ba24d0b5dd7e4aa0",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 30,
+   "phi_agree": 30,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5aa081d2debe37d9d66a",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5acf1772a17571239b28",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5bf48655b74aa5da5a81",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 49,
+   "phi_agree": 49,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5d152ebf9932137d9f5e",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5d5d04afbeb8dde77fac",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5d66696b91901bbff85e",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 1,
+    "first_authorized_s": 220.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 1
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5f39c13b9585942d1f89",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     175.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 165.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     175.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5f61f86741557f47dae9",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "638f8c587ea5ce83b9df",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "64038acc64af337f3dc2",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "64a6c4627f1d10269cf0",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 35,
+   "phi_agree": 35,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "67210ba19d8d7e050cd8",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "68546d9e1f9b5cb82035",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 29,
+   "phi_agree": 29,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "69032f4677c99f3441ed",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "6c1312f0a431109fbce1",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 29,
+   "phi_agree": 29,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "6d26d71468434a2addd5",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "6e664dbbbff9d96044eb",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "6fae2151a3a247155727",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7035e423828153d1d5dd",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "731f0c48926e75730934",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "73231aecd8dac00338b7",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "73279e8eb38151944e3f",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "75a8d2c77f3699c5659b",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "75e73e23a1d087e66d78",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "75fa1e3a99495d14fb68",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "778463535b23ecb1fb87",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     230.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     230.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 36,
+   "phi_agree": 36,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "77998d5de76194dbdc5b",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "78290a436198a77e842a",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "79b319cef404cf0a08ff",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7a1e8dbdb675aa65cf8e",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7c1fbb46a3a579cc87a0",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7c6c6e7069041aca35cf",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7cadfd2bb2e233781938",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7ddb36757adf9de7022c",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7fcb6d4236d5dacb3e57",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7ff10e7b755f269a550a",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "80ef228f9c806c3b5754",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "8612b560c06e420038a6",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     175.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 165.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     175.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 34,
+   "phi_agree": 34,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "87f984905198cd6f9655",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "880b62594bece3d4efc7",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "883bc9ac434a86f0658d",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "889dcdb7f823463c32f8",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "88a7ed25459a4f8dcf53",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "8a8424e7ee243609c0fe",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 34,
+   "phi_agree": 34,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "8e45bd58fbf414345984",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "8e7457bda7f341b9a9aa",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 49,
+   "phi_agree": 49,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "8e94907716ef085211db",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 29,
+   "phi_agree": 29,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "90cafe6782212055bf4c",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 5,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 5
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 29,
+   "phi_agree": 29,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "915b6e2d038714d3f4e5",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9184fe1dcfe458334704",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "91ba97889fa1b4dfef18",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 34,
+   "phi_agree": 34,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "95eb4ea51323988235d3",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "963548f214beaae76250",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "97607a5b7c5535018f26",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "97e033c87728b765ed19",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "97f17fef13ec1c83727b",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9d3617e501964d45493f",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9d9558e767f6fad5bf00",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9da7313af32883876cae",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 30,
+   "phi_agree": 30,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9e453aa0b681cd36caef",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9f767cea6cffcfd014bf",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "9fe38311eddd5e096697",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "a21aa3a0d08ca6695126",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "a2c24a2f5de32ad312b8",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "a2e6ec77a91d69c5fc40",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "a4e32ef938bda90155ff",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "a9512e1f74052e995184",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ab76f5010938421ce664",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ac4ee3b571c23da21899",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ad812d2b2554962d28d5",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     170.0
+    ],
+    "e1": false,
+    "installs_after_exit": 2,
+    "first_authorized_s": 160.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     170.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 2
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 35,
+   "phi_agree": 35,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "af4a9dcb7ccbce6e58bc",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "af8f00c8eb159f18f343",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "af9b4ed318c88dd0cfdb",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b232e6760a925feb9f2a",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b29744052412358db2ad",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b42763e8b01f67d7f9d4",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b5a5877173bbb5c24d8b",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b6a9ba91c8cf9c45faa8",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b774384fb1e7168bcb4a",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b801d8d2105deab0392a",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b8143383ea6c57fed4d2",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "b8fdec87a7d216f7fa89",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "baa18eca761ffced3fb7",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "bab27aff29e24eb40690",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "bbe0831341bce898409a",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "bc2a49d652c052cacc43",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "bd415f366cf88ec030b9",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "be6b9656919b308f6fe6",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "bfad95958d91e726bc3c",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c0d6680f4a15064b5ed6",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c0f6ab76aeaa74a7dcac",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c0fff05708856ff5997a",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0,
+     230.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0,
+     230.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 34,
+   "phi_agree": 34,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c103eb255e195f81e2ac",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c11432fb17ceb4927224",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c261a1c86985790c49b6",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c29621a4eb51c22ce048",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c2c103122fc2fe5e2656",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c3f5f8ff39733933b7ef",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c461a20022cd7cd49435",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c4e0c64a5c335b7a3c02",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c589ff26a4372e4d5ab2",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c67a1b581cdde0ef7d74",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c7ae136536140146a280",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "c8674fece43bdaa1db43",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "caeeef2e10addc7df7fe",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cbaba77673393729f008",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cbfade8d90096d2c62ab",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cc6712e912555c9746d8",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cd4d331bbcc4855c3689",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cdaa1dbf97d6d6bfbb8a",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ce178bf8d09d6f693cb9",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ce6019c58153d97ca758",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cedce9046893cc301833",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "cf3af7096e68034fc96a",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 30,
+   "phi_agree": 30,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d00be83dd4dee450f20e",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 31,
+   "phi_agree": 31,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d13980862e3d5c002771",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d3294fd18b329eb24306",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 29,
+   "phi_agree": 29,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d3848b31e25975a2fd55",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d7258bdd81ccd0724018",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 36,
+   "phi_agree": 36,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d7672b8ac65f417d5459",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 31,
+   "phi_agree": 31,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d76c411e082b02a4d557",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d8fac50469f5ea6f22c7",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d961a0d5dfc89bdcc066",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d9c8461f66bb0ab316d5",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "dd149717d7843e9fb1ac",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 44,
+   "phi_agree": 44,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "dd211bf16d86a4f9ab78",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "dede064ceaee5e1c5aa1",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e0a111a6ba534e70cf07",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e133d6a99f5293d0fbcf",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e47dd285b0b985685209",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 32,
+   "phi_agree": 32,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e6bba0e86040a934ad4b",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e7648791a4fe6415474f",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110613,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e870c53eaa12f772bbb2",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "e95dac933d1bc62e9e73",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ec6fcf356e329c928ea1",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "eca1612445e4c6f83a32",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 5,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 5
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 31,
+   "phi_agree": 31,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ecb8204db197ea21b4f3",
+   "group": "amp2",
+   "arm": "thresh_relax_scoped",
+   "model": "horizon",
+   "topology": "budget_10_2026110411",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ee273b7f665ef3f6586b",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ef4f6628ef2a01f1ec67",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110416",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 30,
+   "phi_agree": 30,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ef5e237f5e413d798aa0",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f0871982cac5388acb4d",
+   "group": "amp2",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f1ba18f399aa64b2a821",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 1,
+    "first_authorized_s": 220.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 1
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 34,
+   "phi_agree": 34,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f249337179457818bc44",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110614,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 4,
+    "first_authorized_s": 155.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     165.0,
+     180.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 4
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 33,
+   "phi_agree": 33,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f36d4fc1653369073d54",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110410",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f410ed9928f5ea495005",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110412",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 30,
+   "phi_agree": 30,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f6bca9e526f8aa4faedb",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f82e1c3a755af3f233d6",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 30,
+   "phi_agree": 30,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f9ce2163ee72e3559112",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "f9f7a4c31f65baedda7e",
+   "group": "amp2",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026110415",
+   "seed": 2026110611,
+   "ns3": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "installs_after_exit": 3,
+    "first_authorized_s": 175.0
+   },
+   "mirror": {
+    "exits_s": [
+     20.0,
+     185.0,
+     200.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 3
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 36,
+   "phi_agree": 36,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "faa3c14c3a5237752bad",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110417",
+   "seed": 2026110612,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 47,
+   "phi_agree": 47,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "fad66ec7c0b9a6643ff3",
+   "group": "amp2",
+   "arm": "wait_extend",
+   "model": "horizon",
+   "topology": "budget_10_2026110413",
+   "seed": 2026110616,
+   "ns3": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     30.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 48,
+   "phi_agree": 48,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "fca9a51a8646f869b09b",
+   "group": "amp2",
+   "arm": "sham_release",
+   "model": "horizon",
+   "topology": "budget_10_2026110414",
+   "seed": 2026110615,
+   "ns3": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     20.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 46,
+   "phi_agree": 46,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "076377ff8dcdfe16bfd4",
+   "group": "adverse",
+   "arm": "joint",
+   "model": "horizon",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 36,
+   "phi_agree": 36,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "5732e1210f2178945b00",
+   "group": "adverse",
+   "arm": "joint",
+   "model": "cohort",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 36,
+   "phi_agree": 36,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "67be36b3ef6db54ad882",
+   "group": "adverse",
+   "arm": "post_exit",
+   "model": "horizon",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "installs_after_exit": 1,
+    "first_authorized_s": 265.0
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 1
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 27,
+   "phi_agree": 27,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "7c783c1ffd42329e7649",
+   "group": "adverse",
+   "arm": "joint",
+   "model": "full_v2",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 45,
+   "phi_agree": 45,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "ac61e7ffa07d106435c5",
+   "group": "adverse",
+   "arm": "post_exit",
+   "model": "full_v2",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "installs_after_exit": 1,
+    "first_authorized_s": 265.0
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 1
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 40,
+   "phi_agree": 40,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d92cd1d2c4258f7c8966",
+   "group": "adverse",
+   "arm": "post_exit",
+   "model": "cohort",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "installs_after_exit": 1,
+    "first_authorized_s": 265.0
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 1
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 27,
+   "phi_agree": 27,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "d9817fe73116294cd5af",
+   "group": "adverse",
+   "arm": "post_exit",
+   "model": "closing",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "installs_after_exit": 1,
+    "first_authorized_s": 265.0
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": false,
+    "e1_all_ticks": false,
+    "installs_after_first_exit": 1
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 27,
+   "phi_agree": 27,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  },
+  {
+   "folder": "dcf28c7938a3b5b8c11d",
+   "group": "adverse",
+   "arm": "joint",
+   "model": "closing",
+   "topology": "budget_10_2026101501",
+   "seed": 2026101511,
+   "ns3": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": true,
+    "installs_after_exit": 0,
+    "first_authorized_s": null
+   },
+   "mirror": {
+    "exits_s": [
+     245.0
+    ],
+    "e1": true,
+    "e1_all_ticks": true,
+    "installs_after_first_exit": 0
+   },
+   "C1": true,
+   "C2": true,
+   "ticks": 67,
+   "phi_eval": 36,
+   "phi_agree": 36,
+   "reason_agree": 67,
+   "reason_mismatch": [],
+   "phi_mismatch": []
+  }
+ ]
+}

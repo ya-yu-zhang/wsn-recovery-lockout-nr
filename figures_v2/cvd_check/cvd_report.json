@@ -1,0 +1,42 @@
+{
+ "none": {
+  "L_star": {
+   "joint": 54.18742429248151,
+   "post_exit": 45.973342756925284,
+   "sham": 63.22259455235917,
+   "wait_extend": 70.60762637435987,
+   "thresh_relax": 57.743081344121705
+  },
+  "joint_vs_postexit_dL": 8.214081535556225
+ },
+ "deuteranopia": {
+  "L_star": {
+   "joint": 57.995946463487755,
+   "post_exit": 43.78594847032109,
+   "sham": 63.22257757231276,
+   "wait_extend": 72.95093135897451,
+   "thresh_relax": 55.84368018432639
+  },
+  "joint_vs_postexit_dL": 14.209997993166667
+ },
+ "protanopia": {
+  "L_star": {
+   "joint": 47.498315347495435,
+   "post_exit": 49.21741171575147,
+   "sham": 63.22260016659996,
+   "wait_extend": 66.74653699386775,
+   "thresh_relax": 60.36638870202195
+  },
+  "joint_vs_postexit_dL": 1.7190963682560323
+ },
+ "tritanopia": {
+  "L_star": {
+   "joint": 53.899173356730245,
+   "post_exit": 49.15287210155918,
+   "sham": 63.22259455235917,
+   "wait_extend": 70.14559869102031,
+   "thresh_relax": 58.653110858928954
+  },
+  "joint_vs_postexit_dL": 4.746301255171062
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "A": {
+  "stream_len_min": 1200,
+  "stream_len_median": 1200.0,
+  "stream_len_max": 1200,
+  "R2_link_runs_with_frames": 5599,
+  "R2_link_runs_wrapping": 1918,
+  "max_evaluated_over_length": 11.3
+ },
+ "B": {
+  "stream_len_min": 400,
+  "stream_len_median": 400.0,
+  "stream_len_max": 400,
+  "R2_link_runs_with_frames": 5600,
+  "R2_link_runs_wrapping": 2445,
+  "max_evaluated_over_length": 33.59
+ }
+}

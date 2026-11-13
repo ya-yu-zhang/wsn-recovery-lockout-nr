@@ -1,0 +1,55 @@
+{
+ "note": "(E) Read-only extraction of execution scale and wall-clock spans for the application-experience paragraph.\nSources: file-system modification times of the per-run output files written by the registered runs (no estimate,\nno re-run), the CHANGELOG entries for technical incidents, and run counts from the frozen summaries.\nWall-clock span = last minus first output-file mtime of a batch; it excludes start-up before the first output file.\nFor the replay batch the earliest files belong to one case (flock_B0, N, joint) completed in a foreground diagnostic\nbefore the third launch and reused from cache (CHANGELOG 18:01), so the span of the third launch itself is reported\nseparately (third_launch.span_min). Runs were parallel; CPU time is not recorded and is not reported.",
+ "timezone": "America/Los_Angeles (box clock)",
+ "machine": {
+  "logical_cpus": 8,
+  "mem_gb": 15.6
+ },
+ "batches": {
+  "trace_replay_full_192": {
+   "runs": 192,
+   "workers": 4,
+   "dir": "raw_on_request/scratch_phase2/flocklab_full",
+   "files": 2304,
+   "bytes": 1253261770,
+   "first_mtime": "2026-11-11 18:00:04",
+   "last_mtime": "2026-11-11 18:44:08",
+   "span_min": 44.1,
+   "reused_foreground_case_dir": "239e5252d0c4cf6b39bb",
+   "third_launch": {
+    "dir": "raw_on_request/scratch_phase2/flocklab_full",
+    "files": 2292,
+    "bytes": 1246519713,
+    "first_mtime": "2026-11-11 18:01:16",
+    "last_mtime": "2026-11-11 18:44:08",
+    "span_min": 42.9
+   }
+  },
+  "factorial_432": {
+   "runs": 432,
+   "workers": 3,
+   "dir": "raw_on_request/scratch_phase2/doe",
+   "files": 4752,
+   "bytes": 3560143929,
+   "first_mtime": "2026-11-11 18:01:29",
+   "last_mtime": "2026-11-11 18:35:58",
+   "span_min": 34.5
+  },
+  "mode_fprime_holdout_108x100": {
+   "cases": 108,
+   "replications_per_case": 100,
+   "dir": "phase2_study_20261111/results/dock2b_holdout_cases",
+   "files": 108,
+   "bytes": 38932,
+   "first_mtime": "2026-11-11 18:48:42",
+   "last_mtime": "2026-11-11 19:22:13",
+   "span_min": 33.5
+  }
+ },
+ "concurrency": "trace replay (4 workers) and factorial (3 workers) ran concurrently on the same machine (CHANGELOG 18:01)",
+ "incidents": [
+  "- 17:59 FlockLab full attempt 1: BrokenProcessPool for all 192 at start (worker pool killed when the launching shell exited; no case started/finished, no outcome seen). Relaunched detached with setsid; attempt-1 log kept as results_full/runs_attempt1_brokenpool.json.",
+  "- 18:01 FlockLab full attempt 2: OOM kill (dmesg: python3 worker 2.3 GB RSS; trace runs emit large protocol logs; 6 workers > 16 GB). Technical, no outcome seen. One case (B0 seed01 N joint) completed in a foreground diagnostic and is reused from cache. Relaunched with 4 workers.",
+  "- 18:47 Harness: holdout run (no checkpoint, 4 min in, no output) stopped and relaunched via mirror2b/dock2b_ckpt.py (per-case checkpoint files; same mode_f, seeds, scorer; summary pass via thread pool). sha 03e2c38e5fc89b5c\u2026"
+ ]
+}

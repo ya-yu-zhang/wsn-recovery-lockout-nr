@@ -1,0 +1,83 @@
+{
+ "n_cases": 2,
+ "n_done": 2,
+ "failures": [],
+ "rows": [
+  {
+   "key": "5659d87077148ff2b885",
+   "configuration": {
+    "stage": "neutral",
+    "topology": "budget_10_2026110410",
+    "seed": 2026110611,
+    "arm": "joint",
+    "recipe": "M1_drop_both_0_200_dn36",
+    "trace_binary_neutral": true,
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ],
+    "drop_install_start_sec": 0.0,
+    "drop_install_end_sec": 200.0,
+    "drop_install_mask": 3
+   },
+   "audit": "passed",
+   "worst_source_service": 0.4107812049582012,
+   "unconfirmed_exits": [
+    20.0
+   ],
+   "E1": false,
+   "installs_after_exit": 0,
+   "gate_closed": true,
+   "first_authorized_s": null,
+   "fs_after_last_exit": false,
+   "tracelinks_file": null,
+   "id": "observable_49c212f58bb8aa5edfd725cb",
+   "folder": "raw_on_request/scratch_phase2/flocklab_neutral/5659d87077148ff2b885"
+  },
+  {
+   "key": "3882b5db139525185f97",
+   "configuration": {
+    "stage": "neutral",
+    "topology": "budget_10_2026110411",
+    "seed": 2026110611,
+    "arm": "joint",
+    "recipe": "M1_drop_both_0_200_dn36",
+    "trace_binary_neutral": true,
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ],
+    "drop_install_start_sec": 0.0,
+    "drop_install_end_sec": 200.0,
+    "drop_install_mask": 3
+   },
+   "audit": "passed",
+   "worst_source_service": 0.413458712900382,
+   "unconfirmed_exits": [
+    20.0
+   ],
+   "E1": false,
+   "installs_after_exit": 0,
+   "gate_closed": true,
+   "first_authorized_s": null,
+   "fs_after_last_exit": false,
+   "tracelinks_file": null,
+   "id": "observable_60ea63cb3a55d2091b3b2a0c",
+   "folder": "raw_on_request/scratch_phase2/flocklab_neutral/3882b5db139525185f97"
+  }
+ ]
+}

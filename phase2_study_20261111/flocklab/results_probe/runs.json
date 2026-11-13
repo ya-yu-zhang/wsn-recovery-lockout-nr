@@ -1,0 +1,327 @@
+{
+ "n_cases": 8,
+ "n_done": 8,
+ "failures": [],
+ "rows": [
+  {
+   "key": "8042538a6bbe8adc62b4",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A0",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A0.csv",
+    "trace_sha256": "5efe0e2b3f319ecad7c865c20b9e15c5beda54cb8921d2f557c956e8f653a40f",
+    "trace_mode": 2,
+    "topology": "flock_A0",
+    "seed": 2026111301,
+    "arm": "joint",
+    "scenario_tag": "M1",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ],
+    "drop_install_start_sec": 0.0,
+    "drop_install_end_sec": 200.0,
+    "drop_install_mask": 3
+   },
+   "audit": "passed",
+   "worst_source_service": 0.39782172542275723,
+   "unconfirmed_exits": [
+    20.0
+   ],
+   "E1": true,
+   "installs_after_exit": 0,
+   "gate_closed": true,
+   "first_authorized_s": null,
+   "fs_after_last_exit": false,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/8042538a6bbe8adc62b4/observable_28edf3e55ca839675f7e6839.tracelinks.csv",
+   "id": "observable_28edf3e55ca839675f7e6839",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/8042538a6bbe8adc62b4"
+  },
+  {
+   "key": "1076f3310fcc9882b269",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A1",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A1.csv",
+    "trace_sha256": "fa56a19cc751960c44bb4ad8ee047c310e6280065330820445e60bff3ded7764",
+    "trace_mode": 2,
+    "topology": "flock_A1",
+    "seed": 2026111301,
+    "arm": "joint",
+    "scenario_tag": "M1",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ],
+    "drop_install_start_sec": 0.0,
+    "drop_install_end_sec": 200.0,
+    "drop_install_mask": 3
+   },
+   "audit": "passed",
+   "worst_source_service": 0.3975351103468042,
+   "unconfirmed_exits": [
+    20.0
+   ],
+   "E1": true,
+   "installs_after_exit": 0,
+   "gate_closed": true,
+   "first_authorized_s": null,
+   "fs_after_last_exit": false,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/1076f3310fcc9882b269/observable_c67a0b42149f03c6c6dc1605.tracelinks.csv",
+   "id": "observable_c67a0b42149f03c6c6dc1605",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/1076f3310fcc9882b269"
+  },
+  {
+   "key": "3c9a9608ca17c94d7960",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A0",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A0.csv",
+    "trace_sha256": "5efe0e2b3f319ecad7c865c20b9e15c5beda54cb8921d2f557c956e8f653a40f",
+    "trace_mode": 2,
+    "topology": "flock_A0",
+    "seed": 2026111301,
+    "arm": "joint",
+    "scenario_tag": "N",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ]
+   },
+   "audit": "passed",
+   "worst_source_service": 0.940097449125824,
+   "unconfirmed_exits": [],
+   "E1": false,
+   "installs_after_exit": 0,
+   "gate_closed": false,
+   "first_authorized_s": null,
+   "fs_after_last_exit": null,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/3c9a9608ca17c94d7960/observable_aea5c9cf85a491f5aa4d7bb1.tracelinks.csv",
+   "id": "observable_aea5c9cf85a491f5aa4d7bb1",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/3c9a9608ca17c94d7960"
+  },
+  {
+   "key": "8789cf84fc2590008c31",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A1",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A1.csv",
+    "trace_sha256": "fa56a19cc751960c44bb4ad8ee047c310e6280065330820445e60bff3ded7764",
+    "trace_mode": 2,
+    "topology": "flock_A1",
+    "seed": 2026111301,
+    "arm": "joint",
+    "scenario_tag": "N",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ]
+   },
+   "audit": "passed",
+   "worst_source_service": 0.18850574712643678,
+   "unconfirmed_exits": [],
+   "E1": false,
+   "installs_after_exit": 0,
+   "gate_closed": false,
+   "first_authorized_s": null,
+   "fs_after_last_exit": null,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/8789cf84fc2590008c31/observable_e340326ce902538e87baf581.tracelinks.csv",
+   "id": "observable_e340326ce902538e87baf581",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/8789cf84fc2590008c31"
+  },
+  {
+   "key": "443febb4463af5255c69",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A0",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A0.csv",
+    "trace_sha256": "5efe0e2b3f319ecad7c865c20b9e15c5beda54cb8921d2f557c956e8f653a40f",
+    "trace_mode": 2,
+    "topology": "flock_A0",
+    "seed": 2026111301,
+    "arm": "post_exit",
+    "scenario_tag": "M1",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ],
+    "drop_install_start_sec": 0.0,
+    "drop_install_end_sec": 200.0,
+    "drop_install_mask": 3
+   },
+   "audit": "passed",
+   "worst_source_service": 0.711092003439381,
+   "unconfirmed_exits": [
+    20.0,
+    185.0,
+    200.0
+   ],
+   "E1": false,
+   "installs_after_exit": 6,
+   "gate_closed": false,
+   "first_authorized_s": 175.0,
+   "fs_after_last_exit": true,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/443febb4463af5255c69/observable_28edf3e55ca839675f7e6839.tracelinks.csv",
+   "id": "observable_28edf3e55ca839675f7e6839",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/443febb4463af5255c69"
+  },
+  {
+   "key": "9a720714e44164704383",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A1",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A1.csv",
+    "trace_sha256": "fa56a19cc751960c44bb4ad8ee047c310e6280065330820445e60bff3ded7764",
+    "trace_mode": 2,
+    "topology": "flock_A1",
+    "seed": 2026111301,
+    "arm": "post_exit",
+    "scenario_tag": "M1",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ],
+    "drop_install_start_sec": 0.0,
+    "drop_install_end_sec": 200.0,
+    "drop_install_mask": 3
+   },
+   "audit": "passed",
+   "worst_source_service": 0.42701149425287355,
+   "unconfirmed_exits": [
+    20.0,
+    185.0,
+    200.0
+   ],
+   "E1": false,
+   "installs_after_exit": 8,
+   "gate_closed": false,
+   "first_authorized_s": 175.0,
+   "fs_after_last_exit": true,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/9a720714e44164704383/observable_c67a0b42149f03c6c6dc1605.tracelinks.csv",
+   "id": "observable_c67a0b42149f03c6c6dc1605",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/9a720714e44164704383"
+  },
+  {
+   "key": "a580bcb3c99374f2a239",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A0",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A0.csv",
+    "trace_sha256": "5efe0e2b3f319ecad7c865c20b9e15c5beda54cb8921d2f557c956e8f653a40f",
+    "trace_mode": 2,
+    "topology": "flock_A0",
+    "seed": 2026111301,
+    "arm": "post_exit",
+    "scenario_tag": "N",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ]
+   },
+   "audit": "passed",
+   "worst_source_service": 0.940097449125824,
+   "unconfirmed_exits": [],
+   "E1": false,
+   "installs_after_exit": 0,
+   "gate_closed": false,
+   "first_authorized_s": null,
+   "fs_after_last_exit": null,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/a580bcb3c99374f2a239/observable_aea5c9cf85a491f5aa4d7bb1.tracelinks.csv",
+   "id": "observable_aea5c9cf85a491f5aa4d7bb1",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/a580bcb3c99374f2a239"
+  },
+  {
+   "key": "33088e071f0cfd2e0f93",
+   "configuration": {
+    "stage": "probe",
+    "day": "A",
+    "subgraph": "A1",
+    "trace_file": "phase2_study_20261111/flocklab/traces/subgraph_A1.csv",
+    "trace_sha256": "fa56a19cc751960c44bb4ad8ee047c310e6280065330820445e60bff3ded7764",
+    "trace_mode": 2,
+    "topology": "flock_A1",
+    "seed": 2026111301,
+    "arm": "post_exit",
+    "scenario_tag": "N",
+    "scenario": "multi_failure",
+    "faults": [
+     [
+      145,
+      3
+     ],
+     [
+      225,
+      6
+     ]
+    ]
+   },
+   "audit": "passed",
+   "worst_source_service": 0.18850574712643678,
+   "unconfirmed_exits": [],
+   "E1": false,
+   "installs_after_exit": 0,
+   "gate_closed": false,
+   "first_authorized_s": null,
+   "fs_after_last_exit": null,
+   "tracelinks_file": "raw_on_request/scratch_phase2/flocklab_probe/33088e071f0cfd2e0f93/observable_e340326ce902538e87baf581.tracelinks.csv",
+   "id": "observable_e340326ce902538e87baf581",
+   "folder": "raw_on_request/scratch_phase2/flocklab_probe/33088e071f0cfd2e0f93"
+  }
+ ]
+}

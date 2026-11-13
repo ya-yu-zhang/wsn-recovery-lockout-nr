@@ -1,0 +1,4 @@
+{"note": "Exploratory diagnosis after the 2b probe outcome (no model change). 4 Joint probe cases x 10 replicates.",
+ "mirror_joint_reopen_cause": "15/15 post-exit installs in Joint occurred with an eligible F_s (Phi=1 via F_s, T abandoned_unconfirmed); ns-3 Joint never reopened in these cases",
+ "per_run_contention": {"ns3": {"cca": 39109, "busy_fraction": 0.363, "no_ack_jobs": 3579, "channel_access_failures": 457, "jobs": 16825},
+                        "mirror_cq": {"cca": 45149, "busy_fraction": 0.353, "no_ack_jobs": 3654, "channel_access_failures": 716}}}

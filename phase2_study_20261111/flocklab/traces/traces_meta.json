@@ -1,0 +1,24 @@
+{
+ "A": {
+  "day": "2019-09-15",
+  "n_tests": 12,
+  "n_rows": 48672,
+  "n_unrecorded_rows": 5616,
+  "n_nodes": 27,
+  "n_links": 552,
+  "file": "dayA_2019-09-15.json",
+  "sha256": "c3cb3066a8754e384c47761086a6c0c469f3157601f7240218832d0f185b0d4c",
+  "source_zip_sha256": "d2fdb72bf515b1e3aa3b74c63e6fff403506ee80b08a5267aa2a8e7e30c58bee"
+ },
+ "B": {
+  "day": "2020-01-22",
+  "n_tests": 4,
+  "n_rows": 7020,
+  "n_unrecorded_rows": 0,
+  "n_nodes": 27,
+  "n_links": 702,
+  "file": "dayB_2020-01-22.json",
+  "sha256": "a5af945d976b84e846a1015aee125e24141a50f4a5637ba22fa1bcefc0319ffd",
+  "source_zip_sha256": "9857fe31ec57297513ad14b887b5fe764b8225f8b06324815e8b6e4e03c6b523"
+ }
+}

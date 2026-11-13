@@ -1,0 +1,30 @@
+{
+ "stage": "neutral",
+ "n_cases": 2,
+ "n_done": 2,
+ "n_failed": 0,
+ "all_complete": true,
+ "audit_all_passed": true,
+ "neutrality": [
+  {
+   "topology": "budget_10_2026110410",
+   "frozen_found": 1,
+   "hashes_equal": {
+    ".csv": true,
+    ".jobs.csv": true,
+    ".protocol.jsonl": true,
+    ".radio.csv": true
+   }
+  },
+  {
+   "topology": "budget_10_2026110411",
+   "frozen_found": 1,
+   "hashes_equal": {
+    ".csv": true,
+    ".jobs.csv": true,
+    ".protocol.jsonl": true,
+    ".radio.csv": true
+   }
+  }
+ ]
+}

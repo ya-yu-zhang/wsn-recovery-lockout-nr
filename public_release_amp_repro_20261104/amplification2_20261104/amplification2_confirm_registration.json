@@ -1,0 +1,8476 @@
+{
+  "stage": "confirm",
+  "attempt": 2,
+  "prior_attempt": "AMPLIFICATION_CONFIRM_REPORT_20261104",
+  "prior_joint_lockout": "0/96",
+  "n_configs": 384,
+  "configs": [
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110410",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110411",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110412",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110413",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110414",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110415",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110416",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110611,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110612,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110613,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110614,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110615,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "joint",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "post_exit",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "sham_release",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "wait_extend",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_scoped",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "fs_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    },
+    {
+      "topology": "budget_10_2026110417",
+      "scenario": "multi_failure",
+      "seed": 2026110616,
+      "recipe": "M1_drop_both_0_200_dn36",
+      "faults": [
+        [
+          145,
+          3
+        ],
+        [
+          225,
+          6
+        ]
+      ],
+      "arm": "thresh_relax_global",
+      "drop_install_start_sec": 0.0,
+      "drop_install_end_sec": 200.0,
+      "drop_install_mask": 3,
+      "stratum": "confirm",
+      "stage": "confirm"
+    }
+  ],
+  "source_sha256": {
+    "AMPLIFICATION2_PREREG_20261104.md": "937c392c8f4c871dc004d0161606ec71031e3e8797caa59569c9a1d3682f49ab",
+    "amplification2_stages.py": "58cae98ab567e1fc292a30be4ded52af5b09a8e49ac359cafb08f49dce30474d",
+    "run_amplification2.py": "a544a8ab0dc5731ca36361f0f4d545235fa9cdd680db80133a7ae49b80b15e89",
+    "amplification_arms.py": "52ba3b48dcc2b5658b609da799c28de887ea10bd57c867a95f8a88aa2e950661",
+    "contract_ablation.py": "a94135148f461e1773923548753421ba6ab17d7baae14b9d704b2f60eb5c9acf",
+    "horizon_controller.py": "61e8bc46d0ae62df6633c797a4efd1eb6d79d821f52bf68185462804eee0af06",
+    "budget_controller.py": "d6a9c19145e3e10c34424fd72b65e2b8b466c617fa92c8e14c03c6c4892ec624",
+    "fast_native_run.py": "4d43686ce05aa4281353cd1b40436287aad56c86cd6c881ab2dfb6c0114e134d",
+    "analyze_amplification.py": "c1cba34913172107edc3833a1d2e822aaf9a672e5843dd866f3cfb200b551477",
+    "analyze_amplification_confirm.py": "36cae73b6c33d85a65fecc8964b1e66efe66b28c44858436cfd4c6900b0c8cdb",
+    "analyze_amplification2_manip.py": "c25461955bca1ceaa1dde6787d9c8fec3b5fdc9c7b31020c0f3c70804232fa5e",
+    "analyze_amplification2_confirm.py": "5d582c97cbda00121f4c1c2eb6ad68bdb70b7c7b9723aae9fb516b6e9b803df5",
+    "analyze_contract_ablation.py": "8941379fe967fa3a5225319cf8ff48bc28b4cd42fcbb9370481578efc713e854",
+    "audit_case.py": "606fcd0e90447ce2e4b7f95166228a98e957bb61d181899bd6a107aa79b6d3db"
+  },
+  "native_sha256": "5e77691695f30ce36d5de37f1426fda0a2deb266be2b5fb3e889279af96da6be",
+  "native_source_sha256": "810482dce414f673f052675d274834b9d8b085b87f814492c378edd1e6be1924",
+  "runtime_LLM_calls": 0
+}

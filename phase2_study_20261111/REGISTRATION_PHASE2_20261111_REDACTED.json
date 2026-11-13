@@ -1,0 +1,47 @@
+{
+ "registration": "PHASE2_20261111",
+ "written_pt": "2026-11-11 17:49 PST",
+ "preregistration": "PREREG_PHASE2_20261111.md",
+ "preregistration_sha256": "808072beebc698d35b43ca1dca6b97bbecfa2b7bf687e9d65f13d177ea21c4ae",
+ "necessity_signoff": {
+  "owner_message": "[REDACTED: internal author instruction authorizing the study]",
+  "owner_answer": "[REDACTED: internal author authorization to run the registered experiments]",
+  "note": "[REDACTED: references to internal author-message identifiers and internal laboratory rules]"
+ },
+ "frozen_reference": {
+  "registration_sha256": "1f37be33c2ebd65766da85defb33bbacf5acb21c6544c1c52645f50a184f6a24",
+  "native_binary_sha256": "5e77691695f30ce36d5de37f1426fda0a2deb266be2b5fb3e889279af96da6be",
+  "endpoints": "Amp-1 0/96; Amp-2 26/48; PostExit 26/26; competitors opened=0; sham 48/48 (read-only, never re-scored)",
+  "simpat_v0_manifest_sha256": "a781fe538f5dd3a871cc512725ecd6ad6dc8445489acc8ee1fc146e06828d346"
+ },
+ "trace_binary_sha256": "ddc624a2e4a90c7c314450b687ea9b5694f76e473aa69261caad9ed8db01c00a",
+ "simpy_version": "4.1.1 (vendored)",
+ "scripts_sha256": {
+  "CHANGELOG.md": "1c8938167a8942396d98094fb9ada8b29971d00fedc49d4720026170e757dd07",
+  "PREREG_PHASE2_20261111.md": "808072beebc698d35b43ca1dca6b97bbecfa2b7bf687e9d65f13d177ea21c4ae",
+  "REBUILD_NOTE.md": "79c2004bf351829ca8baa865ca045ce6a2e7b6f6c52ce335fc2174e14ab38496",
+  "common/ns3run.py": "cf17a2ab51b1c2179fe6c6251dbd57ea0925a7861d26a267f0e824ce49db2795",
+  "doe/analyze_doe.py": "178fe18d9a91db32b5d30133548c2a2641d188215eaf8ee43cee95298747e8db",
+  "doe/doe_design.py": "462c66fdaad9708e9efe2ec4aebcb1ee267bebecdba8d462953071d3090ee2e1",
+  "doe/run_doe.py": "8e139fa96a0a88f6a023bb68b171ee8f28b2e012142273a52415aade67fc8917",
+  "flocklab/analyze_flocklab.py": "870fa8b688fa81b6347fceaea600669f29801dffcf38094aa06d7f9898598ef7",
+  "flocklab/build_trace_binary.sh": "33cde1f3bc467b1afbb30b4472d83228d6cddf48ecb546c80b4db6194d225026",
+  "flocklab/prepare_traces.py": "a14262010bc4d187364107fb251097e09635c65a8f39fb45880c642aa73821c2",
+  "flocklab/run_flocklab.py": "614d06b06a4fa116581d43f2d6434a53a2edf54d1a76c3789074324c343fdb9b",
+  "flocklab/select_subgraphs.py": "9e54691dfce1d05201f67d0437d5037380c4813626f8002849fd09dae83f003a",
+  "flocklab/trace_link_error_model.h": "9c4d88947eedeffbd7e0732ee0f516b3d6ebb4e59456aa18afd9e6735d7a2d72",
+  "flocklab/trace_wrapper.sh": "45272819ea29928bf1a18537dda83226161e9efe6931f37c1115e08099f870e7",
+  "flocklab/wsn-closed-loop-trace.cc": "1f296e331a25e3aa3e5da652018c591e711db2d11ed197ac37f7332decf80150",
+  "mirror/calibrate.py": "bd9d7a2cd3dd57e5c1ce05c2628676b9bc34a2436e6eacf9c366431ed2b1bdff",
+  "mirror/ccmirror.py": "08cd1341acd7941b779b8f8229413ec989292d8a126b4f5c5bc5ecbdb11ca8d1",
+  "mirror/dock.py": "b0c62bf5af8741424256bc192d2055d2b0e512d86a8fbe5654a907ae388904a3",
+  "mirror/smoke_test.py": "ec9699587cead816f0134f0415f99f99012723612d58f087e3b30718955a1401",
+  "rebuild_check/spotcheck48.log": "d0bf1aee768ffdbd3b7e56f655cad4a28c0ff41d32ea4dd60723324e40306a5a",
+  "rebuild_check/spotcheck48.py": "132599f6f8ddc2228f9bf5642f3567dda21054a3ed96ed1bfd8c6fc0d6535e0d",
+  "rebuild_check/spotcheck48_compare_v2.py": "d91b0dfaa5e46be7dc19901ba0491b15340f0a2dd5188bd6de563ab39b953334",
+  "rebuild_check/spotcheck48_result.json": "b6c3e9b8ca6b8aee883451983843009f14ed58f74cf4dada8ed7f73fda047181",
+  "rebuild_check/spotcheck48_result_v2.json": "3aa2f88cc8ca0f7377b42c1e0882372ce90d2d1643cb9249b8e070f74453b2a3"
+ },
+ "runtime_LLM_calls": 0,
+ "push": false
+}

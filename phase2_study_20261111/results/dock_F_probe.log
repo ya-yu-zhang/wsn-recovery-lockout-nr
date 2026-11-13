@@ -1,0 +1,146 @@
+{
+ "n": 44,
+ "per_arm": {
+  "joint": {
+   "n": 12,
+   "F1": 1.0,
+   "F2": 1.0
+  },
+  "post_exit": {
+   "n": 12,
+   "F1": 0.0,
+   "F2": 1.0
+  },
+  "sham_release": {
+   "n": 12,
+   "F1": 1.0,
+   "F2": 1.0
+  }
+ },
+ "F3": {
+  "ns3_joint_e1": 7,
+  "n": 12,
+  "mirror_interval_95": [
+   1,
+   7
+  ],
+  "mirror_expected": 3.3499999999999996,
+  "inside": true
+ },
+ "brier_e1_joint": 0.3337083333333333,
+ "adverse": [
+  {
+   "model": "horizon",
+   "arm": "joint",
+   "mirror": {
+    "p_exit": 0.5,
+    "p_gate_open": 0.34,
+    "p_e1": 0.08,
+    "median_first_exit_s": 95.0
+   },
+   "ns3_e1": true,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "cohort",
+   "arm": "joint",
+   "mirror": {
+    "p_exit": 0.82,
+    "p_gate_open": 0.36,
+    "p_e1": 0.35,
+    "median_first_exit_s": 110.0
+   },
+   "ns3_e1": true,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "horizon",
+   "arm": "post_exit",
+   "mirror": {
+    "p_exit": 0.53,
+    "p_gate_open": 0.44,
+    "p_e1": 0.0,
+    "median_first_exit_s": 80.0
+   },
+   "ns3_e1": false,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "full_v2",
+   "arm": "joint",
+   "mirror": {
+    "p_exit": 0.5,
+    "p_gate_open": 0.34,
+    "p_e1": 0.0,
+    "median_first_exit_s": 95.0
+   },
+   "ns3_e1": false,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "full_v2",
+   "arm": "post_exit",
+   "mirror": {
+    "p_exit": 0.53,
+    "p_gate_open": 0.44,
+    "p_e1": 0.0,
+    "median_first_exit_s": 80.0
+   },
+   "ns3_e1": false,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "cohort",
+   "arm": "post_exit",
+   "mirror": {
+    "p_exit": 0.85,
+    "p_gate_open": 0.81,
+    "p_e1": 0.0,
+    "median_first_exit_s": 110.0
+   },
+   "ns3_e1": false,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "closing",
+   "arm": "post_exit",
+   "mirror": {
+    "p_exit": 0.85,
+    "p_gate_open": 0.81,
+    "p_e1": 0.0,
+    "median_first_exit_s": 110.0
+   },
+   "ns3_e1": false,
+   "ns3_exits": [
+    245.0
+   ]
+  },
+  {
+   "model": "closing",
+   "arm": "joint",
+   "mirror": {
+    "p_exit": 0.82,
+    "p_gate_open": 0.36,
+    "p_e1": 0.35,
+    "median_first_exit_s": 110.0
+   },
+   "ns3_e1": true,
+   "ns3_exits": [
+    245.0
+   ]
+  }
+ ],
+ "pass_F1_F2": false
+}

@@ -1,0 +1,12 @@
+{
+  "registration_path": "raw_on_request/control_budget_study_20261015/results/amplification2_confirm_registration.json",
+  "registration_sha256": "1f37be33c2ebd65766da85defb33bbacf5acb21c6544c1c52645f50a184f6a24",
+  "registration_mtime_America_Los_Angeles": "2026-11-04 06:13:57 PST",
+  "n_configs": 384,
+  "attempt": 2,
+  "prior_joint_lockout": "0/96",
+  "prereg_sha256": "937c392c8f4c871dc004d0161606ec71031e3e8797caa59569c9a1d3682f49ab",
+  "native_sha256": "5e77691695f30ce36d5de37f1426fda0a2deb266be2b5fb3e889279af96da6be",
+  "native_source_sha256": "810482dce414f673f052675d274834b9d8b085b87f814492c378edd1e6be1924",
+  "frozen_before_scoring": true
+}

@@ -4,8 +4,13 @@ Uses the Nov-13 manuscript's figstyle (140 mm, Okabe-Ito, >= 7 pt). Data are rea
 records of simpat_study_20261117; every plotted value is asserted against the numbers quoted in the inserts.
 Outputs: Fig4_vv_overview_5lanes (replaces Fig4), FigD_substrate_docking, FigE_scale.
 """
-import json, math, statistics
+import json, math, os, statistics
 from pathlib import Path
+import matplotlib.font_manager as _fm
+# Liberation Sans (SIL OFL) must be available so these figures match figures_v2; point WSN_FONT_DIR at its TTFs.
+for _f in Path(os.environ.get('WSN_FONT_DIR', '.')).glob('Liberation*-*.ttf'):
+    _fm.fontManager.addfont(str(_f))
+assert any(f.name == 'Liberation Sans' for f in _fm.fontManager.ttflist), 'Liberation Sans not found: set WSN_FONT_DIR'
 from figstyle import plt, MM, W140, OI, ARM, panel, save
 from matplotlib.patches import FancyBboxPatch, Circle
 
@@ -115,40 +120,79 @@ def fig_docking():
 
 
 def fig_scale():
+    """Three panels so that no axis mixes units: (a) incidence, (b) service vs Legacy (pp), (c) control-DATA reduction (%)."""
     a = J(S / 'analysis.json')['scale']
     e1 = J(S / 'a_endpoint_E1.json')['scale']
-    fig, axs = plt.subplots(1, 2, figsize=(W140, 62 * MM))
-    fig.subplots_adjust(left=0.08, right=0.99, bottom=0.2, top=0.88, wspace=0.32)
-    ax = axs[0]
     sizes = (10, 20, 40)
-    for k, (model, col, mk) in enumerate((('full_v2', OI['blue'], 'o'), ('horizon', OI['orange'], 's'))):
-        x = [i + (k - .5) * 0.18 for i in range(3)]
-        ex = [a['incidence_by_size_arm'][f'{n}|{model}|joint']['unconfirmed_exit'] for n in sizes]
-        ax.errorbar(x, [v['proportion'] for v in ex], yerr=[[v['proportion'] - v['wilson95'][0] for v in ex], [v['wilson95'][1] - v['proportion'] for v in ex]],
-                    fmt=mk, ms=3.5, color=col, lw=0.8, label=f"{'Full v2' if model == 'full_v2' else 'Horizon'} exit")
-        e = [e1[f'{n}|{model}|joint|base'] for n in sizes]
+    models = (('full_v2', 'Full v2', OI['blue'], 'o'), ('horizon', 'Horizon', OI['orange'], 's'))
+    fig, axs = plt.subplots(1, 3, figsize=(W140, 58 * MM))
+    fig.subplots_adjust(left=0.075, right=0.995, bottom=0.30, top=0.88, wspace=0.42)
+    off = lambda k: [i + (k - .5) * 0.2 for i in range(3)]
+    ax = axs[0]
+    for k, (m, lab, col, mk) in enumerate(models):
+        ex = [a['incidence_by_size_arm'][f'{n}|{m}|joint']['unconfirmed_exit'] for n in sizes]
+        ax.errorbar(off(k), [v['proportion'] for v in ex], yerr=[[v['proportion'] - v['wilson95'][0] for v in ex], [v['wilson95'][1] - v['proportion'] for v in ex]],
+                    fmt=mk, ms=3.5, color=col, lw=0.8, capsize=1.5)
+        e = [e1[f'{n}|{m}|joint|base'] for n in sizes]
         assert all(v['E1_iu_only'] == 0 and v['cells'] == 40 for v in e)
-        ax.errorbar(x, [0] * 3, yerr=[[0] * 3, [v['wilson95'][1] for v in e]], fmt=mk, ms=3.5, mfc='white', color=col, lw=0.8,
-                    label=f"{'Full v2' if model == 'full_v2' else 'Horizon'} E1")
-    ax.set_xticks(range(3), [str(n) for n in sizes]); ax.set_xlabel('nodes'); ax.set_ylabel('fraction of 40 cells (Joint)')
-    ax.set_ylim(-0.03, 1.0); ax.legend(fontsize=7, loc='upper right', ncol=2, columnspacing=0.6, handlelength=1.0, title='Joint; E1 = IU-only, 0/40 each', title_fontsize=7); ax.set_title('Natural incidence over new layouts')
+        ax.errorbar(off(k), [0] * 3, yerr=[[0] * 3, [v['wilson95'][1] for v in e]], fmt=mk, ms=3.5, mfc='white', color=col, lw=0.8, capsize=1.5)
+    ax.text(1, 0.12, 'IU-only E1: 0/40 each', ha='center', fontsize=7, color='#444444')
+    ax.text(1, 0.70, 'unconfirmed exit', ha='center', fontsize=7, color='#444444')
+    ax.set_xticks(range(3), [str(n) for n in sizes]); ax.set_xlabel('Nodes'); ax.set_ylabel('Fraction of 40 cells (Joint)')
+    ax.set_ylim(-0.03, 0.8); ax.set_title('Natural incidence')
     panel(ax, 'a')
-    ax = axs[1]
-    vl = a['versus_legacy']['full_v2/joint']
-    s = [vl[str(n)]['service_pp'] for n in sizes]; c = [vl[str(n)]['control_reduction_pct'] for n in sizes]
-    assert [round(v[0], 1) for v in s] == [-2.1, -8.8, -23.6] and [round(v[0], 1) for v in c] == [21.6, 33.2, 45.2]
-    ax.errorbar(range(3), [v[0] for v in s], yerr=[[v[0] - v[1] for v in s], [v[2] - v[0] for v in s]], fmt='o-', ms=3.5, color=OI['vermillion'], lw=0.9, label='service (pp)')
-    ax.errorbar(range(3), [v[0] for v in c], yerr=[[v[0] - v[1] for v in c], [v[2] - v[0] for v in c]], fmt='s-', ms=3.5, color=OI['blue'], lw=0.9, label='control-DATA cut (%)')
-    ax.axhline(0, color='#999999', lw=0.6)
-    for i, (sv, cv) in enumerate(zip(s, c)):
-        ax.text(i - 0.1, sv[0] - 4, f'{sv[0]:.1f}', fontsize=7, color=OI['vermillion'], va='top', ha='right')
-        ax.text(i - 0.1, cv[0] + 3, f'{cv[0]:.1f}', fontsize=7, color=OI['blue'], ha='right')
-    ax.set_xticks(range(3), [str(n) for n in sizes]); ax.set_xlabel('nodes'); ax.set_ylabel('Full v2 (Joint) vs. Legacy')
-    ax.set_xlim(-0.5, 2.3); ax.set_ylim(-38, 75); ax.legend(fontsize=7, loc='upper left', ncol=1, handlelength=1.5); ax.set_title('Trade-off grows with scale')
-    panel(ax, 'b')
+    checks = {'full_v2': ([-2.1, -8.8, -23.6], [21.6, 33.2, 45.2])}
+    for j, (key, title, ylab) in enumerate((('service_pp', 'Worst-source service', 'Change vs. Legacy (pp)'),
+                                            ('control_reduction_pct', 'Control-DATA bytes', 'Reduction vs. Legacy (%)'))):
+        ax = axs[j + 1]
+        for k, (m, lab, col, mk) in enumerate(models):
+            v = [a['versus_legacy'][f'{m}/joint'][str(n)][key] for n in sizes]
+            if m in checks:
+                assert [round(x[0], 1) for x in v] == checks[m][j]
+            ax.errorbar(off(k), [x[0] for x in v], yerr=[[x[0] - x[1] for x in v], [x[2] - x[0] for x in v]], fmt=mk + '-', ms=3.5, color=col, lw=0.9, capsize=1.5)
+        if key == 'service_pp':
+            ax.axhline(0, color='#999999', lw=0.6); ax.set_ylim(-30, 2)
+        else:
+            ax.set_ylim(0, 50)
+        ax.set_xticks(range(3), [str(n) for n in sizes]); ax.set_xlabel('Nodes'); ax.set_ylabel(ylab); ax.set_title(title)
+        panel(ax, 'bc'[j])
+    from matplotlib.lines import Line2D
+    fig.legend(handles=[Line2D([], [], color=OI['blue'], marker='o', ls='', ms=3.5, label='Full v2'),
+                        Line2D([], [], color=OI['orange'], marker='s', ls='', ms=3.5, label='Horizon'),
+                        Line2D([], [], color='#444444', marker='o', mfc='white', ls='', ms=3.5, label='open: IU-only E1 (a)')],
+               loc='lower center', ncol=3, fontsize=7, bbox_to_anchor=(0.5, 0.0), columnspacing=1.5)
     save(fig, OUT, 'FigE_scale')
 
 
+def fig_architecture():
+    """Lock-step co-simulation architecture in the figures_v2 style (140 mm, Liberation Sans, >= 7 pt)."""
+    fig, ax = plt.subplots(figsize=(W140, 56 * MM)); fig.subplots_adjust(0, 0, 1, 1)
+    ax.set_xlim(0, 140); ax.set_ylim(0, 56); ax.axis('off')
+
+    def box(x, y, w, h, title, lines, ec):
+        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle='round,pad=0.3,rounding_size=1.5', fc='white', ec=ec, lw=1.0))
+        ax.text(x + w / 2, y + h - 3.0, title, ha='center', va='center', fontsize=8, fontweight='bold')
+        ax.text(x + w / 2, y + h - 6.4, '\n'.join(lines), ha='center', va='top', fontsize=7, linespacing=1.3)
+    box(2, 13, 51, 40, 'ns-3.44 network model (C++)',
+        ['IEEE 802.15.4, 2.4 GHz O-QPSK PHY', 'log-distance loss, exponent 3', 'unslotted CSMA-CA, ACK, two retries',
+         '16-request FIFO per node', 'source pacing; per-hop byte reservation', 'relay removals; frozen Poisson arrivals',
+         'optional FlockLab trace driver and', 'gateway install drop (induction only)',
+         'outputs: protocol events, MAC jobs,', 'radio states (SHA-256)'], OI['blue'])
+    box(87, 13, 51, 40, 'Gateway controller (Python)',
+        ['received reports only, no simulator truth', 'version and epoch bookkeeping',
+         'installation transaction, 10 s wait', 'evidence-qualified admission (Ψ, $F_s$, Φ)',
+         'route-pair search (≤ 64 scored pairs)', 'arms: Joint, PostExit, sham,', 'competing explanations',
+         'output: per-step transcript (JSON)'], OI['vermillion'])
+    for y, lab, sub, d in ((38, 'STEP {observation}', 'every 5 s of simulated time', 1), (22, 'decision or install', 'simulator waits (lock-step)', -1)):
+        ax.annotate('', xy=(86.5, y) if d > 0 else (53.5, y), xytext=(53.5, y) if d > 0 else (86.5, y),
+                    arrowprops=dict(arrowstyle='-|>', lw=0.9, color='#333333', mutation_scale=8))
+        ax.text(70, y + 2.0, lab, ha='center', fontsize=7, family='Liberation Mono' if d > 0 else None)
+        ax.text(70, y - 3.2, sub, ha='center', fontsize=7, color='#555555')
+    ax.text(70, 5, 'Independent audits rebuild service, control bytes, byte credit and admission from the raw outputs',
+            ha='center', fontsize=7, style='italic')
+    save(fig, OUT, 'Fig_architecture')
+
+
 if __name__ == '__main__':
-    fig_overview_5lanes(); fig_docking(); fig_scale()
+    fig_overview_5lanes(); fig_docking(); fig_scale(); fig_architecture()
     print('written to', OUT)

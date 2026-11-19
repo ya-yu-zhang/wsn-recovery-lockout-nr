@@ -1,0 +1,5441 @@
+{
+  "cca_patch": {
+    "broad_lockout_agreement": {
+      "10|joint": {
+        "broad_both": 0,
+        "broad_patched_only": 0,
+        "broad_unpatched_only": 0,
+        "neither": 40
+      },
+      "10|post_exit": {
+        "broad_both": 0,
+        "broad_patched_only": 0,
+        "broad_unpatched_only": 0,
+        "neither": 40
+      },
+      "20|joint": {
+        "broad_both": 0,
+        "broad_patched_only": 0,
+        "broad_unpatched_only": 2,
+        "neither": 38
+      },
+      "20|post_exit": {
+        "broad_both": 0,
+        "broad_patched_only": 0,
+        "broad_unpatched_only": 2,
+        "neither": 38
+      },
+      "40|joint": {
+        "broad_both": 0,
+        "broad_patched_only": 2,
+        "broad_unpatched_only": 0,
+        "neither": 38
+      },
+      "40|post_exit": {
+        "broad_both": 0,
+        "broad_patched_only": 2,
+        "broad_unpatched_only": 0,
+        "neither": 38
+      }
+    },
+    "cases": 360,
+    "incidence_by_size_arm": {
+      "10|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "10|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "20|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.35,
+            0.5
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "20|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.35,
+            0.5
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "40|horizon|joint": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.325,
+            0.525
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "40|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.325,
+            0.525
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      }
+    },
+    "patched_minus_unpatched": {
+      "10|horizon|joint": {
+        "control_pct": [
+          0.0007908869735942404,
+          -1.2265536122469787,
+          1.2737503741518572
+        ],
+        "service_pp": [
+          0.6791128445386893,
+          -0.6384657566825833,
+          1.9656442006956336
+        ]
+      },
+      "10|horizon|post_exit": {
+        "control_pct": [
+          0.25508206895028007,
+          -1.0041769411822152,
+          1.5046454656787296
+        ],
+        "service_pp": [
+          0.7706306220192964,
+          -0.6815091911493929,
+          2.2746192159314726
+        ]
+      },
+      "10|legacy|joint": {
+        "control_pct": [
+          -1.0173341834992433,
+          -1.7319057510931437,
+          -0.28510016535746674
+        ],
+        "service_pp": [
+          1.097736728318671,
+          -0.16788474906953563,
+          2.5014977838994166
+        ]
+      },
+      "20|horizon|joint": {
+        "control_pct": [
+          -2.370237883831863,
+          -3.040394503995161,
+          -1.6606650462572659
+        ],
+        "service_pp": [
+          1.7778292869695231,
+          -1.5026804429037546,
+          5.67199372425195
+        ]
+      },
+      "20|horizon|post_exit": {
+        "control_pct": [
+          -2.374076556462712,
+          -3.085792776415807,
+          -1.6596484586422195
+        ],
+        "service_pp": [
+          1.8892982148990292,
+          -1.5213809389569797,
+          5.956695338842485
+        ]
+      },
+      "20|legacy|joint": {
+        "control_pct": [
+          -2.4860183523345016,
+          -3.1303366770455723,
+          -1.7920819131680048
+        ],
+        "service_pp": [
+          -0.08340763398639235,
+          -0.9480859269643831,
+          0.815506408853043
+        ]
+      },
+      "40|horizon|joint": {
+        "control_pct": [
+          -3.1516596778486585,
+          -4.065070642986063,
+          -2.334781459075744
+        ],
+        "service_pp": [
+          1.291300370144134,
+          -3.848478497946985,
+          6.325444258425959
+        ]
+      },
+      "40|horizon|post_exit": {
+        "control_pct": [
+          -3.0039641225134255,
+          -3.913834921501963,
+          -2.21749713680706
+        ],
+        "service_pp": [
+          1.199258970628002,
+          -3.9634200651410048,
+          6.39073596580012
+        ]
+      },
+      "40|legacy|joint": {
+        "control_pct": [
+          -2.7478855991267226,
+          -3.2516693681658118,
+          -2.2099212114970697
+        ],
+        "service_pp": [
+          -0.10178488239716454,
+          -0.8604452490960609,
+          0.6675082186345488
+        ]
+      }
+    },
+    "post_exit_minus_joint": {
+      "10": {
+        "cells_changed": 2,
+        "control_pct": [
+          -0.10425431438964905,
+          -0.2921439676171611,
+          0.0
+        ],
+        "improved": 1,
+        "max_pp": 2.709000873871248,
+        "min_pp": -0.407806583163417,
+        "pairs": 40,
+        "service_pp": [
+          0.05752985726769577,
+          -0.030585493737256275,
+          0.20317506554034362
+        ],
+        "worsened": 1
+      },
+      "20": {
+        "cells_changed": 2,
+        "control_pct": [
+          0.11242702412878391,
+          0.0,
+          0.317007338729659
+        ],
+        "improved": 1,
+        "max_pp": 2.9993546652829606,
+        "min_pp": -13.297407515292747,
+        "pairs": 40,
+        "service_pp": [
+          -0.2574513212502446,
+          -0.997305563646956,
+          0.22495159989622202
+        ],
+        "worsened": 1
+      },
+      "40": {
+        "cells_changed": 4,
+        "control_pct": [
+          0.16397604589089065,
+          0.0,
+          0.37373633118067073
+        ],
+        "improved": 2,
+        "max_pp": 3.792238453593033,
+        "min_pp": -2.3166592887708393,
+        "pairs": 40,
+        "service_pp": [
+          0.06787664158182077,
+          -0.17374944665781294,
+          0.34971226206285955
+        ],
+        "worsened": 2
+      }
+    }
+  },
+  "contract": {
+    "cases": 64,
+    "joint_reproduced": 32,
+    "pairs": [
+      {
+        "delta_control_pct": 2.947855836725055,
+        "delta_service_pp": 20.681481481481477,
+        "identical": false,
+        "joint_control": 67812,
+        "joint_lockout": {
+          "broad_lockout": true,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": true,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": true,
+              "decision": 3,
+              "evaluated_checks": 15,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 15,
+              "rejected_installation_unconfirmed": 15,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 15
+              },
+              "strict_lockout": true
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.5928888888888889,
+        "model": "closing",
+        "post_exit_control": 69811,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 250.0,
+          "post_bootstrap_route_decisions": 3,
+          "route_decisions": 4,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 3,
+              "evaluated_checks": 4,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 265.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 4,
+              "rejected_installation_unconfirmed": 1,
+              "settled_service_reasons": {
+                "incomplete_or_sparse_generation_evidence": 2,
+                "installation_unconfirmed": 1,
+                "no_settled_same_version_bucket": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.7997037037037037,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 2.947855836725055,
+        "delta_service_pp": 20.681481481481477,
+        "identical": false,
+        "joint_control": 67812,
+        "joint_lockout": {
+          "broad_lockout": true,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": true,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": true,
+              "decision": 3,
+              "evaluated_checks": 15,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 15,
+              "rejected_installation_unconfirmed": 15,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 15
+              },
+              "strict_lockout": true
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.5928888888888889,
+        "model": "cohort",
+        "post_exit_control": 69811,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 250.0,
+          "post_bootstrap_route_decisions": 3,
+          "route_decisions": 4,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 3,
+              "evaluated_checks": 4,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 265.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 4,
+              "rejected_installation_unconfirmed": 1,
+              "settled_service_reasons": {
+                "incomplete_or_sparse_generation_evidence": 2,
+                "installation_unconfirmed": 1,
+                "no_settled_same_version_bucket": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.7997037037037037,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 2.947855836725055,
+        "delta_service_pp": 20.681481481481477,
+        "identical": false,
+        "joint_control": 67812,
+        "joint_lockout": {
+          "broad_lockout": true,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": true,
+              "decision": 3,
+              "evaluated_checks": 15,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 15,
+              "rejected_installation_unconfirmed": 5,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 5,
+                "missing_fresh_source": 10
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.5928888888888889,
+        "model": "full_v2",
+        "post_exit_control": 69811,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 250.0,
+          "post_bootstrap_route_decisions": 3,
+          "route_decisions": 4,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 3,
+              "evaluated_checks": 4,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 265.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 4,
+              "rejected_installation_unconfirmed": 1,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1,
+                "missing_fresh_source": 3
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.7997037037037037,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 2.947855836725055,
+        "delta_service_pp": 20.681481481481477,
+        "identical": false,
+        "joint_control": 67812,
+        "joint_lockout": {
+          "broad_lockout": true,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": true,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": true,
+              "decision": 3,
+              "evaluated_checks": 15,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 15,
+              "rejected_installation_unconfirmed": 15,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 15
+              },
+              "strict_lockout": true
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.5928888888888889,
+        "model": "horizon",
+        "post_exit_control": 69811,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 250.0,
+          "post_bootstrap_route_decisions": 3,
+          "route_decisions": 4,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 3,
+              "evaluated_checks": 4,
+              "exit_time_s": 245.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 265.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 4,
+              "rejected_installation_unconfirmed": 1,
+              "settled_service_reasons": {
+                "incomplete_or_sparse_generation_evidence": 2,
+                "installation_unconfirmed": 1,
+                "no_settled_same_version_bucket": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.7997037037037037,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 68049,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.838205499276411,
+        "model": "closing",
+        "post_exit_control": 68049,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.838205499276411,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 68049,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.838205499276411,
+        "model": "cohort",
+        "post_exit_control": 68049,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.838205499276411,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 67295,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.8066570188133141,
+        "model": "full_v2",
+        "post_exit_control": 67295,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.8066570188133141,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 67295,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.8066570188133141,
+        "model": "horizon",
+        "post_exit_control": 67295,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 2,
+          "route_decisions": 3,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.8066570188133141,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 100295,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 7,
+          "route_decisions": 8,
+          "strict_lockout": false,
+          "unconfirmed_exits": 2,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": true,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            },
+            {
+              "broad_lockout": false,
+              "decision": 8,
+              "evaluated_checks": 0,
+              "exit_time_s": 325.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {},
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.6301270941652224,
+        "model": "closing",
+        "post_exit_control": 100295,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 2,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 7,
+          "route_decisions": 8,
+          "strict_lockout": false,
+          "unconfirmed_exits": 2,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            },
+            {
+              "broad_lockout": false,
+              "decision": 8,
+              "evaluated_checks": 0,
+              "exit_time_s": 325.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {},
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.6301270941652224,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 98130,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 7,
+          "route_decisions": 8,
+          "strict_lockout": false,
+          "unconfirmed_exits": 2,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": true,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            },
+            {
+              "broad_lockout": false,
+              "decision": 8,
+              "evaluated_checks": 0,
+              "exit_time_s": 325.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {},
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.6023974581166955,
+        "model": "cohort",
+        "post_exit_control": 98130,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 2,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 7,
+          "route_decisions": 8,
+          "strict_lockout": false,
+          "unconfirmed_exits": 2,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            },
+            {
+              "broad_lockout": false,
+              "decision": 8,
+              "evaluated_checks": 0,
+              "exit_time_s": 325.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {},
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.6023974581166955,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 97131,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 6,
+          "route_decisions": 7,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": true,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "missing_fresh_source": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.5836221837088388,
+        "model": "full_v2",
+        "post_exit_control": 97131,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 6,
+          "route_decisions": 7,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "missing_fresh_source": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.5836221837088388,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 98130,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 7,
+          "route_decisions": 8,
+          "strict_lockout": false,
+          "unconfirmed_exits": 2,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": true,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            },
+            {
+              "broad_lockout": false,
+              "decision": 8,
+              "evaluated_checks": 0,
+              "exit_time_s": 325.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {},
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.6023974581166955,
+        "model": "horizon",
+        "post_exit_control": 98130,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 2,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 7,
+          "route_decisions": 8,
+          "strict_lockout": false,
+          "unconfirmed_exits": 2,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            },
+            {
+              "broad_lockout": false,
+              "decision": 8,
+              "evaluated_checks": 0,
+              "exit_time_s": 325.0,
+              "late_confirmation": false,
+              "next_decision_time_s": null,
+              "reaches_action_stop": true,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {},
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.6023974581166955,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 102423,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.632157646722833,
+        "model": "closing",
+        "post_exit_control": 102423,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.632157646722833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 102423,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.632157646722833,
+        "model": "cohort",
+        "post_exit_control": 102423,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.632157646722833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 102423,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "missing_fresh_source": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.632157646722833,
+        "model": "full_v2",
+        "post_exit_control": 102423,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "missing_fresh_source": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.632157646722833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 102423,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.632157646722833,
+        "model": "horizon",
+        "post_exit_control": 102423,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 1,
+          "first_release_s": 60.0,
+          "post_bootstrap_route_decisions": 5,
+          "route_decisions": 6,
+          "strict_lockout": false,
+          "unconfirmed_exits": 1,
+          "windows": [
+            {
+              "broad_lockout": false,
+              "decision": 2,
+              "evaluated_checks": 1,
+              "exit_time_s": 55.0,
+              "late_confirmation": false,
+              "next_decision_time_s": 60.0,
+              "reaches_action_stop": false,
+              "rejected_checks": 0,
+              "rejected_installation_unconfirmed": 0,
+              "settled_service_reasons": {
+                "installation_unconfirmed": 1
+              },
+              "strict_lockout": false
+            }
+          ]
+        },
+        "post_exit_service": 0.632157646722833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_10_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111842,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9740625881026219,
+        "model": "closing",
+        "post_exit_control": 111842,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9740625881026219,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111842,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9740625881026219,
+        "model": "cohort",
+        "post_exit_control": 111842,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9740625881026219,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111842,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9740625881026219,
+        "model": "full_v2",
+        "post_exit_control": 111842,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9740625881026219,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111842,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9740625881026219,
+        "model": "horizon",
+        "post_exit_control": 111842,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9740625881026219,
+        "scenario": "multi_failure",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111992,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9800289435600579,
+        "model": "closing",
+        "post_exit_control": 111992,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9800289435600579,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111992,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9800289435600579,
+        "model": "cohort",
+        "post_exit_control": 111992,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9800289435600579,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111992,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9800289435600579,
+        "model": "full_v2",
+        "post_exit_control": 111992,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9800289435600579,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 111992,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9800289435600579,
+        "model": "horizon",
+        "post_exit_control": 111992,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9800289435600579,
+        "scenario": "multi_failure",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 124674,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9003466204506065,
+        "model": "closing",
+        "post_exit_control": 124674,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9003466204506065,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 124674,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9003466204506065,
+        "model": "cohort",
+        "post_exit_control": 124674,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9003466204506065,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 124674,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9003466204506065,
+        "model": "full_v2",
+        "post_exit_control": 124674,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9003466204506065,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 124674,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.9003466204506065,
+        "model": "horizon",
+        "post_exit_control": 124674,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.9003466204506065,
+        "scenario": "overload",
+        "seed": 2026101511,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 122451,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.8999000428387833,
+        "model": "closing",
+        "post_exit_control": 122451,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.8999000428387833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 122451,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.8999000428387833,
+        "model": "cohort",
+        "post_exit_control": 122451,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.8999000428387833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 122451,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.8999000428387833,
+        "model": "full_v2",
+        "post_exit_control": 122451,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.8999000428387833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      },
+      {
+        "delta_control_pct": 0.0,
+        "delta_service_pp": 0.0,
+        "identical": true,
+        "joint_control": 122451,
+        "joint_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "joint_reproduces_archive": true,
+        "joint_service": 0.8999000428387833,
+        "model": "horizon",
+        "post_exit_control": 122451,
+        "post_exit_lockout": {
+          "broad_lockout": false,
+          "contract_releases": 0,
+          "first_release_s": null,
+          "post_bootstrap_route_decisions": 0,
+          "route_decisions": 1,
+          "strict_lockout": false,
+          "unconfirmed_exits": 0,
+          "windows": []
+        },
+        "post_exit_service": 0.8999000428387833,
+        "scenario": "overload",
+        "seed": 2026101512,
+        "topology": "budget_20_2026101501"
+      }
+    ]
+  },
+  "docking": {
+    "agreeing": 82,
+    "cells": [
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.040364763548269955,
+          "ns3_se": 0.0015235883911415638,
+          "reference": 0.048025713421961075,
+          "reference_se": 0.003217835397220155
+        },
+        "load": 0.05,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.0,
+          "reference_se": 0.0
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.00018674136321195146,
+          "reference_se": 0.00018674136321195143
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 1.0,
+          "ns3_se": 0.0,
+          "reference": 0.999813258636788,
+          "reference_se": 0.00018674136321195078
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 4.74491,
+          "ns3_se": 0.012625931252782894,
+          "reference": 4.783185334807488,
+          "reference_se": 0.021538292410025413
+        },
+        "stations": 2
+      },
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.12239399305405685,
+          "ns3_se": 0.0014826537637914257,
+          "reference": 0.13971318602807925,
+          "reference_se": 0.0015482487906980677
+        },
+        "load": 0.15,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0004769497681577467,
+          "ns3_se": 7.433848557307542e-05,
+          "reference": 0.000800218846373969,
+          "reference_se": 3.716573613918897e-05
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.000652807141284332,
+          "reference_se": 0.0001748848037621716
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9995230502318423,
+          "ns3_se": 7.433848557306478e-05,
+          "reference": 0.9985469740123417,
+          "reference_se": 0.00014750044548333274
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 5.234428,
+          "ns3_se": 0.011023119522168,
+          "reference": 5.26431742326968,
+          "reference_se": 0.02097979574512871
+        },
+        "stations": 2
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.24787712496747888,
+          "ns3_se": 0.0012608684405579582,
+          "reference": 0.2829351136780747,
+          "reference_se": 0.0023156331486031013
+        },
+        "load": 0.3,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0029599511507949184,
+          "ns3_se": 0.00020059825200809863,
+          "reference": 0.005705697458054588,
+          "reference_se": 0.0003553067973527598
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.00012000557023586502,
+          "ns3_se": 4.4863965554799195e-05,
+          "reference": 0.0019551778999121984,
+          "reference_se": 0.00015518656092050343
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9969200432789692,
+          "ns3_se": 0.00023724340430891902,
+          "reference": 0.9923391246420332,
+          "reference_se": 0.00023423553851014783
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 6.206776,
+          "ns3_se": 0.013571405454115601,
+          "reference": 6.370464034984777,
+          "reference_se": 0.021789158315177377
+        },
+        "stations": 2
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.37681725769318475,
+          "ns3_se": 0.0017863685414075522,
+          "reference": 0.41677603029555965,
+          "reference_se": 0.0013432822644298204
+        },
+        "load": 0.45,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.015889746607363284,
+          "ns3_se": 0.0003719509988442906,
+          "reference": 0.030792779824769564,
+          "reference_se": 0.0006309312090039311
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0011213786867847763,
+          "ns3_se": 3.682240792781782e-05,
+          "reference": 0.006158561468895133,
+          "reference_se": 0.000181567695867629
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.982988874705852,
+          "ns3_se": 0.000371997784061788,
+          "reference": 0.9630486587063353,
+          "reference_se": 0.000585881860603887
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 7.68229,
+          "ns3_se": 0.02493014741231998,
+          "reference": 8.059692408377682,
+          "reference_se": 0.020290054148910764
+        },
+        "stations": 2
+      },
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.47201605734633756,
+          "ns3_se": 0.0004132975184004877,
+          "reference": 0.4850836366665203,
+          "reference_se": 0.00046390313655489266
+        },
+        "load": 0.6,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.04341115218649198,
+          "ns3_se": 0.00047974618495754307,
+          "reference": 0.06163093000954674,
+          "reference_se": 0.0004915899634221545
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.002494536935593807,
+          "ns3_se": 4.86212996475249e-05,
+          "reference": 0.00932796067055076,
+          "reference_se": 0.00031101149489232393
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.9540943108779142,
+          "ns3_se": 0.0005274680925794178,
+          "reference": 0.9290411093199025,
+          "reference_se": 0.0005050165077857369
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 9.188538,
+          "ns3_se": 0.006566835919984704,
+          "reference": 9.260091927925933,
+          "reference_se": 0.010537783707203825
+        },
+        "stations": 2
+      },
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.054122203229884286,
+          "ns3_se": 0.0036630287021406477,
+          "reference": 0.06293331613712502,
+          "reference_se": 0.003905485633644157
+        },
+        "load": 0.05,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.0,
+          "reference_se": 0.0
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.00045443446564181605,
+          "reference_se": 0.00028788448108028013
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 1.0,
+          "ns3_se": 0.0,
+          "reference": 0.9995455655343581,
+          "reference_se": 0.000287884481080277
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 4.807378,
+          "ns3_se": 0.02140236351434101,
+          "reference": 4.8535781766871375,
+          "reference_se": 0.027909971492440493
+        },
+        "stations": 4
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.1730241108660557,
+          "ns3_se": 0.0033467894522045696,
+          "reference": 0.20532826473530896,
+          "reference_se": 0.0036289551622887286
+        },
+        "load": 0.15,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0011548345690406937,
+          "ns3_se": 7.24660536307526e-05,
+          "reference": 0.0017860001361373649,
+          "reference_se": 0.00024833363191877506
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 2.9463759575721862e-05,
+          "ns3_se": 2.946375957572186e-05,
+          "reference": 0.0013411750759761403,
+          "reference_se": 0.0001946877110876571
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9988157016713836,
+          "ns3_se": 9.294677723695083e-05,
+          "reference": 0.9968728247878865,
+          "reference_se": 0.0004002186070113695
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 5.479752,
+          "ns3_se": 0.021517282681602735,
+          "reference": 5.694123311649947,
+          "reference_se": 0.015527674040946633
+        },
+        "stations": 4
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.34019138658146236,
+          "ns3_se": 0.0028791022743773135,
+          "reference": 0.3925662061372187,
+          "reference_se": 0.001848957767057541
+        },
+        "load": 0.3,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.010856015553945938,
+          "ns3_se": 0.0003144279034885315,
+          "reference": 0.019153094425150518,
+          "reference_se": 0.0004519935848987585
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.00040281319910189124,
+          "ns3_se": 2.9936621469877485e-05,
+          "reference": 0.003876924433197582,
+          "reference_se": 0.0004919790779271095
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9887411712469522,
+          "ns3_se": 0.00029889445006789285,
+          "reference": 0.9769699811416519,
+          "reference_se": 0.0005076807755708267
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 6.933096,
+          "ns3_se": 0.028388061328664223,
+          "reference": 7.533436803477429,
+          "reference_se": 0.0177490177086888
+        },
+        "stations": 4
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.4931164743345544,
+          "ns3_se": 0.0014736689980584187,
+          "reference": 0.55443324598302,
+          "reference_se": 0.0016562778383445408
+        },
+        "load": 0.45,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.04222376702017685,
+          "ns3_se": 0.000545754703201745,
+          "reference": 0.07759667414026347,
+          "reference_se": 0.0009254797857645468
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0020967931668621222,
+          "ns3_se": 0.00017335480275372688,
+          "reference": 0.01029265927463636,
+          "reference_se": 0.0003573781196450927
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.955679439812961,
+          "ns3_se": 0.0006450424510306312,
+          "reference": 0.9121106665851002,
+          "reference_se": 0.0010694301102768455
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 9.176018000000001,
+          "ns3_se": 0.03382141147261595,
+          "reference": 10.521371378272008,
+          "reference_se": 0.0660165998314994
+        },
+        "stations": 4
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.6226991636295353,
+          "ns3_se": 0.0010715838301541397,
+          "reference": 0.6747251487697701,
+          "reference_se": 0.0015520925953078767
+        },
+        "load": 0.6,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.1189057296566526,
+          "ns3_se": 0.0008121351809309395,
+          "reference": 0.19382740157129055,
+          "reference_se": 0.0022580037712193906
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.006494603098938058,
+          "ns3_se": 0.0001647462264291802,
+          "reference": 0.02139041017236391,
+          "reference_se": 0.0002737718162690929
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.8745996672444093,
+          "ns3_se": 0.000951062227427854,
+          "reference": 0.7847821882563456,
+          "reference_se": 0.002434762595116625
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 12.23252,
+          "ns3_se": 0.05291176995716532,
+          "reference": 14.234426982168978,
+          "reference_se": 0.0721503544296312
+        },
+        "stations": 4
+      },
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.06561485133954992,
+          "ns3_se": 0.0023234488503484302,
+          "reference": 0.08335741796461277,
+          "reference_se": 0.0015412441289424914
+        },
+        "load": 0.05,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 9.174311926605505e-05,
+          "reference_se": 9.174311926605505e-05
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.00036301945217663437,
+          "reference_se": 0.00022232507168689963
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 1.0,
+          "ns3_se": 0.0,
+          "reference": 0.9995452374285573,
+          "reference_se": 0.00028857749158259905
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 4.858298,
+          "ns3_se": 0.01742886611343389,
+          "reference": 4.945138604323265,
+          "reference_se": 0.014476204244337057
+        },
+        "stations": 8
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.20367830415008786,
+          "ns3_se": 0.0011664648608390256,
+          "reference": 0.23956045240238683,
+          "reference_se": 0.0016564984297845855
+        },
+        "load": 0.15,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.002063088839379903,
+          "ns3_se": 0.00021167998817116408,
+          "reference": 0.003416075972612098,
+          "reference_se": 0.0005370383786831207
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.00023959184197631047,
+          "ns3_se": 7.605572687002611e-05,
+          "reference": 0.0009292150044021957,
+          "reference_se": 0.00015480646197980734
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9976973193186438,
+          "ns3_se": 0.00020920576724890063,
+          "reference": 0.9956547090229857,
+          "reference_se": 0.000678652354950662
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 5.679312,
+          "ns3_se": 0.01469993448964989,
+          "reference": 5.941395531533001,
+          "reference_se": 0.025713015610462228
+        },
+        "stations": 8
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.39033390461483797,
+          "ns3_se": 0.0024922344828068868,
+          "reference": 0.4417701611989726,
+          "reference_se": 0.0016369171376328642
+        },
+        "load": 0.3,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.01843203364246539,
+          "ns3_se": 0.0007753649323803012,
+          "reference": 0.02985608810007975,
+          "reference_se": 0.0007055716056259053
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0014341765946668638,
+          "ns3_se": 0.0002934834328527927,
+          "reference": 0.0055321194431017275,
+          "reference_se": 0.0005808116418697886
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9801337897628678,
+          "ns3_se": 0.0008586153127934741,
+          "reference": 0.9646117924568185,
+          "reference_se": 0.0006494058144891393
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 7.512558,
+          "ns3_se": 0.02335314998024892,
+          "reference": 8.234693957559113,
+          "reference_se": 0.016934579342334718
+        },
+        "stations": 8
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.5447326881237542,
+          "ns3_se": 0.002677121082052773,
+          "reference": 0.5975461233941672,
+          "reference_se": 0.0012533368131833224
+        },
+        "load": 0.45,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.06822125762165844,
+          "ns3_se": 0.001169405030680163,
+          "reference": 0.10565571075938512,
+          "reference_se": 0.0013283408621914837
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.004678718882396498,
+          "ns3_se": 0.0002809941921576789,
+          "reference": 0.01278721673258559,
+          "reference_se": 0.0005100775334757998
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.927100023495945,
+          "ns3_se": 0.0013788328573892266,
+          "reference": 0.8815570725080293,
+          "reference_se": 0.0017906331179867586
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 10.17708,
+          "ns3_se": 0.05691797958466203,
+          "reference": 11.491701853303825,
+          "reference_se": 0.04950158132970201
+        },
+        "stations": 8
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.6607236151068246,
+          "ns3_se": 0.001252761082692805,
+          "reference": 0.702909121398215,
+          "reference_se": 0.0018475568053670922
+        },
+        "load": 0.6,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.16381803618474938,
+          "ns3_se": 0.0018446116311779878,
+          "reference": 0.23172840139164488,
+          "reference_se": 0.0033434958073335413
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.01085863644436845,
+          "ns3_se": 0.00039913965226921934,
+          "reference": 0.02462764716297147,
+          "reference_se": 0.0006451965534206591
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.8253233273708821,
+          "ns3_se": 0.001833345619973046,
+          "reference": 0.7436439514453836,
+          "reference_se": 0.003917570275085121
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 13.44282,
+          "ns3_se": 0.04987440626213009,
+          "reference": 15.262514371052497,
+          "reference_se": 0.09770319761995441
+        },
+        "stations": 8
+      },
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.07027942656605797,
+          "ns3_se": 0.0015548865451589758,
+          "reference": 0.08425026156174752,
+          "reference_se": 0.0018825687681525783
+        },
+        "load": 0.05,
+        "p_caf": {
+          "agree": true,
+          "ns3": 9.119927040583675e-05,
+          "ns3_se": 9.119927040583675e-05,
+          "reference": 0.0,
+          "reference_se": 0.0
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.0006228371062615997,
+          "reference_se": 0.0002662900291108352
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9999088007295942,
+          "ns3_se": 9.119927040583953e-05,
+          "reference": 0.9993771628937383,
+          "reference_se": 0.00026629002911083616
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 4.870678,
+          "ns3_se": 0.016342700327669185,
+          "reference": 4.950775217325331,
+          "reference_se": 0.021758534349481464
+        },
+        "stations": 12
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.2071416287176021,
+          "ns3_se": 0.0013032264921390105,
+          "reference": 0.24547619994530714,
+          "reference_se": 0.0028252793612871933
+        },
+        "load": 0.15,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0023750251073957666,
+          "ns3_se": 0.0002958487811387146,
+          "reference": 0.0033393609693941418,
+          "reference_se": 0.0003386747718445099
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.00026929843680597394,
+          "ns3_se": 0.00010989576603559526,
+          "reference": 0.0015817024662694466,
+          "reference_se": 0.00021279207267075549
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9973556764557983,
+          "ns3_se": 0.00028014202333447296,
+          "reference": 0.9950789365643364,
+          "reference_se": 0.00030848723915969
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 5.690716,
+          "ns3_se": 0.0072609969012525834,
+          "reference": 6.005080417620316,
+          "reference_se": 0.0209824858441594
+        },
+        "stations": 12
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.39834875056252694,
+          "ns3_se": 0.001664847788389119,
+          "reference": 0.44893484183275406,
+          "reference_se": 0.0018424699916304247
+        },
+        "load": 0.3,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.019860172343617716,
+          "ns3_se": 0.00064385426199727,
+          "reference": 0.032138055271950315,
+          "reference_se": 0.00040257290686541666
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.00114856880685822,
+          "ns3_se": 0.00012129214326686964,
+          "reference": 0.0050719016901495835,
+          "reference_se": 0.00020172535706485103
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9789912588495241,
+          "ns3_se": 0.0006145030243006478,
+          "reference": 0.9627900430379001,
+          "reference_se": 0.0005124002291879448
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 7.584578,
+          "ns3_se": 0.03228977057831164,
+          "reference": 8.282596280377701,
+          "reference_se": 0.043656316131330655
+        },
+        "stations": 12
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.5537813661074613,
+          "ns3_se": 0.0011144968699966797,
+          "reference": 0.6073766808206346,
+          "reference_se": 0.0008913722152470886
+        },
+        "load": 0.45,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.07417736109598151,
+          "ns3_se": 0.0007432089575223111,
+          "reference": 0.11484103340126267,
+          "reference_se": 0.0007257241698622138
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.004877300911165745,
+          "ns3_se": 0.0002732338125632569,
+          "reference": 0.013912987913238264,
+          "reference_se": 0.0006530977011381242
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.9209453379928527,
+          "ns3_se": 0.000887869627867312,
+          "reference": 0.871245978685499,
+          "reference_se": 0.0013391138019714951
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 10.31778,
+          "ns3_se": 0.02247935497295259,
+          "reference": 11.771553191083814,
+          "reference_se": 0.0466755964291252
+        },
+        "stations": 12
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.6664650915760414,
+          "ns3_se": 0.0006657991451511477,
+          "reference": 0.7111987006955265,
+          "reference_se": 0.0011834099810915796
+        },
+        "load": 0.6,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.17097662942017125,
+          "ns3_se": 0.0010187921902429543,
+          "reference": 0.2460149809929481,
+          "reference_se": 0.002227606734869281
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.010813490748955244,
+          "ns3_se": 0.000244192801349567,
+          "reference": 0.02512768260915,
+          "reference_se": 0.0005043031387877051
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.8182098798308735,
+          "ns3_se": 0.0011641957783721725,
+          "reference": 0.7288573363979018,
+          "reference_se": 0.0020222131223564324
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 13.52924,
+          "ns3_se": 0.018980927269235122,
+          "reference": 15.510731636368032,
+          "reference_se": 0.03716603857217677
+        },
+        "stations": 12
+      },
+      {
+        "cca_busy": {
+          "agree": true,
+          "ns3": 0.07349359316744028,
+          "ns3_se": 0.005940257476948613,
+          "reference": 0.0862805079769451,
+          "reference_se": 0.002966351458311407
+        },
+        "load": 0.05,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.00026971983496838027,
+          "reference_se": 0.00011016297361325567
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0,
+          "ns3_se": 0.0,
+          "reference": 0.0003633233903969627,
+          "reference_se": 0.00022254014290534396
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 1.0,
+          "ns3_se": 0.0,
+          "reference": 0.9993669567746347,
+          "reference_se": 0.0002351425386468541
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 4.8944339999999995,
+          "ns3_se": 0.023858055788349514,
+          "reference": 4.958649624735093,
+          "reference_se": 0.028257022325896823
+        },
+        "stations": 16
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.2139477313401015,
+          "ns3_se": 0.002128173886944789,
+          "reference": 0.2530953818717893,
+          "reference_se": 0.0026382837176247473
+        },
+        "load": 0.15,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.002621409159443437,
+          "ns3_se": 0.00020850531473987972,
+          "reference": 0.004599442261374487,
+          "reference_se": 0.00018328673986264896
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.00024216084720383635,
+          "ns3_se": 9.135641895393564e-05,
+          "reference": 0.0012547627494941122,
+          "reference_se": 0.00013764951662772286
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9971364299933527,
+          "ns3_se": 0.00024910209561058755,
+          "reference": 0.9941457949891314,
+          "reference_se": 0.00026273430509592035
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 5.745182,
+          "ns3_se": 0.014855704089675481,
+          "reference": 6.0261674912480565,
+          "reference_se": 0.015532071861982683
+        },
+        "stations": 16
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.4096195834011579,
+          "ns3_se": 0.0013469150304437894,
+          "reference": 0.4596079252396574,
+          "reference_se": 0.0015836464900562425
+        },
+        "load": 0.3,
+        "p_caf": {
+          "agree": true,
+          "ns3": 0.02203447402720281,
+          "ns3_se": 0.0006348042361255481,
+          "reference": 0.03551812182728107,
+          "reference_se": 0.00035773679888672207
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.0018863442257757799,
+          "ns3_se": 0.0001948286577554611,
+          "reference": 0.0061436016465933,
+          "reference_se": 0.00012389365262206492
+        },
+        "p_success": {
+          "agree": true,
+          "ns3": 0.9760791817470215,
+          "ns3_se": 0.000786036221029537,
+          "reference": 0.9583382765261257,
+          "reference_se": 0.00042271720563244854
+        },
+        "service_ms": {
+          "agree": true,
+          "ns3": 7.729364,
+          "ns3_se": 0.03675677673572587,
+          "reference": 8.509707614262583,
+          "reference_se": 0.044451736017342015
+        },
+        "stations": 16
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.5634080004546553,
+          "ns3_se": 0.0016915185139509752,
+          "reference": 0.6122755931722443,
+          "reference_se": 0.0013637477033596932
+        },
+        "load": 0.45,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.0796857485839423,
+          "ns3_se": 0.0012528298159591202,
+          "reference": 0.11809674060326605,
+          "reference_se": 0.0020498108687060676
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.005566517309880685,
+          "ns3_se": 0.0002770671870615081,
+          "reference": 0.013970140757049776,
+          "reference_se": 0.0005855869132906923
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.914747734106177,
+          "ns3_se": 0.001383466488232393,
+          "reference": 0.8679331186396841,
+          "reference_se": 0.0024727232563335677
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 10.5154,
+          "ns3_se": 0.040006949396323425,
+          "reference": 11.881454682934313,
+          "reference_se": 0.04355724685438369
+        },
+        "stations": 16
+      },
+      {
+        "cca_busy": {
+          "agree": false,
+          "ns3": 0.6718586739864245,
+          "ns3_se": 0.0005210920130630862,
+          "reference": 0.7120885906969211,
+          "reference_se": 0.0007148582548402356
+        },
+        "load": 0.6,
+        "p_caf": {
+          "agree": false,
+          "ns3": 0.18038758728046742,
+          "ns3_se": 0.0005631958790931162,
+          "reference": 0.2482686124490452,
+          "reference_se": 0.0018662200734687504
+        },
+        "p_noack": {
+          "agree": true,
+          "ns3": 0.012546421851184496,
+          "ns3_se": 0.0003683053552219655,
+          "reference": 0.02466949600758231,
+          "reference_se": 0.00020503307750187073
+        },
+        "p_success": {
+          "agree": false,
+          "ns3": 0.8070659908683481,
+          "ns3_se": 0.0005755728403544523,
+          "reference": 0.7270618915433725,
+          "reference_se": 0.0018267415973832269
+        },
+        "service_ms": {
+          "agree": false,
+          "ns3": 13.70978,
+          "ns3_se": 0.02396923861953052,
+          "reference": 15.540367840408434,
+          "reference_se": 0.047918030525766105
+        },
+        "stations": 16
+      }
+    ],
+    "comparisons": 125,
+    "docked": false,
+    "fraction": 0.656
+  },
+  "scale": {
+    "cases": 600,
+    "incidence_by_size_arm": {
+      "10|full_v2|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.3,
+            0.5
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "10|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.325,
+            0.5
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "10|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "10|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "20|full_v2|joint": {
+        "broad_lockout": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.075
+          ],
+          "proportion": 0.025,
+          "wilson95": [
+            0.004426831453704345,
+            0.12881369088183614
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 15,
+          "layout_cluster95": [
+            0.275,
+            0.475
+          ],
+          "proportion": 0.375,
+          "wilson95": [
+            0.2422297907896387,
+            0.5296756098249772
+          ]
+        }
+      },
+      "20|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 15,
+          "layout_cluster95": [
+            0.275,
+            0.475
+          ],
+          "proportion": 0.375,
+          "wilson95": [
+            0.2422297907896387,
+            0.5296756098249772
+          ]
+        }
+      },
+      "20|horizon|joint": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 16,
+          "layout_cluster95": [
+            0.275,
+            0.5
+          ],
+          "proportion": 0.4,
+          "wilson95": [
+            0.2634832559197014,
+            0.5540410645719912
+          ]
+        }
+      },
+      "20|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 16,
+          "layout_cluster95": [
+            0.3,
+            0.5
+          ],
+          "proportion": 0.4,
+          "wilson95": [
+            0.2634832559197014,
+            0.5540410645719912
+          ]
+        }
+      },
+      "40|full_v2|joint": {
+        "broad_lockout": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.075
+          ],
+          "proportion": 0.025,
+          "wilson95": [
+            0.004426831453704345,
+            0.12881369088183614
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 13,
+          "layout_cluster95": [
+            0.175,
+            0.475
+          ],
+          "proportion": 0.325,
+          "wilson95": [
+            0.20084502152253986,
+            0.47982253933792235
+          ]
+        }
+      },
+      "40|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.075
+          ],
+          "proportion": 0.025,
+          "wilson95": [
+            0.004426831453704345,
+            0.12881369088183614
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 13,
+          "layout_cluster95": [
+            0.175,
+            0.475
+          ],
+          "proportion": 0.325,
+          "wilson95": [
+            0.20084502152253986,
+            0.47982253933792235
+          ]
+        }
+      },
+      "40|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 15,
+          "layout_cluster95": [
+            0.25,
+            0.5
+          ],
+          "proportion": 0.375,
+          "wilson95": [
+            0.2422297907896387,
+            0.5296756098249772
+          ]
+        }
+      },
+      "40|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 15,
+          "layout_cluster95": [
+            0.25,
+            0.5
+          ],
+          "proportion": 0.375,
+          "wilson95": [
+            0.2422297907896387,
+            0.5296756098249772
+          ]
+        }
+      }
+    },
+    "incidence_by_size_workload_arm": {
+      "10|multi_failure|full_v2|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "10|multi_failure|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "10|multi_failure|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "10|multi_failure|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "10|overload|full_v2|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.6,
+            1.0
+          ],
+          "proportion": 0.85,
+          "wilson95": [
+            0.6395811333571357,
+            0.9476312545132735
+          ]
+        }
+      },
+      "10|overload|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.65,
+            1.0
+          ],
+          "proportion": 0.85,
+          "wilson95": [
+            0.6395811333571357,
+            0.9476312545132735
+          ]
+        }
+      },
+      "10|overload|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.75,
+            1.0
+          ],
+          "proportion": 0.9,
+          "wilson95": [
+            0.6989663528135878,
+            0.9721335190383086
+          ]
+        }
+      },
+      "10|overload|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.75,
+            1.0
+          ],
+          "proportion": 0.9,
+          "wilson95": [
+            0.6989663528135878,
+            0.9721335190383086
+          ]
+        }
+      },
+      "20|multi_failure|full_v2|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "20|multi_failure|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "20|multi_failure|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "20|multi_failure|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        }
+      },
+      "20|overload|full_v2|joint": {
+        "broad_lockout": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 15,
+          "layout_cluster95": [
+            0.5,
+            0.95
+          ],
+          "proportion": 0.75,
+          "wilson95": [
+            0.5312991206074114,
+            0.8881382993000239
+          ]
+        }
+      },
+      "20|overload|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.25
+          ],
+          "proportion": 0.1,
+          "wilson95": [
+            0.02786648096169143,
+            0.3010336471864123
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 15,
+          "layout_cluster95": [
+            0.5,
+            0.95
+          ],
+          "proportion": 0.75,
+          "wilson95": [
+            0.5312991206074114,
+            0.8881382993000239
+          ]
+        }
+      },
+      "20|overload|horizon|joint": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.25
+          ],
+          "proportion": 0.1,
+          "wilson95": [
+            0.02786648096169143,
+            0.3010336471864123
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 16,
+          "layout_cluster95": [
+            0.55,
+            1.0
+          ],
+          "proportion": 0.8,
+          "wilson95": [
+            0.583982565906683,
+            0.9193423379822393
+          ]
+        }
+      },
+      "20|overload|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.25
+          ],
+          "proportion": 0.1,
+          "wilson95": [
+            0.02786648096169143,
+            0.3010336471864123
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 16,
+          "layout_cluster95": [
+            0.55,
+            1.0
+          ],
+          "proportion": 0.8,
+          "wilson95": [
+            0.583982565906683,
+            0.9193423379822393
+          ]
+        }
+      },
+      "40|multi_failure|full_v2|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        }
+      },
+      "40|multi_failure|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        }
+      },
+      "40|multi_failure|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        }
+      },
+      "40|multi_failure|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        }
+      },
+      "40|overload|full_v2|joint": {
+        "broad_lockout": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 12,
+          "layout_cluster95": [
+            0.35,
+            0.85
+          ],
+          "proportion": 0.6,
+          "wilson95": [
+            0.3865814992347542,
+            0.7811934687282198
+          ]
+        }
+      },
+      "40|overload|full_v2|post_exit": {
+        "broad_lockout": {
+          "count": 1,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.008881448702335534,
+            0.23613119546428116
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 12,
+          "layout_cluster95": [
+            0.3,
+            0.85
+          ],
+          "proportion": 0.6,
+          "wilson95": [
+            0.3865814992347542,
+            0.7811934687282198
+          ]
+        }
+      },
+      "40|overload|horizon|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 14,
+          "layout_cluster95": [
+            0.5,
+            0.9
+          ],
+          "proportion": 0.7,
+          "wilson95": [
+            0.48102717994752103,
+            0.8545227559784272
+          ]
+        }
+      },
+      "40|overload|horizon|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "cells": 20,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.16112516018512965
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 14,
+          "layout_cluster95": [
+            0.5,
+            0.9
+          ],
+          "proportion": 0.7,
+          "wilson95": [
+            0.48102717994752103,
+            0.8545227559784272
+          ]
+        }
+      }
+    },
+    "post_exit_minus_joint": {
+      "full_v2": {
+        "10": {
+          "cells_changed": 6,
+          "control_pct": [
+            -0.27356451171219737,
+            -0.5238338085060262,
+            -0.04301160915191449
+          ],
+          "improved": 2,
+          "max_pp": 2.601578485822853,
+          "min_pp": -3.5197989355340464,
+          "pairs": 40,
+          "service_pp": [
+            -0.10888010971444317,
+            -0.40185277024567057,
+            0.20008490043216143
+          ],
+          "worsened": 4
+        },
+        "20": {
+          "cells_changed": 5,
+          "control_pct": [
+            0.12795124642767275,
+            -0.017010701950314067,
+            0.3204537204510499
+          ],
+          "improved": 2,
+          "max_pp": 2.626530913383507,
+          "min_pp": -8.301776871540923,
+          "pairs": 40,
+          "service_pp": [
+            -0.16713799072380633,
+            -0.6478901071354402,
+            0.16372249027889668
+          ],
+          "worsened": 2
+        },
+        "40": {
+          "cells_changed": 1,
+          "control_pct": [
+            -0.06519849682987855,
+            -0.19559549048963565,
+            0.0
+          ],
+          "improved": 0,
+          "max_pp": 0.0,
+          "min_pp": -1.6674044562490775,
+          "pairs": 40,
+          "service_pp": [
+            -0.04168511140622694,
+            -0.1250553342186808,
+            0.0
+          ],
+          "worsened": 1
+        }
+      },
+      "horizon": {
+        "10": {
+          "cells_changed": 7,
+          "control_pct": [
+            -0.35441009499766113,
+            -0.6322326477683465,
+            -0.11615779012014271
+          ],
+          "improved": 3,
+          "max_pp": 4.249667994687911,
+          "min_pp": -3.5782613734177127,
+          "pairs": 40,
+          "service_pp": [
+            -0.03398792021291147,
+            -0.37754394783625356,
+            0.4243869517028645
+          ],
+          "worsened": 4
+        },
+        "20": {
+          "cells_changed": 3,
+          "control_pct": [
+            0.1217287564243541,
+            -0.15607750428726308,
+            0.520683597343255
+          ],
+          "improved": 2,
+          "max_pp": 1.3108068744538293,
+          "min_pp": -16.132865554359043,
+          "pairs": 40,
+          "service_pp": [
+            -0.36892024917975047,
+            -1.2083336987590483,
+            0.0983105155840372
+          ],
+          "worsened": 1
+        },
+        "40": {
+          "cells_changed": 3,
+          "control_pct": [
+            0.0059548880243426305,
+            -0.09296082060083644,
+            0.1268879632358949
+          ],
+          "improved": 1,
+          "max_pp": 7.384212059423245,
+          "min_pp": -0.9001032905415429,
+          "pairs": 40,
+          "service_pp": [
+            0.15991804109795282,
+            -0.06750774679061572,
+            0.5516312263326537
+          ],
+          "worsened": 2
+        }
+      }
+    },
+    "versus_legacy": {
+      "full_v2/joint": {
+        "10": {
+          "control_reduction_pct": [
+            21.567512798471963,
+            20.51741958899647,
+            22.530075571912523
+          ],
+          "service_pp": [
+            -2.059474562980097,
+            -3.6279718387488975,
+            -0.35131490620278616
+          ]
+        },
+        "20": {
+          "control_reduction_pct": [
+            33.2000913456416,
+            32.25546436293296,
+            34.103403088974446
+          ],
+          "service_pp": [
+            -8.8130651763958,
+            -13.405735051562374,
+            -4.835812772861109
+          ]
+        },
+        "40": {
+          "control_reduction_pct": [
+            45.158332517499474,
+            44.79713198893186,
+            45.5346710524227
+          ],
+          "service_pp": [
+            -23.640512399650813,
+            -28.209933361277837,
+            -17.421255557903013
+          ]
+        }
+      },
+      "full_v2/post_exit": {
+        "10": {
+          "control_reduction_pct": [
+            21.799721552932482,
+            20.726517346732948,
+            22.82021051247071
+          ],
+          "service_pp": [
+            -2.16835467269454,
+            -3.717220291929222,
+            -0.5587352892772259
+          ]
+        },
+        "20": {
+          "control_reduction_pct": [
+            33.11115196896423,
+            32.09760130029292,
+            34.0727045894258
+          ],
+          "service_pp": [
+            -8.980203167119605,
+            -13.55329983675476,
+            -4.910168607241789
+          ]
+        },
+        "40": {
+          "control_reduction_pct": [
+            45.19614883118474,
+            44.85947930036168,
+            45.546919312944844
+          ],
+          "service_pp": [
+            -23.68219751105704,
+            -28.208428675762434,
+            -17.826450967364313
+          ]
+        }
+      },
+      "horizon/joint": {
+        "10": {
+          "control_reduction_pct": [
+            22.24229127163789,
+            21.629727844587947,
+            22.887093677814796
+          ],
+          "service_pp": [
+            -2.2634529759884283,
+            -3.3081835379908044,
+            -0.9868182708905305
+          ]
+        },
+        "20": {
+          "control_reduction_pct": [
+            33.25920767279112,
+            32.58245823840118,
+            34.005802416361846
+          ],
+          "service_pp": [
+            -7.96459643826694,
+            -11.970498681315302,
+            -4.421550495977617
+          ]
+        },
+        "40": {
+          "control_reduction_pct": [
+            45.122946083540846,
+            44.80608186044319,
+            45.4483830036265
+          ],
+          "service_pp": [
+            -23.66227777230936,
+            -27.817973403634124,
+            -17.827636435456746
+          ]
+        }
+      },
+      "horizon/post_exit": {
+        "10": {
+          "control_reduction_pct": [
+            22.542541010208804,
+            21.82474943930115,
+            23.267587337169292
+          ],
+          "service_pp": [
+            -2.2974408962013397,
+            -3.4403559003270865,
+            -0.9953094101643158
+          ]
+        },
+        "20": {
+          "control_reduction_pct": [
+            33.17529577257129,
+            32.32515130596262,
+            34.000628538863616
+          ],
+          "service_pp": [
+            -8.333516687446693,
+            -12.996099775535138,
+            -4.468265287329547
+          ]
+        },
+        "40": {
+          "control_reduction_pct": [
+            45.118929958106705,
+            44.80601800792796,
+            45.439919460433096
+          ],
+          "service_pp": [
+            -23.502359731211406,
+            -27.82505542034093,
+            -17.5746333344444
+          ]
+        }
+      }
+    },
+    "wall_seconds_by_size": {
+      "10": 12.996809048652649,
+      "20": 23.94405637025833,
+      "40": 48.0315140736103
+    }
+  },
+  "sensitivity": {
+    "cases": 400,
+    "incidence": {
+      "baseline|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "baseline|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "rate_152|joint": {
+        "broad_lockout": {
+          "count": 13,
+          "layout_cluster95": [
+            0.2,
+            0.45
+          ],
+          "proportion": 0.325,
+          "wilson95": [
+            0.20084502152253986,
+            0.47982253933792235
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 30,
+          "layout_cluster95": [
+            0.65,
+            0.85
+          ],
+          "proportion": 0.75,
+          "wilson95": [
+            0.5980603845146479,
+            0.8581288142561202
+          ]
+        }
+      },
+      "rate_152|post_exit": {
+        "broad_lockout": {
+          "count": 17,
+          "layout_cluster95": [
+            0.275,
+            0.55
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 30,
+          "layout_cluster95": [
+            0.65,
+            0.85
+          ],
+          "proportion": 0.75,
+          "wilson95": [
+            0.5980603845146479,
+            0.8581288142561202
+          ]
+        }
+      },
+      "rate_610|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.35,
+            0.5
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "rate_610|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 17,
+          "layout_cluster95": [
+            0.35,
+            0.5
+          ],
+          "proportion": 0.425,
+          "wilson95": [
+            0.2850939246378106,
+            0.5780493157309589
+          ]
+        }
+      },
+      "wait_15s|joint": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "wait_15s|post_exit": {
+        "broad_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "wait_20s|joint": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "wait_20s|post_exit": {
+        "broad_lockout": {
+          "count": 2,
+          "layout_cluster95": [
+            0.0,
+            0.125
+          ],
+          "proportion": 0.05,
+          "wilson95": [
+            0.013820667261558629,
+            0.16503877495105868
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 18,
+          "layout_cluster95": [
+            0.375,
+            0.5
+          ],
+          "proportion": 0.45,
+          "wilson95": [
+            0.3070530771108914,
+            0.601709083134955
+          ]
+        }
+      },
+      "wait_5s|joint": {
+        "broad_lockout": {
+          "count": 5,
+          "layout_cluster95": [
+            0.025,
+            0.225
+          ],
+          "proportion": 0.125,
+          "wilson95": [
+            0.05459500216399487,
+            0.26112119967985287
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 3,
+          "layout_cluster95": [
+            0.0,
+            0.15
+          ],
+          "proportion": 0.075,
+          "wilson95": [
+            0.025836025573262467,
+            0.19864233651643162
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 28,
+          "layout_cluster95": [
+            0.625,
+            0.75
+          ],
+          "proportion": 0.7,
+          "wilson95": [
+            0.5456998105658182,
+            0.8192515484507962
+          ]
+        }
+      },
+      "wait_5s|post_exit": {
+        "broad_lockout": {
+          "count": 4,
+          "layout_cluster95": [
+            0.0,
+            0.225
+          ],
+          "proportion": 0.1,
+          "wilson95": [
+            0.039579528407411566,
+            0.23051775355935938
+          ]
+        },
+        "cells": 40,
+        "strict_lockout": {
+          "count": 0,
+          "layout_cluster95": [
+            0.0,
+            0.0
+          ],
+          "proportion": 0.0,
+          "wilson95": [
+            0.0,
+            0.08762160245846368
+          ]
+        },
+        "unconfirmed_exit": {
+          "count": 28,
+          "layout_cluster95": [
+            0.625,
+            0.75
+          ],
+          "proportion": 0.7,
+          "wilson95": [
+            0.5456998105658182,
+            0.8192515484507962
+          ]
+        }
+      }
+    },
+    "post_exit_minus_joint": {
+      "baseline": {
+        "cells_changed": 7,
+        "control_pct": [
+          -0.35441009499766113,
+          -0.6322326477683465,
+          -0.11615779012014271
+        ],
+        "improved": 3,
+        "max_pp": 4.249667994687911,
+        "min_pp": -3.5782613734177127,
+        "pairs": 40,
+        "service_pp": [
+          -0.03398792021291147,
+          -0.37754394783625356,
+          0.4243869517028645
+        ],
+        "worsened": 4
+      },
+      "rate_152": {
+        "cells_changed": 16,
+        "control_pct": [
+          0.1607655470500724,
+          -0.20401152382784588,
+          0.4969726385657297
+        ],
+        "improved": 13,
+        "max_pp": 47.85546415981199,
+        "min_pp": -2.092020354056223,
+        "pairs": 40,
+        "service_pp": [
+          9.389552554141739,
+          6.142753105098526,
+          11.677605607295302
+        ],
+        "worsened": 3
+      },
+      "rate_610": {
+        "cells_changed": 4,
+        "control_pct": [
+          0.09988349449125689,
+          -0.1546816504935855,
+          0.3805672648864475
+        ],
+        "improved": 2,
+        "max_pp": 5.1055039102847815,
+        "min_pp": -1.7040489367899814,
+        "pairs": 40,
+        "service_pp": [
+          0.11038631290075236,
+          -0.14505495511561578,
+          0.4469966849113236
+        ],
+        "worsened": 2
+      },
+      "wait_15s": {
+        "cells_changed": 0,
+        "control_pct": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "improved": 0,
+        "max_pp": 0.0,
+        "min_pp": 0.0,
+        "pairs": 40,
+        "service_pp": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "worsened": 0
+      },
+      "wait_20s": {
+        "cells_changed": 0,
+        "control_pct": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "improved": 0,
+        "max_pp": 0.0,
+        "min_pp": 0.0,
+        "pairs": 40,
+        "service_pp": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "worsened": 0
+      },
+      "wait_5s": {
+        "cells_changed": 21,
+        "control_pct": [
+          0.17075877416968144,
+          -0.32324141854337185,
+          0.6510432775949304
+        ],
+        "improved": 8,
+        "max_pp": 22.17978848413631,
+        "min_pp": -4.936184749477901,
+        "pairs": 40,
+        "service_pp": [
+          1.0757324584910932,
+          -0.23175289963219298,
+          2.6646076504971727
+        ],
+        "worsened": 5
+      }
+    }
+  },
+  "smoke": [
+    {
+      "contract": "joint",
+      "control": 98550,
+      "lockout": {
+        "broad_lockout": false,
+        "contract_releases": 0,
+        "first_release_s": null,
+        "post_bootstrap_route_decisions": 6,
+        "route_decisions": 7,
+        "strict_lockout": false,
+        "unconfirmed_exits": 0,
+        "windows": []
+      },
+      "model": "legacy",
+      "reproduces_archive": true,
+      "service": 0.8697490837327319,
+      "topology": "budget_10_2026101501",
+      "wall_seconds": 8.213655471801758
+    },
+    {
+      "contract": "joint",
+      "control": 67812,
+      "lockout": {
+        "broad_lockout": true,
+        "contract_releases": 0,
+        "first_release_s": null,
+        "post_bootstrap_route_decisions": 2,
+        "route_decisions": 3,
+        "strict_lockout": false,
+        "unconfirmed_exits": 1,
+        "windows": [
+          {
+            "broad_lockout": true,
+            "decision": 3,
+            "evaluated_checks": 14,
+            "exit_time_s": 245.0,
+            "late_confirmation": false,
+            "next_decision_time_s": null,
+            "reaches_action_stop": true,
+            "rejected_checks": 14,
+            "rejected_installation_unconfirmed": 4,
+            "settled_service_reasons": {
+              "installation_unconfirmed": 4,
+              "missing_fresh_source": 10
+            },
+            "strict_lockout": false
+          }
+        ]
+      },
+      "model": "full_v2",
+      "reproduces_archive": true,
+      "service": 0.5928888888888889,
+      "topology": "budget_10_2026101501",
+      "wall_seconds": 7.578509330749512
+    },
+    {
+      "contract": "post_exit",
+      "control": 69811,
+      "lockout": {
+        "broad_lockout": false,
+        "contract_releases": 1,
+        "first_release_s": 250.0,
+        "post_bootstrap_route_decisions": 3,
+        "route_decisions": 4,
+        "strict_lockout": false,
+        "unconfirmed_exits": 1,
+        "windows": [
+          {
+            "broad_lockout": false,
+            "decision": 3,
+            "evaluated_checks": 3,
+            "exit_time_s": 245.0,
+            "late_confirmation": false,
+            "next_decision_time_s": 265.0,
+            "reaches_action_stop": false,
+            "rejected_checks": 3,
+            "rejected_installation_unconfirmed": 0,
+            "settled_service_reasons": {
+              "missing_fresh_source": 3
+            },
+            "strict_lockout": false
+          }
+        ]
+      },
+      "model": "full_v2",
+      "reproduces_archive": null,
+      "service": 0.7997037037037037,
+      "topology": "budget_10_2026101501",
+      "wall_seconds": 8.060977697372437
+    },
+    {
+      "contract": "joint",
+      "control": 67812,
+      "lockout": {
+        "broad_lockout": true,
+        "contract_releases": 0,
+        "first_release_s": null,
+        "post_bootstrap_route_decisions": 2,
+        "route_decisions": 3,
+        "strict_lockout": true,
+        "unconfirmed_exits": 1,
+        "windows": [
+          {
+            "broad_lockout": true,
+            "decision": 3,
+            "evaluated_checks": 14,
+            "exit_time_s": 245.0,
+            "late_confirmation": false,
+            "next_decision_time_s": null,
+            "reaches_action_stop": true,
+            "rejected_checks": 14,
+            "rejected_installation_unconfirmed": 14,
+            "settled_service_reasons": {
+              "installation_unconfirmed": 14
+            },
+            "strict_lockout": true
+          }
+        ]
+      },
+      "model": "horizon",
+      "reproduces_archive": true,
+      "service": 0.5928888888888889,
+      "topology": "budget_10_2026101501",
+      "wall_seconds": 7.522761344909668
+    },
+    {
+      "contract": "post_exit",
+      "control": 69811,
+      "lockout": {
+        "broad_lockout": false,
+        "contract_releases": 1,
+        "first_release_s": 250.0,
+        "post_bootstrap_route_decisions": 3,
+        "route_decisions": 4,
+        "strict_lockout": false,
+        "unconfirmed_exits": 1,
+        "windows": [
+          {
+            "broad_lockout": false,
+            "decision": 3,
+            "evaluated_checks": 3,
+            "exit_time_s": 245.0,
+            "late_confirmation": false,
+            "next_decision_time_s": 265.0,
+            "reaches_action_stop": false,
+            "rejected_checks": 3,
+            "rejected_installation_unconfirmed": 0,
+            "settled_service_reasons": {
+              "incomplete_or_sparse_generation_evidence": 2,
+              "no_settled_same_version_bucket": 1
+            },
+            "strict_lockout": false
+          }
+        ]
+      },
+      "model": "horizon",
+      "reproduces_archive": null,
+      "service": 0.7997037037037037,
+      "topology": "budget_10_2026101501",
+      "wall_seconds": 7.805319309234619
+    },
+    {
+      "contract": "joint",
+      "control": 175721,
+      "lockout": {
+        "broad_lockout": false,
+        "contract_releases": 0,
+        "first_release_s": null,
+        "post_bootstrap_route_decisions": 1,
+        "route_decisions": 2,
+        "strict_lockout": false,
+        "unconfirmed_exits": 0,
+        "windows": []
+      },
+      "model": "horizon",
+      "reproduces_archive": null,
+      "service": 0.3764638674664382,
+      "topology": "budget_40_2026111701",
+      "wall_seconds": 37.099732637405396
+    }
+  ]
+}

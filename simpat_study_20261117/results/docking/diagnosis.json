@@ -1,0 +1,132 @@
+{
+  "registered": {
+    "agreeing": 82,
+    "comparisons": 125,
+    "fraction": 0.656,
+    "max_abs_deviation": {
+      "p_success": 0.08981747898806369,
+      "p_caf": 0.07503835157277686,
+      "p_noack": 0.014895807073425853,
+      "cca_busy": 0.06131677164846561,
+      "service_ms": 0.1406383962400949
+    }
+  },
+  "variants": {
+    "standard": {
+      "agreeing": 82,
+      "comparisons": 125,
+      "fraction": 0.656,
+      "max_abs_deviation": {
+        "p_success": 0.08981747898806369,
+        "p_caf": 0.07503835157277686,
+        "p_noack": 0.014895807073425853,
+        "cca_busy": 0.06131677164846561,
+        "service_ms": 0.1406383962400949
+      }
+    },
+    "capture": {
+      "agreeing": 113,
+      "comparisons": 125,
+      "fraction": 0.904,
+      "max_abs_deviation": {
+        "p_success": 0.039154660295061094,
+        "p_caf": 0.028459045245010306,
+        "p_noack": 0.010695615050050759,
+        "cca_busy": 0.013624881671266076,
+        "service_ms": 0.16112489641673827
+      }
+    },
+    "peak_reset": {
+      "agreeing": 63,
+      "comparisons": 125,
+      "fraction": 0.504,
+      "max_abs_deviation": {
+        "p_success": 0.1862963478938392,
+        "p_caf": 0.13025072904463056,
+        "p_noack": 0.05614097853586446,
+        "cca_busy": 0.07362623237790511,
+        "service_ms": 0.2738705975711224
+      }
+    },
+    "capture+peak_reset": {
+      "agreeing": 119,
+      "comparisons": 125,
+      "fraction": 0.952,
+      "max_abs_deviation": {
+        "p_success": 0.033196010377017915,
+        "p_caf": 0.02700781663242216,
+        "p_noack": 0.006188193744595756,
+        "cca_busy": 0.01970039406999996,
+        "service_ms": 0.09548296598611727
+      }
+    }
+  },
+  "bracketed_by_standard_and_capture": {
+    "inside": 105,
+    "comparisons": 125,
+    "fraction": 0.84
+  },
+  "ns3_cca_patched": {
+    "standard": {
+      "agreeing": 79,
+      "comparisons": 125,
+      "fraction": 0.632,
+      "max_abs_deviation": {
+        "p_success": 0.10448352167242658,
+        "p_caf": 0.0826588734051103,
+        "p_noack": 0.02182464826731626,
+        "cca_busy": 0.048214275973347154,
+        "service_ms": 0.20056382311933754
+      }
+    },
+    "capture": {
+      "agreeing": 124,
+      "comparisons": 125,
+      "fraction": 0.992,
+      "max_abs_deviation": {
+        "p_success": 0.02000494639163164,
+        "p_caf": 0.017599794199298108,
+        "p_noack": 0.002405152192333482,
+        "cca_busy": 0.01390908916272271,
+        "service_ms": 0.07865742614432553
+      }
+    },
+    "peak_reset": {
+      "agreeing": 66,
+      "comparisons": 125,
+      "fraction": 0.528,
+      "max_abs_deviation": {
+        "p_success": 0.20544606179726865,
+        "p_caf": 0.14110998009034276,
+        "p_noack": 0.06433608170692591,
+        "cca_busy": 0.06311316290924851,
+        "service_ms": 0.3265000560594399
+      }
+    },
+    "capture+peak_reset": {
+      "agreeing": 121,
+      "comparisons": 125,
+      "fraction": 0.968,
+      "max_abs_deviation": {
+        "p_success": 0.01404629647358846,
+        "p_caf": 0.016148565586709962,
+        "p_noack": 0.002280363101399163,
+        "cca_busy": 0.02947817100591682,
+        "service_ms": 0.06041493960340798
+      }
+    }
+  },
+  "ns3_cca_patched_vs_unpatched": {
+    "agreeing": 125,
+    "comparisons": 125,
+    "fraction": 1.0,
+    "max_abs_deviation": {
+      "p_success": 0.019149713903429455,
+      "p_caf": 0.012066451534688737,
+      "p_noack": 0.008290462857717278,
+      "cca_busy": 0.015440760508128093,
+      "service_ms": 0.08375043217323698
+    }
+  },
+  "scope": "exploratory diagnosis after the registered comparison; the registered verdict is out[\"registered\"] and is not replaced"
+}

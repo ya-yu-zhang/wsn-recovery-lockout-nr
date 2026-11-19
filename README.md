@@ -43,6 +43,7 @@ PostExit is a **T-only ablation arm**, not a recommended deployment protocol.
 | `public_release_amp_repro_20261104/` | Lightweight Amplification-1 / Amplification-2 and confirmation-premise **ablation** package (preregistrations, frozen Amplification-2 registration, confirmation reports and JSON summaries, case summaries, theory–code map, zero-dependency endpoint scripts). |
 | `phase2_study_20261111/` | Curated multi-level **V&V** package: redacted Phase-2/2b registrations and preregistrations with a redaction log, deviation log (redacted), SimPy mirror and scorers, FlockLab trace-driver source and pinned binary, factorial design and result summaries, figure scripts, and a numbers cross-check script. |
 | `figures_v2/` | Scripts and vector figures that redraw every figure of the present manuscript version from frozen result files (Liberation Sans, 140 mm, Okabe–Ito / cividis). |
+| `simpat_study_20261117/` | **Added 18 November 2026.** V&V layer (v), substrate docking of the ns-3.44 CSMA-CA against an independent reference, with its registered verdict, diagnosis and CCA-patch check; and the natural-incidence and scale stage over 120 new cells at 10, 20 and 40 nodes. Registration, code, compact per-case records, analysis scripts and the figures for these layers. See its own README. |
 
 `observation_study_20261016/analyze.py` reads `../control_budget_study_20261015/results/` directly, so both forty-case folders are required. Neither is superseded.
 

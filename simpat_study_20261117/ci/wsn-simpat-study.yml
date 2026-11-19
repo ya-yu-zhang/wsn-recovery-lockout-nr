@@ -1,0 +1,136 @@
+name: WSN SIMPAT simulation study
+on:
+  workflow_dispatch:
+  push:
+    branches: [simpat-experiments]
+    paths:
+      - 'simpat_study_20261117/STAGE'
+permissions:
+  contents: write
+concurrency:
+  group: wsn-simpat-study
+  cancel-in-progress: false
+env:
+  NS3_URL: https://github.com/nsnam/ns-3-dev-git.git
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    outputs:
+      stage: ${{ steps.plan.outputs.stage }}
+      shards: ${{ steps.plan.outputs.shards }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - id: plan
+        run: |
+          read stage shards < simpat_study_20261117/STAGE
+          echo "stage=$stage" >> "$GITHUB_OUTPUT"
+          python3 -c "import json;print('shards='+json.dumps(list(range($shards))))" >> "$GITHUB_OUTPUT"
+          if [ "$stage" = cca_patch ]; then echo "variant=ccapeakinit" >> "$GITHUB_OUTPUT"; else echo "variant=pinned" >> "$GITHUB_OUTPUT"; fi
+      - name: Restore pinned ns-3 build
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ns3_vendor
+          key: ns3-3.44-43dce671-lrwpan-release-v1-${{ steps.plan.outputs.variant }}
+      - name: Prepare Python, build tools and the recreated engine
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install numpy==2.2.6
+          python3 -m pip install --target ../build_tools cmake ninja
+          python3 - <<'PY'
+          import pathlib,shutil
+          root=pathlib.Path('control_budget_study_20261015')
+          shutil.copytree('same_state_diagnosis_20261013',root/'engine',dirs_exist_ok=True)
+          (root/'engine/results').mkdir(parents=True,exist_ok=True)
+          (root/'build_tmp').mkdir(exist_ok=True)
+          PY
+          .venv/bin/python control_budget_study_20261015/prepare_engine.py
+          .venv/bin/python control_budget_study_20261015/run_horizon_portable.py --verify-only
+          if [ ! -d ns3_vendor/ns-allinone-3.44/ns-3.44/.git ]; then
+            git clone --depth 1 --branch ns-3.44 "$NS3_URL" ns3_vendor/ns-allinone-3.44/ns-3.44
+          fi
+          if [ "${{ steps.plan.outputs.variant }}" = ccapeakinit ]; then
+            f=ns3_vendor/ns-allinone-3.44/ns-3.44/src/lr-wpan/model/lr-wpan-phy.cc
+            if [ "$(grep -c 'm_ccaPeakPower = 0.0;' $f)" = 1 ]; then
+              sed -i 's/        m_ccaPeakPower = 0.0;/        m_ccaPeakPower = LrWpanSpectrumValueHelper::TotalAvgPower(m_signal->GetSignalPsd(), m_phyPIBAttributes.phyCurrentChannel);/' $f
+            fi
+            test "$(grep -c 'm_ccaPeakPower = LrWpanSpectrumValueHelper::TotalAvgPower(m_signal->GetSignalPsd(), m_phyPIBAttributes.phyCurrentChannel);' $f)" = 1
+            git -C ns3_vendor/ns-allinone-3.44/ns-3.44 diff --stat
+          fi
+      - name: Compile pinned ns-3 and the closed-loop driver
+        run: .venv/bin/python control_budget_study_20261015/build_environment.py
+      - name: Package engine and native build for the shards
+        run: |
+          tar -czf engine_bundle.tgz --exclude='ns3_vendor/ns-allinone-3.44/ns-3.44/cmake-cache' --exclude='.git' \
+            control_budget_study_20261015/engine control_budget_study_20261015/environment.json ns3_vendor
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: engine-bundle
+          path: engine_bundle.tgz
+          retention-days: 2
+          compression-level: 0
+  run:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJSON(needs.build.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/download-artifact@v4
+        with:
+          name: engine-bundle
+      - name: Unpack engine
+        run: |
+          tar -xzf engine_bundle.tgz
+          python3 -m venv .venv
+          .venv/bin/python -m pip install numpy==2.2.6
+          mkdir -p control_budget_study_20261015/build_tmp
+      - name: Run registered stage shard
+        env:
+          STAGE: ${{ needs.build.outputs.stage }}
+          SHARDS: ${{ strategy.job-total }}
+        run: |
+          if [ "$STAGE" = all ] && [ "${{ matrix.shard }}" = 0 ]; then
+            .venv/bin/python -u simpat_study_20261117/docking/run_docking.py
+          fi
+          if [ "$STAGE" = cca_patch ] && [ "${{ matrix.shard }}" = 0 ]; then
+            .venv/bin/python -u simpat_study_20261117/docking/run_docking.py --ns3-only ns3_cca_patched.jsonl
+          fi
+          if [ "$STAGE" = docking ]; then
+            .venv/bin/python -u simpat_study_20261117/docking/run_docking.py
+          else
+            .venv/bin/python -u simpat_study_20261117/run_simpat.py --stage "$STAGE" --shard ${{ matrix.shard }} --shards "$SHARDS"
+          fi
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: results-${{ matrix.shard }}
+          path: simpat_study_20261117/results/
+          retention-days: 7
+          if-no-files-found: warn
+  collect:
+    needs: [build, run]
+    if: always() && needs.build.result == 'success'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: results-*
+          path: incoming
+      - name: Commit compact stage records
+        run: |
+          mkdir -p simpat_study_20261117/results
+          for d in incoming/results-*; do cp -r "$d"/. simpat_study_20261117/results/; done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add simpat_study_20261117/results
+          if ! git diff --cached --quiet; then
+            git commit -m "Record SIMPAT stage ${{ needs.build.outputs.stage }} (run ${{ github.run_id }})"
+            git pull --rebase
+            git push
+          fi

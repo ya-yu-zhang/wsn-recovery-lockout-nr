@@ -1,0 +1,406 @@
+{
+ "contract": {
+  "10|closing|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 1,
+   "wilson95": [
+    0.046,
+    0.699
+   ],
+   "strict": 1
+  },
+  "10|closing|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "10|cohort|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 1,
+   "wilson95": [
+    0.046,
+    0.699
+   ],
+   "strict": 1
+  },
+  "10|cohort|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "10|full_v2|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "10|full_v2|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "10|horizon|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 1,
+   "wilson95": [
+    0.046,
+    0.699
+   ],
+   "strict": 1
+  },
+  "10|horizon|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|closing|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|closing|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|cohort|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|cohort|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|full_v2|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|full_v2|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|horizon|joint|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  },
+  "20|horizon|post_exit|base": {
+   "cells": 4,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.49
+   ],
+   "strict": 0
+  }
+ },
+ "scale": {
+  "10|full_v2|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|full_v2|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "20|full_v2|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "20|full_v2|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "20|horizon|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "20|horizon|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "40|full_v2|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "40|full_v2|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "40|horizon|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "40|horizon|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  }
+ },
+ "sensitivity": {
+  "10|horizon|joint|rate152": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|joint|rate610": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|joint|wait15": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|joint|wait20": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|joint|wait5": {
+   "cells": 40,
+   "E1_iu_only": 5,
+   "wilson95": [
+    0.055,
+    0.261
+   ],
+   "strict": 3
+  },
+  "10|horizon|post_exit|rate152": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|post_exit|rate610": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|post_exit|wait15": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|post_exit|wait20": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|post_exit|wait5": {
+   "cells": 40,
+   "E1_iu_only": 4,
+   "wilson95": [
+    0.04,
+    0.231
+   ],
+   "strict": 0
+  }
+ },
+ "cca_patch": {
+  "10|horizon|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "10|horizon|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "20|horizon|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "20|horizon|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  },
+  "40|horizon|joint|base": {
+   "cells": 40,
+   "E1_iu_only": 1,
+   "wilson95": [
+    0.004,
+    0.129
+   ],
+   "strict": 0
+  },
+  "40|horizon|post_exit|base": {
+   "cells": 40,
+   "E1_iu_only": 0,
+   "wilson95": [
+    0.0,
+    0.088
+   ],
+   "strict": 0
+  }
+ }
+}
